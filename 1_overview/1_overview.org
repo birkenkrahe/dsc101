@@ -56,9 +56,10 @@
    #+attr_html: :height 300px
    #+attr_latex: :width 300px
    [[./img/valhalla.jpg]]
+
    * Playing: Assassin's Creed Valhalla
-   * Reading: Bernard Cornwell, The Burning Land
-   * Watching: Person of Interest
+   * Reading: Evelyn Waught, Sword of Honour
+   * Watching: The Middle
 
 * [[https://ideaboardz.com/for/Your%20expectations%2Fconcerns/3943208][What are your expectations?]]
 

@@ -16,8 +16,6 @@
 * Who am I?
 
   #+attr_html: :width 300px
-  #+attr_latex: :width 300px
-  #+attr_org: :width 300px
   [[./img/marcus.jpg]]
 
 ** Science

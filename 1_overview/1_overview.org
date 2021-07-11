@@ -16,7 +16,9 @@
 * Who am I?
   #+attr_html: :height 500px
   #+attr_latex: :height 500px
+  #attr_org: :height 500px
   [[./img/marcus.jpg]]
+
 ** Science
 
    #+attr_html: :height 300px
@@ -52,8 +54,8 @@
 
 ** Pleasure
 
-      #+attr_html: :height 300px
-      #+attr_latex: :width 300px
+   #+attr_html: :height 300px
+   #+attr_latex: :width 300px
    [[./img/valhalla.jpg]]
    * Playing: Assassin's Creed Valhalla
    * Reading: Bernard Cornwell, The Burning Land
@@ -163,7 +165,7 @@
    [[./img//scrum.jpg]]
 
 ** Tests and final exam
-   
+
    #+attr_html: :width 600px
    [[./img/kahoot.png]]
 
@@ -202,7 +204,7 @@
 
    Present on Nov 30 or Dec 2
 
-*** What is a team project? 
+*** What is a team project?
 
     * Description of the dataset
     * Introduction of the problem statement
@@ -221,7 +223,7 @@
     * Document an R package ([[https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3][example]])
     * Use your own data ([[http://adomingues.github.io/2020/11/25/visual-cv/][example]])
 
-*** Can I do a project as an absolute beginner? 
+*** Can I do a project as an absolute beginner?
 
     * Keep It Simply Scientific (IMRaD)
     * Look at examples (e.g. [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]])
@@ -235,21 +237,30 @@
 
    Final exam: date TBD
 
+
 * What's next?
 
   #+attr_html: :height 500px
   [[./img/river.gif]]
 
+** In the course
+
+   * Intro to Data science (Lecture)
+   * Intro to DataCamp (Practice)
+   * Intro to GitHub (Productivity)
+   * Intro to R (Language)
+
 ** Your challenges
 
-   | What?                         | When? |
-   |-------------------------------+----------|
-   | [[https://moodle.hwr-berlin.de/mod/url/view.php?id=964817][Register with DataCamp]]        | Today    |
-   | [[https://kahoot.it/challenge/07621562?challenge-id=32bfe8b2-c872-4689-82a0-cfbbfd74c311_1617960639760][Complete test challenge]]*      | Aug 19   |
-   | [[https://learn.datacamp.com/courses/data-science-for-business][Complete DataCamp assignment]]* | Aug 24   |
-   | Set up [[https://moodle.hwr-berlin.de/mod/book/view.php?id=939064&chapterid=7696][project]] (2-3 ppl)*     | Sep 2    |
-   | Check FAQs                    | n.d.     |
-   | Ask questions (class/[[https://moodle.hwr-berlin.de/mod/forum/view.php?id=964813][forum]])   | n.d.     |
+   | What?                          | When?  |
+   |--------------------------------+--------|
+   | Register at DataCamp           | Today  |
+   | Register at GitHub             | Today  |
+   | Complete test challenge*       | Aug 19 |
+   | Complete DataCamp assignment*  | Aug 24 |
+   | Set up team project (2-3 ppl)* | Sep 2  |
+   | Check FAQs                     | n.d.   |
+   | Ask questions (class/GitHub)   | n.d.   |
 
    /*) do this every week until December/
 

@@ -14,9 +14,10 @@
   * What do you have to do to pass?
   * What's next?
 * Who am I?
-  #+attr_html: :height 500px
-  #+attr_latex: :height 500px
-  #+attr_org: :height 500px
+
+  #+attr_html: :width 300px
+  #+attr_latex: :width 300px
+  #+attr_org: :width 300px
   [[./img/marcus.jpg]]
 
 ** Science

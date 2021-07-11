@@ -57,9 +57,9 @@
    #+attr_latex: :width 300px
    [[./img/valhalla.jpg]]
 
-   * Playing: Assassin's Creed Valhalla
-   * Reading: Evelyn Waught, Sword of Honour
-   * Watching: The Middle
+   * Playing: [[https://en.wikipedia.org/wiki/Assassin%27s_Creed_Valhalla][Assassin's Creed Valhalla]] (2020)
+   * Reading: [[https://en.wikipedia.org/wiki/Sword_of_Honour][Evelyn Waugh, Sword of Honour]] (1952-1961)
+   * Watching: [[https://en.wikipedia.org/wiki/The_Middle_(TV_series)][The Middle]] (2009-2018)
 
 * [[https://ideaboardz.com/for/Your%20expectations%2Fconcerns/3943208][What are your expectations?]]
 

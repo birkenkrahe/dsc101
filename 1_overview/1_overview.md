@@ -1,45 +1,45 @@
 
 # Table of Contents
 
--   [What're you going to learn today?](#orge449725)
--   [Who am I?](#org19746c0)
-    -   [Science](#org7417553)
-    -   [Industry](#org140db8e)
-    -   [Teaching](#org1f45322)
-    -   [Pleasure](#orge8ecf57)
--   [What are your expectations?](#org56b5b48)
--   [Which topics will we cover?](#org5eadd5b)
-    -   [Introduction to data science](#org5d1f2c6)
-    -   [Introduction to R programming](#orgf9b11b4)
-    -   [Visualization using R](#orgfcba582)
-    -   [FasteR approach](#org12e2822)
-    -   [Schedule](#org940f546)
--   [How will we do it?](#org56f223f)
-    -   [Classroom sessions](#orgd5b77bf)
-    -   [Lecture scripts with exercises (GitHub)](#org6beae14)
-    -   [Reading assignments](#org1321bed)
-    -   [Video lectures (YouTube)](#orge9439da)
-    -   [Online assignments (DataCamp)](#orgec8beb5)
-    -   [Team EDA project](#orge4ebeee)
-    -   [Agile project management](#org6c97c1a)
-    -   [Tests and final exam](#orgb878152)
-    -   [Podcasts and feeds](#orgeac540a)
-    -   [Summary of course activities](#org72b016d)
--   [What do you have to do to pass?](#org97ee5d2)
-    -   [DataCamp assignments (> 50%)](#org955fb4e)
-    -   [Team project (> 50%)](#orgd936960)
-        -   [What is a team project?](#orgdc3aed2)
-        -   [Do you have project examples?](#orgdc5fd13)
-        -   [Can I do a project as an absolute beginner?](#orgd9f9f66)
-    -   [Final exam (> 50%)](#orgd125978)
--   [What's next?](#orgc91a9a9)
-    -   [In the course](#org2fbe0f4)
-    -   [Your challenges](#org5d5a8fc)
--   [Any questions?](#org8a8cbbd)
+-   [What're you going to learn today?](#orgf090d52)
+-   [Who am I?](#org2e5a177)
+    -   [Science](#org87f7a64)
+    -   [Industry](#orgd9af45c)
+    -   [Teaching](#org9a4b916)
+    -   [Pleasure](#org7af177e)
+-   [What are your expectations?](#org724e41e)
+-   [Which topics will we cover?](#org6bbbb8e)
+    -   [Introduction to data science](#orgeff1ad9)
+    -   [Introduction to R programming](#org2dbff76)
+    -   [Visualization using R](#orgf926df1)
+    -   [FasteR approach](#org8fc97fe)
+    -   [Schedule](#org1c67e6e)
+-   [How will we do it?](#org230797a)
+    -   [Classroom sessions](#orge910169)
+    -   [Lecture scripts with exercises (GitHub)](#org3b02c32)
+    -   [Reading assignments](#org364b443)
+    -   [Video lectures (YouTube)](#org0f1d583)
+    -   [Online assignments (DataCamp)](#org654e76e)
+    -   [Team EDA project](#org0705824)
+    -   [Agile project management](#org25a8499)
+    -   [Tests and final exam](#orgd59377d)
+    -   [Podcasts and feeds](#org4b5f8c6)
+    -   [Summary of course activities](#org5f0f9bc)
+-   [What do you have to do to pass?](#orgea58af9)
+    -   [DataCamp assignments (> 50%)](#org4849486)
+    -   [Team project (> 50%)](#orge155b22)
+        -   [What is a team project?](#org45af56b)
+        -   [Do you have project examples?](#org510c3da)
+        -   [Can I do a project as an absolute beginner?](#org2fd3f96)
+    -   [Final exam (> 50%)](#org43397e5)
+-   [What's next?](#orgcf4c1a5)
+    -   [In the course](#org4fbf6da)
+    -   [Your challenges](#org291afc2)
+-   [Any questions?](#org800d10c)
 
 
 
-<a id="orge449725"></a>
+<a id="orgf090d52"></a>
 
 # What're you going to learn today?
 
@@ -51,14 +51,14 @@
 -   What's next?
 
 
-<a id="org19746c0"></a>
+<a id="org2e5a177"></a>
 
 # Who am I?
 
 ![img](./img/marcus.jpg)
 
 
-<a id="org7417553"></a>
+<a id="org87f7a64"></a>
 
 ## Science
 
@@ -72,7 +72,7 @@
 -   Scientific member [d-cube@Berlin](https://www.hwr-berlin.de/en/research/research-centres-and-institutes/)
 
 
-<a id="org140db8e"></a>
+<a id="orgd9af45c"></a>
 
 ## Industry
 
@@ -84,7 +84,7 @@
 -   Startup mentor
 
 
-<a id="org1f45322"></a>
+<a id="org9a4b916"></a>
 
 ## Teaching
 
@@ -96,18 +96,18 @@
 -   Internship supervision
 
 
-<a id="orge8ecf57"></a>
+<a id="org7af177e"></a>
 
 ## Pleasure
 
 ![img](./img/valhalla.jpg)
 
 -   Playing: [Assassin's Creed Valhalla](https://en.wikipedia.org/wiki/Assassin%27s_Creed_Valhalla) (2020)
--   Reading: [Evelyn Waugh, Sword of Honour](https://en.wikipedia.org/wiki/Sword_of_Honour) (1952-1961)
+-   Reading: [Waugh, Sword of Honour](https://en.wikipedia.org/wiki/Sword_of_Honour) (1952-1961)
 -   Watching: [The Middle](https://en.wikipedia.org/wiki/The_Middle_(TV_series)) (2009-2018)
 
 
-<a id="org56b5b48"></a>
+<a id="org724e41e"></a>
 
 # [What are your expectations?](https://ideaboardz.com/for/Your%20expectations%2Fconcerns/3943208)
 
@@ -117,14 +117,14 @@
 -   What did you really not like in another course?
 
 
-<a id="org5eadd5b"></a>
+<a id="org6bbbb8e"></a>
 
 # Which topics will we cover?
 
 ![img](./img/lavaflow.gif)
 
 
-<a id="org5d1f2c6"></a>
+<a id="orgeff1ad9"></a>
 
 ## Introduction to data science
 
@@ -133,7 +133,7 @@
 Source: [datacamp.com](https://www.datacamp.com/community/blog/2021-data-trends)
 
 
-<a id="orgf9b11b4"></a>
+<a id="org2dbff76"></a>
 
 ## Introduction to R programming
 
@@ -142,7 +142,7 @@ Source: [datacamp.com](https://www.datacamp.com/community/blog/2021-data-trends)
 Source: [RStudio](https://www.rstudio.com/)
 
 
-<a id="orgfcba582"></a>
+<a id="orgf926df1"></a>
 
 ## Visualization using R
 
@@ -151,7 +151,7 @@ Source: [RStudio](https://www.rstudio.com/)
 Source: [Thomas Lin Pedersen](https://github.com/thomasp85/gganimate/blob/master/man/figures/README-unnamed-chunk-4-1.gif)
 
 
-<a id="org12e2822"></a>
+<a id="org8fc97fe"></a>
 
 ## FasteR approach
 
@@ -169,35 +169,35 @@ Image source: [unsplash](https://unsplash.com/photos/SCtlFdgTw1A)
 </div>
 
 
-<a id="org940f546"></a>
+<a id="org1c67e6e"></a>
 
 ## Schedule
 
 ![img](./img//schedule.png)
 
 
-<a id="org56f223f"></a>
+<a id="org230797a"></a>
 
 # How will we do it?
 
 ![img](./img/deer.gif)
 
 
-<a id="orgd5b77bf"></a>
+<a id="orge910169"></a>
 
 ## Classroom sessions
 
 ![img](./img/bbb.png)
 
 
-<a id="org6beae14"></a>
+<a id="org3b02c32"></a>
 
 ## Lecture scripts with exercises ([GitHub](https://github.com/birkenkrahe/dsc101))
 
 ![img](./img/github.png)
 
 
-<a id="org1321bed"></a>
+<a id="org364b443"></a>
 
 ## Reading assignments
 
@@ -214,14 +214,14 @@ Norman Matloff (2020):
 </div>
 
 
-<a id="orge9439da"></a>
+<a id="org0f1d583"></a>
 
 ## Video lectures ([YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz))
 
 ![img](./img/youtube.png)
 
 
-<a id="orgec8beb5"></a>
+<a id="org654e76e"></a>
 
 ## Online assignments ([DataCamp](https://www.datacamp.com/enterprise/introduction-to-data-science-master-accounting-program/teams/504092-bpm/assignments))
 
@@ -230,35 +230,35 @@ Norman Matloff (2020):
 -   [Register at DataCamp](https://moodle.hwr-berlin.de/mod/url/view.php?id=964817)
 
 
-<a id="orge4ebeee"></a>
+<a id="org0705824"></a>
 
 ## Team EDA project
 
 ![img](./img/project.png)
 
 
-<a id="org6c97c1a"></a>
+<a id="org25a8499"></a>
 
 ## Agile project management
 
 ![img](./img//scrum.jpg)
 
 
-<a id="orgb878152"></a>
+<a id="orgd59377d"></a>
 
 ## Tests and final exam
 
 ![img](./img/kahoot.png)
 
 
-<a id="orgeac540a"></a>
+<a id="org4b5f8c6"></a>
 
 ## Podcasts and feeds
 
 ![img](./img/feeds.png)
 
 
-<a id="org72b016d"></a>
+<a id="org5f0f9bc"></a>
 
 ## Summary of course activities
 
@@ -272,14 +272,14 @@ Norman Matloff (2020):
 -   Podcasts and feeds
 
 
-<a id="org97ee5d2"></a>
+<a id="orgea58af9"></a>
 
 # What do you have to do to pass?
 
 ![img](./img/oceanrock.gif)
 
 
-<a id="org955fb4e"></a>
+<a id="org4849486"></a>
 
 ## DataCamp assignments (> 50%)
 
@@ -288,7 +288,7 @@ Norman Matloff (2020):
 Complete 12 of 24 assignments
 
 
-<a id="orgd936960"></a>
+<a id="orge155b22"></a>
 
 ## Team project (> 50%)
 
@@ -297,7 +297,7 @@ Complete 12 of 24 assignments
 Present on Nov 30 or Dec 2
 
 
-<a id="orgdc3aed2"></a>
+<a id="org45af56b"></a>
 
 ### What is a team project?
 
@@ -310,7 +310,7 @@ Present on Nov 30 or Dec 2
 -   References
 
 
-<a id="orgdc5fd13"></a>
+<a id="org510c3da"></a>
 
 ### Do you have project examples?
 
@@ -322,7 +322,7 @@ Present on Nov 30 or Dec 2
 -   Use your own data ([example](http://adomingues.github.io/2020/11/25/visual-cv/))
 
 
-<a id="orgd9f9f66"></a>
+<a id="org2fd3f96"></a>
 
 ### Can I do a project as an absolute beginner?
 
@@ -332,7 +332,7 @@ Present on Nov 30 or Dec 2
 -   Researchers are beginners
 
 
-<a id="orgd125978"></a>
+<a id="org43397e5"></a>
 
 ## Final exam (> 50%)
 
@@ -341,14 +341,14 @@ Present on Nov 30 or Dec 2
 Final exam: date TBD
 
 
-<a id="orgc91a9a9"></a>
+<a id="orgcf4c1a5"></a>
 
 # What's next?
 
 ![img](./img/river.gif)
 
 
-<a id="org2fbe0f4"></a>
+<a id="org4fbf6da"></a>
 
 ## In the course
 
@@ -358,7 +358,7 @@ Final exam: date TBD
 -   Intro to R (Language)
 
 
-<a id="org5d5a8fc"></a>
+<a id="org291afc2"></a>
 
 ## Your challenges
 
@@ -424,7 +424,7 @@ Final exam: date TBD
 *\*) do this every week until December*
 
 
-<a id="org8a8cbbd"></a>
+<a id="org800d10c"></a>
 
 # Any questions?
 

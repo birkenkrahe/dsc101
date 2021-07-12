@@ -122,7 +122,7 @@
    #+attr_html: :height 500px
    [[./img/bbb.png]]
 
-** Lecture scripts with exercises ([[https://moodle.hwr-berlin.de/mod/url/view.php?id=964815][GitHub]])
+** Lecture scripts with exercises ([[https://github.com/birkenkrahe/dsc101][GitHub]])
 
    #+attr_html: :width 600px
    [[./img/github.png]]
@@ -140,7 +140,6 @@
    * Davies, [[https://nostarch.com/bookofr][The Book of R]], NoStarch Press (2016)
    * Irizarry, [[https://rafalab.github.io/dsbook/][Introduction to Data Science]] (2020)
    #+end_notes
-
 
 ** Video lectures ([[https://youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz][YouTube]])
 
@@ -237,7 +236,6 @@
 
    Final exam: date TBD
 
-
 * What's next?
 
   #+attr_html: :height 500px
@@ -259,7 +257,7 @@
    | Complete test challenge*       | Aug 19 |
    | Complete DataCamp assignment*  | Aug 24 |
    | Set up team project (2-3 ppl)* | Sep 2  |
-   | Check FAQs                     | n.d.   |
+   | Check FAQs[fn:1]                     | n.d.   |
    | Ask questions (class/GitHub)   | n.d.   |
 
    /*) do this every week until December/
@@ -270,3 +268,8 @@
   [[./img/stonehenge.gif]]
 
   A PDF of this presentation is available.
+
+* Footnotes
+
+[fn:1]There is a FAQ for all my courses in this repo, and a FAQ for
+this particular course in the current repo.

@@ -1,0 +1,275 @@
+#+TITLE: Course overview
+#+AUTHOR: Marcus Birkenkrahe
+#+Subtitle: Data Science Tools and Methods
+#+STARTUP: hideblocks
+#+OPTIONS: toc:1 num:nil ^:nil
+#+reveal_theme: black
+#+reveal_init_options: transition:'cube'
+#+INFOJS_OPT: :view:info
+* What're you going to learn today?
+  * Who is your lecturer?
+  * Who are you and what do you want?
+  * Which topics will we cover?
+  * How will we do it?
+  * What do you have to do to pass?
+  * What's next?
+* Who am I?
+
+  #+attr_html: :width 300px
+  [[./img/marcus.jpg]]
+
+** Science
+
+   #+attr_html: :height 300px
+   #+attr_latex: :width 300px
+   [[./img/feynman.jpg]]
+   * Development of WWW
+   * PhD theoretical particle physics
+   * 60 research publications
+   * Assoc. Ed. Int. J. of Data Science
+   * Ed. Board Int. J. of Big Data Mgmt.
+   * Scientific member [[https://www.hwr-berlin.de/en/research/research-centres-and-institutes/][d-cube@Berlin]]
+
+** Industry
+
+   #+attr_html: :height 300px
+   #+attr_latex: :width 300px
+   [[./img/freud.jpg]]
+   * Executive at Accenture & Shell
+   * Coach and consultant
+   * Certified psychotherapist
+   * Startup mentor
+
+** Teaching
+
+   #+attr_html: :height 300px
+   #+attr_latex: :width 300px
+   [[./img/teaching.jpeg]]
+
+   * Business informatics [[https://www.hwr-berlin.de/en/][@HWR Berlin]]
+   * Visiting professor of data science @Lyon
+   * Adviser for [[https://catholicpolytechnic.org/][CPU @LA]]
+   * Internship supervision
+
+** Pleasure
+
+   #+attr_html: :height 300px
+   #+attr_latex: :width 300px
+   [[./img/valhalla.jpg]]
+
+   * Playing: [[https://en.wikipedia.org/wiki/Assassin%27s_Creed_Valhalla][Assassin's Creed Valhalla]] (2020)
+   * Reading: [[https://en.wikipedia.org/wiki/Sword_of_Honour][Waugh, Sword of Honour]] (1952-1961)
+   * Watching: [[https://en.wikipedia.org/wiki/The_Middle_(TV_series)][The Middle]] (2009-2018)
+
+* [[https://ideaboardz.com/for/Your%20expectations%2Fconcerns/3943208][What are your expectations?]]
+
+  * What do you want to learn here?
+  * What would you like to avoid?
+  * What did you take away from another course?
+  * What did you really not like in another course?
+
+* Which topics will we cover?
+
+  #+attr_html: :height 500px
+  [[./img/lavaflow.gif]]
+
+** Introduction to data science
+
+   #+attr_html: :height 500px
+   [[./img/trends.png]]
+
+   Source: [[https://www.datacamp.com/community/blog/2021-data-trends][datacamp.com]]
+
+** Introduction to R programming
+
+   #+attr_html: :height 500px
+   [[./img/r.png]]
+
+   Source: [[https://www.rstudio.com/][RStudio]]
+
+** Visualization using R
+
+   #+attr_html: :height 450px
+   [[./img/gapminder.gif]]
+
+   Source: [[https://github.com/thomasp85/gganimate/blob/master/man/figures/README-unnamed-chunk-4-1.gif][Thomas Lin Pedersen]]
+
+** FasteR approach
+
+   #+attr_html: :height 300px
+   [[./img//faster.jpeg]]
+
+   * Focus on data exploration (EDA)
+   * Stay close to base R
+   * Use real data sets
+   * Compute interactively
+   * Prepare for DSC201 (ML)
+
+   #+begin_notes
+   Image source: [[https://unsplash.com/photos/SCtlFdgTw1A][unsplash]]
+   #+end_notes
+
+** Schedule
+
+   #+attr_html: :width 500px
+   [[./img//schedule.png]]
+
+* How will we do it?
+  #+attr_html: :height 500px
+  [[./img/deer.gif]]
+** Classroom sessions
+
+   #+attr_html: :height 500px
+   [[./img/bbb.png]]
+
+** Lecture scripts with exercises ([[https://github.com/birkenkrahe/dsc101][GitHub]])
+
+   #+attr_html: :width 600px
+   [[./img/github.png]]
+
+** Reading assignments
+
+   #+attr_html: :width 600px
+   [[./img//reading.jpg]]
+
+   Norman Matloff (2020):
+
+   [[https://github.com/matloff/fasteR][fasteR: Fast Lane to Learning R!]]
+
+   #+begin_notes
+   * Davies, [[https://nostarch.com/bookofr][The Book of R]], NoStarch Press (2016)
+   * Irizarry, [[https://rafalab.github.io/dsbook/][Introduction to Data Science]] (2020)
+   #+end_notes
+
+** Video lectures ([[https://youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz][YouTube]])
+
+   #+attr_html: :width 600px
+   [[./img/youtube.png]]
+
+** Online assignments ([[https://www.datacamp.com/enterprise/introduction-to-data-science-master-accounting-program/teams/504092-bpm/assignments][DataCamp]])
+
+   #+attr_html: :width 500px
+   [[./img/datacamp.png]]
+
+   * [[https://moodle.hwr-berlin.de/mod/url/view.php?id=964817][Register at DataCamp]]
+
+** Team EDA project
+
+   #+attr_html: :height 500px
+   [[./img/project.png]]
+
+** Agile project management
+
+   #+attr_html: :height 500px
+   [[./img//scrum.jpg]]
+
+** Tests and final exam
+
+   #+attr_html: :width 600px
+   [[./img/kahoot.png]]
+
+** Podcasts and feeds
+
+   #+attr_html: :height 550px
+   [[./img/feeds.png]]
+
+** Summary of course activities
+
+   * Weekly classroom meetings
+   * Lecture scripts (GitHub)
+   * Reading assignments (Online)
+   * Video lectures (YouTube)
+   * Online assignments (DataCamp)
+   * Team EDA projects (Sprints)
+   * Tests and final exam
+   * Podcasts and feeds
+
+* What do you have to do to pass?
+
+  #+attr_html: :height 500px
+  [[./img/oceanrock.gif]]
+
+** DataCamp assignments (> 50%)
+
+   #+attr_html: :height 450px
+   [[./img/assignment.png]]
+
+   Complete 12 of 24 assignments
+
+** Team project (> 50%)
+
+   #+attr_html: :height 450px
+   [[./img/kaggle.png]]
+
+   Present on Nov 30 or Dec 2
+
+*** What is a team project?
+
+    * Description of the dataset
+    * Introduction of the problem statement
+    * Description of the methods used
+    * Visualization of the data (plots!)
+    * Analysis of the plots
+    * Limitations of own analysis
+    * References
+
+*** Do you have project examples?
+
+    * Examples on Kaggle ([[https://www.kaggle.com/ekrembayar/election-2016-trump-clinton-spatial-visualization][example]])
+    * Examples on data science blogs ([[https://towardsdatascience.com/how-much-is-a-data-scientist-worth-in-2020-34d5903b606b][example]])
+    * Translate from Python to R ([[https://theartandscienceofdata.wordpress.com/2021/02/20/funniest-friends/][example]])
+    * Extend someone else's EDA ([[https://towardsdatascience.com/what-matters-in-speed-dating-34d29102f6cb][example]])
+    * Document an R package ([[https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3][example]])
+    * Use your own data ([[http://adomingues.github.io/2020/11/25/visual-cv/][example]])
+
+*** Can I do a project as an absolute beginner?
+
+    * Keep It Simply Scientific (IMRaD)
+    * Look at examples (e.g. [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]])
+    * Create data set (e.g. productivity)
+    * Researchers are beginners
+
+** Final exam (> 50%)
+
+   #+attr_html: :height 400px
+   [[./img/exam.jpg]]
+
+   Final exam: date TBD
+
+* What's next?
+
+  #+attr_html: :height 500px
+  [[./img/river.gif]]
+
+** In the course
+
+   * Intro to Data science (Lecture)
+   * Intro to DataCamp (Practice)
+   * Intro to GitHub (Productivity)
+   * Intro to R (Language)
+
+** Your challenges
+
+   | What?                          | When?  |
+   |--------------------------------+--------|
+   | Register at DataCamp           | Today  |
+   | Register at GitHub             | Today  |
+   | Complete test challenge*       | Aug 19 |
+   | Complete DataCamp assignment*  | Aug 24 |
+   | Set up team project (2-3 ppl)* | Sep 2  |
+   | Check FAQs[fn:1]                     | n.d.   |
+   | Ask questions (class/GitHub)   | n.d.   |
+
+   /*) do this every week until December/
+
+* Any questions?
+
+  #+attr_html: :height 400px
+  [[./img/stonehenge.gif]]
+
+  A PDF of this presentation is available.
+
+* Footnotes
+
+[fn:1]There is a FAQ for all my courses in this repo, and a FAQ for
+this particular course in the current repo.

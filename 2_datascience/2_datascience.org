@@ -1,0 +1,828 @@
+#+TITLE:  DATA SCIENCE OVERVIEW
+#+AUTHOR: Marcus Birkenkrahe
+#+Subtitle: Data Science Tools and Methods
+#+STARTUP: hideblocks
+#+OPTIONS: toc:1 num:nil ^:nil
+#+reveal_theme: black
+#+reveal_init_options: transition:'cube'
+#+INFOJS_OPT: :view:info
+* You are like Pythagoras
+
+  #+ATTR_HTML: :width 600px
+  [[./img/pythagoras.jpg]]
+
+  #+begin_notes
+  Pythagoras of Samos was a Greek philosopher who lived around 500
+  BC. He and his followers conceived of nature as a structured system
+  of numbers. That was an exciting time in the history of science -
+  before anyone called it science! With numbers out in the open as
+  important entities, it was now possible to make all kinds of
+  exciting discoveries: like harmony in music, or the so-called
+  Pythagorean theorem ($a^2+b^2=c^2$) and many other [[http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Pythag/pythag.html][facts about
+  right-angled triangles]]
+
+  So why are you like Pythagoras? Simply because data science isn't
+  all that old - it became popular less than 10 years ago. Though it
+  is not a foundation science (like math or physics) but an
+  interdisciplinary field, this is an exciting moment in history to
+  learn about it: you can practically not help yourself making
+  interesting discoveries!  Something like this doesn't come along all
+  the time (actually, in my life time, there's only one other event
+  like it, the development of the World-Wide Web).
+  #+end_notes
+
+* What will you learn?
+
+  * How and why data science is so popular
+
+  * What skills you need to do data science
+
+  * Which problems data science can solve
+
+  * What data scientists do all the time
+
+  #+begin_notes
+  In this lesson, I am giving an oveRview[fn:3] of several aspects of
+  data science. Though young, it is a field both ill-defined and (or
+  perhaps because of it) vast and hard to pin down. This outline will
+  be applied rather than scholarly, focusing on applications and
+  practice rather than concepts or theory.
+
+  In its name, "data science" carries both aspects of science and
+  craft: the 'science' part is responsible for the modus operandi,
+  which is informed by statistics and math, systematic and logically
+  rigorous. The 'data' part relates mostly to craft: the ability to
+  extract insights from data using computing tools. Most data
+  scientists are more occupied by and with the craft part than with
+  the science part (cp. [[kozyrkov_2018][Kozyrkov 2018]]).
+
+  Hence, data science so far is a typical support science. It supports
+  other, more established disciplines in the natural and in the social
+  sciences. Prominent examples are: economics, genomics, and
+  epidemiology.
+
+  The need to use the data "to tell a story" sets data science apart
+  from both traditional data craft and science. It is the reason why
+  visualization techniques and theory ("grammar of graphics",
+  cp. [[sarkar_2018][Sarkar 2018]]) play such an important role.
+
+  I would argue that data science is most successful when supporting
+  fields that themselves are interdisciplinary and therefore need a
+  higher degree of communication across different cultures of science
+  and practice. This is the quasi-definition that I came up with while
+  preparing these notes:
+
+  [RAW] *DATA* + [CODE] + *SCIENCE* [METHODS] = *VALUE*
+
+  Why? Because data always come in "raw" form and have to be wrestled
+  with. To do this, you need to be able to code (a little anyway). But
+  in order to achieve the main goal, namely add value,
+  process-oriented science has to come in, most importantly through
+  systematic methods and the accompanying processes, to validate
+  insights and help communicate results. Well, so far, so good.
+
+  In the following lecture, I will focus on four aspects of data
+  science: the popularity it currently enjoys (and has enjoyed for the
+  past 10 years), the skills required to "do data science", and the
+  processes or activities involved in doing it. We will look at each
+  of these with some examples.
+
+  At the end of each chapter, you'll find a quick challenge ("youR
+  tuRn"[fn:4]) - this is usually just a question related to the
+  text. Sample answers and hints to challenges are gathered [[challenges][at the end
+  of the document.]]
+  #+end_notes
+
+* How popular is data science?
+
+  #  #+Caption: Selfie by Cristina Zaragoza [[https://unsplash.com/photos/cMVRsfY8R3Q][@unsplash]]
+  #+ATTR_HTML: :width 600px
+  [[./img/selfie.jpg]]
+
+  #+begin_quote
+  How would you try to find out?
+  #+end_quote
+
+** Ways to explore popularity
+
+   * Search (how?)
+   * Find relevant models (how?)
+   * Generate primary data (how?)
+   * Use secondary data (instead of?)
+
+   #+begin_quote
+   Any issues with these methods?
+   #+end_quote
+
+   #+begin_notes
+
+(1) Search - where? How?
+- Google (Scholar) - disadvantage of Google searches?
+- arxiv.org
+- data science blogs (R-Blogger, Towards Data Science, Analytics
+  Vidhya, R Weekly, DataCamp)
+  (2) Find relevant models - what is that?
+  - Metaphors are models
+  - Mathematical model may not exist
+  - Example for such a model
+  (3) Generate primary data
+  - Which measures are used?
+  - Which methods are used?
+  (4) Look secondary data - public? Valid? How do you validate?
+
+  Example: social networking analysis - Predicting Tie Strength
+  (2009). Paper: https://1drv.ms/b/s!AhEvK3qWokrvqz6uRFcluk1LEOW5
+
+  This paper uses a model to distinguish between weak and strong
+  ties (with over 85% accuracy) based on a parametrization (=
+  features to establish splitting the data) and a linear model (=
+  assumption that the predictive variables are linearly
+  correlated). Data science is used to address questions hidden in
+  the data, such as how users relate to one another in social
+  media, how they behave, perhaps even why they do what they do (=
+  statistical inference).
+
+   #+end_notes
+
+** Worldwide searches 2004-2021
+
+   #+NAME: fig:trend
+   [[./img/ds_trends.png]]
+
+   #+begin_notes
+
+In the graph (figure [[fig:trend1]]) from trends.google.com, "numbers
+represent search interest relative to the highest point on the
+chart for the given region [worldwide] and time [since logging
+trends in 2004]." The trend increased is noticeable. It peaked in
+September 2020 ([[https://trends.google.com/trends/explore?date=all&q=data%20science,software%20engineering,business%20intelligence,big%20data][Source]]).
+
+In October 2012, almost 10 years ago, Davenport and Patil published
+"Data Scientist: The Sexiest Job of the 21st Century" and put the
+term on the map.
+
+*What has changed since 2012?*
+
+   #+end_notes
+
+   #+begin_quote
+   How would you explain this curve?
+   #+end_quote
+
+** The definition of sexy
+
+   #+begin_quote
+   »The best data scientists are product and process innovators and
+   sometimes, developers of new data-discovery tools.
+   That is the definition of sexy.«
+
+   Gil Press ([[https://www.forbes.com/sites/gilpress/2012/09/27/data-scientists-the-definition-of-sexy/][Forbes, 09/27/12]])
+   #+end_quote
+
+** Popularity contest
+
+   #+begin_quote
+
+Which one is most searched:
+1. Big data?
+2. Business intelligence?
+3. Software engineering?
+4. Data science?
+
+   #+end_quote
+
+   #+begin_notes
+
+Notice that this list amounts to a visualization, too, because it
+suggests an ordering, which is supported by the language: "big
+data" sounds like it should be at the top. In fact, "data science"
+takes the top spot, and both BI and Software Engineering were a lot
+more popular in the past.
+
+   #+end_notes
+
+** The winner is...
+
+   #+NAME: fig:trend1
+   [[./img/ds_trends1.png]]
+
+   #+begin_quote
+   How do you like the visualization?
+   #+end_quote
+
+   #+begin_notes
+
+   1) Bar chart (averages) difficult to read (percentages missing)
+
+   2) List follows the search order, not the results
+
+   3) Grid lines (vertical lines) could improve reading
+
+  #+end_notes
+
+* What are data science skills?
+  
+  #+name: fig:def
+   #+attr_html: :width 600px
+  [[./img/ds_skills.jpg]]
+
+  #+begin_quote
+  Can you give some examples?
+  #+end_quote
+
+  #+begin_notes
+
+  The three skill areas in figure [[fig:def]] from [[robinson_nolis_2020][Robinson/Nolis (2020)]]
+  give rise to different tasks and problem settings:
+
+| Skill     | Sample area      | Sample activity        | Sample analysis         |
+|-----------+------------------+------------------------+-------------------------|
+| Domain    | Marketing        | Analyze customer data  | What do customers like? |
+| knowledge | Education        | Learner data           | How did students learn? |
+|           | Finance          | Investment data        | Which stock performed?  |
+|-----------+------------------+------------------------+-------------------------|
+| Coding &  | R, Python, SQL   | Analzye/automate/query | Count customers by type |
+| databases | Cloud computing  | Share data and code    | Work in virtual teams   |
+|           | RStudio, Emacs   | Improve your workflow  | Create a notebook[fn:2] |
+|           | Package creation | Write new functions    | Distribute package      |
+|-----------+------------------+------------------------+-------------------------|
+| Maths &   | Data structure   | Data wrangling         | Check data [[https://rafalab.github.io/dsbook/tidyverse.html][tidyness]]     |
+| stats     | Model building   | Linear [[https://rafalab.github.io/dsbook/regression.html][regression]]      | Fit line graph to data  |
+|           | Distribution     | Check significance     | Apply t-test[fn:1]      |
+
+
+   Between two of these areas each are application areas:
+   
+   1) Domain knowledge and statistics support decision science. See
+      [[https://medium.com/@ibobriakov/data-science-vs-decision-science-infographic-7ad6e16698d][infographic]] (source: [[bobriakov_2019][Bobriakov 2019]]).
+
+   2) Data analytics are the result of applying database programming
+      (e.g. with SQL) to domain knowledge problems(this is also
+      sometimes called 'business intelligence' or BI).
+
+   3) Programming, maths and statistics give rise to various machine
+      learning (ML) techniques concerned in particular with prediction
+      and pattern recognition.
+ 
+  #+end_notes
+
+** What about you?
+
+   | Kanban: [[https://ideaboardz.com/for/What%20are%20your%20skills%3F/3746720][What are your skills?]]      |
+   | [[./img/skills.jpg]]                   |
+   | Compare: [[https://1drv.ms/b/s!AhEvK3qWokrvhPhyO8vS3nRXWah9jA]["My IT skill stack"]][fn:5] |
+
+   #+begin_notes
+
+1. Problem solving skills:
+   - Understand the problem: the conditions, the unknowns, the
+     data. Of these, I am particularly good with data.
+   - Design a plan of attack (e.g. by modeling - abstracting from
+     the details to identify one or more routes or options)
+   - Carry out the plan of attack: this is execution. Probably my
+     least favorite part (often, when I see the solution path, I
+     get bored). But I can do it, and it's satisfying to finish
+     something.
+   - Look back, review and discuss your solution. I am especially
+     good at this type of postmortem analysis - it's probably what
+     I use most when it comes to teaching stuff.
+2. Computational thinking skills
+   - 10 programming languages - recommended: SQL and R
+3. Data literacy skills
+   - Wikipedia definition is not bad: "Ability to understand,
+     create, and communicate data as information." (I.e. structured
+     data)
+   - Use of visualization and storytelling techniques
+   - Business process modeling
+4. Communication skills
+   - team / leadership experience
+5. Tool skills
+   - I love tools
+   - In my courses usually use about 20 different IT tools
+
+   #+end_notes
+
+** What are technical data science skills?
+
+   #+NAME: fig:tech
+   [[./img/ds_tech_skills.png]]
+
+   #+begin_quote
+   Have you heard of any of these?
+   #+end_quote
+
+   #+begin_notes
+   Tip: when you come across products you don't know, make it a habit
+   to look them up - knowing the names and what they stand for will
+   help you anchor yourself in anything you read, and the most
+   important products, which are most talked about, are often talked
+   about for a reason - e.g. because they represent an innovation
+   and/or an advantage. By knowing the products, you can also learn
+   something about the innovation. This dependency on products also
+   shows that both computer and data science are crafts.
+   | D3.js        | Visualization      | Apache Hadoop | distributed computing |
+   | Apache Spark | Analytics engine   | MapReduce     | Google scalability    |
+   | Apache Pig   | Analytics platform | NoSQL         | Unstructured big data |
+   | Tableau      | Visualization      | iPython nb    | Literate Programming  |
+   | GitHub       | Version control    |               |                       |
+   #+end_notes
+
+** What is frankenstein made of?
+
+   #+NAME: fig:frankenstein
+   #+ATTR_html: :width 300px
+   [[./img/datasciencefrankenstein.png]]
+
+   Source: [[https://st12.ning.com/topology/rest/1.0/file/get/2808339698?profile=RESIZE_1024x1024][datasciencecentral.com]]
+
+   #+begin_notes
+   "Frankenstein's monster" (based on the novel by "Frankenstein, or
+   The Modern Prometheus", by Mary Shelley, 1818) is used in
+   figure [[fig:frankenstein]] as a metaphor for a working data scientist. it
+   is a rich metaphor with many connotations.
+
+   * "Eyes": experience with detecting data patterns. to do this
+     actually with your eyes is unlikely - you need some tools for
+     that, but you also need experience to know which tools will
+     work. example: ~head(dataset)~ only prints the first 6 rows of a
+     dataset giving you an idea of the type of data in the dataset.
+   * "Heart": passion for and creativity with data. "passion" is
+     perhaps more relevant for the data's origin and for what you can
+     do with well interpreted data - namely change the world! example:
+     hans rosling's gapminder animations (and his passionate
+     storytelling, demonstrated e.g. in Hans Rosling's TED videos.
+   * "Hands": domain knowledge gained by working in an industry for
+     years, supported by activity in communities like [[https://www.infoworld.com/article/3564164/kaggle-where-data-scientists-learn-and-compete.html][kaggle]] (owned by
+     google since 2017), which hosts datasets, notebooks and ml
+     competitions.
+   * "Brain": analytical mindset and knowledge of analysis tools
+     (none of the tools mentioned here, hadoop, spark, [[https://hive.apache.org/][hive]] - a data
+     warehouse - or [[https://www.sas.com/][sas]] - another statistical analysis workbench - are
+     necessary - they are merely nice to know). how do you know that
+     you have this kind of brain? e.g. if you enjoy getting
+     quantitative (number-based) answers and if you like visualizations
+     of complex or complicated data (like the gapminder data). also, if
+     you like programming or maths, you've likely got such a brain.
+   * "Mouth": communication with colleagues - but not only. in
+     fact, especially being able to communicate with people who are not
+     your colleagues (so they are perhaps very different from you) is
+     key. this is another way of saying that you need to be able to
+     "tell a story" after data analysis (e.g. [[prevos][Prevos 2020]]).
+   * "Feet": data science is a very fast-moving technology field,
+     especially its "machine learning" offshoot (which is not part of
+     this course) - cp. [[kozyrkov_2019][Kozyrkov 2019]]. you need to keep on top of the available
+     information. at the same time, there is too much to take in and
+     digest - this means that it is very important to have a sound
+     understanding of the foundations of data science.
+   #+end_notes
+
+** What about you?
+
+   #+begin_quote
+   | Do you have a "brain for numbers"? Do you prefer people or stories?        |
+   | [[../../img/1_overview/bookshelf.jpg]]                                         |
+   #+end_quote
+
+   #+begin_notes
+   *...youR tuRn:* What if you don't have a brain for numbers, can you
+   still do data science? What if numbers don't turn you on but
+   instead put you to sleep?  What if graphs scare you because you
+   suspect that difficult mathematics is necessary to understand the
+   graph and what's behind it? What if you like novels but don't care
+   for manuals - what if you don't even like computers? Can you still
+   have a "brain for data science" like Dr. Frankenstein's monster
+   here? [[challenge_brain][(Hint)]]
+   #+end_notes
+
+** What do metaphors do?
+
+   #+attr_html: :height 300px
+   [[../../img/1_overview/frankenstein.jpg]]
+
+   #+begin_quote
+   Metaphors are models.
+   #+end_quote
+
+   #+begin_notes
+   *...youR tuRn:* What are the connotations of using "Frankenstein's
+   monster" as a metaphor for "data scientist"? Metaphors are
+   especially important when definitions are not easily forthcoming,
+   are confused or not standardized (all of which is the case for data
+   science). Metaphors are a type of model. [[challenge_frankenstein][(Hints)]]
+   #+end_notes
+
+* What's the (US) job market for data scientists like?
+
+  #+attr_html: :width 600px
+  #+NAME: fig:jobs
+  [[./img/ds_demand.png]]
+
+  #+begin_quote
+  Challenge: search a job portal for "data scientist".
+  #+end_quote
+
+  #+begin_notes
+  The value of statistics like shown in figure [[fig:jobs]] depends on the
+  exact definitions of the job, on the ability of business to recruit
+  exactly for what they want etc. I have personally not spoken to any
+  recruiter about this - I only read career-related blogs and looked
+  at statistics like these (published by [[https://ischoolonline.berkeley.edu/data-science/][Berkeley School of
+  Information 2020]], a site that is interested in attracting data
+  science students, therefore highly biased). However, as a rule, you
+  can never go wrong with growing your skill stack, especially with
+  regard to STEM skills, and within these especially with regard to
+  your ability to analyse data quantitatively - which is what data
+  science boils down to. For more details on "data science careers",
+  see [[robinson_nolis_2020][Robinson/Nolis (2020)]].
+
+  Mathematics, especially statistics, programming and databases are
+  the skill-based disciplines that you need to master. Having said
+  that: "mastering" could easily take not one, but several life times,
+  and you need to begin somewhere. If you do this in earnest, you'll
+  soon find that you start learning faster and faster the more
+  connections with what you already know you can make.] Here is a
+  (free) book called, incidentally, "[[https://www.cs.cornell.edu/jeh/book.pdf][Foundations of Data Science]]"
+  ([[blum_2015][Blum et al 2015, 466 p.]]). It includes some geometry, graph theory,
+  linear algebra, markov chains, and a variety of algorithms for
+  "massive data problems" like streaming, sketching and sampling
+
+  #+end_notes
+
+** Job profiles (DataCamp)
+
+   #+name: fig:prof
+   [[./img/ds_jobs.png]]
+
+   #+begin_quote
+   Who would you rather be?
+   #+end_quote
+
+   #+begin_notes
+   Introductory DataCamp courses on data science "for everyone" (that
+   is, without being tied to one of the three dominant languages -
+   Python, R, or SQL), contain a job profile section to help users
+   find their professional data science niche.
+
+   The figure [[fig:prof]] shows four such profiles from a 2020
+   course. What is notably missing here is the maths and/or CS or
+   software engineering knowledge required or desirable to fill these
+   roles. But there are also people who say that you best come to a
+   firm as a general-purpose computer scientist and then learn any of
+   these on the job depending on the needs and the available
+   experience.
+   #+end_notes
+
+* What are data science problems?
+
+  #+NAME: fig:decision
+   #+attr_html: :width 600px
+  [[./img/data_science_adventure.png]]
+
+  Source: Cassie Kozyrkov ([[https://twitter.com/quaesita][@quaesita]])
+
+  #+begin_notes
+
+  The cartoon in figure [[fig:decision]] is by Google's head of "decision
+  intelligence", [[kozyrkov_2019][Cassie Kozyrkov (2018)]]. She has a specific, business-
+  and decision-oriented idea of the purpose of data science, which I
+  share: data science is there to help you make decisions. The option
+  tree shown distinguishes three sub-fields of data science: data
+  analytics, statistics and machine learning. It asks if you're
+  "making decisions" at the start (many, few, hardly any), it quickly
+  focuses on the type of data (few vs big) and the 'uncertainty' and
+  'importance' of the decisions. This is still a data-centric, not a
+  decision-centric taxonomy. A focus on the latter would allow for
+  many more options (e.g. strategic vs. tactical, organizational
+  vs. managerial, routine vs. exceptional decisions etc.) Hence, for
+  decision science, this kind of breakdown is not very useful.
+
+  The dominance of "big data" has also been doubted, especially
+  when it comes to making (business) decisions. "Small [not big]
+  data" ([[saklani_2017][Saklani, 2017]]) and "thick [qualitative, descriptive] data"
+  may be just as good depending on what you want to know. The
+  article by [[chiu_2020][Chiu (2020)]] is a bit of a history hack (in the
+  scholarly sense) but it raises some good points.
+
+  Brandon Rohrer, [then] a data scientist at Microsoft, has
+  addressed this question in a 3-part series of short articles
+  ([[rohrer_2015][Rohrer, 2015a, 2015b, 2015c]]). His examples are a more specific,
+  especially because he also says which family of algorithms match
+  which type of data-related question. It is too early for us to
+  discuss his taxonomy but at the end of the course, you should
+  have a better idea about what you can do with data science tools.
+
+  *...youR tuRn:* Think about any decision you make - what are the steps
+  you go through? Do they amount to a "data science adventure" as
+  shown in the figure [[fig:decision]] - why (or why not)? [[challenge_decisions][(Hint)]]
+
+  #+end_notes
+
+** Data science applications
+   [[../../img/1_overview/ds_applications.jpg]]
+* What is the data science process?
+
+  #+NAME: fig:process
+   #+attr_html: :width 600px
+  [[./img/ria_process1.png]]
+
+  Source: [[https://r4ds.had.co.nz/index.html][Wickham/Grolemund, 2017]]
+
+  #+begin_quote
+  ([[https://h5p.org/node/910614][Interactive BPMN version]])
+  #+end_quote
+
+  #+begin_notes
+  Figure [[fig:process]] shows a process that begins with raw data. Such data are
+  usually not formatted as "tidy" data, i.e. "each row represents one
+  observation and columns represent the different variables available
+  for each of these observations" ([[irizarry_2020][Irizarry 2020]]). This is also the
+  tabular format, which is usual for storing data in relational
+  databases for analysis with SQL.
+
+  Once we have tidy data, an (often repeated) sub-process begins:
+  "transform" refers to any operation on the dataset that helps us
+  understand the data better. Depending on the size of the data
+  tables, we will use different methods of visualization to make
+  underlying structure visible. But visualization does not always have
+  to be graphical. Let's look at three examples in the next section.
+  #+end_notes
+
+** Data science workflow (DataCamp)
+
+   #+attr_html: :width 600px
+   [[./img/ds_workflow.png]]
+
+* Concept summary
+
+  * Data science is used for decision support, process analytics and
+    machine learning.
+  * Data science makes use of domain knowledge - experience in a
+    particular field of business.
+  * The job market for data science is good.
+  * The data science process includes modeling, visualizing, and
+    communicating data analysis results.
+
+  #+begin_quote
+  Read the seminal article by [[https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century][Davenport/Patil (2012)]].
+  #+end_quote
+
+* R Demo - visualization example
+
+  #+ATTR_HTML: :width 600px
+  [[./img/rocks.jpg]]
+
+  [[https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars][~mtcars~: Motor Trend Car Road Tests]]
+
+  #+begin_notes
+  You can type along if you already have R installed (next week)
+  * ~data(mtcars)~
+  * ~?mtcars~
+  * ~head(mtcars)~
+  * ~rownames(mtcars)~
+  * ~str(mtcars)~
+  * ~colnames(mtcars)~
+  * https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars
+  * ~summary(mtcars)~
+  * ~plot()~
+  * ~lm()~
+  * ~abline()~
+  #+end_notes
+
+* Code summary
+
+  | ~data()~     | import dataset                        |
+  | ~head()~     | print first few lines of dataset      |
+  | ~str()~      | show dataset structure                |
+  | ~summary()~  | print statistics overview of dataset  |
+  | ~plot()~     | create scatterplot                    |
+  | ~lm()~       | fit linear [regression] model to data |
+  | ~abline()~   | add straight lines through a plot     |
+
+  #+begin_notes
+  R code examples:
+
+  We have already seen quite a bit of R code in the examples - the
+  why, what and how of R will be the subject of the next
+  lecture. You don't need to remember these now - we'll practice
+  them soon and often enough - but if you do, it might be helpful:
+
+  After hearing a lot of information, I find it sometimes necessary
+  to anchor myself again. You can do this now and test your basic
+  understanding of data science and brush up on your reading:
+
+  [[challenge_davenport][*...youR tuRn:*]] Read the seminal article by [[davenport_2012][Davenport/Patil (2012)]],
+  which put data science on the map for business practitioners. What
+  has changed since then (if anything)? Test their claims (e.g. "there
+  are no university programs offering degrees in data science" - is
+  this still true?). How would you measure the performance of a data
+  scientist? Has the understanding of data science and data scientist
+  ("a hybrid of data hacker, analyst, communicator, and trusted
+  adviser") changed since then?|
+  #+end_notes
+
+* What's next?
+
+  | DataCamp assignment | Data collection and storage |
+  | Installing R        | [[https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu][Try it yourself!]]            |
+  | First steps in R    | We'll do it together!       |
+  | Kahoot! quiz        | 5 simple questions          |
+
+* Thank you! Questions?
+
+  [[./img/sunflower.gif]]
+
+* References
+
+  1) <<blum_2015>> Blum A/Hopcroft J/Kannan R (4 Jan 2018). Foundations of Data
+     Science - Cornell U. Online: [[https://www.cs.cornell.edu/jeh/book.pdf][cornell.edu]].
+  2) <<bobriakov_2019>> Bobriakov I (16 Apr 2020). Data Science vs. Decision Science
+     [Infographic]. Online: [[https://medium.com/@ibobriakov/data-science-vs-decision-science-infographic-7ad6e16698d][medium.com/@bobriakov]].
+  3) <<bolles>> Bolles R and Brooks K (2021). What color is your
+     parachute? Online: https://www.parachutebook.com/
+  4) <<chiu_2020>> Chiu J (17 Aug 2020). Why Data Doesn't Have to Be That
+     Big. Online: [[https://www.datacamp.com/community/blog/small-and-thick-data][datacamp.com]].
+  5) <<davenport_2012>> Davenport TH/Patil DJ (2012). Data Scientist:
+     The Sexiest Job of the 21st Century. Online: [[https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century][hbr.org]].
+  6) <<devlin_2017>> Devlin K (1 Jan 2017). Number Sense: the most
+     important mathematical concept in 21st Century K-12
+     education. Online: [[https://www.huffpost.com/entry/number-sense-the-most-important-mathematical-concept_b_58695887e4b068764965c2e0][huffpost.com]].
+  7) <<gapminder_2014>> Gapminder Foundation (15 Dec 2014). DON'T
+     PANIC - Hans Rosling showing the facts about population. Online:
+     [[https://youtu.be/FACK2knC08E][youtube.com]]
+  8) <<grolemund_2017>> Grolemund G/Wickham H (2017). [[https://r4ds.had.co.nz/][R for Data Science]]. O’Reilly.
+  9) <<irizarry_2020>> Irizarry R (2020). [[https://rafalab.github.io/dsbook/][Introduction to Data Science]]. CRC Press.
+  10) <<kozyrkov_2018>> Kozyrkov C (10 Aug 2018). What on earth is data science?
+      Online: [[https://hackernoon.com/what-on-earth-is-data-science-eb1237d8cb37][hackernoon.com]].
+  11) <<kozyrkov_2019>> Kozyrkov C (22 May 2019). Automated Inspiration. Online:
+      Forbes.com]].
+  12) <<knuth_1984>> Knuth D (1992). [[http://www.literateprogramming.com/knuthweb.pdf][Literate Programming]]. Stanford,
+      Center for the Study of Language and Information Lecture
+      Notes 27.
+  13) <<myers>> Myers A (28 Apr 2020). Data Science Notebooks - A
+      Primer. Online: [[https://medium.com/memory-leak/data-science-notebooks-a-primer-4af256c8f5c6][medium.com/memory-leak]].
+  14) <<porras>> Porras E M (18 Jul 2018). Linear Regression in
+      R. Online: [[https://www.datacamp.com/community/tutorials/linear-regression-R][datacamp.com]].
+  15) <<prevos>> Prevos P (14 Aug 2020). Storytelling with Data:
+      Visualising the Receding Sea Ice Sheets. Online:
+      lucidmanager.org]].
+  16) <<robinson_nolis_2020>> Robinson E/Nolis, J (2020). [[https://www.manning.com/books/build-a-career-in-data-science][Build a
+      Career in Data Science]]. Manning.
+  17) <<rohrer_2015>> Rohrer B (2015a). What Can Data Science Do
+      For Me? Online: [[https://docs.microsoft.com/en-us/archive/blogs/machinelearning/what-can-data-science-do-for-me][microsoft.com]].
+  18) Rohrer B (2015b). What Types of Questions Can Data Science
+      Answer? Online: [[https://docs.microsoft.com/en-us/archive/blogs/machinelearning/what-types-of-questions-can-data-science-answer][microsoft.com]].
+  19) Rohrer B (2015c). Which Algorithm Family Can Answer My Question?
+      Online: [[https://docs.microsoft.com/en-us/archive/blogs/machinelearning/which-algorithm-family-can-answer-my-question][microsoft.com]].
+  20) <<saklani_2017>> Saklani P (19 Jul 2017). Sometimes “Small Data” Is Enough to
+      Create Smart Products. Online: [[https://hbr.org/2017/07/sometimes-small-data-is-enough-to-create-smart-products][hbr.org]].
+  21) <<sarkar_2018>> Sarkar DJ (12 Sept 2018). A Comprehensive Guide
+      to the Grammar of Graphics for Effective Visualization of
+      Multi-dimensional Data. Online: [[https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149][towardsdatascience.com]]
+  22) <<scherpereel>> Scherpereel CM (2006). Decision orders: A
+      decision taxonomy. In: Management Decision 44(1):123-136.
+  23) <<wing_2019>> Wing JM (2 Jul 2019). The data life cycle. Harvard Data Science
+      Review. Online: [[https://hdsr.mitpress.mit.edu/pub/577rq08d/release/3][hdsr.mitpress.mit.edu.]]
+
+* "Your tuRn" (hints and solutions)
+  <<challenges>>
+** Popularity  <<challenge_popular>>
+   Check out the seminal article by [[davenport_2012][Davenport/Patil 2012.]] (At least)
+   one answer is in there.
+** Skills <<challenge_skills>>
+   Recently, an MBA student asked me these same questions and here is
+   my answer: "[[https://1drv.ms/b/s!AhEvK3qWokrvhPhyO8vS3nRXWah9jA][My IT Skill Stack]]". See also [[bolles][Bolles and Brooks (2021)]]
+** Software <<challenge_packages>>
+   * [[https://d3js.org/][D3.js,]] a JavaScript library for manipulating documents based on
+     data. D3 helps you bring data to life using HTML, SVG, and CSS.
+   * [[http://hadoop.apache.org/][Apache Hadoop,]] a "software library framework that allows for the
+     distributed processing of large data sets across clusters of
+     computers using simple programming models. It is designed to scale
+     up from single servers to thousands of machines, each offering
+     local computation and storage. Rather than rely on hardware to
+     deliver high-availability, the library itself is designed to detect
+     and handle failures at the application layer, so delivering a
+     highly-available service on top of a cluster of computers, each of
+     which may be prone to failures." (Source: Apache.org)
+   * [[https://www.ibm.com/analytics/hadoop/mapreduce][MapReduce]], "a programming paradigm that enables massive scalability
+     across hundreds or thousands of servers in a Hadoop cluster. As the
+     processing component, MapReduce is the heart of Apache Hadoop. The
+     term "MapReduce" refers to two separate and distinct tasks that
+     Hadoop programs perform. The first is the map job, which takes a
+     set of data and converts it into another set of data, where
+     individual elements are broken down into tuples (key/value
+     pairs). The reduce job takes the output from a map as input and
+     combines those data tuples into a smaller set of tuples. As the
+     sequence of the name MapReduce implies, the reduce job is always
+     performed after the map job."  Source: IBM. See also:
+     [[https://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm][tutorialspoint]].
+   * [[https://databricks.com/spark/about][Apache Spark]], "a lightning-fast unified analytics engine for big
+     data and machine learning. It was originally developed at UC
+     Berkeley in 2009." Source: databricks.
+   * [[https://aws.amazon.com/nosql/][NoSQL]] "databases, purpose-built for specific data models and have
+     flexible schemas for building modern applications. NoSQL databases
+     are widely recognized for their ease of development, functionality,
+     and performance at scale." Source: AWS.
+   * [[https://pig.apache.org/][Apache Pig]], "a platform for analyzing large data sets that
+     consists of a high-level language for expressing data analysis
+     programs, coupled with infrastructure for evaluating these
+     programs. The salient property of Pig programs is that their
+     structure is amenable to substantial parallelization, which in
+     turns enables them to handle very large data sets. At the present
+     time, Pig's infrastructure layer consists of a compiler that
+     produces sequences of Map-Reduce programs, for which large-scale
+     parallel implementations already exist (e.g., the Hadoop
+     subproject). Pig's language layer currently consists of a textual
+     language called Pig Latin." Source: apache.org. [[https://www.tutorialspoint.com/apache_pig/index.htm][Tutorialspoint]].
+   * [[https://www.tableau.com/][Tableau]] (owned by Salesforce), commercial interactive data
+     visualization software (SQL-based dashboards). [[https://public.tableau.com/en-us/s/][Tableau public]].
+   * [[http://ipython.org/notebook.html][iPython notebook]] (now "Jupyter Notebook"), a "interactive
+     computational environment, in which you can combine code execution,
+     rich text, mathematics, plots and rich media." Source:
+     [[https://jupyter.org/][jupyter.org]]. Part of the [[https://www.anaconda.com/][Anaconda]] distribution. See also: Google
+     [[https://colab.research.google.com/notebooks/intro.ipynb][Colaboratory]] for a (free) cloud-based version.
+   * [[https://github.com][GitHub]] (owned by Microsoft), "a website and cloud-based service
+     that helps developers store and manage their code, as well as track
+     and control changes to their code" (Source: [[https://kinsta.com/knowledgebase/what-is-github/][kinsta.com]]) centered on
+     the open-source version control software [[https://git-scm.com/][Git]]. There are many
+     platforms like GitHub (e.g. GitLab, BitBucket, SourceForge).
+
+   Of these applications, only Git (not GitHub) is really absolutely
+   necessary for a professional data scientist working in teams. Though
+   a working knowledge of the principles behind all of them will be
+   very useful (especially if they come up in interviews). Hence, no
+   reason to be scared.
+
+** Your brain <<challenge_brain>>
+   Other terms for what we're talking about here are: "number sense"
+   (in maths education), or "computational thinking" (in computer
+   science) or, more recently, "data literacy". All of these are
+   relatively new concepts, so feel free to speculate and make up your
+   own mind! Cp. [[devlin_2017][Devlin 2017]]
+** Frankenstein <<challenge_frankenstein>>
+
+   How do you feel about anything if doing it would turn you into a
+   monster? What kind of monster is Frankenstein (if you didn't read
+   the book or saw the film, I'll tell you: ugly but soulful, loveable
+   and capable of love, too)?  What is special about him as a monster
+   in mechanical terms?
+
+** Job market <<challenge_job>>
+   Mathematics, especially statistics, programming and databases are
+   the skill-based disciplines that you need to master. Having said
+   that: "mastering" could easily take not one, but several life
+   times, and you need to begin somewhere. If you do this in earnest,
+   you'll soon find that you start learning faster and faster the more
+   connections with what you already know you can make.] Here is a
+   (free) book called, incidentally, "[[https://www.cs.cornell.edu/jeh/book.pdf][Foundations of Data Science]]"
+   ([[blum_2015][Blum et al 2015, 466 p.]]). It includes some geometry, graph theory,
+   linear algebra, markov chains, and a variety of algorithms for
+   "massive data problems" like streaming, sketching and sampling.
+** Decisions <<challenge_decisions>>
+   The figure (like the underlying article) targets business decisions
+   more than everyday decisions. For business decisions, taxonomies
+   exist, which are generally a lot more complicated than shown here,
+   see e.g. [[scherpereel][Scherpereel 2006]].
+
+** Process <<challenge_process>>
+   On the surface, Wing's "Data Life Cycle" (2019) has a few more
+   steps (and it is also not a "cycle") - it does not use the
+   artificial (technical) term "tidy" but instead terms that can more
+   easily be understood by practitioners outside of data
+   science. Modeling is not addressed by Wing but instead she puts
+   "management" at the center of the process, right between
+   data-centric and (business) process-centric categories. Another
+   related process model you may have heard of is the "[[https://commons.wikimedia.org/wiki/File:Design_Thinking_process_in_the_Chapters_Dialogue_project.png][design
+   thinking" process]], which plays an important role in innovation and
+   when solving so-called "[[https://en.wikipedia.org/wiki/Wicked_problem][wicked problems]]".
+
+** Summary <<challenge_davenport>>
+   "The ability to write code" is still the "most basic, universal skill"
+   for a data scientist - which is why learning R is the focus of this
+   introductory course. There are many data science programs at
+   universities now - often offered as minors or as Masters programs for
+   people trained already in maths, computer science, or fields with
+   obvious and current data science applications (like biology). The
+   understanding of a data scientist as a hybrid professional has not
+   really changed sinc
+
+* Footnotes
+
+[fn:5]Written in August 2020 for students of an MA international
+business program at the [[https://www.berlin-professional-school.de/en/][Berlin Professional School]].
+
+[fn:4] Norman Matloff used this title for small challenges throughout
+his excellent [[https://github.com/matloff/fasteR#firstr][short course on R]], and I have borrowed and "R-ified" it.
+
+[fn:3] "oveRview" is a joke, not a mistake. Capitalizing the letter
+"r" in a seemingly random fashion is a common in-joke in the R
+community. Adding and/or capitalizing the letter "r" is also used to
+name R software packages, as in: [[https://blog.rstudio.com/2017/07/11/introducing-learnr/][~learnr~]], [[https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html][~magrittr~]], or [[https://github.com/matloff/fasteR][~fasteR~]].
+
+[fn:2] A data science notebook is a "literate programming"
+artifact. This concept goes back to 1984 ([[knuth_1984][Knuth 1984]]). Today, there are
+plenty of commercial notebook implementations for many different
+programming languages (see [[myers][Myers 2020]] "primer").
+
+[fn:1] "A t-test is a type of inferential statistic used to determine
+if there is a significant difference between the means of two groups,
+which may be related in certain features." ([[https://www.investopedia.com/terms/t/t-test.asp][Source]])

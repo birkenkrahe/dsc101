@@ -521,15 +521,13 @@ Between two of these areas each are application areas:
 
   #+end_notes
 
-  #+end_notes
-
 ** Data science applications
 
    #+NAME: fig:app
    #+attr_html: :width 600px
    [[./img/ds_applications.jpg]]
 
-** Data science pathways
+* What is the data science process?
 
    #+NAME: fig:lyon
    #+attr_html: :width 600px
@@ -541,8 +539,6 @@ Between two of these areas each are application areas:
    See course wiki on GitHub for some background on this model:
    https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
    #+end_notes
-
-* What is the data science process?
 
 ** Problem-centered process
    #+NAME: fig:process

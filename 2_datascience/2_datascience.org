@@ -551,7 +551,7 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
 ** Time series analysis & text mining
 
    #+attr_html: :height 250px
-   #+name: fig:log
+   #+name: fig-log
    [[./img/syslog.png]]
 
    Source: Linux ~/var/log/syslog~ event log
@@ -559,8 +559,8 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
    #+begin_notes
    All system components continuously write data protocols in the form
    of simple event logs, which you can view easily on Linux systems
-   ([[https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#1-overview][e.g. on Ubuntu]]). Check available system logs with ~ls -la
-   /var/log/~. Figure [[fig:log]] shows a sample section from my
+   [[https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#1-overview][e.g. on Ubuntu]]. Check available system logs with ~ls -la
+   /var/log/~. Figure [[fig-log]] shows a sample section from my
    computer's system log in ~/var/log/syslog~.
 
    This excerpt shows how and when the computer clock was set remotely,
@@ -591,8 +591,7 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
   Source: [[https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf][Birkenkrahe (2021)]]
 
   #+begin_notes
-  See course wiki on GitHub for some background on this model:
-  https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
+  See [[https://github.com/birkenkrahe/dsc101/wiki/Data-science-process][course wiki on GitHub]] for some background on this model.
   #+end_notes
 
 ** Problem-centered process
@@ -603,8 +602,7 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
    Source: [[https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf][Birkenkrahe (2021)]]
 
    #+begin_notes
-   See course wiki on GitHub for some background on this model:
-   https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
+  See [[https://github.com/birkenkrahe/dsc101/wiki/Data-science-process][course wiki on GitHub]] for some background on this model.
    #+end_notes
 
 ** EDA-centric process model
@@ -642,7 +640,7 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
    [[./img/ds_workflow.png]]
 
    Source: [[https://learn.datacamp.com/courses/data-science-for-everyone][Data science for everyone]] (DataCamp)
-
+   
 * Concept summary
 
   * Data science is used for decision support, process analytics and

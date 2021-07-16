@@ -413,7 +413,7 @@ Between two of these areas each are application areas:
 
 * What's the (US) job market for data scientists like?
 
-  #+attr_html: :width 600px
+  #+attr_html: :width 750px
   #+NAME: fig:jobs
   [[./img/ds_demand.png]]
 
@@ -475,70 +475,125 @@ Between two of these areas each are application areas:
 * What are data science problems?
 
   #+NAME: fig:decision
-  #+attr_html: :width 600px
+  #+attr_html: :width 750px
   [[./img/data_science_adventure.png]]
 
   Source: Cassie Kozyrkov ([[https://twitter.com/quaesita][@quaesita]])
 
   #+begin_notes
 
-   The cartoon in figure [[fig:decision]] is by Google's head of "decision
-   intelligence", [[kozyrkov_2019][Cassie Kozyrkov (2018)]]. She has a specific,
-   business- and decision-oriented idea of the purpose of data
-   science, which I share: data science is there to help you make
-   decisions. The option tree shown distinguishes three sub-fields of
-   data science: data analytics, statistics and machine learning. It
-   asks if you're "making decisions" at the start (many, few, hardly
-   any), it quickly focuses on the type of data (few vs big) and the
-   'uncertainty' and 'importance' of the decisions. This is still a
-   data-centric, not a decision-centric taxonomy. A focus on the
-   latter would allow for many more options (e.g. strategic
-   vs. tactical, organizational vs. managerial, routine
-   vs. exceptional decisions etc.) Hence, for decision science, this
-   kind of breakdown is not very useful.
+The cartoon in figure [[fig:decision]] is by Google's head of "decision
+intelligence", [[kozyrkov_2019][Cassie Kozyrkov (2018)]]. She has a specific,
+business- and decision-oriented idea of the purpose of data
+science, which I share: data science is there to help you make
+decisions. The option tree shown distinguishes three sub-fields of
+data science: data analytics, statistics and machine learning. It
+asks if you're "making decisions" at the start (many, few, hardly
+any), it quickly focuses on the type of data (few vs big) and the
+'uncertainty' and 'importance' of the decisions. This is still a
+data-centric, not a decision-centric taxonomy. A focus on the
+latter would allow for many more options (e.g. strategic
+vs. tactical, organizational vs. managerial, routine
+vs. exceptional decisions etc.) Hence, for decision science, this
+kind of breakdown is not very useful.
 
-   The dominance of "big data" has also been doubted, especially when
-   it comes to making (business) decisions. "Small [not big] data"
-   ([[saklani_2017][Saklani, 2017]]) and "thick [qualitative, descriptive] data" may be
-   just as good depending on what you want to know. The article by
-   [[chiu_2020][Chiu (2020)]] is a bit of a history hack (in the scholarly sense) but
-   it raises some good points.
+The dominance of "big data" has also been doubted, especially when
+it comes to making (business) decisions. "Small [not big] data"
+([[saklani_2017][Saklani, 2017]]) and "thick [qualitative, descriptive] data" may be
+just as good depending on what you want to know. The article by
+[[chiu_2020][Chiu (2020)]] is a bit of a history hack (in the scholarly sense) but
+it raises some good points.
 
-   Brandon Rohrer, [then] a data scientist at Microsoft, has addressed
-   this question in a 3-part series of short articles ([[rohrer_2015][Rohrer, 2015a,
-   2015b, 2015c]]). His examples are a more specific, especially because
-   he also says which family of algorithms match which type of
-   data-related question. It is too early for us to discuss his
-   taxonomy but at the end of the course, you should have a better
-   idea about what you can do with data science tools.
+Brandon Rohrer, [then] a data scientist at Microsoft, has addressed
+this question in a 3-part series of short articles ([[rohrer_2015][Rohrer, 2015a,
+2015b, 2015c]]). His examples are a more specific, especially because
+he also says which family of algorithms match which type of
+data-related question. It is too early for us to discuss his
+taxonomy but at the end of the course, you should have a better
+idea about what you can do with data science tools.
 
-   *...youR tuRn:* Think about any decision you make - what are the
-   steps you go through? Do they amount to a "data science adventure"
-   as shown in the figure [[fig:decision]] - why (or why not)? [[challenge_decisions][(Hint)]]
+*...youR tuRn:* Think about any decision you make - what are the
+steps you go through? Do they amount to a "data science adventure"
+as shown in the figure [[fig:decision]] - why (or why not)? [[challenge_decisions][(Hint)]]
 
-   See also my remarks in the wiki on GitHub (in a footnote):
-   https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
+See also my remarks in the wiki on GitHub (in a footnote):
+https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
 
   #+end_notes
 
 ** Data science applications
 
    #+NAME: fig:app
-   #+attr_html: :width 600px
+   #+attr_html: :width 800px
    [[./img/ds_applications.jpg]]
+
+   Source: [[https://data-flair.training/blogs/data-science-applications/][data-flair.training]]
+
+** A real world problem
+
+   #+attr_html: :width 600px
+   [[./img/ics.png]]
+
+   Source: [[https://hackerman.info/][Industrial Cybersecurity (2017)]]
+
+   #+begin_notes
+   Here is a real world problem worthy of data science, and also well
+   suited to R: efficiently securing critical infrastructure systems,
+   generally considered essential to the survival of Western
+   civilization - cp. "Live Free or Die Hard" (2007)
+
+   As you can see from the diagram, which shows a properly designed
+   (according to the book's author) Industrial Control System, such a
+   system is insanely complicated.
+
+   #+end_notes
+
+** Time series analysis & text mining
+
+   #+attr_html: :height 250px
+   #+name: fig:log
+   [[./img/syslog.png]]
+
+   Source: Linux ~/var/log/syslog~ event log
+
+   #+begin_notes
+   All system components continuously write data protocols in the form
+   of simple event logs, which you can view easily on Linux systems
+   ([[https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#1-overview][e.g. on Ubuntu]]). Check available system logs with ~ls -la
+   /var/log/~. Figure [[fig:log]] shows a sample section from my
+   computer's system log in ~/var/log/syslog~.
+
+   This excerpt shows how and when the computer clock was set remotely,
+   and the starting of various servers and one socket where my mobile
+   phone ("Xperia L2") was connected.
+
+   The language we're about to use in this course (and in the follow
+   up course on machine learning), R, is well suited for rapid
+   interactive exploration of datasets such as this one. The two
+   immediately relevant problem areas are "text mining" (notice that
+   all system files are human-readable to aid debugging), and "time
+   series analysis" (event logs are time series).
+
+   Text mining is considered a part of "Natural Language Processing",
+   and Time Series Analysis is also really important in finance,
+   e.g. when analysing portfolio performance.
+
+   A separate technique (not immediately part of an R programming
+   course) is "process mining".
+   #+end_notes
 
 * What is the data science process?
 
-   #+NAME: fig:lyon
-   #+attr_html: :width 600px
-   [[./img/data_science.png]]
+  #+NAME: fig:lyon
+  #+attr_html: :width 800px
+  [[./img/data_science.png]]
 
-   Source: [[https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf][Birkenkrahe (2021)]]
+  Source: [[https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf][Birkenkrahe (2021)]]
 
-   #+begin_notes
-   See course wiki on GitHub for some background on this model:
-   https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
-   #+end_notes
+  #+begin_notes
+  See course wiki on GitHub for some background on this model:
+  https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
+  #+end_notes
 
 ** Problem-centered process
    #+NAME: fig:process
@@ -555,7 +610,7 @@ Between two of these areas each are application areas:
 ** EDA-centric process model
 
    #+NAME: fig:process
-   #+attr_html: :width 600px
+   #+attr_html: :width 750px
    [[./img/ria_process1.png]]
 
    Source: [[https://r4ds.had.co.nz/index.html][Wickham/Grolemund (2017)]]
@@ -583,7 +638,7 @@ Between two of these areas each are application areas:
 ** Data science workflow
 
    #+NAME: fig:dc
-   #+attr_html: :width 600px
+   #+attr_html: :width 750px
    [[./img/ds_workflow.png]]
 
    Source: [[https://learn.datacamp.com/courses/data-science-for-everyone][Data science for everyone]] (DataCamp)

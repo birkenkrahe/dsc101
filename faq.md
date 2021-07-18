@@ -1,18 +1,18 @@
 
 # Table of Contents
 
-1.  [Are we going to use RStudio?](#orgadf0cc8)
-2.  [Which editor do you use?](#org65f93c1)
+1.  [Are we going to use RStudio?](#org1e06991)
+2.  [Which editor do you use?](#org6e81ab9)
 
 
-<a id="orgadf0cc8"></a>
+<a id="org1e06991"></a>
 
 # Are we going to use RStudio?
 
 No. [RStudio](https://rstudio.com/) is worth checking out, and it may well be what you use
 later in your data science career, but I think it is much too
 complex for beginners, and not really necessary at all. See
-screenshot:
+screenshot in figure [2](#orgd2f1287).
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/wiki/rstudio.png)
 
@@ -34,7 +34,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org65f93c1"></a>
+<a id="org6e81ab9"></a>
 
 # Which editor do you use?
 
@@ -46,7 +46,7 @@ physicists like me). For slides, I use the [reveal.js](https://github.com/hakime
 framework (generates HTML), or [org-tree-slide](https://github.com/takaxp/org-tree-slide) (for presenting
 straight from Org-mode).
 
-Emacs is hands down the best editor in the world, written in LISP,
+Emacs is hands down the best editor in the world, written in [LISP](https://en.wikipedia.org/wiki/Lisp_(programming_language))<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>,
 one of the earliest programming languages for AI research, and the
 second oldest language in widespread use (after FORTRAN).
 
@@ -56,6 +56,11 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
+
+Thee figure [12](#org1d8b8c6) shows four (out of an arbitrary number of)
+panels inside the editor 
+
+![img](https://github.com/birkenkrahe/dsc101/blob/main/wiki/emacs.png)
 
 
 # Footnotes
@@ -67,3 +72,9 @@ wrong: there are many wonderful things about RStudio (e.g. it's Open
 source). But you don't need it and it has a "lock-in" effect. I
 e.g. use **Emacs + ESS + Org-mode** instead, but I also would not
 recommend it for beginners.
+
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> Actually, Emacs is written in a dialect of Lisp, EmacsLisp
+(Elisp), and it is also the language in which Emacs can be customized,
+which is one of its greatest advantages (it's a totally extensible
+editor - unlike all the other IDEs and GUI-tools that you use). [Elisp
+is easy to learn](https://www.emacswiki.org/emacs/LearnEmacsLisp).

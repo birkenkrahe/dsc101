@@ -4,8 +4,8 @@
 # ignore all locks
 .~lock*#
 
-# ignore some exported file
-.html
+# ignore HTML files (exports)
+*.html
 
 # ignore javascript
 reveal.js

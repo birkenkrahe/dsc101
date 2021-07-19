@@ -5,8 +5,7 @@
 #+startup: hideblocks
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
-
-*   [[../../img/2_intro/overview.gif]]
+*   [[./img/overview.gif]]
   * Why are we using R?
   * Getting in/out of R
   * Installing R on Windows and Mac
@@ -20,188 +19,233 @@
   a [[challenges][section at the end of the document]].
   #+end_notes
 
-* WHY WE ARE USING R
-  #+CAPTION: Source: [[https://www.tiobe.com/tiobe-index/][tiobe.com]]
+* Why we are using R
+
   #+NAME: fig:tiobe
   #+ATTR_HTML: :width 700px
-  [[../../img/2_intro/tiobe.png]]
+  [[./img/tiobe.png]]
+
+  Source: [[https://www.tiobe.com/tiobe-index/][tiobe.com]]
 
   [[https://www.tiobe.com/tiobe-index/][Check some of these out!]]
 
   #+begin_notes
-  When it comes to "self-service" data analysis, three languages are
-  mentioned most often: R, Python and SQL. All three have their
-  relative merits and issues.
 
-  I chose R as the programming language for this introductory
-  course. The choice is partly personal and professional. Personal: I
-  like it and it's new for me (I only began to learn it in 2020), so I
-  am still excited about it. It's good if your instructor is excited
-  about the material! Professional: as business professionals, you
-  don't want to have to be programmers. At the same time, you need to
-  be able to speak with experts and do and extend your own analyses
-  (not be restricted for example by dashboards).
+When it comes to "self-service" data analysis, three languages are
+mentioned most often: R, Python and SQL. All three have their
+relative merits and issues.
 
-  On a practical note, R has a very large, diverse user and developer
-  community. Unlike Python, many of the users do not have a technology
-  background. This means that the "world of R" is more easily
-  accessible if digital technologies and programming aren't your main
-  interests. The SQL community is probably even larger and even more
-  diverse (databases being a more general interest than even
-  statistical analysis), but the language SQL itself is hardly
-  extensible, very focused on querying and less on visualization.
+I chose R as the programming language for this introductory
+course. The choice is partly *personal* and partly
+*professional*. Personal: I like it and it's new for me (I only
+began to learn it in early 2020), so I am still excited about
+it. It's good if your instructor is excited about the material!
+Professional: as business professionals, you don't want to have to
+be programmers. At the same time, you need to be able to speak with
+experts and do and extend your own analyses (not be restricted for
+example by dashboards).
 
-  In reality, as a data scientist, or even as a business practitioner
-  with serious, systematic data analytics interests, you need to know
-  all of these - R, SQL, and Python. Here, we'll start with R.
+On a practical note, R has a very large, diverse user and developer
+community. Unlike Python, many of the users do not have a technology
+background. This means that the "world of R" is more easily
+accessible if digital technologies and programming aren't your main
+interests. The SQL community is probably even larger and even more
+diverse (databases being a more general interest than even
+statistical analysis), but the language SQL itself is hardly
+extensible, very focused on querying and less on visualization.
 
-  For a direct comparison of Python and R for data cleaning and
-  exploratory analysis with examples, see e.g. [[radecic][Radecic (2020)]], [[uprety][Uprety
-  (2020)]] and [[shotwell][Shotwell (2020)]]. To see how R outperforms Python, see
-  [[grogan][Grogan (2020)]]. To see some equivalents of SQL in R, check ODSC
-  (2018). And for an overview of data science tools beyond Python, R,
-  and SQL, see [[gallatin][Gallatin (2018)]]. And here's a neat [[https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis][infographic]] from
-  datacamp comparing both for data analysis.
+In reality, as a data scientist, or even as a business practitioner
+with serious, systematic data analytics interests, you need to know
+all of these - R, SQL, and Python. Here, we'll start with R.
 
-  There are downsides to using R as well, of course, and it has been
-  called "hard to learn", too ([[muenchen][Muenchen 2017]]), partly and
-  paradoxically because the language is so flexible and
-  extensible. Also, some innovations, like the Tidyverse, aren't
-  necessarily good for beginners ([[matloff][Matloff 2019]]).
+For a direct comparison of Python and R for data cleaning and
+exploratory analysis with examples, see e.g. [[radecic][Radecic (2020)]], [[uprety][Uprety
+(2020)]] and [[shotwell][Shotwell (2020)]]. To see how R outperforms Python, see
+[[grogan][Grogan (2020)]]. To see some equivalents of SQL in R, check ODSC
+(2018). And for an overview of data science tools beyond Python, R,
+and SQL, see [[gallatin][Gallatin (2018)]]. And here's a neat [[https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis][infographic]] from
+datacamp comparing both for data analysis.
 
-  Of course, there's also always an index - in this case the "TIOBE"
-  index of programming language popularity (based on the languages
-  people search for), see figure [[fig:tiobe]]. As you can see, R improved
-  its position in one year from 20th to 8th. That's by far the
-  strongest improvement of any language among the top 10. Still,
-  Python is three times more search-successful. Neither Python nor SQL
-  have changed their position compared to one year ago. The popularity
-  of R quite likely rides on the popularity of statistics due to the
-  interest in COVID-19 data analysis.
+There are downsides to using R as well, of course, and it has been
+called "hard to learn", too ([[muenchen][Muenchen 2017]]), partly and
+paradoxically because the language is so flexible and
+extensible. Also, some innovations, like the Tidyverse, aren't
+necessarily good for beginners ([[matloff][Matloff 2019]]).
+
+Of course, there's also always an index - in this case the "TIOBE"
+index of programming language popularity (based on the languages
+people search for), see figure [[fig:tiobe]]. As you can see, R improved
+its position in one year from 20th to 8th. That's by far the
+strongest improvement of any language among the top 10. Still,
+Python is three times more search-successful. Neither Python nor SQL
+have changed their position compared to one year ago. The popularity
+of R quite likely rides on the popularity of statistics due to the
+interest in COVID-19 data analysis.
+
   #+end_notes
 
-* OBTAINING AND INSTALLING R FROM CRAN
+** Matloff's 10 Reasons
+
+   #+name: fig:matloff
+   [[./img/tarp.png]]
+
+   Source: [[https://nostarch.com/artofr.htm][The Art of R Programming (2011)]]
+
+* Obtaining and installing R from CRAN
+
   URL: https://cran.r-project.org/mirrors.html
-  #+CAPTION: List of mirrors at CRAN
+
   #+NAME: fig:cran_mirrors
-  #+ATTR_HTML: :height 300 px
-  [[../../img/2_intro/cran_mirrors.png]]
+  #+ATTR_HTML: :width 700 px
+  [[./img/cran.png]]
 
   CRAN = Comprehensive R Archive Network
+
   #+begin_notes
-  Download the installer for your operating system from your local
-  CRAN ("*Comprehensive R Archive Network*") mirror here:
-  https://cran.r-project.org/mirrors.html.
 
-  For example, I am in Berlin and the Nürnberg server is closest to
-  me: https://ftp.fau.de/cran/.
+Download the installer for your operating system from your local
+CRAN ("*Comprehensive R Archive Network*") mirror here:
+https://cran.r-project.org/mirrors.html.
 
-  *Challenge:* Which server would you use if you were in Russia?
-  Does the download page for that server look any different? Check
-  it out! [[mirror][(Hint)]]
+For example, if you are in Berlin, the Nürnberg server is closest:
+https://ftp.fau.de/cran/.
+
+*Challenge:* Which server would you use if you were in Russia?  Does
+the download page for that server look any different? Check it out!
+[[mirror][(Hint)]]
+
+USA: notice that the TX server is at "revolutionanalytics.com",
+which used to be another R IDE bought by Microsoft. Microsoft
+embraced R so fiercely that they even started their own subset of
+it, Microsoft R Open, which you can get from MRAN (Microsoft R
+Application Network). *Can you discern the strategy here?* You can
+get it by reading [[https://cloudblogs.microsoft.com/sqlserver/2021/06/30/looking-to-the-future-for-r-in-azure-sql-and-sql-server/][this series of news flashes]] from Microsoft.
+
+*Which other open source related platforms are now Microsoft?*
+Answer: GitHub
+
   #+end_notes
-** HOW THIS LOOKS IN WINDOWS
-   #+ATTR_HTML: :height 500px
-   [[../../img/2_intro/windows.png]]
+
+** How this looks in Windows
+
+   #+ATTR_HTML: :width 600px
+   [[./img/windows.png]]
+
    #+begin_notes
-   I tried this on a Lenovo laptop running Windows 10 and it worked
-   well:
-   * After opening the ~R..win.exe~ file, a popup asks you if you will
-     let this pogram modify your hard disk. Say "yes" (why is this
-     necessary?[fn:2])
-   * In the installation dialog, accept all settings and check the
-     options for establishing a desktop shortcut and a quick launch
-     icon.
-   * The location of your R program files will be ~C:\Program
-     Files\R~. Once the installation is finished, you should have an
-     icon on your desktop named ~Rx64 4.0.2~ (or whatever your version
-     is).
-   * Double click it to open the R console for the first time. At the
-     ~>~ prompt, type ~1+1~ and ~RETURN~ to see if R can compute. Then
-     type ~demo(graphics)~ and hit ~RETURN~ ("~Enter~") repeatedly to
-     see a few R plots.
-   * I also switched from my integrated (default) graphics card to a
-     "High Performance NVIDIA" graphics card (which I did not know I
-     had!).
-   * To leave, type ~q()~ at the prompt or leave with the ~File > Exit~
-     graphical menu. When asked if you wish to save the workspace, say
-     "no".
-   * When installing a program, a dialog was opened offering me to
-     install packages in a local folder (accept this with "yes").
+
+I tried this on a Lenovo laptop running Windows 10 and it worked:
+
+1) After opening the ~R..win.exe~ file, a popup asks you if you
+   will let this pogram modify your hard disk. Say "yes" (why is
+   this necessary?[fn:2])
+2) In the installation dialog, accept all settings and check the
+   options for establishing a desktop shortcut and a quick launch
+   icon.
+3) The location of your R program files will be ~C:\Program
+   Files\R~. Once the installation is finished, you should have an
+   icon on your desktop named ~Rx64 4.0.2~ (or whatever your
+   version is).
+4) Double click it to open the R console for the first time. At the
+   ~>~ prompt, type ~1+1~ and ~RETURN~ to see if R can
+   compute. Then type ~demo(graphics)~ and hit ~RETURN~ ("~Enter~")
+   repeatedly to see a few R plots.
+5) I also switched from my integrated (default) graphics card to a
+   "High Performance NVIDIA" graphics card (which I did not know I
+   had!).
+6) To leave, type ~q()~ at the prompt or leave with the ~File >
+   Exit~ graphical menu. When asked if you wish to save the
+   workspace, say "no".
+7) When installing a program, a dialog was opened offering me to
+   install packages in a local folder (accept this with "yes").
 
    See [[https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu][this datacamp blog post (March 11, 2020)]] for installation
    instruction for Windows, MacOS X and Ubuntu (Linux).
+
    -----
+
    /(If you have other troubles with R + MacOS, let me know. I have a
    Mac available and may be able to figure something out.)/
+
    #+end_notes
-** HOW THIS LOOKS ON A MAC
+
+** How this looks on a Mac
+
    #+ATTR_HTML: :height 500px
-   [[../../img/2_intro/macos.png]]
+   [[./img/macos.png]]
+
    #+begin_notes
-   * [[https://www.verouden.net/post/2020/04/08/r-installation-macos/][New installation & reconfiguration (2020)]]
 
-   I did this on a MacMini (2014) running MacOS 10.13.6 without too
-   many problems (see below). Essentially the only problem occurred
-   when trying to install packages (discussed later) and I could fix it
-   easily by changing a system setting.
-   * To download and install R for MacOS, go to ~r-project.org~, and
-     click on ~CRAN~ right below the ~Download~ headline. The CRAN
-     mirror page opens. Scroll down to find a German mirror site and
-     click to download the ~.DMG~ installer file, which will install
-     the program.
-   * There were system-level error messages though the program
-     installed alright. But I could not install CRAN packages because
-     of this error:
+[[https://www.verouden.net/post/2020/04/08/r-installation-macos/][    New installation & reconfiguration (2020)]]
 
-     ~tar: Failed to set default locale~
+    I did this on a MacMini (2014) running MacOS 10.13.6 without too
+    many problems (see below). Essentially the only problem occurred
+    when trying to install packages (discussed later) and I could fix it
+    easily by changing a system setting.
 
-     This refers to a problem with the ~tar~ unzip program. I checked
-     ~stackoverflow.com~ and found a fix that in turn directed me back
-     to a [[https://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html#Internationalization-of-the-R_002eapp][CRAN helpfile]] with lots (too much, really) information for
-     Mac users.
-   * To fix the problem, close R, open a terminal and type:
+    1) To download and install R for MacOS, go to ~r-project.org~, and
+    click on ~CRAN~ right below the ~Download~ headline. The CRAN
+    mirror page opens. Scroll down to find a German mirror site and
+    click to download the ~.DMG~ installer file, which will install
+    the program.
 
-     ~defaults write org.R-project.R force.LANG en_US.UTF-8~
+    2) There were system-level error messages though the program
+    installed alright. But I could not install CRAN packages because
+    of this error: ~tar: Failed to set default locale~. This refers
+    to a problem with the ~tar~ unzip program. I checked
+    ~stackoverflow.com~ and found a fix that in turn directed me back
+    to a [[https://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html#Internationalization-of-the-R_002eapp][CRAN helpfile]] with lots (too much, really) information for
+    Mac users.
 
-     Then restart R and the problem should have disappeared (it did
-     for me and never came back).
+    3) To fix the problem, close R, open a terminal and type: ~defaults
+    write org.R-project.R force.LANG en_US.UTF-8~. Then restart R and
+    the problem should have disappeared (it did for me and never came
+    back).
 
-   See also [[https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu][this datacamp blog post (March 11, 2020)]] for installation
-   instruction for Windows, MacOS X and Ubuntu (Linux).
-   -----
-   /(If you have other troubles with R + MacOS, let me know. I have a Mac available and may be able to figure something out.)/
+    See also [[https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu][this datacamp blog post (March 11, 2020)]] for installation
+    instruction for Windows, MacOS X and Ubuntu (Linux).
+
+    -----
+
+    /(If you have other troubles with R + MacOS, let me know. I have a
+    Mac available and may be able to figure something out.)/
+
    #+end_notes
-** INSTALL R NOW
-   [[../../img/kbd.gif]]
+** Install R now
 
-   * Breakout room 1: Windows
-   * Breakout room 2: MacOS
-   * Max. 30 min - return when done
-* OPENING R FOR THE FIRST TIME
+   #+attr_html: :width 420px
+   [[./img/kbd.gif]]
+
+   * Windows people: help each other!
+   * MacOS people: help each other!
+   * Linux people: help each other!
+   * Android/iOS people: bring your laptop
+
+* Opening R for the first time
 
   #+NAME: fig:Rlogo
-  #+ATTR_HTML: :height 400 px
-  [[../../img/2_intro/Rlogo.png]]
+  #+ATTR_HTML: :width 300 px
+  [[./img/Rlogo.png]]
 
   * Go to https://www.r-project.org
   * Check FAQ and "related projects" pages
 
   #+begin_notes
-  In this section, we open R for the first time and look at what
-  emerges. This won't be much but it's a start. Figure [[fig:Rlogo]]
-  shows the logo of the R project.
 
-  *Challenge:* go to the [[https://www.r-project.org/][project home page]]. It's quite minimalist by
-  design. Have a look around, especially check out the [[http://cran.r-project.org/faqs.html][FAQ]] and the
-  "[[https://www.r-project.org/other-projects.html][related projects]]" page, which gives the shortest overview of a
-  number of R application areas. [[r-project][(Hint)]]
+In this section, we open R for the first time and look at what
+emerges. This won't be much but it's a start. Figure [[fig:Rlogo]]
+shows the logo of the R project.
+
+*Challenge:* go to the [[https://www.r-project.org/][project home page]]. It's quite minimalist by
+design. Have a look around, especially check out the [[http://cran.r-project.org/faqs.html][FAQ]] and the
+"[[https://www.r-project.org/other-projects.html][related projects]]" page, which gives the shortest overview of a
+number of R application areas. [[r-project][(Hint)]]
+
   #+end_notes
 
-** VERSION AND PLATFORM
+** Version and platform
 
    #+NAME: fig:cli-1
-   [[../../img/2_intro/opening_R_1.png]]
+   [[./img/opening_R_1.png]]
 
    What type of bit-architecture do you have?
 
@@ -221,10 +265,10 @@
 
    #+end_notes
 
-** DISTRIBUTION LICENSE
+** Distribution license
 
    #+NAME: fig:cli-2
-   [[../../img/2_intro/opening_R_2.png]]
+   [[./img/opening_R_2.png]]
 
    Type ~license()~. What is "GNU"?
 
@@ -244,10 +288,11 @@
    to it? Are there any programs that you have used before? [[gnu][(Hint)]]
    #+end_notes
 
-** THE R PROJECT
+** The R project
+
    #+CAPTION:
    #+NAME: fig:cli-3
-   [[../../img/2_intro/opening_R_3.png]]
+   [[./img/opening_R_3.png]]
 
    * Enter ~citation()~. Why cite software?
    * Enter ~contributors()~. Who can contribute?
@@ -271,10 +316,10 @@
    (like HTML or LaTeX)? [[latex][(Hint)]]
    #+end_notes
 
-** DEMO AND HELP
+** Demo and help
 
    #+NAME: fig:cli-4
-   [[../../img/2_intro/opening_R_4.png]]
+   [[./img/opening_R_4.png]]
 
    * Enter ~demo(graphics)~ and marvel.
    * Enter ~help.start()~ - where is this page?
@@ -314,10 +359,10 @@
    in command-line mode.
    #+end_notes
 
-** WORKING DIRECTORY
+** Working directory
 
    #+NAME: fig:cli-5
-   [[../../img/2_intro/opening_R_5.png]]
+   [[./img/opening_R_5.png]]
 
    * Enter ~getwd()~ ("get working dir")
    * Use ~setwd()~ to change directory
@@ -340,10 +385,10 @@
    will use) is also available within Windows 10 [[posey][(Posey 2018]]).
    #+end_notes
 
-* R "PROMPT"
+* R "prompt"
 
   #+NAME: fig:cli-6
-  [[../../img/2_intro/opening_R_6.png]]
+  [[./img/opening_R_6.png]]
 
   * Change your prompt to your name
   * Change it back to ~"> "~
@@ -360,11 +405,11 @@
   game.
   #+end_notes
 
-* COMPUTING
+* Computing
 
   #+NAME: fig:cli-8
   #+ATTR_HTML: :height 300 px
-  [[../../img/2_intro/opening_R_8.png]]
+  [[./img/opening_R_8.png]]
 
   * Compute "$2\times2$" and print it
   * Do it again with a comment (~#~)
@@ -383,11 +428,13 @@
   ordered in columns and rows.
   #+end_notes
 
-* R PACKAGES
+* R packages
+
   * Contain functions and data sets
   * Must be installed and loaded for use
-    #+attr_html: :height 200px
-    [[../../img/package.gif]]
+
+    #+attr_html: :width 400px
+    [[./img/package.gif]]
 
   * Can be created with relative ease
   * Default data sets: ~?datasets~
@@ -396,7 +443,7 @@
 
    #+NAME: fig:cli-9
    #+attr_html: :width 700px
-   [[../../img/2_intro/opening_R_9.png]]
+   [[./img/opening_R_9.png]]
 
    * install package "~MASS~": enter ~install.packages("MASS")~
 
@@ -428,39 +475,40 @@
 
 ** Check datasets
 
-    #+attr_html: :width 200px
-    [[../../img/MASS.png]]
+   #+attr_html: :width 200px
+   [[./img/MASS.png]]
 
-    * Which datasets are in ~MASS~?
-    * Enter ~data(package="MASS")~
+   * Which datasets are in ~MASS~?
+   * Enter ~data(package="MASS")~
 
-    #+begin_notes
+     #+begin_notes
 
-"MASS" comes from the title of the book "Modern Applied Statistics
-with S" (freely available [[https://www.researchgate.net/publication/224817420_Modern_Applied_Statistics_With_S][via researchgate.net]]).
+"MASS" comes from the title of the book "Modern Applied
+Statistics with S" (freely available [[https://www.researchgate.net/publication/224817420_Modern_Applied_Statistics_With_S][via researchgate.net]]).
 
 Works for R and for its predecessor S.
 
 »S is a language and environment for data analysis originally
 developed at Bell Laboratories (of AT&T and now Lucent
-Technologies). It became the statisti-cian's calculator for the 1990s,
-allowing easy access to the computing power and graphical capabilities
-of modem workstations and personal computers. Various implementations
-have been available, currently S-PLUS, a commercial system from the
-Insightful Corporation1 in Seattle, and R,2 an Open Source system
-writ-ten by a team of volunteers. Both can be run on Windows and a
-range of UNIX / Linux operating systems: R also runs on Macintoshes.«
+Technologies). It became the statisti-cian's calculator for the
+1990s, allowing easy access to the computing power and graphical
+capabilities of modem workstations and personal
+computers. Various implementations have been available, currently
+S-PLUS, a commercial system from the Insightful Corporation1 in
+Seattle, and R,2 an Open Source system writ-ten by a team of
+volunteers. Both can be run on Windows and a range of UNIX /
+Linux operating systems: R also runs on Macintoshes.«
 
 (PDF) Modern Applied Statistics With S. Available from:
 https://www.researchgate.net/publication/224817420_Modern_Applied_Statistics_With_S
 [accessed Jul 08 2021].
 
-    #+end_notes
+     #+end_notes
 
 ** Load package
 
-    #+attr_html: :width 300px
-    [[../../img/MASS1.png]]
+   #+attr_html: :width 300px
+   [[./img/MASS1.png]]
 
    * Load ~MASS~ in current R session
    * Enter ~library(MASS)~
@@ -468,14 +516,14 @@ https://www.researchgate.net/publication/224817420_Modern_Applied_Statistics_Wit
 
 ** Load dataset
 
-    #+attr_html: :width 700px
-    [[../../img/MASS2.png]]
+   #+attr_html: :width 700px
+   [[./img/MASS2.png]]
 
-    * Load the data set "~Boston~"
-    * What is in ~MASS::Boston~?
-    * There are [[https://cran.r-project.org/web/packages/MASS/MASS.pdf][different ways]] to find out!
+   * Load the data set "~Boston~"
+   * What is in ~MASS::Boston~?
+   * There are [[https://cran.r-project.org/web/packages/MASS/MASS.pdf][different ways]] to find out!
 
-    #+begin_notes
+     #+begin_notes
 
 *Challenge:* how many variables (columns) and observations (rows)
 does the dataset ~MASS::Boston~ contain? [[package][(Hint)]]
@@ -488,40 +536,42 @@ functions or datasets with the same name in different packages, the
 ~::~ operator is used. Check with ~??Boston~ if another dataset or
 function with that name is installed. (Answer: no.)
 
-    #+end_notes
+     #+end_notes
 
 ** Explore dataset
 
-    #+attr_html: :width 700px
-    [[../../img/MASS3.png]]
+   #+attr_html: :width 700px
+   [[./img/MASS3.png]]
 
-     * Print first/last lines: ~head()~ / ~tail()~
-     * Show structure: ~str()~
+   * Print first/last lines: ~head()~ / ~tail()~
+   * Show structure: ~str()~
 
 * Leaving R
 
   #+NAME: fig:cli-8
   #+attr_html: :width 600px
-  [[../../img/opening_R_7.png]]
+  [[./img/opening_R_7.png]]
 
   * Leave R with ~q()~
   * Save your workspace with ~y~
   * Check which files were created!
 
   #+begin_notes
-  To leave R, simply type ~quit()~ or ~q()~. R will now ask you if you
-  wish to save your workspace. This includes all variables you may
-  have defined, datasets you may have loaded, and commands you have
-  typed. In your working directory, R has created files for these,
-  ~.Rhistory~ (which is readable) and ~.RData~ (which is not
-  readable). Within one R session, you can call all commands stored in
-  your history using the up and down arrow keys of your keyboard.
+
+To leave R, simply type ~quit()~ or ~q()~. R will now ask you if
+you wish to save your workspace. This includes all variables you
+may have defined, datasets you may have loaded, and commands you
+have typed. In your working directory, R has created files for
+these, ~.Rhistory~ (which is readable) and ~.RData~ (which is not
+readable). Within one R session, you can call all commands stored
+in your history using the up and down arrow keys of your keyboard.
+
   #+end_notes
 
 ** Housekeeping
 
    #+attr_html: :width 600px
-   [[../../img/housekeeping.png]]
+   [[./img/housekeeping.png]]
 
    * Saved R commands: ~.Rhistory~
    * Saved R variables: ~.RData~
@@ -529,16 +579,18 @@ function with that name is installed. (Answer: no.)
    * [[https://stackoverflow.com/questions/1189759/expert-r-users-whats-in-your-rprofile][Sample profiles]]
 
    #+begin_notes
-   In your working directory, R has created files for these, ~.Rhistory~
-   (which is readable) and ~.RData~ (which is not readable). Within one
-   R session, you can call all commands stored in your history using
-   the up and down arrow keys of your keyboard.
+
+In your working directory, R has created files for these, ~.Rhistory~
+(which is readable) and ~.RData~ (which is not readable). Within one
+R session, you can call all commands stored in your history using
+the up and down arrow keys of your keyboard.
+
    #+end_notes
 
 ** Customize startup
 
    #+attr_html: :width 400px
-   [[../../img/kbd.gif]]
+   [[./img/kbd.gif]]
 
    * Create a file ~.Rprofile~:
 
@@ -550,11 +602,10 @@ function with that name is installed. (Answer: no.)
 
    * To check: restart R, re-install ~MASS~
 
-
 * The RStudio IDE
 
   #+attr_html: :width 500px
-  [[../../img/2_intro/rstudio.png]]
+  [[./img/rstudio.png]]
 
   * Use it at your own [[https://moodle.hwr-berlin.de/mod/book/view.php?id=939064&chapterid=8130][peril]]!
   * Give [[https://moodle.hwr-berlin.de/mod/book/view.php?id=939064&chapterid=7712][Emacs]] + ESS a chance!
@@ -571,7 +622,8 @@ function with that name is installed. (Answer: no.)
   * When you open R, you establish a working *environment*, which
     includes packages, functions and variables.
 
-* CODE SUMMARY I
+* Code summary i
+
   | ~license()~, ~licence()~    | License info        |
   | ~help()~, ~?help~, ~??cars~ | get help            |
   | ~demo()~                    | R demos             |
@@ -580,7 +632,9 @@ function with that name is installed. (Answer: no.)
   | ~print(1+1)~                | result of ~1+1~     |
   | ~quit()~, ~q()~             | leave R             |
   | ~# ...~                     | comment             |
-* CODE SUMMARY II
+
+* Code summary ii
+
   | ~library("MASS")~            | load              |
   | ~install.packages("MASS")~   | install           |
   | ~installed.packages()~       | list all packages |
@@ -588,16 +642,16 @@ function with that name is installed. (Answer: no.)
   | ~packageDescription("MASS")~ | describe          |
   | ~help(package="MASS")~       | show              |
   | ~data()~                     | built-in datasets |
-* WHAT NEXT?
 
-  [[../../img/2001.gif]]
+* What next?
 
-** WHAT NOW? READ!
+  [[./img/2001.gif]]
+
+** What now? read!
 
    #+NAME: fig:read
    #+ATTR_HTML: :width 600 px
-   #+ATTR_ORG: :width 600 px
-   [[../../img/2_intro/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg]]
+   [[./img/read.jpg]]
 
    * Read frequently and widely
    * Go both deep and stay shallow
@@ -623,12 +677,11 @@ function with that name is installed. (Answer: no.)
    idea of the spread of information.
    #+end_notes
 
-** WHAT NOW? PLAY!
+** What now? play!
 
    #+NAME: fig:play
    #+ATTR_HTML: :width 600 px
-   #+ATTR_ORG: :width 600 px
-   [[../../img/2_intro/sigmund-OV44gxH71DU-unsplash.jpg]]
+   [[./img/play.jpg]]
 
    [[https://drkeithmcnulty.com/2020/06/23/data-scientists-should-learn-through-play/][Data Scientists Should Learn Through Play]]
 
@@ -647,16 +700,17 @@ function with that name is installed. (Answer: no.)
    teaching videos, of course, either.
    #+end_notes
 
-** What's next?
+** What's the next topic?
 
-   | Arithmetic with R: | Just numbers!     |
-   | Vectors in R:      | The workhorse     |
+   [[./img/maths.gif]]
+
+   Arithmetic with R
 
 * Thank you! Questions?
 
-  [[../../img/kennedy.gif]]
+  [[./img/kennedy.gif]]
 
-* REFERENCES
+* References
   <<references>>
   * <<alvarez>> Adolfo Alvarez (25 Mar 2019). R Packages: A Beginner's
     Guide. Online: [[https://www.datacamp.com/community/tutorials/r-packages-guide][datacamp.com]].

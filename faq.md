@@ -1,18 +1,28 @@
 
 # Table of Contents
 
-1.  [Are we going to use RStudio?](#orgeee3acc)
-2.  [Which editor do you use?](#org67d7206)
+1.  [What is this?](#org0129ea1)
+2.  [Are we going to use RStudio?](#org6ac2747)
+3.  [Which editor do you use?](#org1b6d448)
 
 
-<a id="orgeee3acc"></a>
+<a id="org0129ea1"></a>
+
+# What is this?
+
+This is a Frequently Asked Questions (FAQ) file for the course DSC
+
+1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
+
+
+<a id="org6ac2747"></a>
 
 # Are we going to use RStudio?
 
 No. [RStudio](https://rstudio.com/) is worth checking out, and it may well be what you use
 later in your data science career, but I think it is much too
 complex for beginners, and not really necessary at all. See
-screenshot in figure [2](#org31c55de).
+screenshot in figure [4](#orge8ccd4d).
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/rstudio.png)
 
@@ -34,7 +44,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org67d7206"></a>
+<a id="org1b6d448"></a>
 
 # Which editor do you use?
 
@@ -57,7 +67,7 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [12](#org177d2fd) shows four (out of an arbitrary number of)
+Thee figure [14](#orge3af0d0) shows four (out of an arbitrary number of)
 panels inside the editor 
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)

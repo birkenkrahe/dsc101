@@ -1,3 +1,8 @@
+* What is this?
+
+  This is a Frequently Asked Questions (FAQ) file for the course DSC
+  101. For the FAQs across courses, see the [[https://github.com/birkenkrahe/org][org repo]].
+
 * Are we going to use RStudio?
   No. [[https://rstudio.com/][RStudio]] is worth checking out, and it may well be what you use
   later in your data science career, but I think it is much too

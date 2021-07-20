@@ -3,6 +3,12 @@
 #+SUBTITLE: DSC101 Diary
 #+STARTUP: hideblocks
 #+options: ^:nil toc:1
+* What is this?
+
+  A place for irregular articles of possible interest to students of
+  the DSC 101 course, mostly to avoid lengthy emails and to park
+  content that I may want to develop later on time permitting.
+
 * Redrawing Google trend chart (07-13-2021)
 Spent an afternoon rekindling some skills. Mean to show this during
 the introduction to datascience lecture but I probably won't get
@@ -131,7 +137,6 @@ couple of hours because I was quite out of shape.
              ylab="Average interest (2004-2021)",
              col=c("blue","red"))
    #+end_src
-
 
 * Data science process (07-15-2021)
 

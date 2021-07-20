@@ -1,12 +1,22 @@
 
 # Table of Contents
 
-1.  [Redrawing Google trend chart (07-13-2021)](#orgd89b110)
-2.  [Data science process (07-15-2021)](#org8780901)
+1.  [What is this?](#orgb3a49d7)
+2.  [Redrawing Google trend chart (07-13-2021)](#org63614dc)
+3.  [Data science process (07-15-2021)](#orgea3ee7a)
 
 
 
-<a id="orgd89b110"></a>
+<a id="orgb3a49d7"></a>
+
+# What is this?
+
+A place for irregular articles of possible interest to students of
+the DSC 101 course, mostly to avoid lengthy emails and to park
+content that I may want to develop later on time permitting.
+
+
+<a id="org63614dc"></a>
 
 # Redrawing Google trend chart (07-13-2021)
 
@@ -190,14 +200,14 @@ For some simple examples, see this [short tutorial](http://www.sthda.com/english
     	col=c("blue","red"))
 
 
-<a id="org8780901"></a>
+<a id="orgea3ee7a"></a>
 
 # Data science process (07-15-2021)
 
 I was digging around my notes made for an online test lecture on May
 19, on "Exploring data with R" (see [presentation](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf) & [notes](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_notes.pdf)), for an
 update on a [data science overview lecture](https://github.com/birkenkrahe/dsc101/tree/main/2_datascience). For this talk, I had
-developed the model shown in figure [10](#org4a672b1): there are two pathways
+developed the model shown in figure [11](#org979cbac): there are two pathways
 towards machine learning. One pathway relied more on coding and
 algorithms (traditionally taught in CS programs), the other one
 relied more on modeling and heuristics (traditionally taught in
@@ -214,13 +224,13 @@ experience of a CS professor that some CS students with more than
 average interest in mathematics wanted to specialize on data
 science. The other one related to my experience with exploratory
 data analysis as a way of solving hard, data rich problems for real
-clients (see figure [13](#org0f1b9ec)). 
+clients (see figure [14](#org17d51dc)). 
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png)
 
 I added this to the other two data science workflow images that I
 already had in the lecture. And I added yet another one (see figure
-[15](#orgede0079)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
+[16](#org33fe8bd)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
 how everything comes back and returns to the "real world" here, and
 the feedback loop provided by the data analysis "pipeline".
 

@@ -2,11 +2,8 @@
 
 # What's in this repo?
 
-
-## Repository for DSC 101 - Data science methods and tools.
-
-
-## Emacs Org-mode files (rendered as Markdown)
+-   Repository for DSC 101 - Data science methods and tools.
+-   Emacs Org-mode files are rendered as Markdown.
 
 
 ## [Course diary](https://github.com/birkenkrahe/dsc101/blob/main/diary.md)
@@ -18,7 +15,9 @@
 ## [Frequently Asked Questions (FAQ)](https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md)
 
 
-## [Jupyter notebooks](https://github.com/birkenkrahe/dsc101/tree/main/notebooks) (via [Google Colaboratory](https://colab.to/r))
+## [Jupyter notebooks](https://github.com/birkenkrahe/dsc101/tree/main/notebooks)
+
+Via [Google Colaboratory](https://colab.to/r)
 
 
 ## Syllabus

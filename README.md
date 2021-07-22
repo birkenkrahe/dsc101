@@ -1,11 +1,4 @@
 
-# Table of Contents
-
-1.  [What's in this repo?](#org87532e7)
-
-
-
-<a id="org87532e7"></a>
 
 # What's in this repo?
 

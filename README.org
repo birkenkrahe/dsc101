@@ -9,7 +9,7 @@
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md][Course diary]]
 ** [[https://github.com/birkenkrahe/dsc101/discussions][Discussion forums]]
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md][Frequently Asked Questions (FAQ)]]
-** Jupyter notebooks (via Google Colaboratory)
+** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] (via [[https://colab.to/r][Google Colaboratory]])
 ** Syllabus
 ** History
 

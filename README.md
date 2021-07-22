@@ -18,7 +18,7 @@
 ## [Frequently Asked Questions (FAQ)](https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md)
 
 
-## Jupyter notebooks (via Google Colaboratory)
+## [Jupyter notebooks](https://github.com/birkenkrahe/dsc101/tree/main/notebooks) (via [Google Colaboratory](https://colab.to/r))
 
 
 ## Syllabus

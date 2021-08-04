@@ -55,11 +55,6 @@
   #+name: fig:emacs
   https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png
 
-* TODO How can you submit assignments?                           :dsc101:faq:
-  DEADLINE: <2021-07-22 Do>
-  
-  * [[https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository][Inviting collaborators to a personal GitHub repo]]
-
 * Footnotes
 
 [fn:2]Actually, Emacs is written in a dialect of Lisp, EmacsLisp

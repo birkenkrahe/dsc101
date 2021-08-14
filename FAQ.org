@@ -7,7 +7,7 @@
   No. [[https://rstudio.com/][RStudio]] is worth checking out, and it may well be what you use
   later in your data science career, but I think it is much too
   complex for beginners, and not really necessary at all. See
-  screenshot in figure [[fig:rstudio]].
+  screenshot in the figure below:
 
   #+name: fig:rstudio
   https://github.com/birkenkrahe/dsc101/blob/main/img/rstudio.png

@@ -9,3 +9,6 @@
 
 # ignore javascript
 reveal.js
+
+# ignore .tex files
+*.tex

@@ -224,12 +224,13 @@ rounding up).
 
 ### DataCamp assignments (15%)
 
-24 chapters of DataCamp lessons will be assigned to you. To
+Chapters of several DataCamp courses will be assigned to you. To
 complete a chapter takes 20-30 minutes per week. If you complete
-all chapters, you get five free data science certificates that you
-can add to your resume (or to career management portals like
-LinkedIn - see [my LinkedIn profile](https://www.linkedin.com/in/birkenkrahe) for an example). Your DataCamp
-assignment completion rate will enter the final grade cumulatively.
+these courses, you get data science certificates that you can add
+to your resume (or to career management portals like LinkedIn -
+see [my LinkedIn profile](https://www.linkedin.com/in/birkenkrahe) for an example), or frame and put them on
+your wall. Your DataCamp assignment completion rate will enter the
+final grade cumulatively.
 
 
 ### Tests (15%)
@@ -592,140 +593,133 @@ scheduled time, and we can make arrangements when you return.
 <tr>
 <td class="org-left">17-Aug</td>
 <td class="org-left">**Course overview**</td>
-<td class="org-left">[Introduction to R:](https://learn.datacamp.com/courses/free-introduction-to-r)</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">19-Aug</td>
 <td class="org-left">**Data science overview**</td>
-<td class="org-left">- Intro to basics</td>
+<td class="org-left">Intro to Basics</td>
 </tr>
 
 
 <tr>
 <td class="org-left">24-Aug</td>
 <td class="org-left">**The R shell**</td>
-<td class="org-left">- Vectors</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">26-Aug</td>
 <td class="org-left">**The R environment**</td>
-<td class="org-left">- Matrices</td>
+<td class="org-left">Vectors</td>
 </tr>
 
 
 <tr>
 <td class="org-left">31-Aug</td>
 <td class="org-left">**Vectors**</td>
-<td class="org-left">- Factors</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">2-Sep</td>
 <td class="org-left">**Data frames**</td>
-<td class="org-left">- Data frames</td>
+<td class="org-left">Matrices</td>
 </tr>
 
 
 <tr>
 <td class="org-left">7-Sep</td>
 <td class="org-left">**Factor vectors**</td>
-<td class="org-left">- Lists</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">9-Sep</td>
 <td class="org-left">**Lists in R**</td>
-<td class="org-left">[Intermediate R](https://learn.datacamp.com/courses/intermediate-r):</td>
+<td class="org-left">Factors</td>
 </tr>
 
 
 <tr>
 <td class="org-left">14-Sep</td>
 <td class="org-left">**`Nile` exploration**</td>
-<td class="org-left">- Conditionals</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">16-Sep</td>
 <td class="org-left">**Visualization**</td>
-<td class="org-left">- Loops</td>
+<td class="org-left">Data frames</td>
 </tr>
 
 
 <tr>
 <td class="org-left">21-Sep</td>
 <td class="org-left">**Base R graphics**</td>
-<td class="org-left">- Functions</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">23-Sep</td>
-<td class="org-left">Writing functions</td>
-<td class="org-left">- The `apply` family</td>
+<td class="org-left">**Literate Programming**</td>
+<td class="org-left">Lists</td>
 </tr>
 
 
 <tr>
 <td class="org-left">28-Sep</td>
 <td class="org-left">Iteration I</td>
-<td class="org-left">- Utilities</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">30-Sep</td>
 <td class="org-left">Fibonacci series</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Conditionals</td>
 </tr>
 
 
 <tr>
 <td class="org-left">7-Oct</td>
-<td class="org-left">**Literate Programming**</td>
-<td class="org-left">[Data Visualization:](https://learn.datacamp.com/courses/data-visualization-in-r)</td>
+<td class="org-left">Conditions</td>
+<td class="org-left">Loops</td>
 </tr>
 
 
 <tr>
 <td class="org-left">12-Oct</td>
-<td class="org-left">Conditions</td>
-<td class="org-left">- Base R graphics</td>
-</tr>
-
-
-<tr>
-<td class="org-left">14-Oct</td>
 <td class="org-left">EDA example I</td>
-<td class="org-left">- Different plot types</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">14-Oct</td>
 <td class="org-left">Linear regression I</td>
-<td class="org-left">- Adding details to plots</td>
+<td class="org-left">Functions</td>
 </tr>
 
 
 <tr>
 <td class="org-left">19-Oct</td>
 <td class="org-left">Object-orientation</td>
-<td class="org-left">- How much is too much?</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">21-Oct</td>
 <td class="org-left">EDA example II</td>
-<td class="org-left">- Plot customization</td>
+<td class="org-left">The apply family</td>
 </tr>
 
 
@@ -739,35 +733,35 @@ scheduled time, and we can make arrangements when you return.
 <tr>
 <td class="org-left">28-Oct</td>
 <td class="org-left">Grammar of Graphics</td>
-<td class="org-left">[Regression in R](https://learn.datacamp.com/courses/introduction-to-regression-in-r):</td>
+<td class="org-left">Base R graphics</td>
 </tr>
 
 
 <tr>
 <td class="org-left">2-Nov</td>
 <td class="org-left">Functional Programming</td>
-<td class="org-left">- Simple linear regression</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">4-Nov</td>
 <td class="org-left">Text mining I</td>
-<td class="org-left">- Predictions and models</td>
+<td class="org-left">Different plot types</td>
 </tr>
 
 
 <tr>
 <td class="org-left">9-Nov</td>
 <td class="org-left">Text mining II</td>
-<td class="org-left">- Assessing model fit</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">11-Nov</td>
 <td class="org-left">Linear regression II</td>
-<td class="org-left">- Simple logistic regression</td>
+<td class="org-left">Adding details to plots</td>
 </tr>
 
 
@@ -781,35 +775,28 @@ scheduled time, and we can make arrangements when you return.
 <tr>
 <td class="org-left">18-Nov</td>
 <td class="org-left">Coding style</td>
-<td class="org-left">[Text mining (Bag-of-Words)](https://learn.datacamp.com/courses/text-mining-with-bag-of-words-in-r)</td>
+<td class="org-left">How much is too much</td>
 </tr>
 
 
 <tr>
 <td class="org-left">23-Nov</td>
 <td class="org-left">Logistic regression</td>
-<td class="org-left">- Basics of Bag-of-Words</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">30-Nov</td>
 <td class="org-left">Team presentations</td>
-<td class="org-left">- Word clouds and visuals</td>
+<td class="org-left">Plot customization</td>
 </tr>
 
 
 <tr>
 <td class="org-left">2-Dec</td>
 <td class="org-left">Team presentations</td>
-<td class="org-left">- Text mining techniques</td>
-</tr>
-
-
-<tr>
-<td class="org-left">2-Dec</td>
-<td class="org-left">Team presentations</td>
-<td class="org-left">- Text mining case study</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>

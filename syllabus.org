@@ -319,7 +319,7 @@
 
 ** Schedule and session content
 
-   | *Date* | *Lectures*              | *DataCamp*              |
+   | *Date* | *Lectures*              | *Assignments*           |
    |--------+-------------------------+-------------------------|
    | 17-Aug | *Course overview*       |                         |
    | 19-Aug | *Data science overview* | Intro to Basics         |

@@ -1,6 +1,6 @@
 #+TITLE:DSC 101 Fall 2021 Syllabus
 #+AUTHOR: Marcus Birkenkrahe
-#+SUBTITLE: Lyon College Data Science Program
+#+SUBTITLE: Data Science Methods and Tools
 #+options: toc:nil
 * General Course Information
 

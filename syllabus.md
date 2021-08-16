@@ -439,9 +439,9 @@ Details about what constitutes acceptable and unacceptable student collaboration
 There will be numerous assignments during the semester -
 programming, lessons, tests, and sprint reviews. They are due at
 the beginning of the class period on the due date. Once class
-begins, the assigment will be considered one day late if it has
-not been turned in.  Late programs will not be accepted without an
-extension.  Extensions will not be granted for reasons such as:
+begins, the assigment will be considered one day late if it has not
+been turned in.  Late programs will not be accepted without an
+extension.  Extensions will **not** be granted for reasons such as:
 
 -   You could not get to a computer
 -   You could not get a computer to do what you wanted it to do
@@ -454,19 +454,19 @@ extension.  Extensions will not be granted for reasons such as:
 
 Put “Pledged” and a note of any collaboration in the comments of
 any program you turn in. Programming assignments are individual
-efforts, but you may seek assistance from another student or me.
-You may not copy someone else’s solution.  If you are having
-trouble finishing an assignment, it is far better to do your own
-work and receive a low score than to go through an honor trial and
-suffer the penalties that may be involved.
+efforts, but you may seek assistance from another student or the
+course instructor.  You may not copy someone else’s solution. If
+you are having trouble finishing an assignment, it is far better to
+do your own work and receive a low score than to go through an
+honor trial and suffer the penalties that may be involved.
 
 What is cheating on an assignment? Here are a few examples:
 
--   Having someone else write your program, in whole or in part
--   Copying a program someone else wrote, in whole or in part
--   Collaborating with someone else to the extent that your programs
-    are identifiably very similar, in whole or in part
--   Turning in a program with the wrong name on it
+-   Having someone else write your assignment, in whole or in part
+-   Copying an assignment someone else wrote, in whole or in part
+-   Collaborating with someone else to the extent that your
+    submissions are identifiably very similar, in whole or in part
+-   Turning in a submission with the wrong name on it
 
 What is not cheating?  Here are some examples:
 
@@ -474,12 +474,13 @@ What is not cheating?  Here are some examples:
     an assignment
 -   Asking someone for help with a specific error message or bug in
     your program
--   Getting help with the specifics of language syntax
+-   Getting help with the specifics of language syntax or citation
+    style
 -   Utilizing information given to you by the instructor
 
 Any assistance must be clearly explained in the comments at the
-beginning of your program.  If you have any questions about this,
-please ask or review the policies relating to the Honor Code.
+beginning of your submission.  If you have any questions about
+this, please ask or review the policies relating to the Honor Code.
 
 Absences on Days of Exams:
 

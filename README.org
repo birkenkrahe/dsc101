@@ -12,7 +12,7 @@
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md][Frequently Asked Questions (FAQ)]]
 ** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] 
    Via [[https://colab.to/r][Google Colaboratory]]
-** Syllabus
+** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]]
 ** History
 
    First offered @Lyon: Fall 2021 (Undergrad). Previous versions @HWR:

@@ -20,7 +20,7 @@
 Via [Google Colaboratory](https://colab.to/r)
 
 
-## Syllabus
+## [Syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md)
 
 
 ## History

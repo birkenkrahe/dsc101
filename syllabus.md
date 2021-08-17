@@ -584,9 +584,9 @@ scheduled time, and we can make arrangements when you return.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">**Date**</th>
-<th scope="col" class="org-left">**Lectures**</th>
-<th scope="col" class="org-left">**Assignments**</th>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Lectures</th>
+<th scope="col" class="org-left">Assignments</th>
 </tr>
 </thead>
 

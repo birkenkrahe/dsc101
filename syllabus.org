@@ -49,7 +49,7 @@
 ** Grading system
 
    |-----------+----------------------+--------+--------|
-   | When      | Description          | Impact | Graded |
+   | WHEN      | DESCRIPTION          | IMPACT | GRADED |
    |-----------+----------------------+--------+--------|
    | Weekly    | DataCamp assignment  |    15% | No     |
    | Weekly    | Weekly tests         |    15% | No     |
@@ -65,7 +65,7 @@
     rounding up).
 
     |--------+-----------------+---------------|
-    |    *%* | *Midterm Grade* | *Final Grade* |
+    |    %   | MIDTERM GRADE   | FINAL GRADE   |
     |--------+-----------------+---------------|
     | 100-98 | A+              |               |
     |  97-96 | A               | A             |
@@ -127,7 +127,7 @@
 
     At midterms, student X has achieved the following results:
 
-    | *Grade part*         | *Weight* | *Result* |
+    | Grade part           | Weight   | Result   |
     |----------------------+----------+----------|
     | Tests                |      15% | 72%      |
     | DataCamp assignment  |      15% | 100%     |
@@ -154,7 +154,7 @@
 
     After the finals, student X has achieved the following results:
 
-    | *Grade part*         | *Weight* | *Result* |
+    | Grade part           | Weight   | Result   |
     |----------------------+----------+----------|
     | Tests                |      15% |      72% |
     | DataCamp assignment  |      15% |     100% |
@@ -305,7 +305,7 @@
 
 ** Important Dates:
 
-   | *Date*         | *Description*                              |
+   | DATE           | DESCRIPTION                                |
    |----------------+--------------------------------------------|
    | August 30      | Last day to drop w/o record of a course    |
    | September 6    | Labor day (no classes)                     |
@@ -320,7 +320,7 @@
 
 ** Schedule and session content
 
-   | Date   | Lectures                | Assignments             |
+   | DATE   | LECTURES                | ASSIGNMENTS             |
    |--------+-------------------------+-------------------------|
    | 17-Aug | *Course overview*       |                         |
    | 19-Aug | *Data science overview* | Intro to Basics         |

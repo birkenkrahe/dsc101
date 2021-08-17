@@ -64,10 +64,10 @@ literacy skills by taking this course.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">When</th>
-<th scope="col" class="org-left">Description</th>
-<th scope="col" class="org-right">Impact</th>
-<th scope="col" class="org-left">Graded</th>
+<th scope="col" class="org-left">WHEN</th>
+<th scope="col" class="org-left">DESCRIPTION</th>
+<th scope="col" class="org-right">IMPACT</th>
+<th scope="col" class="org-left">GRADED</th>
 </tr>
 </thead>
 
@@ -125,9 +125,9 @@ rounding up).
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">**%**</th>
-<th scope="col" class="org-left">**Midterm Grade**</th>
-<th scope="col" class="org-left">**Final Grade**</th>
+<th scope="col" class="org-right">%</th>
+<th scope="col" class="org-left">MIDTERM GRADE</th>
+<th scope="col" class="org-left">FINAL GRADE</th>
 </tr>
 </thead>
 
@@ -282,9 +282,9 @@ At midterms, student X has achieved the following results:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">**Grade part**</th>
-<th scope="col" class="org-right">**Weight**</th>
-<th scope="col" class="org-right">**Result**</th>
+<th scope="col" class="org-left">Grade part</th>
+<th scope="col" class="org-right">Weight</th>
+<th scope="col" class="org-right">Result</th>
 </tr>
 </thead>
 
@@ -323,9 +323,9 @@ After the finals, student X has achieved the following results:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">**Grade part**</th>
-<th scope="col" class="org-right">**Weight**</th>
-<th scope="col" class="org-right">**Result**</th>
+<th scope="col" class="org-left">Grade part</th>
+<th scope="col" class="org-right">Weight</th>
+<th scope="col" class="org-right">Result</th>
 </tr>
 </thead>
 
@@ -502,8 +502,8 @@ scheduled time, and we can make arrangements when you return.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">**Date**</th>
-<th scope="col" class="org-left">**Description**</th>
+<th scope="col" class="org-left">DATE</th>
+<th scope="col" class="org-left">DESCRIPTION</th>
 </tr>
 </thead>
 
@@ -584,9 +584,9 @@ scheduled time, and we can make arrangements when you return.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">Date</th>
-<th scope="col" class="org-left">Lectures</th>
-<th scope="col" class="org-left">Assignments</th>
+<th scope="col" class="org-left">DATE</th>
+<th scope="col" class="org-left">LECTURES</th>
+<th scope="col" class="org-left">ASSIGNMENTS</th>
 </tr>
 </thead>
 

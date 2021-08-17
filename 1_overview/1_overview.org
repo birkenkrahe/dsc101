@@ -2,7 +2,7 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+Subtitle: Data Science Tools and Methods
 #+STARTUP: hideblocks
-#+OPTIONS: toc:1 num:nil ^:nil
+#+OPTIONS: toc:nil num:nil ^:nil
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
 #+INFOJS_OPT: :view:info
@@ -109,10 +109,10 @@
    Image source: [[https://unsplash.com/photos/SCtlFdgTw1A][unsplash]]
    #+end_notes
 
-** Schedule
+** Schedule (see [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]])
 
    #+attr_html: :width 500px
-   [[./img//schedule.png]]
+   [[./img/schedule.png]]
 
 * How will we do it?
   #+attr_html: :height 500px
@@ -120,25 +120,27 @@
 ** Classroom sessions
 
    #+attr_html: :height 500px
-   [[./img/bbb.png]]
+   [[./img/classroom.png]]
 
 ** Lecture scripts with exercises ([[https://github.com/birkenkrahe/dsc101][GitHub]])
 
    #+attr_html: :width 600px
    [[./img/github.png]]
 
-** Reading assignments
+** Reading suggestions
 
    #+attr_html: :width 600px
    [[./img//reading.jpg]]
 
-   Norman Matloff (2020):
-
-   [[https://github.com/matloff/fasteR][fasteR: Fast Lane to Learning R!]]
+   * Matloff: [[https://github.com/matloff/fasteR][fasteR: Fast Lane to Learning R!]] (2021)
+   * Matloff: [[https://archive.org/details/Norman_Matloff___The_Art_of_R_Programming][The Art of R Programming]] (2011) 
 
    #+begin_notes
+
+   * Matloff TARP available for free from the Internet Archive
    * Davies, [[https://nostarch.com/bookofr][The Book of R]], NoStarch Press (2016)
    * Irizarry, [[https://rafalab.github.io/dsbook/][Introduction to Data Science]] (2020)
+
    #+end_notes
 
 ** Video lectures ([[https://youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz][YouTube]])
@@ -146,12 +148,12 @@
    #+attr_html: :width 600px
    [[./img/youtube.png]]
 
-** Online assignments ([[https://www.datacamp.com/enterprise/introduction-to-data-science-master-accounting-program/teams/504092-bpm/assignments][DataCamp]])
+** Online assignments ([[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp]])
 
    #+attr_html: :width 500px
    [[./img/datacamp.png]]
 
-   * [[https://moodle.hwr-berlin.de/mod/url/view.php?id=964817][Register at DataCamp]]
+   * [[https://www.datacamp.com/groups/shared_links/84ae67f173ce6ab5a3eb63c5a552b7a6ca19f30331cbfb1380a0de328c21827d][Register at DataCamp]] today!
 
 ** Team EDA project
 
@@ -170,18 +172,20 @@
 
 ** Podcasts and feeds
 
-   #+attr_html: :height 550px
+   #+attr_html: :height 400px
    [[./img/feeds.png]]
+
+   Shared via GitHub / Schoology
 
 ** Summary of course activities
 
-   * Weekly classroom meetings
+   * Twice weekly classroom meetings
    * Lecture scripts (GitHub)
    * Reading assignments (Online)
    * Video lectures (YouTube)
-   * Online assignments (DataCamp)
-   * Team EDA projects (Sprints)
-   * Tests and final exam
+   * *Online assignments* (DataCamp)
+   * *Team EDA projects* (Sprints)
+   * *Tests and final exam*
    * Podcasts and feeds
 
 * What do you have to do to pass?
@@ -194,7 +198,7 @@
    #+attr_html: :height 450px
    [[./img/assignment.png]]
 
-   Complete 12 of 24 assignments
+   Complete at least 8 of 15 assignments
 
 ** Team project (> 50%)
 
@@ -216,7 +220,7 @@
 *** Do you have project examples?
 
     * Examples on Kaggle ([[https://www.kaggle.com/ekrembayar/election-2016-trump-clinton-spatial-visualization][example]])
-    * Examples on data science blogs ([[https://towardsdatascience.com/how-much-is-a-data-scientist-worth-in-2020-34d5903b606b][example]])
+    * Examples on data science blogs ([[https://rweekly.org/][example]])
     * Translate from Python to R ([[https://theartandscienceofdata.wordpress.com/2021/02/20/funniest-friends/][example]])
     * Extend someone else's EDA ([[https://towardsdatascience.com/what-matters-in-speed-dating-34d29102f6cb][example]])
     * Document an R package ([[https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3][example]])
@@ -225,8 +229,8 @@
 *** Can I do a project as an absolute beginner?
 
     * Keep It Simply Scientific (IMRaD)
-    * Look at examples (e.g. [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]])
-    * Create data set (e.g. productivity)
+    * Look at examples (e.g. in my [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]])
+    * Create data set (e.g. your productivity)
     * Researchers are beginners
 
 ** Final exam (> 50%)
@@ -250,15 +254,15 @@
 
 ** Your challenges
 
-   | What?                          | When?  |
-   |--------------------------------+--------|
-   | Register at DataCamp           | Today  |
-   | Register at GitHub             | Today  |
-   | Complete test challenge*       | Aug 19 |
-   | Complete DataCamp assignment*  | Aug 24 |
-   | Set up team project (2-3 ppl)* | Sep 2  |
-   | Check FAQs[fn:1]                     | n.d.   |
-   | Ask questions (class/GitHub)   | n.d.   |
+   | What?                           | When?  |
+   |---------------------------------+--------|
+   | *Register at DataCamp*          | Today  |
+   | Register at GitHub              | Today  |
+   | *Complete test challenge*       | Aug 24 |
+   | *Complete DataCamp assignment*  | Aug 24 |
+   | *Set up team project (2-3 ppl)* | Sep 2  |
+   | Check FAQs x 2 in GitHub        | n.d.   |
+   | Ask questions (class/GitHub)    | n.d.   |
 
    /*) do this every week until December/
 
@@ -267,9 +271,5 @@
   #+attr_html: :height 400px
   [[./img/stonehenge.gif]]
 
-  A PDF of this presentation is available.
+  [[https://github.com/birkenkrahe/dsc101/tree/main/1_overview][A copy of this presentation is available.]]
 
-* Footnotes
-
-[fn:1]There is a FAQ for all my courses in this repo, and a FAQ for
-this particular course in the current repo.

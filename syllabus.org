@@ -8,7 +8,7 @@
   * Meeting place: Derby 209 (CS research lab)
   * Professor: Marcus Birkenkrahe
   * Office: Derby 210
-  * Phone: (501) 422-4725
+  * Phone: (870) 307-7254
   * Office hours: Mon/Wed/Fri 10:00-10:30 AM; Tue/Thu 4-4:30 PM
   * Text: /The Art of R Programming - A Tour of Statistical Software
     Design/, by Norman Matloff, NoStarch Press (2011).

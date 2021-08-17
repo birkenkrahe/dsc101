@@ -1,45 +1,45 @@
 
 # Table of Contents
 
--   [What're you going to learn today?](#orgf090d52)
--   [Who am I?](#org2e5a177)
-    -   [Science](#org87f7a64)
-    -   [Industry](#orgd9af45c)
-    -   [Teaching](#org9a4b916)
-    -   [Pleasure](#org7af177e)
--   [What are your expectations?](#org724e41e)
--   [Which topics will we cover?](#org6bbbb8e)
-    -   [Introduction to data science](#orgeff1ad9)
-    -   [Introduction to R programming](#org2dbff76)
-    -   [Visualization using R](#orgf926df1)
-    -   [FasteR approach](#org8fc97fe)
-    -   [Schedule](#org1c67e6e)
--   [How will we do it?](#org230797a)
-    -   [Classroom sessions](#orge910169)
-    -   [Lecture scripts with exercises (GitHub)](#org3b02c32)
-    -   [Reading assignments](#org364b443)
-    -   [Video lectures (YouTube)](#org0f1d583)
-    -   [Online assignments (DataCamp)](#org654e76e)
-    -   [Team EDA project](#org0705824)
-    -   [Agile project management](#org25a8499)
-    -   [Tests and final exam](#orgd59377d)
-    -   [Podcasts and feeds](#org4b5f8c6)
-    -   [Summary of course activities](#org5f0f9bc)
--   [What do you have to do to pass?](#orgea58af9)
-    -   [DataCamp assignments (> 50%)](#org4849486)
-    -   [Team project (> 50%)](#orge155b22)
-        -   [What is a team project?](#org45af56b)
-        -   [Do you have project examples?](#org510c3da)
-        -   [Can I do a project as an absolute beginner?](#org2fd3f96)
-    -   [Final exam (> 50%)](#org43397e5)
--   [What's next?](#orgcf4c1a5)
-    -   [In the course](#org4fbf6da)
-    -   [Your challenges](#org291afc2)
--   [Any questions?](#org800d10c)
+-   [What're you going to learn today?](#orgbd49541)
+-   [Who am I?](#org7cac969)
+    -   [Science](#orga1fb7c4)
+    -   [Industry](#org5049a24)
+    -   [Teaching](#orgc17c7fe)
+    -   [Pleasure](#orgee9f83e)
+-   [What are your expectations?](#org7665747)
+-   [Which topics will we cover?](#org35c2025)
+    -   [Introduction to data science](#org5dcef42)
+    -   [Introduction to R programming](#org817b28d)
+    -   [Visualization using R](#org1fc5d14)
+    -   [FasteR approach](#org37fccdc)
+    -   [Schedule (see Syllabus)](#org7fe468e)
+-   [How will we do it?](#orge7a1524)
+    -   [Classroom sessions](#org90717b5)
+    -   [Lecture scripts with exercises (GitHub)](#org2b044d6)
+    -   [Reading suggestions](#org8562e63)
+    -   [Video lectures (YouTube)](#org21997c5)
+    -   [Online assignments (DataCamp)](#org506fb07)
+    -   [Team EDA project](#org93beba5)
+    -   [Agile project management](#orga877613)
+    -   [Tests and final exam](#org71fb126)
+    -   [Podcasts and feeds](#orge150624)
+    -   [Summary of course activities](#orgd001738)
+-   [What do you have to do to pass?](#orga6de375)
+    -   [DataCamp assignments (> 50%)](#orgecc0d00)
+    -   [Team project (> 50%)](#org2fa92cf)
+        -   [What is a team project?](#org602b73d)
+        -   [Do you have project examples?](#orgcfcc0fb)
+        -   [Can I do a project as an absolute beginner?](#orgcebfdb7)
+    -   [Final exam (> 50%)](#orgc915b68)
+-   [What's next?](#org11dd9b9)
+    -   [In the course](#orgb3be9a2)
+    -   [Your challenges](#org63cb4da)
+-   [Any questions?](#org1e5b0fe)
 
 
 
-<a id="orgf090d52"></a>
+<a id="orgbd49541"></a>
 
 # What're you going to learn today?
 
@@ -51,14 +51,14 @@
 -   What's next?
 
 
-<a id="org2e5a177"></a>
+<a id="org7cac969"></a>
 
 # Who am I?
 
 ![img](./img/marcus.jpg)
 
 
-<a id="org87f7a64"></a>
+<a id="orga1fb7c4"></a>
 
 ## Science
 
@@ -72,7 +72,7 @@
 -   Scientific member [d-cube@Berlin](https://www.hwr-berlin.de/en/research/research-centres-and-institutes/)
 
 
-<a id="orgd9af45c"></a>
+<a id="org5049a24"></a>
 
 ## Industry
 
@@ -84,7 +84,7 @@
 -   Startup mentor
 
 
-<a id="org9a4b916"></a>
+<a id="orgc17c7fe"></a>
 
 ## Teaching
 
@@ -96,7 +96,7 @@
 -   Internship supervision
 
 
-<a id="org7af177e"></a>
+<a id="orgee9f83e"></a>
 
 ## Pleasure
 
@@ -107,7 +107,7 @@
 -   Watching: [The Middle](https://en.wikipedia.org/wiki/The_Middle_(TV_series)) (2009-2018)
 
 
-<a id="org724e41e"></a>
+<a id="org7665747"></a>
 
 # [What are your expectations?](https://ideaboardz.com/for/Your%20expectations%2Fconcerns/3943208)
 
@@ -117,14 +117,14 @@
 -   What did you really not like in another course?
 
 
-<a id="org6bbbb8e"></a>
+<a id="org35c2025"></a>
 
 # Which topics will we cover?
 
 ![img](./img/lavaflow.gif)
 
 
-<a id="orgeff1ad9"></a>
+<a id="org5dcef42"></a>
 
 ## Introduction to data science
 
@@ -133,7 +133,7 @@
 Source: [datacamp.com](https://www.datacamp.com/community/blog/2021-data-trends)
 
 
-<a id="org2dbff76"></a>
+<a id="org817b28d"></a>
 
 ## Introduction to R programming
 
@@ -142,7 +142,7 @@ Source: [datacamp.com](https://www.datacamp.com/community/blog/2021-data-trends)
 Source: [RStudio](https://www.rstudio.com/)
 
 
-<a id="orgf926df1"></a>
+<a id="org1fc5d14"></a>
 
 ## Visualization using R
 
@@ -151,7 +151,7 @@ Source: [RStudio](https://www.rstudio.com/)
 Source: [Thomas Lin Pedersen](https://github.com/thomasp85/gganimate/blob/master/man/figures/README-unnamed-chunk-4-1.gif)
 
 
-<a id="org8fc97fe"></a>
+<a id="org37fccdc"></a>
 
 ## FasteR approach
 
@@ -169,126 +169,130 @@ Image source: [unsplash](https://unsplash.com/photos/SCtlFdgTw1A)
 </div>
 
 
-<a id="org1c67e6e"></a>
+<a id="org7fe468e"></a>
 
-## Schedule
+## Schedule (see [Syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md))
 
-![img](./img//schedule.png)
+![img](./img/schedule.png)
 
 
-<a id="org230797a"></a>
+<a id="orge7a1524"></a>
 
 # How will we do it?
 
 ![img](./img/deer.gif)
 
 
-<a id="orge910169"></a>
+<a id="org90717b5"></a>
 
 ## Classroom sessions
 
-![img](./img/bbb.png)
+![img](./img/classroom.png)
 
 
-<a id="org3b02c32"></a>
+<a id="org2b044d6"></a>
 
 ## Lecture scripts with exercises ([GitHub](https://github.com/birkenkrahe/dsc101))
 
 ![img](./img/github.png)
 
 
-<a id="org364b443"></a>
+<a id="org8562e63"></a>
 
-## Reading assignments
+## Reading suggestions
 
 ![img](./img//reading.jpg)
 
-Norman Matloff (2020):
-
-[fasteR: Fast Lane to Learning R!](https://github.com/matloff/fasteR)
+-   Matloff: [fasteR: Fast Lane to Learning R!](https://github.com/matloff/fasteR) (2021)
+-   Matloff: [The Art of R Programming](https://archive.org/details/Norman_Matloff___The_Art_of_R_Programming) (2011)
 
 <div class="notes">
+
+
+-   Matloff TARP available for free from the Internet Archive
 -   Davies, [The Book of R](https://nostarch.com/bookofr), NoStarch Press (2016)
 -   Irizarry, [Introduction to Data Science](https://rafalab.github.io/dsbook/) (2020)
 
 </div>
 
 
-<a id="org0f1d583"></a>
+<a id="org21997c5"></a>
 
 ## Video lectures ([YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz))
 
 ![img](./img/youtube.png)
 
 
-<a id="org654e76e"></a>
+<a id="org506fb07"></a>
 
-## Online assignments ([DataCamp](https://www.datacamp.com/enterprise/introduction-to-data-science-master-accounting-program/teams/504092-bpm/assignments))
+## Online assignments ([DataCamp](https://app.datacamp.com/groups/data-science-methods-and-tools/assignments))
 
 ![img](./img/datacamp.png)
 
--   [Register at DataCamp](https://moodle.hwr-berlin.de/mod/url/view.php?id=964817)
+-   [Register at DataCamp](https://www.datacamp.com/groups/shared_links/84ae67f173ce6ab5a3eb63c5a552b7a6ca19f30331cbfb1380a0de328c21827d) today!
 
 
-<a id="org0705824"></a>
+<a id="org93beba5"></a>
 
 ## Team EDA project
 
 ![img](./img/project.png)
 
 
-<a id="org25a8499"></a>
+<a id="orga877613"></a>
 
 ## Agile project management
 
 ![img](./img//scrum.jpg)
 
 
-<a id="orgd59377d"></a>
+<a id="org71fb126"></a>
 
 ## Tests and final exam
 
 ![img](./img/kahoot.png)
 
 
-<a id="org4b5f8c6"></a>
+<a id="orge150624"></a>
 
 ## Podcasts and feeds
 
 ![img](./img/feeds.png)
 
+Shared via GitHub / Schoology
 
-<a id="org5f0f9bc"></a>
+
+<a id="orgd001738"></a>
 
 ## Summary of course activities
 
--   Weekly classroom meetings
+-   Twice weekly classroom meetings
 -   Lecture scripts (GitHub)
 -   Reading assignments (Online)
 -   Video lectures (YouTube)
--   Online assignments (DataCamp)
--   Team EDA projects (Sprints)
--   Tests and final exam
+-   **Online assignments** (DataCamp)
+-   **Team EDA projects** (Sprints)
+-   **Tests and final exam**
 -   Podcasts and feeds
 
 
-<a id="orgea58af9"></a>
+<a id="orga6de375"></a>
 
 # What do you have to do to pass?
 
 ![img](./img/oceanrock.gif)
 
 
-<a id="org4849486"></a>
+<a id="orgecc0d00"></a>
 
 ## DataCamp assignments (> 50%)
 
 ![img](./img/assignment.png)
 
-Complete 12 of 24 assignments
+Complete at least 8 of 15 assignments
 
 
-<a id="orge155b22"></a>
+<a id="org2fa92cf"></a>
 
 ## Team project (> 50%)
 
@@ -297,7 +301,7 @@ Complete 12 of 24 assignments
 Present on Nov 30 or Dec 2
 
 
-<a id="org45af56b"></a>
+<a id="org602b73d"></a>
 
 ### What is a team project?
 
@@ -310,29 +314,29 @@ Present on Nov 30 or Dec 2
 -   References
 
 
-<a id="org510c3da"></a>
+<a id="orgcfcc0fb"></a>
 
 ### Do you have project examples?
 
 -   Examples on Kaggle ([example](https://www.kaggle.com/ekrembayar/election-2016-trump-clinton-spatial-visualization))
--   Examples on data science blogs ([example](https://towardsdatascience.com/how-much-is-a-data-scientist-worth-in-2020-34d5903b606b))
+-   Examples on data science blogs ([example](https://rweekly.org/))
 -   Translate from Python to R ([example](https://theartandscienceofdata.wordpress.com/2021/02/20/funniest-friends/))
 -   Extend someone else's EDA ([example](https://towardsdatascience.com/what-matters-in-speed-dating-34d29102f6cb))
 -   Document an R package ([example](https://www.rdocumentation.org/packages/ggplot2/versions/3.3.3))
 -   Use your own data ([example](http://adomingues.github.io/2020/11/25/visual-cv/))
 
 
-<a id="org2fd3f96"></a>
+<a id="orgcebfdb7"></a>
 
 ### Can I do a project as an absolute beginner?
 
 -   Keep It Simply Scientific (IMRaD)
--   Look at examples (e.g. [bookmarks](https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760))
--   Create data set (e.g. productivity)
+-   Look at examples (e.g. in my [bookmarks](https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760))
+-   Create data set (e.g. your productivity)
 -   Researchers are beginners
 
 
-<a id="org43397e5"></a>
+<a id="orgc915b68"></a>
 
 ## Final exam (> 50%)
 
@@ -341,14 +345,14 @@ Present on Nov 30 or Dec 2
 Final exam: date TBD
 
 
-<a id="orgcf4c1a5"></a>
+<a id="org11dd9b9"></a>
 
 # What's next?
 
 ![img](./img/river.gif)
 
 
-<a id="org4fbf6da"></a>
+<a id="orgb3be9a2"></a>
 
 ## In the course
 
@@ -358,7 +362,7 @@ Final exam: date TBD
 -   Intro to R (Language)
 
 
-<a id="org291afc2"></a>
+<a id="org63cb4da"></a>
 
 ## Your challenges
 
@@ -379,7 +383,7 @@ Final exam: date TBD
 
 <tbody>
 <tr>
-<td class="org-left">Register at DataCamp</td>
+<td class="org-left">**Register at DataCamp**</td>
 <td class="org-left">Today</td>
 </tr>
 
@@ -391,25 +395,25 @@ Final exam: date TBD
 
 
 <tr>
-<td class="org-left">Complete test challenge\*</td>
-<td class="org-left">Aug 19</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Complete DataCamp assignment\*</td>
+<td class="org-left">**Complete test challenge**</td>
 <td class="org-left">Aug 24</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Set up team project (2-3 ppl)\*</td>
+<td class="org-left">**Complete DataCamp assignment**</td>
+<td class="org-left">Aug 24</td>
+</tr>
+
+
+<tr>
+<td class="org-left">**Set up team project (2-3 ppl)**</td>
 <td class="org-left">Sep 2</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Check FAQs<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></td>
+<td class="org-left">Check FAQs x 2 in GitHub</td>
 <td class="org-left">n.d.</td>
 </tr>
 
@@ -424,16 +428,11 @@ Final exam: date TBD
 *\*) do this every week until December*
 
 
-<a id="org800d10c"></a>
+<a id="org1e5b0fe"></a>
 
 # Any questions?
 
 ![img](./img/stonehenge.gif)
 
-A PDF of this presentation is available.
+[A copy of this presentation is available.](https://github.com/birkenkrahe/dsc101/tree/main/1_overview)
 
-
-# Footnotes
-
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> There is a FAQ for all my courses in this repo, and a FAQ for
-this particular course in the current repo.

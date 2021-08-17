@@ -228,7 +228,7 @@
 
 *** Can I do a project as an absolute beginner?
 
-    * Keep It Simply Scientific (IMRaD)
+    * Keep It Simply Scientific ([[https://youtu.be/dip7UwZ3wUM][IMRaD]])
     * Look at examples (e.g. in my [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgd1a5760][bookmarks]])
     * Create data set (e.g. your productivity)
     * Researchers are beginners

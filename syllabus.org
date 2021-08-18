@@ -122,68 +122,68 @@
     prepare yourself for the exam. The completion rate of the final
     exam will enter the final grade according to the grading table.
 
-** Grading examples
-*** Example - Midterm grade
+*** Grading examples
+**** Example - Midterm grade
 
-    At midterms, student X has achieved the following results:
+     At midterms, student X has achieved the following results:
 
-    | Grade part           | Weight   | Result   |
-    |----------------------+----------+----------|
-    | Tests                |      15% | 72%      |
-    | DataCamp assignment  |      15% | 100%     |
+     | Grade part           | Weight   | Result   |
+     |----------------------+----------+----------|
+     | Tests                |      15% | 72%      |
+     | DataCamp assignment  |      15% | 100%     |
 
-    # Student X's midterm result is computed as follows:
-    # #+begin_src R :session :results output
-    #   ## midterm weights (only tests and datacamp assignments)
-    #   weight_m <- c("tests"=0.5,
-    #                 "datacamp"=0.5)
-    #   ## results vector
-    #   result_m <- c("tests"=72,
-    #                 "datacamp"=100)
-    #   ## midterm grade
-    #   grade_m <-
-    # 	weight_m["tests"] * result_m["tests"] +
-    # 	weight_m["datacamp"] * result_m["datacamp"]
-    #   names(grade_m) <- NULL
-    #   grade_m
-    # #+end_src
+     # Student X's midterm result is computed as follows:
+     # #+begin_src R :session :results output
+     #   ## midterm weights (only tests and datacamp assignments)
+     #   weight_m <- c("tests"=0.5,
+     #                 "datacamp"=0.5)
+     #   ## results vector
+     #   result_m <- c("tests"=72,
+     #                 "datacamp"=100)
+     #   ## midterm grade
+     #   grade_m <-
+     # 	weight_m["tests"] * result_m["tests"] +
+     # 	weight_m["datacamp"] * result_m["datacamp"]
+     #   names(grade_m) <- NULL
+     #   grade_m
+     # #+end_src
 
-    Student X's midterm result is a "B+" (~86%~).
+     Student X's midterm result is a "B+" (~86%~).
 
-*** Example - Final grade
+**** Example - Final grade
 
-    After the finals, student X has achieved the following results:
+     After the finals, student X has achieved the following results:
 
-    | Grade part           | Weight   | Result   |
-    |----------------------+----------+----------|
-    | Tests                |      15% |      72% |
-    | DataCamp assignment  |      15% |     100% |
-    | Project presentation |      30% |      95% |
-    | Final exam           |      40% |      90% |
+     | Grade part           | Weight   | Result   |
+     |----------------------+----------+----------|
+     | Tests                |      15% |      72% |
+     | DataCamp assignment  |      15% |     100% |
+     | Project presentation |      30% |      95% |
+     | Final exam           |      40% |      90% |
 
-    # Student X's midterm result is computed as follows:
-    # #+begin_src R :session :results output
-    #   ## full term weight vector according to grading table
-    #   weight <- c("exam"= 0.4,
-    #               "project"=0.3,
-    #               "tests"=0.15,
-    #               "datacamp"=0.15)
-    #   ## results vector
-    #   result <- c("exam"=90,
-    #               "project"=95,
-    #               "tests"=72,
-    #               "datacamp"=100)
-    #   ## midterm grade
-    #   grade <-
-    # 	weight["exam"] * result["exam"] +
-    # 	weight["project"] * result["project"] +
-    # 	weight["tests"] * result["tests"] +
-    # 	weight["datacamp"] * result["datacamp"]
-    #   names(grade) <- NULL
-    #   grade
-    # #+end_src
+     # Student X's midterm result is computed as follows:
+     # #+begin_src R :session :results output
+     #   ## full term weight vector according to grading table
+     #   weight <- c("exam"= 0.4,
+     #               "project"=0.3,
+     #               "tests"=0.15,
+     #               "datacamp"=0.15)
+     #   ## results vector
+     #   result <- c("exam"=90,
+     #               "project"=95,
+     #               "tests"=72,
+     #               "datacamp"=100)
+     #   ## midterm grade
+     #   grade <-
+     # 	weight["exam"] * result["exam"] +
+     # 	weight["project"] * result["project"] +
+     # 	weight["tests"] * result["tests"] +
+     # 	weight["datacamp"] * result["datacamp"]
+     #   names(grade) <- NULL
+     #   grade
+     # #+end_src
 
-    Student X's midterm result is an "A" (~90.3%~).
+     Student X's midterm result is an "A" (~90.3%~).
 
 * Standard Policies
 ** Honor Code

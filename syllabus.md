@@ -256,103 +256,101 @@ prepare yourself for the exam. The completion rate of the final
 exam will enter the final grade according to the grading table.
 
 
-## Grading examples
+### Grading examples
 
+1.  Example - Midterm grade
 
-### Example - Midterm grade
+    At midterms, student X has achieved the following results:
+    
+    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+    
+    
+    <colgroup>
+    <col  class="org-left" />
+    
+    <col  class="org-right" />
+    
+    <col  class="org-right" />
+    </colgroup>
+    <thead>
+    <tr>
+    <th scope="col" class="org-left">Grade part</th>
+    <th scope="col" class="org-right">Weight</th>
+    <th scope="col" class="org-right">Result</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    <tr>
+    <td class="org-left">Tests</td>
+    <td class="org-right">15%</td>
+    <td class="org-right">72%</td>
+    </tr>
+    
+    
+    <tr>
+    <td class="org-left">DataCamp assignment</td>
+    <td class="org-right">15%</td>
+    <td class="org-right">100%</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    Student X's midterm result is a "B+" (`86%`).
 
-At midterms, student X has achieved the following results:
+2.  Example - Final grade
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-right" />
-
-<col  class="org-right" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">Grade part</th>
-<th scope="col" class="org-right">Weight</th>
-<th scope="col" class="org-right">Result</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">Tests</td>
-<td class="org-right">15%</td>
-<td class="org-right">72%</td>
-</tr>
-
-
-<tr>
-<td class="org-left">DataCamp assignment</td>
-<td class="org-right">15%</td>
-<td class="org-right">100%</td>
-</tr>
-</tbody>
-</table>
-
-Student X's midterm result is a "B+" (`86%`).
-
-
-### Example - Final grade
-
-After the finals, student X has achieved the following results:
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-right" />
-
-<col  class="org-right" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">Grade part</th>
-<th scope="col" class="org-right">Weight</th>
-<th scope="col" class="org-right">Result</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td class="org-left">Tests</td>
-<td class="org-right">15%</td>
-<td class="org-right">72%</td>
-</tr>
-
-
-<tr>
-<td class="org-left">DataCamp assignment</td>
-<td class="org-right">15%</td>
-<td class="org-right">100%</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Project presentation</td>
-<td class="org-right">30%</td>
-<td class="org-right">95%</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Final exam</td>
-<td class="org-right">40%</td>
-<td class="org-right">90%</td>
-</tr>
-</tbody>
-</table>
-
-Student X's midterm result is an "A" (`90.3%`).
+    After the finals, student X has achieved the following results:
+    
+    <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+    
+    
+    <colgroup>
+    <col  class="org-left" />
+    
+    <col  class="org-right" />
+    
+    <col  class="org-right" />
+    </colgroup>
+    <thead>
+    <tr>
+    <th scope="col" class="org-left">Grade part</th>
+    <th scope="col" class="org-right">Weight</th>
+    <th scope="col" class="org-right">Result</th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    <tr>
+    <td class="org-left">Tests</td>
+    <td class="org-right">15%</td>
+    <td class="org-right">72%</td>
+    </tr>
+    
+    
+    <tr>
+    <td class="org-left">DataCamp assignment</td>
+    <td class="org-right">15%</td>
+    <td class="org-right">100%</td>
+    </tr>
+    
+    
+    <tr>
+    <td class="org-left">Project presentation</td>
+    <td class="org-right">30%</td>
+    <td class="org-right">95%</td>
+    </tr>
+    
+    
+    <tr>
+    <td class="org-left">Final exam</td>
+    <td class="org-right">40%</td>
+    <td class="org-right">90%</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    Student X's midterm result is an "A" (`90.3%`).
 
 
 # Standard Policies

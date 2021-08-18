@@ -48,14 +48,14 @@
 
 ** Grading system
 
-   |-----------+----------------------+--------+--------|
-   | WHEN      | DESCRIPTION          | IMPACT | GRADED |
-   |-----------+----------------------+--------+--------|
-   | Weekly    | DataCamp assignment  |    15% | No     |
-   | Weekly    | Weekly tests         |    15% | No     |
-   | Last week | Project presentation |    30% | Yes    |
-   | TBD       | Final exam           |    40% | Yes    |
-   |-----------+----------------------+--------+--------|
+   |-----------+----------------------+--------+
+   | WHEN      | DESCRIPTION          | IMPACT |
+   |-----------+----------------------+--------+
+   | Weekly    | DataCamp assignment  |    15% |
+   | Weekly    | Weekly tests         |    15% |
+   | Last week | Project presentation |    30% |
+   | TBD       | Final exam           |    40% |
+   |-----------+----------------------+--------+
 
 *** Grading table
 

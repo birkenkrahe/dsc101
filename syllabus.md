@@ -59,15 +59,12 @@ literacy skills by taking this course.
 <col  class="org-left" />
 
 <col  class="org-right" />
-
-<col  class="org-left" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-left">WHEN</th>
 <th scope="col" class="org-left">DESCRIPTION</th>
 <th scope="col" class="org-right">IMPACT</th>
-<th scope="col" class="org-left">GRADED</th>
 </tr>
 </thead>
 
@@ -76,7 +73,6 @@ literacy skills by taking this course.
 <td class="org-left">Weekly</td>
 <td class="org-left">DataCamp assignment</td>
 <td class="org-right">15%</td>
-<td class="org-left">No</td>
 </tr>
 
 
@@ -84,7 +80,6 @@ literacy skills by taking this course.
 <td class="org-left">Weekly</td>
 <td class="org-left">Weekly tests</td>
 <td class="org-right">15%</td>
-<td class="org-left">No</td>
 </tr>
 
 
@@ -92,7 +87,6 @@ literacy skills by taking this course.
 <td class="org-left">Last week</td>
 <td class="org-left">Project presentation</td>
 <td class="org-right">30%</td>
-<td class="org-left">Yes</td>
 </tr>
 
 
@@ -100,7 +94,6 @@ literacy skills by taking this course.
 <td class="org-left">TBD</td>
 <td class="org-left">Final exam</td>
 <td class="org-right">40%</td>
-<td class="org-left">Yes</td>
 </tr>
 </tbody>
 </table>

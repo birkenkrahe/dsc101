@@ -13,8 +13,11 @@
 ** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] 
    Via [[https://colab.to/r][Google Colaboratory]]
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]]
+
 ** History
 
    First offered @Lyon: Fall 2021 (Undergrad). Previous versions @HWR:
    [Winter 2020](https://github.com/birkenkrahe/ds101)
    (Extracurricular), Sommer 2021 (Master).
+
+   https://github.com/birkenkrahe/ai482/blob/main/1_overview/img/books.jpg

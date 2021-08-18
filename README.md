@@ -29,3 +29,5 @@ First offered @Lyon: Fall 2021 (Undergrad). Previous versions @HWR:
 [Winter 2020](<https://github.com/birkenkrahe/ds101>)
 (Extracurricular), Sommer 2021 (Master).
 
+![img](https://github.com/birkenkrahe/ai482/blob/main/1_overview/img/books.jpg)
+

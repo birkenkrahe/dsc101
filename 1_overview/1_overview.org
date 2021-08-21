@@ -256,11 +256,11 @@
 
    | What?                           | When?  |
    |---------------------------------+--------|
-   | *Register at DataCamp*          | Today  |
+   | Register at DataCamp            | Today  |
    | Register at GitHub              | Today  |
-   | *Complete test challenge*       | Aug 24 |
-   | *Complete DataCamp assignment*  | Aug 24 |
-   | *Set up team project (2-3 ppl)* | Sep 2  |
+   | Complete test challenge         | Aug 24 |
+   | Complete DataCamp assignment    | Aug 24 |
+   | Set up team project (2-3 ppl)   | Sep 2  |
    | Check FAQs x 2 in GitHub        | n.d.   |
    | Ask questions (class/GitHub)    | n.d.   |
 

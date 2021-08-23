@@ -1,12 +1,13 @@
 
 # Table of Contents
 
-1.  [What is this?](#org0129ea1)
-2.  [Are we going to use RStudio?](#org6ac2747)
-3.  [Which editor do you use?](#org1b6d448)
+1.  [What is this?](#orgf273a29)
+2.  [Which textbooks are we going to use?](#org052193d)
+3.  [Are we going to use RStudio?](#orgc6b3b11)
+4.  [Which editor do you use?](#org25088f9)
 
 
-<a id="org0129ea1"></a>
+<a id="orgf273a29"></a>
 
 # What is this?
 
@@ -15,14 +16,46 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
 1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
 
 
-<a id="org6ac2747"></a>
+<a id="org052193d"></a>
+
+# Which textbooks are we going to use?
+
+1.  The recommended resource is "[fasteR](https://github.com/matloff/fasteR#faster-fast-lane-to-learning-r)", which is on GitHub and it
+    is free (you can clone it to your computer, or fork it to your
+    GitHub account).
+2.  In the [syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md), I mention this text from the same author: "The
+    Art of R Programming - A Tour of Statistical Software Design", by
+    Norman Matloff, NoStarch Press (2011). You can find it [online at
+    the Internet Archive](https://archive.org/details/Norman_Matloff___The_Art_of_R_Programming) (I recommend buying it - a wonderful
+    text). It is not for absolute beginners to programming, but it
+    introduces R and statistics with R.
+3.  In class, also showed a book by Irizarry "Introduction to Data
+    Science", CRC Press 2020, also available for free [online
+    here](https://rafalab.github.io/dsbook/). We'll cover about 1/3 of the book (part I + II) in this first
+    course. However, there are some issues with this book (I'll
+    explain in class).
+4.  Two more excellent books that I have used, more about R and stats
+    than about data science perhaps, are T M Davies' "The Book of R"
+    (NoStarch Press, 2016), and R Cotton's "Learning R" (O'Reilly,
+    2013).
+    
+    There is any number of books available, many online for free,
+    available e.g. at [bookdown.org](https://bookdown.org/). These books often focus on the
+    "Tidyverse" packages for R, which I think is not suitable for
+    beginners ([see here](https://github.com/matloff/TidyverseSkeptic) for an explanation why).
+    
+    If you find a text or a book, or a tutorial that you really like,
+    please share the information with us!
+
+
+<a id="orgc6b3b11"></a>
 
 # Are we going to use RStudio?
 
 No. [RStudio](https://rstudio.com/) is worth checking out, and it may well be what you use
 later in your data science career, but I think it is much too
 complex for beginners, and not really necessary at all. See
-screenshot in figure [4](#orge8ccd4d).
+screenshot in the figure below:
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/rstudio.png)
 
@@ -44,7 +77,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org1b6d448"></a>
+<a id="org25088f9"></a>
 
 # Which editor do you use?
 
@@ -67,8 +100,8 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [14](#orge3af0d0) shows four (out of an arbitrary number of)
-panels inside the editor 
+Thee figure [20](#orgd144a61) shows four (out of an arbitrary number of)
+panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 

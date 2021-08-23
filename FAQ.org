@@ -3,6 +3,35 @@
   This is a Frequently Asked Questions (FAQ) file for the course DSC
   101. For the FAQs across courses, see the [[https://github.com/birkenkrahe/org][org repo]].
 
+* Which textbooks are we going to use?
+
+  1) The recommended resource is "[[https://github.com/matloff/fasteR#faster-fast-lane-to-learning-r][fasteR]]", which is on GitHub and it
+     is free (you can clone it to your computer, or fork it to your
+     GitHub account).
+  2) In the [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][syllabus]], I mention this text from the same author: "The
+     Art of R Programming - A Tour of Statistical Software Design", by
+     Norman Matloff, NoStarch Press (2011). You can find it [[https://archive.org/details/Norman_Matloff___The_Art_of_R_Programming][online at
+     the Internet Archive]] (I recommend buying it - a wonderful
+     text). It is not for absolute beginners to programming, but it
+     introduces R and statistics with R.
+  3) In class, also showed a book by Irizarry "Introduction to Data
+     Science", CRC Press 2020, also available for free [[https://rafalab.github.io/dsbook/][online
+     here]]. We'll cover about 1/3 of the book (part I + II) in this first
+     course. However, there are some issues with this book (I'll
+     explain in class).
+  4) Two more excellent books that I have used, more about R and stats
+     than about data science perhaps, are T M Davies' "The Book of R"
+     (NoStarch Press, 2016), and R Cotton's "Learning R" (O'Reilly,
+     2013).
+
+     There is any number of books available, many online for free,
+     available e.g. at [[https://bookdown.org/][bookdown.org]]. These books often focus on the
+     "Tidyverse" packages for R, which I think is not suitable for
+     beginners ([[https://github.com/matloff/TidyverseSkeptic][see here]] for an explanation why).
+     
+     If you find a text or a book, or a tutorial that you really like,
+     please share the information with us!
+
 * Are we going to use RStudio?
   No. [[https://rstudio.com/][RStudio]] is worth checking out, and it may well be what you use
   later in your data science career, but I think it is much too
@@ -50,7 +79,7 @@
   lots of additional information.
 
   Thee figure [[fig:emacs]] shows four (out of an arbitrary number of)
-  panels inside the editor 
+  panels inside the editor
 
   #+name: fig:emacs
   https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png

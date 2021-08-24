@@ -2,7 +2,7 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+Subtitle: Data Science Tools and Methods
 #+STARTUP: hideblocks
-#+OPTIONS: toc:1 num:nil ^:nil
+#+OPTIONS: num:nil ^:nil
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
 #+INFOJS_OPT: :view:info
@@ -379,8 +379,10 @@ Between two of these areas each are application areas:
 ** What about you?
 
    #+begin_quote
+
    | Do you have a "brain for numbers"? Do you prefer people or stories?        |
-   | [[../../img/1_overview/bookshelf.jpg]]                                         |
+   | [[./img/bookshelf.jpg]]                                                        |
+
    #+end_quote
 
    #+begin_notes
@@ -397,7 +399,7 @@ Between two of these areas each are application areas:
 ** What do metaphors do?
 
    #+attr_html: :height 300px
-   [[../../img/1_overview/frankenstein.jpg]]
+   [[./img/frankenstein.jpg]]
 
    #+begin_quote
    Metaphors are models.
@@ -714,7 +716,7 @@ https://github.com/birkenkrahe/dsc101/wiki/Data-science-process
   | DataCamp assignment | Data collection and storage |
   | Installing R        | [[https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu][Try it yourself!]]            |
   | First steps in R    | We'll do it together!       |
-  | Kahoot! quiz        | 5 simple questions          |
+  | Weekly test         | 5-15 simple questions       |
 
 * Thank you! Questions?
 

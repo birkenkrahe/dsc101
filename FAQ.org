@@ -58,7 +58,7 @@
   If you want to install RStudio on your computer, here is an
   excellent [[https://techvidvan.com/tutorials/install-r/][beginner's tutorial]].
 
-* Which editor do you use?
+* Which editor and IDE do you use?
   I use the free [[https://www.gnu.org/software/emacs/][Emacs]] editor. For R, I use Emacs + [[https://ess.r-project.org/][ESS]] ("Emacs Speaks
   Statistics"), for general notebooking and task management
   and...everything really, I use Emacs + ESS + [[https://orgmode.org/][Org-mode]] (a

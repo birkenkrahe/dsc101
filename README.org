@@ -1,0 +1,24 @@
+#+TITLE:Data Science Methods and Tools
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE: DSC 101 @ Lyon College
+#+OPTIONS: toc:nil
+* What's in this repo?
+
+  * Repository for DSC 101 - Data science methods and tools.
+  * Emacs Org-mode files are rendered as Markdown.
+
+** [[https://github.com/birkenkrahe/dsc101/blob/main/agenda.md][Agenda]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md][Course diary]]
+** [[https://github.com/birkenkrahe/dsc101/discussions][Discussion forums]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md][Frequently Asked Questions (FAQ)]]
+** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] 
+   Via [[https://colab.to/r][Google Colaboratory]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]]
+
+** History
+
+   First offered @Lyon: Fall 2021 (Undergrad). Previous versions @HWR:
+   [Winter 2020](https://github.com/birkenkrahe/ds101)
+   (Extracurricular), Sommer 2021 (Master).
+
+   https://github.com/birkenkrahe/ai482/blob/main/1_overview/img/books.jpg

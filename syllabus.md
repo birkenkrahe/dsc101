@@ -629,7 +629,7 @@ scheduled time, and we can make arrangements when you return.
 <td class="org-left">2-Sep</td>
 <td class="org-left">Data frames</td>
 <td class="org-left">Matrices</td>
-<td class="org-left">1st sprint review</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -645,7 +645,7 @@ scheduled time, and we can make arrangements when you return.
 <td class="org-left">9-Sep</td>
 <td class="org-left">Lists in R</td>
 <td class="org-left">Factors</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">1st sprint review</td>
 </tr>
 
 

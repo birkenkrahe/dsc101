@@ -320,35 +320,35 @@
 
 ** Schedule and session content
 
-   | DATE   | LECTURES                | ASSIGNMENTS             | Project           |
-   |--------+-------------------------+-------------------------+-------------------|
-   | 17-Aug | Course overview         |                         |                   |
-   | 19-Aug | Data science overview   | Intro to Basics         |                   |
-   | 24-Aug | The R shell             |                         |                   |
-   | 26-Aug | The R environment       | Vectors                 |                   |
-   | 31-Aug | Vectors                 |                         |                   |
-   | 2-Sep  | Data frames             | Matrices                | 1st sprint review |
-   | 7-Sep  | Factor vectors          |                         |                   |
-   | 9-Sep  | Lists in R              | Factors                 |                   |
-   | 14-Sep | ~Nile~ exploration      |                         |                   |
-   | 16-Sep | Visualization           | Data frames             |                   |
-   | 21-Sep | Base R graphics         |                         |                   |
-   | 23-Sep | Literate Programming    | Lists                   |                   |
-   | 28-Sep | Iteration I             |                         |                   |
-   | 30-Sep | Fibonacci series        | Conditionals            |                   |
-   | 7-Oct  | Conditions              | Loops                   | 2nd sprint review |
-   | 12-Oct | EDA example I           |                         |                   |
-   | 14-Oct | Linear regression I     | Functions               |                   |
-   | 19-Oct | Object-orientation      |                         |                   |
-   | 21-Oct | EDA example II          | The apply family        |                   |
-   | 26-Oct | Packages                |                         |                   |
-   | 28-Oct | Grammar of Graphics     | Base R graphics         |                   |
-   | 2-Nov  | Functional Programming  |                         | 3rd sprint review |
-   | 4-Nov  | Text mining I           | Different plot types    |                   |
-   | 9-Nov  | Text mining II          |                         |                   |
-   | 11-Nov | Linear regression II    | Adding details to plots |                   |
-   | 16-Nov | Dates and times         |                         |                   |
-   | 18-Nov | Coding style            | How much is too much    |                   |
-   | 23-Nov | Logistic regression     |                         |                   |
-   | 30-Nov | Team presentations      | Plot customization      | 4th sprint review |
-   | 2-Dec  | Team presentations      |                         | 4th sprint review |
+   | DATE   | LECTURES               | ASSIGNMENTS             | Project           |
+   |--------+------------------------+-------------------------+-------------------|
+   | 17-Aug | Course overview        |                         |                   |
+   | 19-Aug | Data science overview  | Intro to Basics         |                   |
+   | 24-Aug | The R shell            |                         |                   |
+   | 26-Aug | The R environment      | Vectors                 |                   |
+   | 31-Aug | Vectors                |                         |                   |
+   | 2-Sep  | Data frames            | Matrices                |                   |
+   | 7-Sep  | Factor vectors         |                         |                   |
+   | 9-Sep  | Lists in R             | Factors                 | 1st sprint review |
+   | 14-Sep | ~Nile~ exploration     |                         |                   |
+   | 16-Sep | Visualization          | Data frames             |                   |
+   | 21-Sep | Base R graphics        |                         |                   |
+   | 23-Sep | Literate Programming   | Lists                   |                   |
+   | 28-Sep | Iteration I            |                         |                   |
+   | 30-Sep | Fibonacci series       | Conditionals            |                   |
+   | 7-Oct  | Conditions             | Loops                   | 2nd sprint review |
+   | 12-Oct | EDA example I          |                         |                   |
+   | 14-Oct | Linear regression I    | Functions               |                   |
+   | 19-Oct | Object-orientation     |                         |                   |
+   | 21-Oct | EDA example II         | The apply family        |                   |
+   | 26-Oct | Packages               |                         |                   |
+   | 28-Oct | Grammar of Graphics    | Base R graphics         |                   |
+   | 2-Nov  | Functional Programming |                         | 3rd sprint review |
+   | 4-Nov  | Text mining I          | Different plot types    |                   |
+   | 9-Nov  | Text mining II         |                         |                   |
+   | 11-Nov | Linear regression II   | Adding details to plots |                   |
+   | 16-Nov | Dates and times        |                         |                   |
+   | 18-Nov | Coding style           | How much is too much    |                   |
+   | 23-Nov | Logistic regression    |                         |                   |
+   | 30-Nov | Team presentations     | Plot customization      | 4th sprint review |
+   | 2-Dec  | Team presentations     |                         | 4th sprint review |

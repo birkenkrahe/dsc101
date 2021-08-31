@@ -1,0 +1,74 @@
+#+TITLE:Agenda
+#+AUTHOR:Marcus Birkenkrahe
+#+SUBTITLE: Data Science Methods and Tools DSC 101
+#+reveal_theme: black
+#+reveal_init_options: transition:'cube'
+#+OPTIONS: toc:1 num:nil fig:nil
+* Week 2 - 24 August
+
+  #+attr_html: :height 300px
+  [[./img/bean.gif]]
+
+  * Housekeeping
+  * Data science overview
+  * Getting started with R
+  * Next week: projects!
+
+** Housekeeping
+
+   * First weekly test ([[https://lyon.schoology.com/assignment/5226632989/assessment_questions][Schoology]])
+   * Weekly assignment ([[https://learn.datacamp.com/courses/free-introduction-to-r][DataCamp]])
+   * Delayed Schedule ([[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content][GitHub]])
+   * FAQ: text books ([[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md#org052193d][GitHub]])
+   * Term Diary ([[https://github.com/birkenkrahe/org/blob/master/diary.md#org3b0dc9e][GitHub]])
+   * Questions?
+* Week 2 - 26 August
+
+  #+attr_html: :height 300px
+  [[./img/bean.gif]]
+
+  * Housekeeping
+  * First sprint review
+  * Data science overview
+  * Getting started with R
+
+** Housekeeping
+
+   * Weekly assignment ([[https://learn.datacamp.com/courses/free-introduction-to-r][DataCamp]])
+   * Reading assignment ([[https://1drv.ms/b/s!AhEvK3qWokrvhsVoCA7lL4i7m16ElQ][article]]/[[https://github.com/birkenkrahe/dsc101/blob/main/2_datascience/followup_08_26_2021.md][notes]])
+   * EDA Project info ([[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#org38b7223][GitHub]])
+
+** Sprint reviews overview
+
+   | DATE | WHAT                   |
+   |------+------------------------|
+   | Sep  | EDA Research question  |
+   | Oct  | Method: Plan of attack |
+   | Nov  | First results          |
+   | Dec  | Final presentation     |
+
+*** What's in a sprint review?   
+
+    1) What did we want to achieve in the last sprint?
+    2) What did we achieve in the last sprint?
+    3) What are we proud of in the last sprint?
+    4) What did we not achieve in the last sprint?
+    5) What are we going change in the next sprint?
+    6) What are our questions to the product owner?
+    7) What are our questions to the other teams?
+
+** Recap
+
+   * What do you remember?
+   * Followup 24 August ([[https://github.com/birkenkrahe/dsc101/blob/main/2_datascience/followup_08_24_2021.md][GitHub]])
+   * Video recording / Podcast anyone?
+   * Onwards: data science problems
+* Week 3 - 31 August
+
+  [[./img/rugby.gif]]
+  
+  * [[https://lyon.schoology.com/assignment/5258461219/assessment_questions][Test 2 is live - 11 questions]]
+  * [[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp: keep the momentum going]]
+  * [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content][New project deadline: 9-Sep-2021]]
+  * [[https://github.com/birkenkrahe/dsc101/blob/main/3_introR/3_introR.md][Getting started with R]]
+  * [[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50][Project examples]] - new [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2][Scrum FAQs]]

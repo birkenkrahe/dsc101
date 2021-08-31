@@ -1,12 +1,13 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#org40027f6)
--   [Week 2 - 26 August](#orgcd7fda6)
+-   [Week 2 - 24 August](#org3982cc2)
+-   [Week 2 - 26 August](#org0dd4174)
+-   [Week 3 - 31 August](#org4258ab1)
 
 
 
-<a id="org40027f6"></a>
+<a id="org3982cc2"></a>
 
 # Week 2 - 24 August
 
@@ -28,7 +29,7 @@
 -   Questions?
 
 
-<a id="orgcd7fda6"></a>
+<a id="org0dd4174"></a>
 
 # Week 2 - 26 August
 
@@ -108,4 +109,17 @@
 -   Followup 24 August ([GitHub](https://github.com/birkenkrahe/dsc101/blob/main/2_datascience/followup_08_24_2021.md))
 -   Video recording / Podcast anyone?
 -   Onwards: data science problems
+
+
+<a id="org4258ab1"></a>
+
+# Week 3 - 31 August
+
+![img](./img/rugby.gif)
+
+-   [Test 2 is live - 11 questions](https://lyon.schoology.com/assignment/5258461219/assessment_questions)
+-   [DataCamp: keep the momentum going](https://app.datacamp.com/groups/data-science-methods-and-tools/assignments)
+-   [New project deadline: 9-Sep-2021](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content)
+-   [Getting started with R](https://github.com/birkenkrahe/dsc101/blob/main/3_introR/3_introR.md)
+-   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 

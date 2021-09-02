@@ -72,3 +72,16 @@
   * [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content][New project deadline: 9-Sep-2021]]
   * [[https://github.com/birkenkrahe/dsc101/blob/main/3_introR/3_introR.md][Getting started with R]]
   * [[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50][Project examples]] - new [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2][Scrum FAQs]]
+
+* Week 3 - 2 September
+
+  #+attr_html: :height 250px
+  [[./img/Rlogo.svg]]
+
+  * Getting help
+  * Working directory
+  * R console prompt
+  * Packages
+  * Datasets
+  * [[https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Video lectures @YouTube]] (45')
+  

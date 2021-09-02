@@ -1,13 +1,14 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#org3982cc2)
--   [Week 2 - 26 August](#org0dd4174)
--   [Week 3 - 31 August](#org4258ab1)
+-   [Week 2 - 24 August](#orgec27a20)
+-   [Week 2 - 26 August](#org451620b)
+-   [Week 3 - 31 August](#org734b8be)
+-   [Week 3 - 2 September](#org216faf3)
 
 
 
-<a id="org3982cc2"></a>
+<a id="orgec27a20"></a>
 
 # Week 2 - 24 August
 
@@ -29,7 +30,7 @@
 -   Questions?
 
 
-<a id="org0dd4174"></a>
+<a id="org451620b"></a>
 
 # Week 2 - 26 August
 
@@ -111,7 +112,7 @@
 -   Onwards: data science problems
 
 
-<a id="org4258ab1"></a>
+<a id="org734b8be"></a>
 
 # Week 3 - 31 August
 
@@ -122,4 +123,18 @@
 -   [New project deadline: 9-Sep-2021](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content)
 -   [Getting started with R](https://github.com/birkenkrahe/dsc101/blob/main/3_introR/3_introR.md)
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
+
+
+<a id="org216faf3"></a>
+
+# Week 3 - 2 September
+
+![img](./img/Rlogo.svg)
+
+-   Getting help
+-   Working directory
+-   R console prompt
+-   Packages
+-   Datasets
+-   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 

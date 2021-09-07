@@ -1,13 +1,15 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgb3a49d7)
-2.  [Redrawing Google trend chart (07-13-2021)](#org63614dc)
-3.  [Data science process (07-15-2021)](#orgea3ee7a)
+1.  [What is this?](#org069b550)
+2.  [Redrawing Google trend chart (07-13-2021)](#org9472200)
+3.  [Data science process (07-15-2021)](#org861d496)
+4.  ["Teaching the tidyverse in 2021"](#org5213574)
+5.  [References](#org37b7903)
 
 
 
-<a id="orgb3a49d7"></a>
+<a id="org069b550"></a>
 
 # What is this?
 
@@ -16,7 +18,7 @@ the DSC 101 course, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org63614dc"></a>
+<a id="org9472200"></a>
 
 # Redrawing Google trend chart (07-13-2021)
 
@@ -66,7 +68,7 @@ found out about this via [stack.overflow](https://stackoverflow.com/questions/44
 ### Create line plot
 
 Here is a [short tutorial](https://www.statology.org/how-to-plot-multiple-lines-data-series-in-one-chart-in-r/) on how to do this using the functions
-`points()`, `lines()` and `plot()`. The code is below. 
+`points()`, `lines()` and `plot()`. The code is below.
 
     ## read data from CSV file
     trends <- read.table(
@@ -200,14 +202,14 @@ For some simple examples, see this [short tutorial](http://www.sthda.com/english
     	col=c("blue","red"))
 
 
-<a id="orgea3ee7a"></a>
+<a id="org861d496"></a>
 
 # Data science process (07-15-2021)
 
 I was digging around my notes made for an online test lecture on May
 19, on "Exploring data with R" (see [presentation](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf) & [notes](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_notes.pdf)), for an
 update on a [data science overview lecture](https://github.com/birkenkrahe/dsc101/tree/main/2_datascience). For this talk, I had
-developed the model shown in figure [11](#org979cbac): there are two pathways
+developed the model shown in figure [11](#org60eab57): there are two pathways
 towards machine learning. One pathway relied more on coding and
 algorithms (traditionally taught in CS programs), the other one
 relied more on modeling and heuristics (traditionally taught in
@@ -224,13 +226,13 @@ experience of a CS professor that some CS students with more than
 average interest in mathematics wanted to specialize on data
 science. The other one related to my experience with exploratory
 data analysis as a way of solving hard, data rich problems for real
-clients (see figure [14](#org17d51dc)). 
+clients (see figure [14](#orga85dcac)).
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png)
 
 I added this to the other two data science workflow images that I
 already had in the lecture. And I added yet another one (see figure
-[16](#org33fe8bd)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
+[16](#org6509edb)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
 how everything comes back and returns to the "real world" here, and
 the feedback loop provided by the data analysis "pipeline".
 
@@ -260,6 +262,62 @@ what anyway - except perhaps newbies.
 Enough said. I extracted these figures from their context and added
 them to the lecture - will see in August if this makes any
 difference or not<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>.
+
+
+<a id="org5213574"></a>
+
+# "Teaching the tidyverse in 2021"
+
+I've mentioned the "tidyverse" before. This morning, I read an
+article (posted in RWeekly, the weekly aggregator of R news that you
+should subscribe to) "Teaching the tidyverse in 2021"
+([Cetinkaya-Rundel, 2021](#org9b265ec)), which upset me. I will briefly explain
+why. The article mentions the 2020 series of the same title, which
+begins with the claim that "updates to tidyverse packages are
+specifically designed to make it easier for new learners to get
+started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org3388c18)).
+
+Instead of a long rant (see Matloff's "TidyverseSceptic" for a
+complete picture of the criticism), just look at the first figure,
+which shows "the lifecycle stages of functions and packages in the
+tidyverse". This is not a bad diagram at all, and it makes my point:
+a beginner, a learner of R, someone who wants to do data science,
+should not have to learn about package development mechanics:
+"experimental" vs. "deprecated" vs. "superseded" vs. "stable" -
+What? Exactly. 
+
+![img](./img/lifecycle.png)
+
+Reader, R beginner, let me tell you: there is no "tidyverse"
+beginner's approach to R. You may like it or leave it (I prefer to
+leave it, for a number of reasons, though you may need to know it),
+but it's not an alternate R universe, and it's not an alternative to
+base R, no matter how many times the creators and contributors of
+this package bundle may say so.
+
+
+<a id="org37b7903"></a>
+
+# References
+
+Really? References in a diary? I know that you know that I am not
+enjoying referencing: it's tedious, it slows me down, it's
+error-prone etc. But it must be done. If you're not convinced, don't
+get a university education, or better, don't work with information
+at all, because referencing is about (a) intellectual property
+rights (you should care about rights!), and (b) the truth (which
+must be spoken!).
+
+<a id="org3388c18"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
+in 2020 - Part 1: Getting started [Blog]. [Online:
+education.rstudio.com.](https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/)
+
+<a id="org9b265ec"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
+in 2021 [Blog]. [Online: tidyverse.org.](https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/)
+
+<a id="org002d9bc"></a> Matloff N (2020). TidyverseSceptic - An alternate view
+of the Tidyverse "dialect" of the R language, and its promotion by
+RStudio. [Online: github.com](https://github.com/matloff/TidyverseSkeptic). 
 
 
 # Footnotes

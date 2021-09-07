@@ -10,11 +10,11 @@
   content that I may want to develop later on time permitting.
 
 * Redrawing Google trend chart (07-13-2021)
-Spent an afternoon rekindling some skills. Mean to show this during
-the introduction to datascience lecture but I probably won't get
-to. All of this started with this [[https://trends.google.com/trends/explore?date=all&q=data%20science,machine%20learning][infographic]] from Google's trend
-graph generator. I wanted to reproduce it using R, which took a
-couple of hours because I was quite out of shape.
+  Spent an afternoon rekindling some skills. Mean to show this during
+  the introduction to datascience lecture but I probably won't get
+  to. All of this started with this [[https://trends.google.com/trends/explore?date=all&q=data%20science,machine%20learning][infographic]] from Google's trend
+  graph generator. I wanted to reproduce it using R, which took a
+  couple of hours because I was quite out of shape.
 
 ** The original from ~trends.google.com~
 
@@ -44,7 +44,7 @@ couple of hours because I was quite out of shape.
  2004-03,7,21
  2004-04,5,16
  2004-05,9,22
-    #+end_example   
+    #+end_example
 
 *** Upload as data frame using ~read.table~
 
@@ -56,14 +56,14 @@ couple of hours because I was quite out of shape.
 *** Create line plot
 
     Here is a [[https://www.statology.org/how-to-plot-multiple-lines-data-series-in-one-chart-in-r/][short tutorial]] on how to do this using the functions
-    ~points()~, ~lines()~ and ~plot()~. The code is below. 
+    ~points()~, ~lines()~ and ~plot()~. The code is below.
 
     #+begin_src R :session :results file graphics :file ./img/trends.png
       ## read data from CSV file
       trends <- read.table(
-	file="./data/multiTimeline.csv",
-	header=TRUE,
-	sep=",")
+        file="./data/multiTimeline.csv",
+        header=TRUE,
+        sep=",")
 
       ## convert Month column to Date format
       library(anytime)
@@ -98,7 +98,7 @@ couple of hours because I was quite out of shape.
              col=c("blue","red"))
 
     #+end_src
-   
+
 *** Code summary
 
     | ~read.table~         | upload data as ~data.frame~         |
@@ -113,7 +113,7 @@ couple of hours because I was quite out of shape.
 
 ** Barplot   code
 
-    For some simple examples, see this [[http://www.sthda.com/english/wiki/bar-plots-r-base-graphs#basic-bar-plots][short tutorial]].
+   For some simple examples, see this [[http://www.sthda.com/english/wiki/bar-plots-r-base-graphs#basic-bar-plots][short tutorial]].
 
    #+begin_src R :session :results file graphics :file ./img/avg.png
      ## read data from CSV file
@@ -148,7 +148,7 @@ couple of hours because I was quite out of shape.
   algorithms (traditionally taught in CS programs), the other one
   relied more on modeling and heuristics (traditionally taught in
   maths and statistics programs).
- 
+
   #+name: fig:ds
   [[https://github.com/birkenkrahe/dsc101/blob/main/img/data_science.png]]
 
@@ -161,7 +161,7 @@ couple of hours because I was quite out of shape.
   average interest in mathematics wanted to specialize on data
   science. The other one related to my experience with exploratory
   data analysis as a way of solving hard, data rich problems for real
-  clients (see figure [[fig:eda]]). 
+  clients (see figure [[fig:eda]]).
 
   #+name: fig:eda
   [[https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png]]
@@ -200,6 +200,56 @@ couple of hours because I was quite out of shape.
   them to the lecture - will see in August if this makes any
   difference or not[fn:2].
 
+* "Teaching the tidyverse in 2021"
+
+  I've mentioned the "tidyverse" before. This morning, I read an
+  article (posted in RWeekly, the weekly aggregator of R news that you
+  should subscribe to) "Teaching the tidyverse in 2021"
+  ([[tidy21][Cetinkaya-Rundel, 2021]]), which upset me. I will briefly explain
+  why. The article mentions the 2020 series of the same title, which
+  begins with the claim that "updates to tidyverse packages are
+  specifically designed to make it easier for new learners to get
+  started with doing data science in R." ([[tidy20][Cetinkaya-Rundel, 2020]]).
+
+  Instead of a long rant (see Matloff's "TidyverseSceptic" for a
+  complete picture of the criticism), just look at the first figure,
+  which shows "the lifecycle stages of functions and packages in the
+  tidyverse". This is not a bad diagram at all, and it makes my point:
+  a beginner, a learner of R, someone who wants to do data science,
+  should not have to learn about package development mechanics:
+  "experimental" vs. "deprecated" vs. "superseded" vs. "stable" -
+  What? Exactly. 
+
+  [[./img/lifecycle.png]]
+
+  Reader, R beginner, let me tell you: there is no "tidyverse"
+  beginner's approach to R. You may like it or leave it (I prefer to
+  leave it, for a number of reasons, though you may need to know it),
+  but it's not an alternate R universe, and it's not an alternative to
+  base R, no matter how many times the creators and contributors of
+  this package bundle may say so.
+
+* References
+
+  Really? References in a diary? I know that you know that I am not
+  enjoying referencing: it's tedious, it slows me down, it's
+  error-prone etc. But it must be done. If you're not convinced, don't
+  get a university education, or better, don't work with information
+  at all, because referencing is about (a) intellectual property
+  rights (you should care about rights!), and (b) the truth (which
+  must be spoken!).
+
+  <<tidy20>> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
+  in 2020 - Part 1: Getting started [Blog]. [[https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/][Online:
+  education.rstudio.com.]]
+
+  <<tidy21>> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
+  in 2021 [Blog]. [[https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/][Online: tidyverse.org.]]
+
+  <<matloff>> Matloff N (2020). TidyverseSceptic - An alternate view
+  of the Tidyverse "dialect" of the R language, and its promotion by
+  RStudio. [[https://github.com/matloff/TidyverseSkeptic][Online: github.com]]. 
+
 * Footnotes
 
 [fn:2]How will I know? Because it is clear from the discussion and the
@@ -211,6 +261,3 @@ students. So perhaps these conflicts have less power than I thought.
 
 [fn:1]Huang S/Deng H. Data analytics: a small data approach. CRC Press
 (2021).
-
-
-

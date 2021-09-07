@@ -1,14 +1,15 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#orgec27a20)
--   [Week 2 - 26 August](#org451620b)
--   [Week 3 - 31 August](#org734b8be)
--   [Week 3 - 2 September](#org216faf3)
+-   [Week 2 - 24 August](#orgffa9748)
+-   [Week 2 - 26 August](#org9949208)
+-   [Week 3 - 31 August](#orga92c573)
+-   [Week 3 - 2 September](#org0b7c994)
+-   [Week 4 - 7 September](#orgdea67c1)
 
 
 
-<a id="orgec27a20"></a>
+<a id="orgffa9748"></a>
 
 # Week 2 - 24 August
 
@@ -30,7 +31,7 @@
 -   Questions?
 
 
-<a id="org451620b"></a>
+<a id="org9949208"></a>
 
 # Week 2 - 26 August
 
@@ -112,7 +113,7 @@
 -   Onwards: data science problems
 
 
-<a id="org734b8be"></a>
+<a id="orga92c573"></a>
 
 # Week 3 - 31 August
 
@@ -125,7 +126,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org216faf3"></a>
+<a id="org0b7c994"></a>
 
 # Week 3 - 2 September
 
@@ -137,4 +138,30 @@
 -   Packages
 -   Datasets
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
+
+
+<a id="orgdea67c1"></a>
+
+# Week 4 - 7 September
+
+![img](./img/valhalla.gif)
+
+
+## Housekeeping
+
+-   [Test 3 "Getting started with R"](https://lyon.schoology.com/assignment/5285493129)
+-   [Sprint review due Thu 9 Sep 12PM](https://github.com/birkenkrahe/dsc101/discussions/3)
+-   [DataCamp deadlines/order changed](https://app.datacamp.com/groups/data-science-methods-and-tools/assignments)
+
+
+## Recap
+
+![img](./img/memory.gif)
+
+What do you remember from last time?
+
+
+## Today: Arithmethic with R
+
+![img](./img/maths.gif)
 

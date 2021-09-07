@@ -85,3 +85,24 @@
   * Datasets
   * [[https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Video lectures @YouTube]] (45')
   
+* Week 4 - 7 September
+
+  [[./img/valhalla.gif]]
+    
+** Housekeeping
+
+   * [[https://lyon.schoology.com/assignment/5285493129][Test 3 "Getting started with R"]]
+   * [[https://github.com/birkenkrahe/dsc101/discussions/3][Sprint review due Thu 9 Sep 12PM]]
+   * [[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp deadlines/order changed]]
+
+** Recap
+
+   [[./img/memory.gif]]
+
+   What do you remember from last time?
+
+** Today: Arithmethic with R
+
+   [[./img/maths.gif]]
+
+   

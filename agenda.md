@@ -1,15 +1,16 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#orge618446)
--   [Week 2 - 26 August](#org452b72d)
--   [Week 3 - 31 August](#orge0e49b8)
--   [Week 3 - 2 September](#org31a4a2a)
--   [Week 4 - 7 September](#orga826a5e)
+-   [Week 2 - 24 August](#orgbea3162)
+-   [Week 2 - 26 August](#orgd163ff9)
+-   [Week 3 - 31 August](#orgb83faed)
+-   [Week 3 - 2 September](#orge91b31f)
+-   [Week 4 - 7 September](#orgfd40092)
+-   [Week 4 - 9 September](#orgd726f63)
 
 
 
-<a id="orge618446"></a>
+<a id="orgbea3162"></a>
 
 # Week 2 - 24 August
 
@@ -31,7 +32,7 @@
 -   Questions?
 
 
-<a id="org452b72d"></a>
+<a id="orgd163ff9"></a>
 
 # Week 2 - 26 August
 
@@ -113,7 +114,7 @@
 -   Onwards: data science problems
 
 
-<a id="orge0e49b8"></a>
+<a id="orgb83faed"></a>
 
 # Week 3 - 31 August
 
@@ -126,7 +127,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org31a4a2a"></a>
+<a id="orge91b31f"></a>
 
 # Week 3 - 2 September
 
@@ -140,7 +141,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orga826a5e"></a>
+<a id="orgfd40092"></a>
 
 # Week 4 - 7 September
 
@@ -166,4 +167,16 @@ What do you remember from last time?
 ![img](./img/maths.gif)
 
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
+
+
+<a id="orgd726f63"></a>
+
+# Week 4 - 9 September
+
+![img](./img/rugby.gif)
+
+-   [Learning & Agile Methods](https://github.com/birkenkrahe/org/blob/master/diary.md)
+-   [First sprint reviews](https://github.com/birkenkrahe/dsc101/discussions/3)
+-   Interactive Lecture: [Arithmetics II](https://github.com/birkenkrahe/dsc101/tree/main/4_arithmetic)
+-   Interactive Lecture: Vectors I
 

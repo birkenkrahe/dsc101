@@ -106,3 +106,13 @@
    [[./img/maths.gif]]
 
    [[https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4][Videos available on YouTube (ca. 45 min)]]
+
+* Week 4 - 9 September
+
+  [[./img/rugby.gif]]
+
+  * [[https://github.com/birkenkrahe/org/blob/master/diary.md][Learning & Agile Methods]]
+  * [[https://github.com/birkenkrahe/dsc101/discussions/3][First sprint reviews]]
+  * Interactive Lecture: [[https://github.com/birkenkrahe/dsc101/tree/main/4_arithmetic][Arithmetics II]]
+  * Interactive Lecture: Vectors I
+

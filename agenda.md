@@ -1,16 +1,16 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#orgbea3162)
--   [Week 2 - 26 August](#orgd163ff9)
--   [Week 3 - 31 August](#orgb83faed)
--   [Week 3 - 2 September](#orge91b31f)
--   [Week 4 - 7 September](#orgfd40092)
--   [Week 4 - 9 September](#orgd726f63)
+-   [Week 2 - 24 August](#org38fcd27)
+-   [Week 2 - 26 August](#org43e9261)
+-   [Week 3 - 31 August](#org0b5a1df)
+-   [Week 3 - 2 September](#orgebfcdfe)
+-   [Week 4 - 7 September](#org93c2137)
+-   [Week 4 - 9 September](#org4576791)
 
 
 
-<a id="orgbea3162"></a>
+<a id="org38fcd27"></a>
 
 # Week 2 - 24 August
 
@@ -32,7 +32,7 @@
 -   Questions?
 
 
-<a id="orgd163ff9"></a>
+<a id="org43e9261"></a>
 
 # Week 2 - 26 August
 
@@ -114,7 +114,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgb83faed"></a>
+<a id="org0b5a1df"></a>
 
 # Week 3 - 31 August
 
@@ -127,7 +127,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orge91b31f"></a>
+<a id="orgebfcdfe"></a>
 
 # Week 3 - 2 September
 
@@ -141,7 +141,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgfd40092"></a>
+<a id="org93c2137"></a>
 
 # Week 4 - 7 September
 
@@ -169,14 +169,156 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgd726f63"></a>
+<a id="org4576791"></a>
 
 # Week 4 - 9 September
 
 ![img](./img/rugby.gif)
 
 -   [Learning & Agile Methods](https://github.com/birkenkrahe/org/blob/master/diary.md)
+-   Interactive lecture: [Arithmetics II](https://github.com/birkenkrahe/dsc101/tree/main/4_arithmetic)
 -   [First sprint reviews](https://github.com/birkenkrahe/dsc101/discussions/3)
--   Interactive Lecture: [Arithmetics II](https://github.com/birkenkrahe/dsc101/tree/main/4_arithmetic)
--   Interactive Lecture: Vectors I
+-   Web scraping with R
+
+
+## Sprint reviews
+
+![img](./img/sprint.gif)
+
+-   Everyone: present yr research question
+
+-   Everyone else: prepare 1 question
+-   Ask 2 of your questions
+-   MB: critique questions
+
+
+## Two examples
+
+![img](./img/examples.gif)
+
+
+### Harry & Viktor - IMDb vs Rotten Tomatoes
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">PRO</th>
+<th scope="col" class="org-left">CON</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Citation not complete</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Personal interest</td>
+<td class="org-left">Concerns not specific</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Rankings available</td>
+<td class="org-left">Secondary data only</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Clear benefit</td>
+<td class="org-left">Method unclear</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Doable</td>
+<td class="org-left">No literature</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Choice of datasets</td>
+</tr>
+</tbody>
+</table>
+
+
+### Payne Moser - EDA into Pokemon
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">PRO</th>
+<th scope="col" class="org-left">CON</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Citation not complete</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Personal interest</td>
+<td class="org-left">No concerns given</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Research questions</td>
+<td class="org-left">No prioritization</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Clear benefit</td>
+<td class="org-left">Method unclear</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Doable</td>
+<td class="org-left">No literature</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Choice of datasets</td>
+</tr>
+</tbody>
+</table>
+
+
+### Possible improvements
+
+-   Harry & Viktor: citations / literature
+-   Payne: team? Citations / Literature / data
+
+
+## Web scraping with R
+
+-   [Towardsdatascience](https://towardsdatascience.com/web-scraping-with-r-easier-than-python-c06024f6bf52) tutorial (lvl=1)
+-   [ScrapingBee](https://www.scrapingbee.com/blog/web-scraping-r/) tutorial (lvl=2)
+-   [DataCamp](https://learn.datacamp.com/courses/web-scraping-in-r) course (lvl=3)
+-   [R-Bloggers tutorial](https://www.r-bloggers.com/2020/07/tutorial-web-scraping-of-multiple-pages-using-r/) (lvl=3)
 

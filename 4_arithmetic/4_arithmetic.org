@@ -1,4 +1,4 @@
-#+TITLE: file:/home/marcus/OneDrive/2021_Sommer/MIBMA_840122/img/maths.gif
+#+TITLE: file:./img/maths.gif
 #+AUTHOR: Arithmetic in R
 #+OPTIONS: toc:nil num:nil
 #+startup: hideblocks
@@ -335,7 +335,6 @@ to improve readability. Extra bits are stored by R
 
    #+end_notes
 
-
 * Math help in R
 
   [[./img/help.gif]]
@@ -424,7 +423,6 @@ answer is: ~4.440892e-16~.
 
      #+end_notes
 
-
 * Logical values and operators
 
   #+attr_html: :height 500px
@@ -508,7 +506,6 @@ rounding error in the example in the figure actually?
 
    #+end_notes
 
-
 * Concept summary
 
   * In R mathematical expressions are evaluated according to the
@@ -521,7 +518,6 @@ rounding error in the example in the figure actually?
     right or left, respectively.
   * Infinity ~Inf~, not-a-number ~NaN~, and not available numbers ~NA~
     are special values in R.
-
 
 * Code summary I
 

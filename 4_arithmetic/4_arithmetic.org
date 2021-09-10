@@ -1,5 +1,5 @@
-#+TITLE: file:./img/maths.gif
-#+AUTHOR: Arithmetic in R
+#+TITLE: ARITHMETIC in R
+#+AUTHOR: Data Science Methods and Tools - DSC 101
 #+OPTIONS: toc:nil num:nil
 #+startup: hideblocks
 #+reveal_theme: black

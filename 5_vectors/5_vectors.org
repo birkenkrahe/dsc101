@@ -1,0 +1,1487 @@
+#+TITLE: file:/home/marcus/OneDrive/2021_Sommer/MIBMA_840122/img/workhorse.gif
+#+AUTHOR: Vectors in R
+#+SUBTITLE: Data Science Methods and Tools
+#+OPTIONS: toc:nil num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style.css" />
+* WHAT WILL YOU LEARN?
+  * Understand assignment in R
+  * Creating vectors, sequences and repetitions
+  * Sorting and measuring vector length
+  * Subsetting and extracting vector elements
+  * Vectorizing (rescaling)
+  * Classes and logical vectors
+* [[https://youtu.be/7Ab2RQs7Lj8][EVERYTHING IS AN OBJECT]]
+  # [[https://www.youtube.com/playlist?list=PL6SfZh1-kWXl3_YDc-8SS5EuG4h1aILHz][[Watch YouTube Playlist​]​]]
+  # [[https://youtu.be/7Ab2RQs7Lj8][[Watch the video (4:33 min)]​]]
+  #+attr_html: :height 200px
+  [[~/OneDrive/2021_Sommer/MIBMA_840122/img/3_doors.png]]
+
+  | *Performance* | Big Data      | ~data.table~ vs. ~dplyr~ |
+  | *Ease-of-use* | Fun factor    | Interactive vs. file     |
+  | *Clarity*     | Communication | Base R vs. Tidyverse     |
+
+  #+begin_notes
+  R is a *functional*, *object-oriented* language: everything's an
+  object, and *functions* rule, as you already know.
+
+  *Question:* which R object do you know already?
+  *Question:* which R function do you know already?
+
+  Because functions rule, there are usually many different ways to
+  achieve the same result. They often differ in terms of performance,
+  ease of use, and clarity. *Performance* becomes important when you
+  work with truly large data sets, otherwise not so much. *Ease of
+  use* to some extent determines the fun you do or don't have when
+  using the language. *Clarity* is essential when communicating your
+  methods (including your code) and your results to others. This is
+  not a nice to have. Views of different packages (like the
+  *Tidyverse*) differ massively regarding all of these.
+  #+end_notes
+
+** Entering the Forbidden Kingdom
+   #+attr_html: :height 400px
+   [[../../img/secret_life_of_programs.png]]
+
+   * Where are we at in this course?
+   * Who's really got the power?
+
+** Where this course is
+
+   [[../../img/secret_life_of_programs1.png]]
+
+   * Where are we at in this course?
+
+** Who's got the power
+
+   [[../../img/secret_life_of_programs2.png]]
+
+   * Who's really got the power?
+
+* [[https://youtu.be/WZqJ_AyoOEU][ASSIGNING OBJECTS]]
+  # [[https://youtu.be/WZqJ_AyoOEU][[Watch the video (10 min)]​]]
+  #+attr_html: :height 300px
+  [[./img/assign_objects.png]]
+  * Assigning/storing values to/in a variable
+  * You can use ~<-~ or ~=~
+  * Use ~=~ for function arguments only
+
+  #+begin_notes
+  We talk about "assigning values to a variable" or "storing values
+  in a variable." These expressions are interchangeable. We can use
+  ~<-~ or ~=~ for assignment. Whatever you do, try to be consistent.
+
+  ~log(100,b=10)~ ~log(x=100,10)~ ~?print~ ~ts(1:20)~
+
+  Try ~identical()~. The session results:
+
+  [[./img/assign_objects1.png]]
+
+  Because you can overwrite variables easily, ~=~ could be confusing,
+  because it looks like mathematical equality (a status) while it
+  actually is an action. ~=~ is usually reserved for setting arguments
+  inside functions. You've seen this before: ~log(x=100, b=10)~.
+
+  There are also some naming rules: objects must start with a letter
+  and they must avoid reserved words (like ~TRUE~ or
+  ~NA~). Interesting objects for us include: vectors, factors, and
+  data frames.
+  #+end_notes
+** Be the computer!
+   #+attr_html: :height :250px
+   [[../../img/kbd.gif]]
+   [[./img/assign_problem.png]]
+   #+begin_notes
+   [[./img/assign_solution_n.png]]
+   #+end_notes
+** Solution
+   [[./img/assign_solution.png]]
+* [[https://youtu.be/iFsB_34mnR0][WHY WE NEED VECTORS]]
+  * Handle multiple items (observations, data points)
+  * Single values of the same type
+  * Different types lead to coercion
+  #+begin_notes
+  We need vectors to handle *multiple items* in R (more than one data
+  point). Interesting data are usually made up of multiple
+  items. Think of a vector as a collection of *observations* or
+  measurements concerning a *single variable*. An important condition
+  for vectors is that all entries must be observations of the *same
+  type*.
+
+  If this is not the case, R *coerces* the vector elements to conform to
+  one type, as we will see later. A data type that can hold any type of
+  value is called a list.
+  #+end_notes
+** Be the computer!
+   #+attr_html: :height :200px
+   [[./img/class.gif]]
+
+   Give examples of class data for
+
+   (1) numbers, (2) text, (3) logical values
+
+   that could be put into a vector.
+
+   #+begin_notes
+   1) the heights of every student of this class, in cm.
+   2) the first names of every student of this class (strings).
+   3) observations, if a student is male or not male (male means ~TRUE~).
+
+      Define ~heights~, ~names~ and ~male~
+
+      ~c()~: collection/concatenation/combination - check ~?c~
+
+      Variables/vector names: capitalization counts
+   #+end_notes
+** Sample solution
+   [[./img/vector.png]]
+
+   * ~s_heights~ is a ~numeric~ ("number") vector
+   * ~s_names~ is a ~character~ ("string") vector
+   * ~s_male~ is a ~logical~ ("Boolean") vector
+   #+begin_notes
+   *Vector display:* select vector elements with ~[]~:
+   ~s_names[5:1]~ - enables me to change the display order. But each
+   vector element has its fixed number. Single elements can be
+   *overwritten*.
+
+   *Question:* What if I have a vector of ~4~ elements and ask to
+   display ~5~? Answer: ~NA~ (not available) is displayed.
+
+   In order to check what R thinks about your observation or data
+   type, you can use the function ~class~ (check ~?class~). Look at
+   the help page for details and enter the examples at the bottom of
+   the help page.
+
+   *Call ~class~ for each of the vectors to check.*
+
+   Remove the values by typing ~rm(s_heights)~ and check
+   ~?rm~. Especially useful to clean local environment:
+   ~rm(list=ls())~. *How do you interpret* ~ls()~ afterwards?
+   (~character(0)~)
+
+   ~ls()~ is an *empty character object*: ~character(0)~ (a *list*).
+   #+end_notes
+* [[https://youtu.be/Ov6SIrpY_io][CREATING VECTORS]]
+  * Vector of vectors
+  * Calculations in vectors
+  * The meaning of row labels
+  * Type coercion
+  #+begin_notes
+  [[./img/create.png]]
+  [[./img/create1.png]]
+  [[./img/create2.png]]
+  #+end_notes
+** Creating an integer vector
+   [[./img/create3.png]]
+   #+begin_notes
+   [[./img/create.png]]
+   [[./img/create1.png]]
+   [[./img/create2.png]]
+   #+end_notes
+** Vectors can contain calculations
+   [[./img/create4.png]]
+   #+begin_notes
+   [[./img/create.png]]
+   [[./img/create1.png]]
+   [[./img/create2.png]]
+   #+end_notes
+** Vectors can contain vectors
+   [[./img/create5.png]]
+   #+begin_notes
+   [[./img/create.png]]
+   [[./img/create1.png]]
+   [[./img/create2.png]]
+   #+end_notes
+** Be the computer!
+   [[../../img/screen.gif]]
+
+   * What about ~NA~, ~NaN~, ~Inf~, ~-Inf~?
+   * Can you have vectors of these values?
+   * How would you test for these values?
+   #+begin_notes
+   [[./img/specvec.png]]
+   #+end_notes
+** Special value vectors - Code
+   [[./img/specvec1.png]]
+
+* [[https://youtu.be/wwsD2KuoKt8][DOWN THE NILE]]
+  [[../../img/riverman.gif]]
+
+  1. How can you get info on the dataset ~Nile~?
+  2. What type data set is ~Nile~?
+  3. Which ways do you know to print ~Nile~ data?
+
+  #+begin_notes
+  Let's not forget that there are real data out there!  R
+  (i.e. "[[https://rstudio.com/wp-content/uploads/2016/05/base-r.pdf][Base-R]]") includes a number of built-in datasets (i.e. you
+  don't have to install any packages to access them). *Nile Project?*
+
+  *Problem:* Do you remember how to find these pre-loaded datasets? One
+  of these is ~Nile~. Do you remember how to get information on such a
+  dataset (or on any R object)? Also: *~data(package="datasets")~*
+
+  [[./img/nile.png]]
+
+  ~Nile~ contains a so-called "time series", a sequence of numbers
+  that correspond to measurements of the annual flow (in billion -
+  10⁸ - cubic meters) of the river Nile at [[https://en.wikipedia.org/wiki/Aswan][Aswan]], measured between
+  1871-1970. You can use ~class~ to confirm it:
+
+  [[./img/nile1.png]]
+
+  The output is "~ts~", or *time series*. You may remember that we
+  previously looked at large datasets. ~mtcars~ for example was a
+  *"data frame"* (we'll learn more about them later). Important
+  e.g. for process mining - *event logs* (IoT).
+
+  *Problem:* How can we print this dataset on the screen?
+
+  *Solution:* there are different ways to look inside ~Nile~:
+
+  [[./img/nile2.png]]
+
+  Because we don't know yet how to look at *sub-vectors* or individual
+  vector elements, we cannot directly check what type the elements of
+  ~Nile~ have, but the output seems to suggest that the Nile flow is
+  measured in *integer* numbers.
+
+  You can also see from the print output of ~Nile~ how *row labels*
+  work: there are 15 numbers per row, and the second row starts with
+  the 16th number, indicated by ~[16]~.
+  #+end_notes
+** Down the Nile - Code
+   [[./img/nile.png]]
+   [[./img/nile1.png]]
+   [[./img/nile2.png]]
+
+* [[https://youtu.be/wwsD2KuoKt8][PLOTTING THE NILE]]
+  #+attr_html: :height 350px
+  [[./img/nileplot.png]]
+
+  * Type ~hist(Nile)~ - What is this?
+  * What does the function ~hist~ do?
+  * How can you see all measurements with ~hist~?
+
+  #+begin_notes
+  Looking at the numbers otherwise won't give us any idea about what's
+  going on, but fortunately, R has amazing plotting
+  capabilities. Let's begin with a histogram, for which we need the
+  ~hist~ function.
+
+  What does ~hist~ do? How does it work? Explain it to an *ignoramus*.
+
+  *Solution:* You know of course what to do at this point: call for
+  help using ~?hist~. Skip to the ~Examples~ section at the end, where
+  you find the command ~hist(islands)~. This creates a histogram of
+  another dataset, ~islands~. With the help of ~?islands~, you find
+  out quickly that this is a "named vector of 48 elements". Never mind
+  what this means, but you can enter the command, which will generate
+  a plot. This is a histogram: it plots frequency of the data and
+  distributes them into bins.
+
+  The [[https://en.wikipedia.org/wiki/Histogram][Wikipedia entry for "histogram"]] is not bad as a start, lots
+  of examples and you'll soon find out how to make these yourself! The
+  origin of the name "histogram" is not clear - it was probably invented
+  by Pearson, who introduced this type of graph, and is short for
+  *"HISTorical diaGRAM"*.
+
+  Like most R functions, ~hist~ has many options. If you execute
+  ~hist(Nile)~, you get the same type of graph as in the example (see
+  figure), except that we know what the data are (annual Nile flow
+  measurements in ~10⁸ m³~, or 100,000,000 (100 million) of cubic
+  metres.
+
+  ~hist(x=Nile,xlab="Annual flow of the Nile in bn m³",breaks=length(Nile))~
+
+  The ~hist~ function creates 10 bins by default and distributes the
+  data accordingly. You can alter this number of bins by changing the
+  argument ~breaks~, e.g. ~hist(Nile, breaks=20)~ (try it!).
+
+  We'll get back to the ~Nile~ once we know more about vectors! In the
+  next four sections, we're going to look at useful functions.
+  #+end_notes
+
+* [[https://youtu.be/G2P_MVq3eyM][CREATING SEQUENCES AND REPETITIONS]]
+  * The colon operator (~:~)
+  * Sequences with ~seq~
+  * Repetitions with ~rep~
+** THE COLON OPERATOR
+   * ~3:27~ generates integers from ~3~ to ~27~
+   * You can check the type with ~class(3:27)~
+   * Calculations allowed (in parentheses)
+   #+begin_notes
+   We already met the colon operator: remember how ~1:n~ creates a
+   sequence of numbers separated by intervals of ~1~: ~3:27~
+
+   Simple enough! You'll need this e.g. when plotting data points. You
+   can check that these are integer numbers with ~class(3:27)~. You
+   can also store the sequence, or use arithmetic to specify the
+   range. Any calculation must strictly be in parentheses.
+   #+end_notes
+*** COLON CALCULATIONS
+    [[./img/seq.png]]
+
+    * Step size is always ~=1~
+    * Closest start/end point
+    #+begin_notes
+    The sequence ~bar~ looks like this:
+
+    [[./img/seq1.png]]
+
+    Try to understand what happened here by checking the numbers: the
+    first value of the sequence is ~foo = 5.3~. The last value is a
+    negative value, ~-47+1.5 = -45.5~. In order to generate the
+    sequence, R counts down in steps of ~1~ from the first to the last
+    value. It stops at ~-44.7~, because the next value, ~-45.7~ would be
+    outside of the interval $[5.3,-45.5])$.
+
+    So far so good, but this isn't very flexible, because we cannot
+    alter the "bin-size" (in histogram-speak), or the step-width of the
+    sequence generator - it'll always be $1$. We need a function!
+    #+end_notes
+** SEQUENCES I
+   [[./img/seq2.png]]
+
+   * Vary step size with ~by~
+   * Leads to increasing or decreasing sequence
+   #+begin_notes
+   The function ~seq~ "generates regular sequences" (that's what the
+   help says, which I am sure you looked up as soon as you saw the
+   headline!). Alas, the help is a little obscure (esp. the
+   examples). Let's make our own examples, or borrow them: here is a
+   variation on the last example, with step-width specified via the
+   argument ~by = 3~
+
+   ~seq~ will always start at the ~from~ value but (just like in the
+   earlier example) not always end exactly on the ~to~ value. In the
+   following example, the last value ~10~ is not included, because it
+   both last value and step-width are even. In the second example, the
+   last value is odd, and then it works:
+
+   [[./img/seq3.png]]
+
+   #+end_notes
+*** SEQUENCES II
+    [[./img/seq7.png]]
+
+    * Negative step size ~by < 0~
+    * Exact sequence length with ~length.out > 0~
+    #+begin_notes
+    To end exactly on the last value, use the ~length.out~ argument
+    instead:
+
+    [[./img/seq4.png]]
+
+    The intervals between the ~40~ values generated are exactly evenly
+    spaced. If you want the sequence to decrease, ~by~ must be
+    negative, like here:
+
+    [[./img/seq5.png]]
+
+    ~length,out~ can only be positive (there is no 'negative
+    length'). This example creates a decreasing sequence of length $5$:
+
+    [[./img/seq6.png]]
+
+    #+end_notes
+** REPETITION I
+   [[./img/rep.png]]
+
+   * Arguments ~x~, ~times~, ~each~
+
+   #+begin_notes
+   If you simply want to repeat a value, you can use the ~rep~
+   function. For example, to create a sequence of four numbers ~1~, type:
+
+   [[./img/rep1.png]]
+
+   You can repeat any object! Here are three different repetitions of
+   the numerical vector ~c(3, 62, 8, 3)~ - first guess the outcome,
+   then type them into the R console to check your thinking:
+
+   [[./img/rep2.png]]
+
+   The argument ~times~ says how many *times* ~x~ is repeated. The
+   argument ~each~ says how many times *each* element of ~x~ is
+   repeated.
+
+   If neither are specified, the default is ~times = each =
+   1~. Therefore, what do you think is the output of
+   ~rep(c(3,62,8,3))~?
+   #+end_notes
+*** REPETITION II
+
+    [[./img/rep5.png]]
+
+    * You can include ~rep~ in a vector
+    * Works for ~characters~, too
+    * See also ~vector~ function
+
+      #+begin_notes
+
+As with ~seq~, you can include the result of ~rep~ in a vector of
+the same data type (e.g. "numeric"):
+
+[[./img/rep3.png]]
+
+~rep~ also works for characters and character vectors:
+
+[[./img/rep4.png]]
+
+Did you hear the "matching data type" remark? Try to mix characters
+and numbers in a vector and see what happens! (Tip: it's called
+"[[https://www.oreilly.com/library/view/r-in-a/9781449358204/ch05s08.html][coercion]]").
+
+If you want a vector of a specified type and length, you can use the
+~vector~ function. Each of the values in the result is zero,
+~FALSE~, or an empty string, or whatever the equivalent of "nothing"
+is. You can check the ~class~ yourself:
+
+[[./img/rep6.png]]
+
+So-called "wrapper" functions exist, which achieve the same thing
+when creating vectors this way:
+
+[[./img/rep7.png]]
+
+      #+end_notes
+* [[https://youtu.be/KRghGmuS6Ck][SORTING AND MEASURING LENGTHS]]
+  [[~/OneDrive/2021_Sommer/photos/sorting.gif]]
+** SORT VECTOR VALUES
+
+   [[./img/sort1.png]]
+
+   * Decreasing or increasing?
+   * ~Decreasing=FALSE~ is the default
+   * Note: ~logical~ argument
+
+   #+begin_notes
+
+Sorting and ordering and ranking vector elements comes up all the
+time, because what we wish to know, or show, or display, is
+irrelevant to the way the data are stored. We'll talk about ordering
+and ranking later, when we have introduced sub-setting vectors.
+
+R is simple, so of course the function we're looking for is called
+~sort~. Sorting a numerical vector rearranges the elements according
+to size. Let's look at a few examples
+
+[[./img/sort1.png]]
+
+You supply a vector to the function as the argument ~x~, and a
+second argument, ~decreasing~, to indicate the order you wish to
+sort in: ~decreasing=FALSE~ is the default
+(i.e. increasing/ascending) - sorting from smallest to largest,
+while ~decreasing=TRUE~ means searching from largest to smallest.
+
+Note: the argument value of ~decreasing~ is not ~numeric~, it is
+~logical~.
+   #+end_notes
+** MEASURE LENGTH
+
+   [[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/length.png]]
+
+   * Get or set vector length
+
+   #+begin_notes
+
+The ~length~ function (check the help!) gets or sets the length of
+vectors[fn:13] - for vectors, ~length(x)~ determines, how many
+entries the vector has:
+
+[[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/length1.png]]
+
+You can still include objects that need to be evaluated - arithmetic
+computations, or sequences, or repetitions - but ~length~ will tell
+you the number of entries after the inner functions have been executed.
+
+[[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/length2.png]]
+
+The help page ~?length~ contains a peculiar example: you can measure
+the utility function ~options()~, it seems! (In fact, I didn't know
+this!) Try it yourself: type ~length(options())~. Can you figure out
+why the answer is ~68~?
+
+Setting vector length example:
+
+[[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/length3.png]]
+
+   #+end_notes
+
+* [[https://youtu.be/lKxNNR1l3u8][EXERCISES AND SOLUTIONS]]
+
+  [[./img/exercise.gif]]
+
+** Create sequence
+   #+begin_quote
+   (a) Create and store a sequence of values from ~5~ to ~-11~ that
+   progresses in steps of ~0.3~.
+   #+end_quote
+
+   #+begin_notes
+   [[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/ex_a.png]]
+   #+end_notes
+
+** Overwrite vector
+   #+begin_quote
+   (b) Overwrite the object from (a) using the same sequence with the order
+   reversed.
+   #+end_quote
+
+   #+begin_notes
+   [[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/ex_b.png]]
+   #+end_notes
+
+** Repeat vector
+
+   #+begin_quote
+   (c) Repeat the vector ~c(-1,3,-5,7,-9)~ twice, with each element
+   repeated ~10~ times, and store the result. Display the result sorted
+   from largest to smallest.
+   #+end_quote
+
+   #+begin_notes
+   [[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/ex_c.png]]
+   #+end_notes
+
+** Measure vector length
+
+   #+begin_quote
+   (d) Create and store a vector that contains, in any configuration,
+   the following:
+   - A sequence of integers from ~6~ to ~12~ (inclusive)
+   - A threefold repetition of the value ~5.3~
+   - The number ~-3~
+   - A sequence of nine values starting at ~102~ and ending at the
+     number that is the total length of the vector created in problem
+     (c).
+   - Confirm that the length of the vector created is ~20~
+   #+end_quote
+
+   #+begin_notes
+   [[~/OneDrive/2021_Sommer/BPM_504092/sessions/2021_05_07/img/ex_d.png]]
+   #+end_notes
+
+* PART II - SUBSETTING
+  [[./img/subletting.jpg]]
+
+  Video: [[https://youtube.com/playlist?list=PL6SfZh1-kWXlA2axuHdNMzhwhuEhtGtlK][SUBSETTING]]
+
+** Vectorization 1
+
+   1) Operator/function acts on each vector element:
+
+   #+begin_src R :session :results output
+
+     foo <- c(1, -1, 4, 4, 0, 59, 3)  # define vector
+     foo + 3     # add a number to the vector
+     foo/3.2     # divide vector by number
+     bar <- foo[-c(4:length(foo))]  # delete part of a vector
+     rep(x=bar, times=2)    # repeat a vector
+     class(exp(pi*1i)+1)  # Euler's formula
+     prod(c(1,2,3,4,5))   # product of elements
+
+   #+end_src
+
+** Vectorization 2
+
+   2) Function computes a summary statistic over a vector:
+
+   #+begin_src R :session :results output
+     1:5       # ':' is a vector function
+     sum(1:5)  # sum computes the sum of elements
+     mean(1:5) # mean of vector = 1 argument
+   #+end_src
+
+   Where does this leave us?
+   * How to get to parts of a vector
+   * How to control the indexing
+   * How to rescale vectors
+   * How to create matrices and arrays
+   * How to mix different data types
+
+** Vector index
+
+   * The row labels, like ~[1]~, correspond to the *index*:
+
+     #+begin_src R :session :results output
+
+       Nile     # prints all elements of the Nile data set
+
+     #+end_src
+
+** Subsetting
+
+   * Use ~[]~ to retrieve elements or subsets
+   * How would you retrieve the first element?
+   * How would you retrieve the last element?
+
+   #+begin_src R :session :results output
+
+     Nile[1]             # retrieve the first element
+     Nile[length(Nile)]  # retrieve the last element
+     Nile[100]           # retrieve the last element
+
+   #+end_src
+
+** Indexing with ~:~
+
+   * Define a vector of 6 elements
+   * Retrieve elements 2 through 5
+
+   #+begin_src R :session :results output
+
+     foo <- c(-1,3.0,4,67,330,-3)  # assign vector to foo
+     bar <- foo[2:5]   # assign subset of foo to bar
+     foo;bar
+
+   #+end_src
+
+** Is indexing associative?
+
+   * Is ~foo[n]:foo[m]==foo[n:m]~?
+   * Define vector ~foo~ of six elements
+   * Try this with ~n=2~ and ~m=5~
+
+   #+begin_src R :session :results output
+
+     foo <- c(-1, 3, 4, 67, 330, -3)
+     length(foo)
+
+     bar <- foo[2:5]   # assign a subset of foo to bar
+     length(bar)
+
+     baz <- foo[2]:foo[5]  # assign a sequence to baz
+     length(baz)
+
+     identical(bar,baz)  # are bar and baz identical?
+     all.equal(bar,baz)  # are they near equal at least?
+
+   #+end_src
+
+** Statistical functions
+
+   * Stats functions work on any vector subset
+   * Examples: ~mean~, ~sum~, ~summary~
+
+   #+begin_src R :session :results output
+
+     foo <- c(-1, 3, 4, 67, 330, -3)
+     mean(foo[2:5])
+     sum(foo)
+     summary(foo)
+
+   #+end_src
+
+** Logical operators
+
+   * Logical operators: ~<~, ~>~, ~!=~, ~==~
+   * What do you get with ~c(foo == 0)~?
+   * What could you use these for?
+
+   #+begin_src R :session :results output
+
+     foo <- c(-1, 3, 4, 5, 67, 330, -3, -99, 0, 0, 44)
+     foo_pos <- c(foo > 0) # select positive values only
+     foo_neg <- c(foo < 0) # select negative values only
+     foo_nul <- c(foo == 0)  # Why not = instead of ==?
+
+     foo_pos   # logical vectors
+     foo_neg
+     foo_nul
+
+     sum(foo_pos)   # What do you expect here?
+     sum(foo_neg)
+     sum(foo_nul)
+
+   #+end_src
+
+** Logical subsetting
+
+   * ~TRUE~ and ~FALSE~ select vector values
+   * Remember: ~foo_pos <- c(foo > 0)~
+   * ~class(foo_pos)~ is ~"logical"~
+
+   #+begin_src R :session :results output
+
+     foo             # target vector
+     foo_pos         # logical index vector of pos values
+     foo[foo_pos]    # select positive values only
+     foo[foo_neg]    # select negative values only
+     foo[foo_nul]    # select zero values only
+
+   #+end_src
+
+** Once more down the ~Nile~
+
+   1. How many entries does ~Nile~ have?
+
+      #+begin_src R :session :results output
+        length(Nile)
+      #+end_src
+
+   2. What is the last element of ~Nile~?
+
+   #+begin_src R :session :results output
+
+     tail(Nile)   # print last few elements
+     Nile[length(Nile)] # print last element
+     Nile[100]  # print last element
+     Nile       # print all of Nile
+
+   #+end_src
+
+   3. What is the third to last element of ~Nile~?
+
+      #+begin_src R :session :results output
+        Nile[length(Nile)-3]
+      #+end_src
+
+   4. What is the average flow of the Nile between 1909-1969?
+
+   #+begin_src R :session :results output
+
+     1909-1871  # compute first index by hand
+     1969-1871  # compute last index by hand
+
+     mean(Nile[(1909-1871):(1969-1871)])
+
+   #+end_src
+
+   5. How many values are below, how many above the mean value?
+
+   #+begin_src R :session :results output
+
+     nile_pos <- c(Nile > mean(Nile))  # values greater than the mean
+     head(nile_pos)   # logical index vector for above mean values
+
+     nile_neg <- c(Nile < mean(Nile)) # values smaller than mean
+     head(nile_neg)   # logical index vector for below mean values
+
+     sum(nile_pos)  # number of above mean values
+     sum(nile_neg)  # number of below mean values
+
+   #+end_src
+
+
+   6. How much water flowed down the Nile between 1871 and 1970?
+
+   #+begin_src R :session :results output
+
+     sum(Nile)  # water volumne in 10^8 m^3 (100 mio cubic metres)
+
+   #+end_src
+
+** Negative index operator
+
+   * Negative indices remove elements
+   * Only affects the output (unless you overwrite)
+   * Works with vectors, too
+
+   #+begin_src R :session :results output
+
+     foo <- c(-1, 3, 4, 5, 67, 330, -3, -99, 0, 0, 44)
+     foo; length(foo)  # print foo and length of foo
+
+     foo[-1]        # remove first element
+     foo[-length(foo)]  # remove last element
+
+     length(foo)   # foo is not changed (not overwritten)
+
+     foo[-c(1,3)]   # remove elements 1 and 3 from foo
+     foo[-(1:2)]    # remove elements 1 and 2 from foo
+
+   #+end_src
+
+*** Exercise: fix a vector
+
+    * Use ~myvec <- c(5,-2,3,4,6,8,10,40221,-8)~
+    * Change second element to ~-2.3~
+    * Print fixed vector
+
+      #+begin_src R :session :results output
+
+        myvec <- c(5,-2,3,4,6,8,10,40221,-8) # starting vector
+        ## I want: 5 -2.3 4 6 8 10 40221 -8
+        myvec
+
+        myvec[2] <- -2.3     # change second element
+        myvec[-3]            # does NOT change myvec!
+        myvec                # myvec is still unchanged
+
+        myvec <- myvec[-3]   # delete third element
+        myvec                # myvec has been changed
+
+      #+end_src
+
+
+** -------CONTINUE FROM HERE
+
+** Putting dissected vectors back together
+   #+begin_example
+   > myvec <- c(5,-2.3,4,4,4,6,8,10,40221,-8)  # assigning vector to myvec
+   > myvec
+   [1]     5.0    -2.3     4.0     4.0     4.0     6.0     8.0    10.0 40221.0
+   [10]    -8.0
+
+   > myvec.len <- length(x=myvec)   # storing length of myvec in myvec.len
+   > myvec.len
+   [1] 10
+
+   > bar <- myvec[myvec.len-1]   # storing next-to-last entry of myvec in bar
+   > bar
+   [1] 40221
+
+   > qux <- myvec[-(myvec.len-1)]   # qux is myvec without the next-to-last element
+   > qux
+   [1]  5.0 -2.3  4.0  4.0  4.0  6.0  8.0 10.0 -8.0
+
+   ## how can we put myvec from qux and bar back together?
+   ## 1. remove last element of qux
+   ## 2. add bar at the end
+   ## 3. put last element of qux back
+
+   > c(qux[-length(x=qux)], bar, qux[length(x=qux)])
+   [1]     5.0    -2.3     4.0     4.0     4.0     6.0     8.0    10.0 40221.0
+   [10]    -8.0
+
+   > identical(myvec,c(qux[-length(x=qux)], bar, qux[length(x=qux)]))
+   [1] TRUE
+   #+end_example
+** Defining and using vectors of indices
+   #+begin_example
+   > foo <- myvec[1:4]  # foo is a subset of myvec
+   > foo
+   [1]  5.0 -2.3  4.0  4.0
+
+   > indexes <- c(4, rep(x=2, times=3),1,1,2,3:1)
+   > indexes
+   [1] 4 2 2 2 1 1 2 3 2 1
+
+   > foo[indexes]   # indexes uses foo to create a new vector
+   [1]  4.0 -2.3 -2.3 -2.3  5.0  5.0 -2.3  4.0 -2.3  5.0
+
+   > indexes_bad <- c(1,-1)   # this is not allowed
+   > foo[indexes_bad]
+   Error in foo[indexes_bad] :
+   only 0's may be mixed with negative subscripts
+   #+end_example
+** Overwriting a subvector with another vector
+   #+begin_example
+   > bar <- c(3,2,4,4,1,2,4,1,0,0,5)
+   > bar
+   [1] 3 2 4 4 1 2 4 1 0 0 5
+   > length(bar)
+   [1] 11
+   > bar[1] <- 6  # replace first entry in bar
+   > bar
+   [1] 6 2 4 4 1 2 4 1 0 0 5
+   > bar[c(2,4,6)] <- c(-2,0.5,-1) # same length vectors!
+   > bar
+   [1]  6.0 -2.0  4.0  0.5  1.0 -1.0  4.0  1.0  0.0  0.0  5.0
+   > bar[7:10] <- 100  # overwrite indices 7 to 10 with 100
+   > bar
+   [1]   6.0  -2.0   4.0   0.5   1.0  -1.0 100.0 100.0 100.0 100.0   5.0
+   #+end_example
+   # ** Exercises only
+   #    1) Create and store a vector that contains the following, in this
+   #       order:
+   #       - A sequence of length ~5~ from ~3~ to ~6~ (inclusive)
+   #       - A twofold repetition of the vector ~c(2,-5.1,-33)~
+   #       - The value $\frac{7}{42}+2$
+   #    2) Extract the first and last elements of your vector in (1), and
+   #       store them as a new object.
+   #    3) Store as a third object the values returned by omitting the
+   #       first and last values of your vector in (1).
+   #    4) Use only (2) and (3) to reconstruct (1).
+   #    5) Overwrite (1) with the same values sorted from smallest
+   #       to largest.
+   #    6) Use the colon operator as an index vector to reverse the order
+   #       of (5), and confirm this is identical to using ~sort~ on (5)
+   #       with ~decreasing=TRUE~.
+   #    7) Create a vector from (3) that repeats the third element of (3)
+   #       three times, the sixth element four times, and the last element
+   #       once.
+   #    8) Create a new vector as a copy of (5) as to a newly named
+   #       object. Using this new copy of (5), overwrite the first, the
+   #       fifth to the seventh (inclusive), and the last element with the
+   #       values ~99~ to ~95~ (inclusive), respectively.
+
+   #    (Source: Davies, 2016, p. 32)
+
+** Exercises and Solutions
+   #+begin_quote ex 1
+   (1) Create and store a vector that contains the following, in this
+   order:
+   - A sequence of length ~5~ from ~3~ to ~6~ (inclusive)
+   - A twofold repetition of the vector ~c(2,-5.1,-33)~
+   - The value $\frac{7}{42}+2$
+   #+end_quote
+   #+begin_example sol 1
+   > foo <- c(seq(from=3, to=6, length.out=5), rep(x=c(2,-5.1,-33), times=2), 7/42+2)
+   > foo
+   [1]   3.000000   3.750000   4.500000   5.250000   6.000000   2.000000
+   [7]  -5.100000 -33.000000   2.000000  -5.100000 -33.000000   2.166667
+   #+end_example
+
+   #+begin_quote ex 2
+   (2) Extract the first and last elements of your vector in (1), and
+   store them as a new object.
+   #+end_quote
+   #+begin_example sol 2
+   > bar <- c(foo[1],foo[length(foo)])
+   > bar <- foo[c(1,length(foo))]          # shorter solution
+   > bar
+   [1] 3.000000 2.166667
+   #+end_example
+
+   #+begin_quote ex 3
+   (3) Store as a third object the values returned by omitting the
+   first and last values of your vector in (1).
+   #+end_quote
+   #+begin_example sol 3
+   > baz <- foo[-c(1,length(foo))]   # or: foo[c(-1,-length(foo))]
+   [1]   3.75   4.50   5.25   6.00   2.00  -5.10 -33.00   2.00  -5.10 -33.00
+   #+end_example
+
+   #+begin_quote ex 4
+   (4) Use only (2) and (3) to reconstruct (1).
+   #+end_quote
+   #+begin_example sol 4
+   > foo  # reconstruct using only bar and baz
+   [1]   3.000000   3.750000   4.500000   5.250000   6.000000   2.000000
+   [7]  -5.100000 -33.000000   2.000000  -5.100000 -33.000000   2.166667
+
+   > bar                  # contains the first and last element of foo
+   [1] 3.000000 2.166667
+
+   > baz                  # foo without bar
+   [1]   3.75   4.50   5.25   6.00   2.00  -5.10 -33.00   2.00  -5.10 -33.00
+
+   > c(bar[1],baz,bar[2])
+   [1]   3.000000   3.750000   4.500000   5.250000   6.000000   2.000000
+   [7]  -5.100000 -33.000000   2.000000  -5.100000 -33.000000   2.166667
+
+   > identical(foo,c(bar[1],baz,bar[2]))    # check identity
+   [1] TRUE
+   #+end_example
+
+   #+begin_quote ex 5
+   (5) Overwrite (1) with the same values sorted from smallest
+   to largest.
+   #+end_quote
+   #+begin_example ex 5
+   > foo
+   [1]   3.000000   3.750000   4.500000   5.250000   6.000000   2.000000
+   [7]  -5.100000 -33.000000   2.000000  -5.100000 -33.000000   2.166667
+
+   > foo <- sort(x=foo, decreasing=FALSE)  # from smallest to largest
+   > foo
+   [1] -33.000000 -33.000000  -5.100000  -5.100000   2.000000   2.000000
+   [7]   2.166667   3.000000   3.750000   4.500000   5.250000   6.000000
+   #+end_example
+
+   #+begin_quote ex 6
+   (6) Use the colon operator as an index vector to reverse the order
+   of (5), and confirm this is identical to using ~sort~ on (5)
+   with ~decreasing=TRUE~.
+   #+end_quote
+   #+begin_example sol 6
+   > foo[length(foo):1]  # the index sequence is reversed
+   [1]   6.000000   5.250000   4.500000   3.750000   3.000000   2.166667
+   [7]   2.000000   2.000000  -5.100000  -5.100000 -33.000000 -33.000000
+
+   > sort(x=foo, decreasing=TRUE)  # sort from largest to smallest
+   [1]   6.000000   5.250000   4.500000   3.750000   3.000000   2.166667
+   [7]   2.000000   2.000000  -5.100000  -5.100000 -33.000000 -33.000000
+
+   > identical(foo[length(foo):1],sort(x=foo, decreasing=TRUE))
+   [1] TRUE
+   #+end_example
+
+   #+begin_quote ex 7
+   (7) Create a vector from (3) that repeats the third element of (3)
+   three times, the sixth element four times, and the last element
+   once.
+   #+end_quote
+   #+begin_example sol 7
+   > baz[c(rep(x=3,times=3),rep(x=6,times=4),length(x=baz))]
+   [1]   5.25   5.25   5.25  -5.10  -5.10  -5.10  -5.10 -33.00
+   #+end_example
+
+   #+begin_quote ex 8
+   (8) Create a new vector as a copy of (5) as to a newly named
+   object. Using this new copy of (5), overwrite the first, the
+   fifth to the seventh (inclusive), and the last element with the
+   values ~99~ to ~95~ (inclusive), respectively.
+   #+end_quote
+   #+begin_example sol 8
+   > foo            # vector from (5)
+   [1] -33.000000 -33.000000  -5.100000  -5.100000   2.000000   2.000000
+   [7]   2.166667   3.000000   3.750000   4.500000   5.250000   6.000000
+
+   > qux <- foo     # create copy
+   > qux
+   [1] -33.000000 -33.000000  -5.100000  -5.100000   2.000000   2.000000
+   [7]   2.166667   3.000000   3.750000   4.500000   5.250000   6.000000
+
+   > qux[c(1,5:7,length(qux))] <- 99:95  # overwrite indices with sequence
+   > qux
+   [1]  99.00 -33.00  -5.10  -5.10  98.00  97.00  96.00   3.00   3.75   4.50
+   [11]   5.25  95.00
+   #+end_example
+   (Source: Davies, 2016, p. 32)
+** Example: rescaling
+   #  (cp. Davies p.107)
+   In the example below, a vector of six values in increments of 1 is
+   created. Then another vector is subtracted from it: the operation
+   is carried out element-wise. The elements are matched up and the
+   operation (subtraction) is carried out on each corresponding pair:
+   #+begin_example
+   > foo <- 5.5:0.5
+   > foo
+   [1]  5.5 4.5 3.5 2.5 1.5 0.5
+   > foo-c(2,4,6,8,10,12)  # subtract another vector
+   [1]   3.5   0.5  -2.5  -5.5  -8.5 -11.5
+   #+end_example
+
+   What if the vectors have different length?  Either the longer
+   vector can be evenly divided by the shorter vector, or not.
+   #+begin_example
+   # Want to alternate entries of foo as positive and negative
+
+   > foo * c(1,-1,1,-1,1,-1) # explicit multiplcation by element
+   [1]  5.5 -4.5  3.5 -2.5  1.5 -0.5
+
+   > bar <- c(1,-1) # multiply by even multiple
+   > length(foo)
+   [1] 6
+   > length(bar)
+   [1] 2
+   > foo * bar
+   [1]  5.5 -4.5  3.5 -2.5  1.5 -0.5
+
+   > baz <- c(1, -1, 0.5, -0.5)
+   > length(baz)
+   [1] 4
+   > foo*baz
+   [1] 5.50 4.50 1.75 1.25 1.50 0.50
+   Warning message:
+   In foo * baz :
+   longer object length is not a multiple of shorter object length
+   #+end_example
+   #+CAPTION: Element-wise operation on two vectors of differing lengths (Source: Davies, 2016)
+   #+NAME: fig:vectors
+   [[./img/vectors.png]]
+
+   #+begin_example  vector-wise operators
+   > foo
+   [1] 5.5 4.5 3.5 2.5 1.5 0.5
+   > qux <- 3
+
+   > foo + qux
+   [1] 8.5 7.5 6.5 5.5 4.5 3.5
+
+   > foo + c(3,3,3,3,3,3)
+   [1] 8.5 7.5 6.5 5.5 4.5 3.5
+
+   > foo+rep(x=3,times=length(x=foo))
+   [1] 8.5 7.5 6.5 5.5 4.5 3.5
+   #+end_example
+
+   #+begin_example element-wise overwriting
+   > foo
+   [1] 5.5 4.5 3.5 2.5 1.5 0.5
+
+   > foo[c(1,3,5,6)] <- c(-99,99)
+   > foo
+   [1] -99.0   4.5  99.0   2.5 -99.0  99.0
+   #+end_example
+** Vector Recycling
+   # Source: Cotton, 2013, p. 67
+   #+begin_example
+   > 1:5 + 1:6
+   [1]  2  4  6  8 10  7
+   Warning message:
+   longer object length is not a multiple of shorter object length
+
+   > 1:5 + 1:7
+   [1]  2  4  6  8 10  7  9
+   Warning message:
+   longer object length is not a multiple of shorter object length
+   #+end_example
+** Class exercise: rescale from inches to cm
+   *Problem: convert inches to cm ($1\,inch\equiv 2.54\, cm$):
+   #+begin_example
+   inches <- c(69, 62, 66, 70, 70, 73, 67, 73, 67, 70)
+   #+end_example
+   *Solution:*
+   #+begin_example
+   > cm <- inches * 2.54
+   > cm
+   [1] 175.26 157.48 167.64 177.80 177.80 185.42 170.18 185.42 170.18 177.80
+   #+end_example
+   # ** Exercises
+   #    #+begin_quote
+   #    1) Convert the vector ~c(2,0.5,1,2,0.5,1,2,0.5,1)~ to a vector of
+   #    only ~1~s, using a vector of length $3$.
+   #    2) The conversion from a temperature measurement in degrees
+   #       Fahrenheit $F$ to Celsius $C$ is performed using the following
+   #       equation:
+   #       \begin{equation}
+   #       C = \frac{5}{9}\left( F-32\right)
+   #       \end{equation}
+   #       Use vector-oriented behavior in ~R~ to convert the temperatures
+   #       $45$, $77$, $20$, $19$, $101$, $120$, and $212$ in degrees
+   #       Fahrenheit to degrees Celsius.
+   #    3) Use the vector ~c(2,4,6)~ and the vector ~c(1,2)~ in conjunction
+   #       with ~rep~ and ~*~ to produce the vector ~c(2,4,6,4,8,12)~.
+   #    4) Overwrite the middle four elements of the resulting vector from
+   #       (3) with the two recycled values ~-0.1~ and ~-100~, in that
+   #       order.
+   #    #+end_quote
+** Exercises & Solutions
+   # (Davies, 2016, p. 36)
+   #+begin_quote
+   (1) Convert the vector ~c(2,0.5,1,2,0.5,1,2,0.5,1)~ to a vector of
+   only ~1~s, using a vector of length $3$.
+   #+end_quote
+   #+begin_example
+   > foo <- c(2,0.5,1,2,0.5,1,2,0.5,1)
+   > bar <- c(2,0.5,1)
+   > foo / bar
+   [1] 1 1 1 1 1 1 1 1 1
+   #+end_example
+   #+begin_quote
+   (2) The conversion from a temperature measurement in degrees
+   Fahrenheit $F$ to Celsius $C$ is performed using the following
+   equation:
+   \begin{equation}
+   C = \frac{5}{9}\left( F-32\right)
+   \end{equation}
+   Use vector-oriented behavior in ~R~ to convert the temperatures
+   $45$, $77$, $20$, $19$, $101$, $120$, and $212$ in degrees
+   Fahrenheit to degrees Celsius.
+   #+end_quote
+   #+begin_example
+   > temp <- c(45, 77, 20, 19, 101, 120, 212)  # degrees Fahrenheit
+   > temp
+   [1]  45  77  20  19 101 120 212
+
+   > temp_C <- 5/9 * (temp - 32)  # degrees Celsius
+   > temp_C
+   [1]   7.222222  25.000000  -6.666667  -7.222222  38.333333  48.888889 100.000000
+   #+end_example
+   #+begin_quote
+   (3) Use the vector ~c(2,4,6)~ and the vector ~c(1,2)~ in conjunction
+   with ~rep~ and ~*~ to produce the vector ~c(2,4,6,4,8,12)~.
+   #+end_quote
+   #+begin_example
+   > rep(x=c(2,4,6),times=2)
+   [1] 2 4 6 2 4 6
+
+   > rep(x=c(1,2),each=3)
+   [1] 1 1 1 2 2 2
+
+   > rep(x=c(2,4,6),times=2)*rep(x=c(1,2),each=3)
+   [1]  2  4  6  4  8 12
+   #+end_example
+   #+begin_quote
+   (4) Overwrite the middle four elements of the resulting vector from
+   (3) with the two recycled values ~-0.1~ and ~-100~, in that
+   order.
+   #+end_quote
+   #+begin_example
+   > foo <- rep(x=c(2,4,6),times=2)*rep(x=c(1,2),each=3)
+   > foo
+   [1]  2  4  6  4  8 12
+   > foo[2:5] <- c(-0.1,-100)
+   > foo
+   [1]    2.0   -0.1 -100.0   -0.1 -100.0   12.0
+   #+end_example
+* PART III: NAMING
+  # Cp. Cotton, p. 42
+  Each vector element can be given a name. This can make code much
+  more readable. Elements can be named inside the vector definition:
+  #+begin_src R :session
+    c(apple = 1, banana = 2, "kiwi fruit" = 3, 4)
+  #+end_src
+
+  Or they can be named explicitly using the function ~names~[fn:14]
+  #+begin_src R :session
+    x <- 1:4
+    names(x) <- c("apple", "bananas", "kiwi fruit", "")
+    x
+  #+end_src
+
+  ~names(x)~ returns the names of a vector, and you can remove the
+  names by overwriting ~names(x)~ with ~NULL~, an object whose value
+  is undefined (not to be mixed up with ~NA~ and ~NaN~):
+
+  #+begin_src R :session
+    names(1:4)  # unnamed sequence vector has the value NULL
+    names(c(apple=1,banana=2,3))  # last element's name is empty ""
+    class(names)
+  #+end_src
+
+  And here are some data type checks involving names:
+  #+begin_src R :session
+    class(names)             # "function"
+    class(names(1:4))        # "NULL"
+    class(c(apple=1))        # "numeric"
+    class(names(c(apple=1))) # "character"
+  #+end_src
+
+  What if your names are too short (or too long) for your vector?
+  Watch this:
+  #+begin_src R :session
+    week <- c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+    week    # "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" "Sun"
+    vec <- rep(x=c(1,2,3,4,5,6,7),times=2)
+    vec   #  1 2 3 4 5 6 7 1 2 3 4 5 6 7
+    names(vec) <- week
+    vec   # this one shows seven NA names
+    vec[8:14]                 # subvector with the NA names only
+    names(vec)[8:14] <- week  # name the subvector (remove NA)
+    names(vec)[-(8:14)]       # deleting names subvector
+    names(vec) <- NULL        # remove names
+  #+end_src
+* EXAMPLE DATASET ~islands~
+  This is the example used in ~help(names)~.
+  #+begin_example
+  > str(islands)
+   Named num [1:48] 11506 5500 16988 2968 16 ...
+   - attr(*, "names")= chr [1:48] "Africa" "Antarctica" "Asia" "Australia" ...
+  > head(islands)
+        Africa   Antarctica         Asia    Australia Axel Heiberg       Baffin
+         11506         5500        16988         2968           16          184
+  #+end_example
+  (Yes, "Axel Heiberg Island" exists: [[https://en.wikipedia.org/wiki/Axel_Heiberg_Island][$16,671$ square miles according to Wikipedia]].)
+* INDEXING VECTORS (AGAIN)
+  [Watch video]
+  -----
+  # cp. Cotton, Learning R
+  * Passing a vector of positive numbers returns the slice of the
+    vector containing the elements at those locations.
+    #+begin_example
+    > x <- (1:5)^2   # example vector
+    > x
+    [1]  1  4  9 16 25
+     > x[c(1,3,5)]
+    [1]  1  9 25
+    #+end_example
+  * Passing a vector of negative numbers returns the slice of the
+    vector containing the elements everywhere except at those
+    locations.
+    #+begin_example
+    > x[c(-2,-4)]
+    [1]  1  9 25
+    #+end_example
+  * Passing a logical vector returns the slice of the vector
+    containing the elements where the index is TRUE.
+    #+begin_example
+    > x[c(TRUE, FALSE, TRUE, FALSE, TRUE)]
+    [1]  1  9 25
+    #+end_example
+  * For named vectors, passing a character vector of names returns the
+    slice of the vector containing the elements with those names.
+    #+begin_example
+    > names(x) <- c("one", "four", "nine", "sixteen", "twenty five")
+    > x[c("one", "nine", "twenty five")]
+       one        nine twenty five
+         1           9          25
+    #+end_example
+* COERCION
+  # (Irizarry p. 32)
+  All vector elements have to be of the same ~class~ or type:
+  ~logical~, ~numeric~, or ~character~. What happens when you mix
+  these? R will make it happen at the price of "coercion". Let's look
+  at a few examples:
+
+  In the first example, ~foo~ contains a missing value, a number and a
+  character, but the vector is still classified as a ~character~
+  vector, and the number is converted to a character, because R knows
+  how to turn ~3~ into ~"3"~, but does not know what number to assign
+  to a character:
+  #+begin_src R :session :results output
+    (foo <- c("a",NA,1))
+    class(foo)
+  #+end_src
+  Output:
+  #+begin_example
+  : [1] "a" NA  "1"
+  : [1] "character"
+  #+end_example
+
+  With the ~is.na~ function, we can test for ~NA~ values, and with
+  ~as.character~ and ~is.numeric~ for ~character~ and ~numeric~
+  values, respectively:
+  #+begin_src R :session :results output
+    is.na(foo)         # check for missing values
+    is.character(foo)  # check for character vector
+    is.numeric(foo)    # check for numeric vector
+  #+end_src
+  Output:
+  #+begin_example
+  : [1] FALSE  TRUE FALSE
+  : [1] TRUE
+  : [1] FALSE
+  #+end_example
+
+  You can also (try to) explicitly convert the elements using
+  ~as.[class]~: Let's do this one by one to relish the results:
+  #+begin_src R :session :results output
+    as.character(foo) # convert vector to character values
+  #+end_src
+  #+begin_example
+  : [1] "a" NA  "1"
+  #+end_example
+  No surprises here. This is the default
+
+  Now, force vector to numeric values:
+  #+begin_src R :session :results output
+    as.numeric(foo)  # convert vector to numeric values
+  #+end_src
+  #+begin_example
+  : [1] NA NA  1
+  : Warning message:
+  : NAs introduced by coercion
+  #+end_example
+  The output contains some surprises! The first element of the
+  ~"character"~ vector is ~"a"~ and cannot be turned into a number,
+  hence it becomes MIA, and R confesses to "coercion".
+
+  And lastly, not to forget logical values:
+  #+begin_src R :session :results output
+    as.logical(foo)   # convert vector to logical values
+  #+end_src
+  #+begin_example
+  : [1] NA NA NA
+  #+end_example
+  This may come as a surprise, since we learnt that ~TRUE~ is stored
+  as ~1~ and ~FALSE~ as ~0~ (remember summing with ~sum~ over a
+  logical vector?). But the presence of ~NA~ and character ~"a"~
+  spoils it. The conversion of a vector consisting only of numbers
+  does however work - sort of. In fact, any non-zero number is
+  converted into ~TRUE~:
+  #+begin_src R :session :results output
+    as.logical(c(1,0,-1, 0.333, -Inf,NaN ))
+  #+end_src
+
+  #+begin_example
+  : [1]  TRUE FALSE  TRUE  TRUE  TRUE    NA
+  ...except ~NaN~, but that's not a number, by definition):
+  #+end_example
+  I think that's enough evidence for you to stay away from mixing data
+  types in vectors - though the conversion functions will come in very
+  handy!
+* CONCEPT SUMMARY
+  * R is a functional language in which everything's an object.
+  * R functions differ in: performance (speed), ease-of-use and
+    clarity.
+  * To assign values to objects, use the ~<-~ operator.
+  * To assign values to arguments in functions, use the ~=~ operator.
+  * The elements of a numeric, character or logical vector are
+    numbers, letters or truth values.
+  * A vector can have arithmetic calculations or vectors as elements.
+  * A histogram distributes data by frequency across evenly spaced
+    bins.
+  * Sequences of numbers can be created using the colon operator, or
+    the functions ~seq~ or ~rep~.
+  * Vectors can be sorted with ~sort~ in either direction.
+  * Vector length can be measured as the number of vector elements with ~length~.
+  * Index vectors can be used to select sub-vectors.
+  * Negative index values delete the corresponding vector elements
+* CODE SUMMARY
+  | ~x <- 5~                                   | assign ~5~ to object ~x~                      |
+  | ~x <- x+1~                                 | overwrite ~x~ (new value)                     |
+  | ~c(1,2,3,4)~                               | define (numerical) vector                     |
+  | ~class(bar)~                               | check type of object ~bar~                    |
+  | ~hist(x,breaks=foo)~                       | histogram of dataset ~x~ with ~foo~ bins      |
+  | ~m:n~                                      | sequence ~m~ to ~n~ at intervals ~= 1~        |
+  | ~seq(from=foo,to=bar,by=baz)~              | sequence from ~foo~ to ~bar~ intervals ~=baz~ |
+  | ~seq(from=foo,to=bar,length.out=fuz)~      | seq. ~foo~ to ~bar~, ~fuz~ equal intervals    |
+  | ~rep(x=foo,times=bar,each=baz)~            | repeat ~foo~ times ~bar~, and                 |
+  |                                            | repeat each element of ~foo~ times ~baz~      |
+  | ~vector("numeric",foo), numeric(foo)~      | empty numeric vector of length ~foo~          |
+  | ~vector("character",foo), character(foo)~  | empty numeric vector of length ~foo~          |
+  | ~vector("logical",foo), logical(foo)~      | empty numeric vector of length ~foo~          |
+  | ~sort(x=foo, decreasing=FALSE)~            | sort vector ~foo~ from smallest to largest    |
+  | ~sort(x=foo, decreasing=TRUE)~             | sort vector ~foo~ from largest to smallest    |
+  | ~length(x=foo)~                            | print length of vector ~foo~                  |
+  | ~[n]~, ~[n:m]~, ~[-n]~                     | indices ~n~, ~n~ to ~m~, deleting element ~n~ |
+  | ~prod(foo)~, ~sum(foo)~                    | multiply / sum up all elements of vector foo  |
+  | ~names(x)~                                 | return names of vector ~x~ (or ~NULL~)        |
+  | ~as.character~, ~as.numeric~, ~as.logical~ | coerce arguments to the resp. class           |
+* SOURCES
+  <<sources>>
+  * <<cotton>> Richie Cotton (2013). [[https://www.oreilly.com/library/view/learning-r/9781449357160/][Learning R. O'Reilly Media.]]
+  * <<davies>> Tilman M. Davies (2016). [[https://nostarch.com/bookofr][The Book of R. (No Starch Press).]]
+  * <<irizarry>> Rafael A. Irizarry (2020). [[https://rafalab.github.io/dsbook/][Introduction to Data
+    Science]] (also: CRC Press, 2019).
+  * <<matloff>> Norman Matloff (2020). [[https://github.com/matloff/fasteR][fasteR: Fast Lane to Learning R!]].
+* Footnotes
+
+[fn:14] You should look up the examples in ~help(names)~: the data set
+~islands~ is a named vector suited to play around with vector naming.
+
+[fn:13] Both ~length~ and ~sort~, as you can read in the respective
+help pages, work both for vectors and for "factors". These are
+necessary whenever we deal with qualities (like "male" or "female")
+rather than quantities. You'll learn about them soon!
+
+[fn:12]The answer is ~[1] 3 62 8 3~. ~times=each=1~ means that the
+vector and each of its elements is repeated once, i.e. identical to
+the input vector.
+
+[fn:11]I am borrowing heavily everywhere in this script from several
+[[sources][sources]]: the books that I've read on R, by Cotton (2013), Davies
+(2016), Irizarry (2019), and the tutorial by Matloff (2020). You
+should check them out. If you want to get one, get the book by Davies
+in print. The others are free online.
+
+[fn:10]The [[https://en.wikipedia.org/wiki/Histogram][Wikipedia entry for "histogram"]] is not bad as a start, lots
+of examples and you'll soon find out how to make these yourself! The
+origin of the name "histogram" is not clear - it was probably invented
+by Pearson, who introduced this type of graph, and is short for
+"HISTorical diaGRAM".
+
+[fn:9]You know this, too: ~str(Nile)~ for the structure, or
+~head(Nile)~ to see the first few (6) elements.
+
+[fn:8]Note: If this is not the case, R coerces the vector elements to
+conform to one type, as we will see later. A data type that can hold
+any type of value is called a list.
+
+[fn:7] This page-wise presentation mode with previous|next|up|down
+navigation is actually the page-wise [[https://www.emacswiki.org/emacs/InfoMode][(Emacs) ~Info~]] style
+presentation.
+
+[fn:6] Enter ~help(Nile)~, or ~?Nile~. This is one of the more useful
+commands. Will only work if the corresponding dataset has been
+loaded - for ~Nile~, this is the case.
+
+[fn:5] This was mentioned in the "Getting started with R" lesson. To
+list all built-in datasets in base-R, enter simply ~data()~. This is
+the same function that you use to load a dataset after loading the
+respective library (which contains more than one dataset).
+
+[fn:4] Fun fact: 'FORTRAN' stands for 'FORmula TRANslator'. A large
+part of R's code base is written in FORTRAN, which is the oldest
+programming language specifically used for scientific computations
+(e.g. it was the first language I learnt at university).
+
+[fn:3] For a while, I had also envisioned that I might use a
+block-based, visual programming language like MIT's [[https://scratch.mit.edu/][Scratch]] or its
+able cousin from Berkeley U., [[https://snap.berkeley.edu/][Snap!]] OpenSAP offers great [[https://open.sap.com/courses/snap2][(free)
+courses]] on Snap! and you can learn all about Scratch online, too.
+
+[fn:2] Not just one MOOC, in fact, but a series of nine courses
+altogether, with which you can get a professional certificate. These
+MOOCs are hosted by [[https://www.edx.org/professional-certificate/harvardx-data-science][edX.org]].
+
+[fn:1] "Arithmetic (from the Greek ἀριθμός arithmos, 'number' and τική
+[τέχνη], tiké [téchne], 'art') is a branch of mathematics that
+consists of the study of numbers, especially the properties of the
+traditional operations on them—addition, subtraction, multiplication,
+division, exponentiation and extraction of roots." ([[https://en.wikipedia.org/wiki/Arithmetic][Wikipedia]])

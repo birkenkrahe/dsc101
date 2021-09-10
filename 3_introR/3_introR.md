@@ -8,11 +8,11 @@
 -   R Packages and libraries
 
 <div class="notes">
-Inspiration and ideas especially from [Davies(2016)](#org79c5757) and other places
-gratefully received (see [references](#orge17b6b9)). At the end of some sections,
+Inspiration and ideas especially from [Davies(2016)](#org1209edf) and other places
+gratefully received (see [references](#orgc7bf860)). At the end of some sections,
 you find challenges - things for you to think about or do
 something. You find solutions and tips regarding these challenges in
-a [section at the end of the document](#org4765506).
+a [section at the end of the document](#orgf276f11).
 
 </div>
 
@@ -56,22 +56,22 @@ with serious, systematic data analytics interests, you need to know
 all of these - R, SQL, and Python. Here, we'll start with R.
 
 For a direct comparison of Python and R for data cleaning and
-exploratory analysis with examples, see e.g. [Radecic (2020)](#orgdba64a6), [Uprety
-(2020)](#orgbd6ec7c) and [Shotwell (2020)](#org6e3dd8c). To see how R outperforms Python, see
-[Grogan (2020)](#org3c8090d). To see some equivalents of SQL in R, check ODSC
+exploratory analysis with examples, see e.g. [Radecic (2020)](#org748013a), [Uprety
+(2020)](#org4993964) and [Shotwell (2020)](#orgb4abaa7). To see how R outperforms Python, see
+[Grogan (2020)](#org0a96af9). To see some equivalents of SQL in R, check ODSC
 (2018). And for an overview of data science tools beyond Python, R,
-and SQL, see [Gallatin (2018)](#orgf538ee8). And here's a neat [infographic](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis) from
+and SQL, see [Gallatin (2018)](#org3307e1f). And here's a neat [infographic](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis) from
 datacamp comparing both for data analysis.
 
 There are downsides to using R as well, of course, and it has been
-called "hard to learn", too ([Muenchen 2017](#orge7279e5)), partly and
+called "hard to learn", too ([Muenchen 2017](#orgbaec632)), partly and
 paradoxically because the language is so flexible and
 extensible. Also, some innovations, like the Tidyverse, aren't
-necessarily good for beginners ([Matloff 2019](#org588e3ea)).
+necessarily good for beginners ([Matloff 2019](#orge2ab658)).
 
 Of course, there's also always an index - in this case the "TIOBE"
 index of programming language popularity (based on the languages
-people search for), see figure [6](#org011ef1c). As you can see, R improved
+people search for), see figure [6](#org187ce06). As you can see, R improved
 its position in one year from 20th to 8th. That's by far the
 strongest improvement of any language among the top 10. Still,
 Python is three times more search-successful. Neither Python nor SQL
@@ -109,7 +109,7 @@ For example, if you are in Berlin, the Nürnberg server is closest:
 
 **Challenge:** Which server would you use if you were in Russia?  Does
 the download page for that server look any different? Check it out!
-[(Hint)](#orgf2cffa7)
+[(Hint)](#org3fea25c)
 
 USA: notice that the TX server is at "revolutionanalytics.com",
 which used to be another R IDE bought by Microsoft. Microsoft
@@ -235,13 +235,13 @@ Mac available and may be able to figure something out.)*
 
 
 In this section, we open R for the first time and look at what
-emerges. This won't be much but it's a start. Figure [57](#org251e427)
+emerges. This won't be much but it's a start. Figure [57](#org50ade75)
 shows the logo of the R project.
 
 **Challenge:** go to the [project home page](https://www.r-project.org/). It's quite minimalist by
 design. Have a look around, especially check out the [FAQ](http://cran.r-project.org/faqs.html) and the
 "[related projects](https://www.r-project.org/other-projects.html)" page, which gives the shortest overview of a
-number of R application areas. [(Hint)](#orgce62fd5)
+number of R application areas. [(Hint)](#org7589ab3)
 
 </div>
 
@@ -253,7 +253,7 @@ number of R application areas. [(Hint)](#orgce62fd5)
 What type of bit-architecture do you have?
 
 <div class="notes">
-This is the first screen you see (figure [63](#org6b4d0e1)) after starting R
+This is the first screen you see (figure [63](#orgd6de5eb)) after starting R
 on the command-line. The highlighted section shows the current
 (June 2020) version of Base-R, as the core R program is officially
 called. Versions get their own names, like operating systems (my
@@ -264,7 +264,7 @@ program runs, is shown - a 64-bit version of Linux using the [x86
 computer architecture](https://en.wikipedia.org/wiki/X86-64).
 
 **Challenge:** what type of computer architecture does your computer
-have (most importantly: 64-bit)? [(Hint)](#org6fedfb8)
+have (most importantly: 64-bit)? [(Hint)](#org1ac8a9d)
 
 </div>
 
@@ -277,7 +277,7 @@ Type `license()`. What is "GNU"?
 
 <div class="notes">
 As you'll find out when following the instructions in figure
-[67](#org433f6df) by entering `license()` at the prompt, the R software is
+[67](#orga29869e) by entering `license()` at the prompt, the R software is
 distributed "under the terms of the [GNU General Public License](https://www.gnu.org/licenses/quick-guide-gplv3.html)"
 (GPL). Popular software also distributed under the GPL include the
 Linux "kernel" (the core of the operating system), and the GNU
@@ -288,7 +288,7 @@ making R "free software") has contributed enormously to the success
 of this language.
 
 **Challenge:** what is "GNU software" exactly? Which programs belong
-to it? Are there any programs that you have used before? [(Hint)](#org73c43e6)
+to it? Are there any programs that you have used before? [(Hint)](#orgfd33b2f)
 
 </div>
 
@@ -301,10 +301,10 @@ to it? Are there any programs that you have used before? [(Hint)](#org73c43e6)
 -   Enter `contributors()`. Who can contribute?
 
 <div class="notes">
-Behind R is a large project of volunteers (figure [71](#org881ba77). At it
+Behind R is a large project of volunteers (figure [71](#org861231f). At it
 centre is the "R Core Group" of developers. Because R is part of
 the "GNU suite" of programs, and because its predecessor was called
-S, it is also sometimes called "GNU S". [Becker (2004)](#org13eaaf9) has written
+S, it is also sometimes called "GNU S". [Becker (2004)](#orgb6fb453) has written
 an interesting historical account of S. When using R for analysis
 in a thesis, a paper, an essay or a blog post, one should cite it
 as a source. This is what the code `citation()` is for. Same goes
@@ -316,7 +316,7 @@ papers.
 
 **Challenge:** is there any connection between R and LaTeX? Or more
 general between the programming language R und markup languages
-(like HTML or LaTeX)? [(Hint)](#orgc27b34c)
+(like HTML or LaTeX)? [(Hint)](#org2c06b7f)
 
 </div>
 
@@ -329,7 +329,7 @@ general between the programming language R und markup languages
 -   Enter `help.start()` - where is this page?
 
 <div class="notes">
-The section higlighted in figure [76](#org6f7e63a) suggests a few commands
+The section higlighted in figure [76](#org10f56db) suggests a few commands
 that you ought to try for yourself:
 
 `help()` is a function to get help for whatever you put in between
@@ -377,7 +377,7 @@ When you start R, you may be asked, which working directory you wish
 to use. This is where all files created (e.g. plots) will be put and
 where R will look first to load scripts with R commands for execution.
 
-The [`setwd()`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd) command in figure [84](#org6019bd5) allows you to set any
+The [`setwd()`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd) command in figure [84](#org3d351ad) allows you to set any
 directory as working directory. To check which one is used right
 now, you can use [`getwd()`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd).
 
@@ -387,7 +387,7 @@ MacOS/Linux, or `C:\Users\Marcus` under Windows. Especially as a
 Windows user, you should look at your file organisation - this will
 pay off as soon as you use the terminal or command-line. The Bash
 shell that I use on my Linux computer (and that most MacOS users
-will use) is also available within Windows 10 [(Posey 2018](#orga932234)).
+will use) is also available within Windows 10 [(Posey 2018](#org167ccc8)).
 
 </div>
 
@@ -400,7 +400,7 @@ will use) is also available within Windows 10 [(Posey 2018](#orga932234)).
 -   Change it back to `"> "`
 
 <div class="notes">
-Figure [90](#org32af02a) shows a new utility command, `options()`, that you
+Figure [90](#org30434f7) shows a new utility command, `options()`, that you
 can use to change the identifying prompt at the beginning of the
 command line. You don't have to do this but it's nice to know that
 and how you can do it. One of the advantages of working on the
@@ -422,7 +422,7 @@ game.
 
 <div class="notes">
 One of the advantages of the interactive command-line is the ability
-to perform arithmetic operations. In figure [94](#orgaa0297d) we begin with
+to perform arithmetic operations. In figure [94](#orgae097c2) we begin with
 a simple addition. We'll do a lot more of this in the next
 section. When you type the command and click `ENTER`, R responds by
 printing out the result without the need to explicit instruct it
@@ -457,10 +457,10 @@ ordered in columns and rows.
 R packages are collections of functions and datasets that are ready
 for you to use. You only have to install them (from repositories
 like CRAN), and load them (once they are installed) with
-`library()`, as shown in figure [103](#org3e4eab2) for an already installed
+`library()`, as shown in figure [103](#orgb669dd1) for an already installed
 package, `MASS`. The ability to create and use packages easily is
 one of the main reasons for the popularity of R and an illustration
-of its extensibility. Figure [103](#org3e4eab2) also shows the installation
+of its extensibility. Figure [103](#orgb669dd1) also shows the installation
 of a package (`ks`) - or rather, only the beginning of the
 installation output. Once downloaded, the package needs to be
 compiled for your system, which, for large packages, can take
@@ -475,7 +475,7 @@ list). For a listing of all functions and datasets in a package, use
 built-in datasets (that come with base-R, the basic R program), enter
 `data()`.
 
-See [Alvarez 2019](#org5947ee0) for a beginner's guide on R packages.
+See [Alvarez 2019](#org355152d) for a beginner's guide on R packages.
 
 </div>
 
@@ -534,7 +534,7 @@ See [Alvarez 2019](#org5947ee0) for a beginner's guide on R packages.
     
     
     **Challenge:** how many variables (columns) and observations (rows)
-    does the dataset `MASS::Boston` contain? [(Hint)](#orgbf23365)
+    does the dataset `MASS::Boston` contain? [(Hint)](#orgd75b778)
     
     You can look information up with `?Boston` or look at the data
     directly using `str(Boston)`.
@@ -789,12 +789,12 @@ idea of the spread of information.
 [Data Scientists Should Learn Through Play](https://drkeithmcnulty.com/2020/06/23/data-scientists-should-learn-through-play/)
 
 <div class="notes">
-To understand why you should play (see figure [160](#org21998c6)), check the
+To understand why you should play (see figure [160](#org9dfce0d)), check the
 article by an active blogger and professional in the R-blogosphere,
 Keith McNulty, who leads data science at the global strategy
 consulting firm McKinsey & Co. He argues that "learning through
 playing around" with the software is a good way to learn ([McNulty
-2020](#org0302dd2)) - I agree. Though I am often distracted by having to create
+2020](#org27bc04f)) - I agree. Though I am often distracted by having to create
 teaching material for you, playing around on or off the
 command-line, looking at interesting data and combing through them
 using the analytical tools R offers, or checking other people's
@@ -819,46 +819,46 @@ Arithmetic with R
 
 # References
 
-<a id="orge17b6b9"></a>
+<a id="orgc7bf860"></a>
 
--   <a id="org5947ee0"></a> Adolfo Alvarez (25 Mar 2019). R Packages: A Beginner's
+-   <a id="org355152d"></a> Adolfo Alvarez (25 Mar 2019). R Packages: A Beginner's
     Guide. Online: [datacamp.com](https://www.datacamp.com/community/tutorials/r-packages-guide).
--   <a id="org13eaaf9"></a> Robert Becker (2004). A Brief History of S. Online:
+-   <a id="orgb6fb453"></a> Robert Becker (2004). A Brief History of S. Online:
     [sas.waterloo.ca](http://sas.uwaterloo.ca/~rwoldfor/software/R-code/historyOfS.pdf).
--   <a id="org79c5757"></a> Tilman M. Davies (2016). [The Book of R. No Starch Press.](https://nostarch.com/bookofr)
--   <a id="orgf538ee8"></a> Kyle Gallatin (1 Nov 2018). Some Important Data
+-   <a id="org1209edf"></a> Tilman M. Davies (2016). [The Book of R. No Starch Press.](https://nostarch.com/bookofr)
+-   <a id="org3307e1f"></a> Kyle Gallatin (1 Nov 2018). Some Important Data
     Science Tools that aren’t Python, R, SQL or Math. Online:
     [towardsdatascience.com](https://towardsdatascience.com/some-important-data-science-tools-that-arent-python-r-sql-or-math-96a109fa56d).
--   <a id="org3c8090d"></a> Michael Grogan (23 Jul 2020). How R Still Excels
+-   <a id="org0a96af9"></a> Michael Grogan (23 Jul 2020). How R Still Excels
     Compared To Python. Online: [towardsdatascience.com.](https://towardsdatascience.com/ways-r-still-excels-compared-to-python-34835e6071ee)
--   <a id="org1f1a5aa"></a> Knuth D (1992). [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf). Stanford, Center
+-   <a id="orgc894a7d"></a> Knuth D (1992). [Literate Programming](http://www.literateprogramming.com/knuthweb.pdf). Stanford, Center
     for the Study of Language and Information Lecture Notes 27.
--   <a id="org588e3ea"></a> Norman Matloff (2019). TidyverseSceptic. Online:
+-   <a id="orge2ab658"></a> Norman Matloff (2019). TidyverseSceptic. Online:
     [github.com](https://github.com/matloff/TidyverseSkeptic).
--   <a id="org0302dd2"></a> Keith McNulty (23 Jun 2020). Data Scientists Should
+-   <a id="org27bc04f"></a> Keith McNulty (23 Jun 2020). Data Scientists Should
     Learn Through Play. Online: [drkeithmcnulty.com](https://drkeithmcnulty.com/2020/06/23/data-scientists-should-learn-through-play/).
--   <a id="orge7279e5"></a> Robert A. Muenchen (2017). Why R is Hard to
+-   <a id="orgbaec632"></a> Robert A. Muenchen (2017). Why R is Hard to
     Learn. Online: [r4stats.com](http://r4stats.com/articles/why-r-is-hard-to-learn/).
--   <a id="orga932234"></a> Brien Posey (5 Feb 2018). How To Navigate the File
+-   <a id="org167ccc8"></a> Brien Posey (5 Feb 2018). How To Navigate the File
     System in Windows 10's Bash Shell. Online: [redmondmag.com](https://redmondmag.com/articles/2018/02/05/navigate-bash-file-system.aspx).
--   <a id="orgdba64a6"></a> Dario Radecic (10 Sept 2020). Trying R for the First
+-   <a id="org748013a"></a> Dario Radecic (10 Sept 2020). Trying R for the First
     Time. Online: [towardsdatascience.com](https://towardsdatascience.com/ive-tried-r-for-the-first-time-how-bad-was-it-ba344f22e90b).
--   <a id="org6e3dd8c"></a> Gordon Shotwell (30 Dec 2019). Why I use R. Online:
+-   <a id="orgb4abaa7"></a> Gordon Shotwell (30 Dec 2019). Why I use R. Online:
     [blog.shotwell.ca](https://blog.shotwell.ca/posts/why_i_use_r/).
--   <a id="orgbd6ec7c"></a> Sagar Uprety (23 Jul 2020). Data Cleaning and
+-   <a id="org4993964"></a> Sagar Uprety (23 Jul 2020). Data Cleaning and
     Exploratory Analysis in Python and R. Online: [towardsdatascience.com](https://towardsdatascience.com/data-cleaning-and-exploratory-analysis-in-python-and-r-608de56124e2).
--   <a id="orgcbe29f4"></a> Yuleng Zeng (28 Aug 2018). An Introduction to R and
+-   <a id="org7bd0acd"></a> Yuleng Zeng (28 Aug 2018). An Introduction to R and
     LaTeX. Online: [bookdown.org](https://bookdown.org/Yuleng/introrlatex/).
 
 
 # Solutions to the challenges
 
-<a id="org4765506"></a>
+<a id="orgf276f11"></a>
 
 
 ## Download from CRAN
 
-<a id="orgf2cffa7"></a> [Mirror sites](https://en.wikipedia.org/wiki/Mirror_site) are called that way because they are actual
+<a id="org3fea25c"></a> [Mirror sites](https://en.wikipedia.org/wiki/Mirror_site) are called that way because they are actual
 identical copies of the original site. The quality of the cloned
 page is monitored. [The result looks interesting](https://cran.r-project.org/mirmon_report.html) (to me). You can
 see how well maintained a particular mirror site is.
@@ -866,7 +866,7 @@ see how well maintained a particular mirror site is.
 
 ## Opening R for the first time
 
-<a id="orgce62fd5"></a> The projects listed here (by no means a complete
+<a id="org7589ab3"></a> The projects listed here (by no means a complete
 list!) are divided in applications and infrastructure
 projects. **Applications** of R include bioinformatics (e.g. in the
 medical sciences or in genomics), geospatial statistics (anything
@@ -884,13 +884,13 @@ like it, especially if my teaching tempo is too slow for you!
 
 ## Version and platform
 
-<a id="org6fedfb8"></a> See here to find out details of your CPU and computer architecture
+<a id="org1ac8a9d"></a> See here to find out details of your CPU and computer architecture
 for [Windows](https://www.howtogeek.com/413942/how-to-see-what-cpu-is-in-your-pc-and-how-fast-it-is/) or [MacOS](https://www.macworld.com/article/3393161/how-to-check-if-mac-software-is-32-or-64-bit.html).
 
 
 ## Distribution license
 
-<a id="org73c43e6"></a> Go to [GNU Software](https://www.gnu.org/software/software.html) to see a list of all programs
+<a id="orgfd33b2f"></a> Go to [GNU Software](https://www.gnu.org/software/software.html) to see a list of all programs
 distributed under the GPL. These programs constitute the GNU system
 of free software. Looking through the list, I noticed the following
 programs that I have used: Chess (chess game implementation), Emacs
@@ -902,17 +902,17 @@ Aug 2020).
 
 ## The R Project
 
-<a id="orgc27b34c"></a> There is no special connection between LaTeX and R,
+<a id="org2c06b7f"></a> There is no special connection between LaTeX and R,
 except that both are free software programs, one for formatting
 (especially when mathematical formulas need to be presented), the
 other one for statistical calculations and visualisation. However,
 to communicate data analysis results and to make the analysis
 process itself reproducible, a combination between these two goals
 (formatting/programming) is desirable. This is exactly what
-"literate programming" ([Knuth 1984](#org1f1a5aa)) does. There is also a program called "R
+"literate programming" ([Knuth 1984](#orgc894a7d)) does. There is also a program called "R
 Markdown" to create documents that enables you e.g.  to created
 HTML, PDF, ePUB and Kindle books with only one source. You can find
-examples at [bookdown.org](https://bookdown.org/). See also [Zeng (2018)](#orgcbe29f4) for a brief
+examples at [bookdown.org](https://bookdown.org/). See also [Zeng (2018)](#org7bd0acd) for a brief
 introduction to both R and LateX - sufficient to get started -
 written apparently as a minimal example for bookdown. For LaTeX
 there are also cloud editors like [overleaf.com](https://www.overleaf.com/).
@@ -920,7 +920,7 @@ there are also cloud editors like [overleaf.com](https://www.overleaf.com/).
 
 ## R Packages
 
-<a id="orgbf23365"></a> You can directly search for this dataset - I usually
+<a id="orgd75b778"></a> You can directly search for this dataset - I usually
 take the search string "`r doc [name]`, in this case `r doc MASS
    boston`, which gets me straight [to this page](https://www.rdocumentation.org/packages/MASS/versions/7.3-52/topics/Boston). At the top, you can
 read that "The `Boston` data frame has 506 rows and 14

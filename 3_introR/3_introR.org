@@ -1,6 +1,6 @@
 #+TITLE: file:/home/marcus/OneDrive/2021_Sommer/MIBMA_840122/img/2_intro/title.gif
-#+AUTHOR: Introduction to R
-#+SUBTITLE: Installation and first steps
+#+AUTHOR: R Installation and First Steps
+#+SUBTITLE: Data Science Methods and Tools
 #+OPTIONS: toc:nil num:nil
 #+startup: hideblocks
 #+reveal_theme: black

@@ -1,3 +1,4 @@
+#+options: toc
 * What is this?
 
   This is a Frequently Asked Questions (FAQ) file for the course DSC

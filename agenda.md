@@ -1,16 +1,16 @@
 
 # Table of Contents
 
--   [Week 2 - 24 August](#org38fcd27)
--   [Week 2 - 26 August](#org43e9261)
--   [Week 3 - 31 August](#org0b5a1df)
--   [Week 3 - 2 September](#orgebfcdfe)
--   [Week 4 - 7 September](#org93c2137)
--   [Week 4 - 9 September](#org4576791)
+-   [Week 2 - 24 August](#orgb81fdd0)
+-   [Week 2 - 26 August](#orgc259005)
+-   [Week 3 - 31 August](#org074efb9)
+-   [Week 3 - 2 September](#orgf5e5aa7)
+-   [Week 4 - 7 September](#org4e73794)
+-   [Week 4 - 9 September](#org144aae2)
 
 
 
-<a id="org38fcd27"></a>
+<a id="orgb81fdd0"></a>
 
 # Week 2 - 24 August
 
@@ -32,7 +32,7 @@
 -   Questions?
 
 
-<a id="org43e9261"></a>
+<a id="orgc259005"></a>
 
 # Week 2 - 26 August
 
@@ -114,7 +114,7 @@
 -   Onwards: data science problems
 
 
-<a id="org0b5a1df"></a>
+<a id="org074efb9"></a>
 
 # Week 3 - 31 August
 
@@ -127,7 +127,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgebfcdfe"></a>
+<a id="orgf5e5aa7"></a>
 
 # Week 3 - 2 September
 
@@ -141,7 +141,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org93c2137"></a>
+<a id="org4e73794"></a>
 
 # Week 4 - 7 September
 
@@ -169,7 +169,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org4576791"></a>
+<a id="org144aae2"></a>
 
 # Week 4 - 9 September
 
@@ -313,12 +313,4 @@ What do you remember from last time?
 
 -   Harry & Viktor: citations / literature
 -   Payne: team? Citations / Literature / data
-
-
-## Web scraping with R
-
--   [Towardsdatascience](https://towardsdatascience.com/web-scraping-with-r-easier-than-python-c06024f6bf52) tutorial (lvl=1)
--   [ScrapingBee](https://www.scrapingbee.com/blog/web-scraping-r/) tutorial (lvl=2)
--   [DataCamp](https://learn.datacamp.com/courses/web-scraping-in-r) course (lvl=3)
--   [R-Bloggers tutorial](https://www.r-bloggers.com/2020/07/tutorial-web-scraping-of-multiple-pages-using-r/) (lvl=3)
 

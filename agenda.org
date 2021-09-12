@@ -156,10 +156,3 @@
     * Harry & Viktor: citations / literature
     * Payne: team? Citations / Literature / data
 
-** Web scraping with R 
-
-     - [[https://towardsdatascience.com/web-scraping-with-r-easier-than-python-c06024f6bf52][Towardsdatascience]] tutorial (lvl=1)
-     - [[https://www.scrapingbee.com/blog/web-scraping-r/][ScrapingBee]] tutorial (lvl=2)
-     - [[https://learn.datacamp.com/courses/web-scraping-in-r][DataCamp]] course (lvl=3)
-     - [[https://www.r-bloggers.com/2020/07/tutorial-web-scraping-of-multiple-pages-using-r/][R-Bloggers tutorial]] (lvl=3)
-

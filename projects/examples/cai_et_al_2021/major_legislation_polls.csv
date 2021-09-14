@@ -1,0 +1,80 @@
+"","Bill","Year","PollingFirm","support","oppose","margin"
+"1","Affordable Care Act (2009)",2009,"ABC News/Washington Post",46,48,-2
+"4","Affordable Care Act (2009)",2009,"CBS News/NY Times",40,45,-5
+"5","Affordable Care Act (2009)",2009,"CNN",49,49,0
+"6","Affordable Care Act (2009)",2009,"Fox News",38,48,-10
+"13","Affordable Care Act (2009)",2009,"NBC News",53,43,10
+"15","Affordable Care Act (2009)",2009,"Pew Foundation",37,46,-9
+"16","Affordable Care Act (2009)",2009,"Quinnipiac",40,47,-7
+"19","American Clean Energy and Security Act (2009)",2009,"ABC News/Washington Post",52,43,9
+"23","American Clean Energy and Security Act (2009)",2009,"CNN",60,37,23
+"33","American Clean Energy and Security Act (2009)",2009,"Pew Foundation",50,39,11
+"37","Assault Weapon Ban (1994)",1994,"ABC News/Washington Post",83,16,67
+"40","Assault Weapon Ban (1994)",1994,"CBS News/NY Times",78,19,59
+"46","Assault Weapon Ban (1994)",1994,"LA Times",72,24,48
+"55","Ban Gay Marriage (2006)",2006,"ABC News/Washington Post",42,51,-9
+"61","Ban Gay Marriage (2006)",2006,"Gallup",50,47,3
+"73","Brady Bill (1993)",1993,"ABC News/Washington Post",84,15,69
+"76","Brady Bill (1993)",1993,"CBS News/NY Times",85,11,74
+"79","Brady Bill (1993)",1993,"Gallup",88,11,77
+"91","Bush Tax Cuts (2001)",2001,"ABC News/Washington Post",58,36,22
+"94","Bush Tax Cuts (2001)",2001,"CBS News/NY Times",67,31,36
+"95","Bush Tax Cuts (2001)",2001,"CNN",51,40,11
+"96","Bush Tax Cuts (2001)",2001,"Fox News",55,33,22
+"97","Bush Tax Cuts (2001)",2001,"Gallup",56,34,22
+"100","Bush Tax Cuts (2001)",2001,"LA Times",52,40,12
+"103","Bush Tax Cuts (2001)",2001,"NBC News",57,32,25
+"115","Campaign Finance Reform (2002)",2002,"Gallup",58,26,32
+"118","Campaign Finance Reform (2002)",2002,"LA Times",57,26,31
+"129","Clean Air Act Amendments (1990)",1990,"Associated Press",77,16,61
+"133","Clean Air Act Amendments (1990)",1990,"Gallup",78,15,63
+"147","Clinton Health Care Plan (1993)",1993,"Associated Press",33,51,-18
+"149","Clinton Health Care Plan (1993)",1993,"CNN",42,45,-3
+"151","Clinton Health Care Plan (1993)",1993,"Gallup",44,49,-5
+"157","Clinton Health Care Plan (1993)",1993,"NBC News",41,48,-7
+"166","Covid-19 Relief ($1.9 trillion) (2021)",2021,"CBS News/NY Times",79,20,59
+"173","Covid-19 Relief ($1.9 trillion) (2021)",2021,"Monmouth",62,34,28
+"174","Covid-19 Relief ($1.9 trillion) (2021)",2021,"Morning Consult",76,17,59
+"177","Covid-19 Relief ($1.9 trillion) (2021)",2021,"Pew Foundation",79,20,59
+"178","Covid-19 Relief ($1.9 trillion) (2021)",2021,"Quinnipiac",68,24,44
+"180","Covid-19 Relief ($1.9 trillion) (2021)",2021,"YouGov",63,30,33
+"181","Dodd-Frank Financial Reform Bill (2010)",2010,"ABC News/Washington Post",66,31,35
+"184","Dodd-Frank Financial Reform Bill (2010)",2010,"CBS News/NY Times",57,35,22
+"185","Dodd-Frank Financial Reform Bill (2010)",2010,"CNN",58,39,19
+"186","Dodd-Frank Financial Reform Bill (2010)",2010,"Fox News",69,20,49
+"187","Dodd-Frank Financial Reform Bill (2010)",2010,"Gallup",55,41,14
+"199","Expand Minimum Wage (2007)",2007,"ABC News/Washington Post",86,13,73
+"208","Expand Minimum Wage (2007)",2007,"LA Times",81,16,65
+"218","GOP Health Care Bill (2017)",2017,"AP/NORC",22,51,-29
+"220","GOP Health Care Bill (2017)",2017,"CBS News/NY Times",32,59,-27
+"222","GOP Health Care Bill (2017)",2017,"Fox News",25,55,-30
+"223","GOP Health Care Bill (2017)",2017,"Gallup",30,66,-36
+"225","GOP Health Care Bill (2017)",2017,"Kaiser",28,61,-33
+"227","GOP Health Care Bill (2017)",2017,"Monmouth",27,56,-29
+"229","GOP Health Care Bill (2017)",2017,"NBC News",16,48,-32
+"230","GOP Health Care Bill (2017)",2017,"NPR/PBS/Marist",17,55,-38
+"232","GOP Health Care Bill (2017)",2017,"Quinnipiac",16,62,-46
+"233","GOP Health Care Bill (2017)",2017,"USA Today/Suffolk",12,53,-41
+"234","GOP Health Care Bill (2017)",2017,"YouGov",28,48,-20
+"235","GOP Tax Reform Bill (2017)",2017,"ABC News/Washington Post",33,50,-17
+"238","GOP Tax Reform Bill (2017)",2017,"CBS News/NY Times",35,53,-18
+"239","GOP Tax Reform Bill (2017)",2017,"CNN",34,52,-18
+"241","GOP Tax Reform Bill (2017)",2017,"Gallup",29,56,-27
+"245","GOP Tax Reform Bill (2017)",2017,"Monmouth",26,47,-21
+"250","GOP Tax Reform Bill (2017)",2017,"Quinnipiac",29,53,-24
+"251","GOP Tax Reform Bill (2017)",2017,"USA Today/Suffolk",32,48,-16
+"252","GOP Tax Reform Bill (2017)",2017,"YouGov",31,42,-11
+"256","Separate immigrant children/parents (2018)",2018,"CBS News/NY Times",17,67,-50
+"257","Separate immigrant children/parents (2018)",2018,"CNN",28,67,-39
+"260","Separate immigrant children/parents (2018)",2018,"Ipsos",27,56,-29
+"268","Separate immigrant children/parents (2018)",2018,"Quinnipiac",27,66,-39
+"273","Stimulus Bill (2009)",2009,"Associated Press",55,38,17
+"274","Stimulus Bill (2009)",2009,"CBS News/NY Times",63,24,39
+"277","Stimulus Bill (2009)",2009,"Gallup",52,38,14
+"289","TARP (Bank Bailout) (2008)",2008,"ABC News/Washington Post",43,51,-8
+"291","TARP (Bank Bailout) (2008)",2008,"Associated Press",30,45,-15
+"292","TARP (Bank Bailout) (2008)",2008,"CBS News/NY Times",38,48,-10
+"293","TARP (Bank Bailout) (2008)",2008,"CNN",46,53,-7
+"294","TARP (Bank Bailout) (2008)",2008,"Fox News",43,48,-5
+"295","TARP (Bank Bailout) (2008)",2008,"Gallup",47,45,2
+"303","TARP (Bank Bailout) (2008)",2008,"Pew Foundation",42,39,3

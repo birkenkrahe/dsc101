@@ -218,7 +218,7 @@
   a beginner, a learner of R, someone who wants to do data science,
   should not have to learn about package development mechanics:
   "experimental" vs. "deprecated" vs. "superseded" vs. "stable" -
-  What? Exactly. 
+  What? Exactly.
 
   [[./img/lifecycle.png]]
 
@@ -228,6 +228,31 @@
   but it's not an alternate R universe, and it's not an alternative to
   base R, no matter how many times the creators and contributors of
   this package bundle may say so.
+
+* Data or graph checking projects
+
+  Many of the project proposals by the course participants are still
+  much too complex for my taste - the research questions need to be
+  cut down to doable size.
+
+  Not simple but highly effective are projects that don't do anything
+  else but check published data and their interpretation. I mentioned
+  a student project from last term. This team of Master students
+  focused on a graph published in The Economist. I have uploaded their
+  final report "Improve Visualization of Popular Support for Executive
+  Actions in the U.S." and the data ([[cai][Cai, Otlu and Rauenbusch,
+  2021]]). It's a very good piece of work, created with a lot of effort
+  over a period of three months. Less would easily do for our course.
+
+  Here is a more recent data checking example that you might find
+  interesting, by [[matloff21][Matloff (2021)]]. This highly opinionated data
+  checking post uses statistical arguments to check policy decisions.
+
+  For many more [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgb216e90][interesting applications and project ideas]], see my
+  2020 data science bookmarks file on GitHub.
+
+  And here's a 2020 list of useful sites for [[https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d][finding free, public
+  datasets]] for EDA tasks.
 
 * References
 
@@ -239,6 +264,10 @@
   rights (you should care about rights!), and (b) the truth (which
   must be spoken!).
 
+  <<cai>> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
+  Visualization of Popular Support for Executive Actions in the
+  U.S. [Report]. Berlin School of Economics and Law. [[https://github.com/birkenkrahe/dsc101/tree/main/projects/examples/cai_et_al_2021][Online: GitHub.]]
+
   <<tidy20>> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
   in 2020 - Part 1: Getting started [Blog]. [[https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/][Online:
   education.rstudio.com.]]
@@ -248,7 +277,10 @@
 
   <<matloff>> Matloff N (2020). TidyverseSceptic - An alternate view
   of the Tidyverse "dialect" of the R language, and its promotion by
-  RStudio. [[https://github.com/matloff/TidyverseSkeptic][Online: github.com]]. 
+  RStudio. [[https://github.com/matloff/TidyverseSkeptic][Online: github.com]].
+
+  <<matloff21>> Matloff N (9 Sept 2021). At Crossroads in California
+  K-12 Math Education [Blog]. [[https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/][Online: normsaysno.wordpress.com.]]
 
 * Footnotes
 

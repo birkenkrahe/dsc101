@@ -246,7 +246,15 @@
 
   Here is a more recent data checking example that you might find
   interesting, by [[matloff21][Matloff (2021)]]. This highly opinionated data
-  checking post uses statistical arguments to check policy decisions.
+  checking post uses statistical arguments to check policy
+  decisions. From the conclusions:
+
+  #+begin_quote
+  "The much-vaunted failure rate reduction from 40% to 8%, is not borne
+  out by the data at all. The district cannot or will not show the
+  details of those numbers, and they concede the numbers are not
+  consistent with the data that the district did provide."
+  #+end_quote
 
   For many more [[https://github.com/birkenkrahe/ds101/blob/master/ds_bookmarks.md#orgb216e90][interesting applications and project ideas]], see my
   2020 data science bookmarks file on GitHub.

@@ -86,7 +86,7 @@
   * [[https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Video lectures @YouTube]] (45')
   
 * Week 4 - September 7
-
+  
   [[./img/valhalla.gif]]
 
   The project journey begins!
@@ -158,7 +158,6 @@
     * Harry & Viktor: citations / literature
     * Payne: team? Citations / Literature / data
 
-
 * Week 5 - September 16
 
   [[./img/outlander.gif]]
@@ -179,12 +178,25 @@
 
    [[./img/structures.gif]]
    
-   * DataCamp (doing [[https://www.datacamp.com/mobile#!][drills]]?)[fn:4]
+   * DataCamp[fn:5] (doing [[https://www.datacamp.com/mobile#!][drills]]?)[fn:4]
    * Vectors, matrices, data frames, lists
    * Classes, objects, types
    * Extended example
 
+** What's next
+
+   #+attr_html: :width 300px
+   [[./img/vectors.jpg]]
+
+   Vectors, factors, data frames and lists
+
+   See full [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.org][Schedule]]
+
 * Footnotes
+
+[fn:5]Some advice on doing online exercises: THINK THINGS THROUGH FOR
+YOURSELF! Don't just go through the motions. There's plenty to learn
+that DataCamp never tells you. For now, make ample use of ~help()~!
 
 [fn:4]Hopefully, you remember that you have to complete >50% of the
 DataCamp assignments on time to pass the course. There are 15

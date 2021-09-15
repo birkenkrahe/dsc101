@@ -181,7 +181,6 @@
    * DataCamp[fn:5] (doing [[https://www.datacamp.com/mobile#!][drills]]?)[fn:4]
    * Vectors, matrices, data frames, lists
    * Classes, objects, types
-   * Extended example
 
 ** What's next
 

@@ -198,9 +198,8 @@
 YOURSELF! Don't just go through the motions. There's plenty to learn
 that DataCamp never tells you. For now, make ample use of ~help()~!
 
-[fn:4]Hopefully, you remember that you have to complete >50% of the
-DataCamp assignments on time to pass the course. There are 15
-assignments in total (so you need to complete 8 on time).
+[fn:4]Hopefully, you remember that your DataCamp completion rate makes
+up 15% of your total grade ([[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.org#datacamp-assignments-15][see syllabus]]).
 
 [fn:3]What's the project idea? The article has no references, only
 claims. Your project would be to contrast Excel and R using one or

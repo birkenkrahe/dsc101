@@ -4,7 +4,7 @@
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
 #+OPTIONS: toc:1 num:nil fig:nil
-* Week 2 - 24 August
+* Week 2 - August 24
 
   #+attr_html: :height 300px
   [[./img/bean.gif]]
@@ -22,7 +22,7 @@
    * FAQ: text books ([[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md#org052193d][GitHub]])
    * Term Diary ([[https://github.com/birkenkrahe/org/blob/master/diary.md#org3b0dc9e][GitHub]])
    * Questions?
-* Week 2 - 26 August
+* Week 2 - August 26
 
   #+attr_html: :height 300px
   [[./img/bean.gif]]
@@ -63,7 +63,7 @@
    * Followup 24 August ([[https://github.com/birkenkrahe/dsc101/blob/main/2_datascience/followup_08_24_2021.md][GitHub]])
    * Video recording / Podcast anyone?
    * Onwards: data science problems
-* Week 3 - 31 August
+* Week 3 - August 31
 
   [[./img/rugby.gif]]
   
@@ -73,7 +73,7 @@
   * [[https://github.com/birkenkrahe/dsc101/blob/main/3_introR/3_introR.md][Getting started with R]]
   * [[https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50][Project examples]] - new [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2][Scrum FAQs]]
 
-* Week 3 - 2 September
+* Week 3 - September 2
 
   #+attr_html: :height 250px
   [[./img/Rlogo.svg]]
@@ -85,9 +85,11 @@
   * Datasets
   * [[https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Video lectures @YouTube]] (45')
   
-* Week 4 - 7 September
+* Week 4 - September 7
 
   [[./img/valhalla.gif]]
+
+  The project journey begins!
     
 ** Housekeeping
 
@@ -107,7 +109,7 @@
 
    [[https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4][Videos available on YouTube (ca. 45 min)]]
 
-* Week 4 - 9 September
+* Week 4 - September 9
 
   [[./img/rugby.gif]]
 
@@ -156,3 +158,50 @@
     * Harry & Viktor: citations / literature
     * Payne: team? Citations / Literature / data
 
+
+* Week 5 - September 16
+
+  [[./img/outlander.gif]]
+
+  These boys mean business.
+
+** Project corner
+
+   #+attr_html: :width 300px
+   [[./img/corner.gif]]
+
+  * Data checking projects ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][diary]])
+  * Project idea: [[https://lucidmanager.org/data-science/text-adventure//][adventure games]][fn:1]
+  * Project idea: [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]][fn:2]
+  * Project idea! [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]][fn:3]
+
+** R Data structures
+
+   [[./img/structures.gif]]
+   
+   * DataCamp (doing [[https://www.datacamp.com/mobile#!][drills]]?)[fn:4]
+   * Vectors, matrices, data frames, lists
+   * Classes, objects, types
+   * Extended example
+
+* Footnotes
+
+[fn:4]Hopefully, you remember that you have to complete >50% of the
+DataCamp assignments on time to pass the course. There are 15
+assignments in total (so you need to complete 8 on time).
+
+[fn:3]What's the project idea? The article has no references, only
+claims. Your project would be to contrast Excel and R using one or
+more simple examples. An example could come from some other class.
+
+[fn:2]What's the project idea here? The blog post describes the model
+purely in terms of R (very easy to play through actually - do it!). It
+does not provide any of the mathematics. A project could write about
+this with references (missing in the blog) and maths, and present this
+topic more systematically. The maths are pure probability 101, quite
+simple.
+
+[fn:1]What's the project idea here? Understand how the adventure game is
+built, program your own (different) game and document the process and
+the result. Nice presentation opportunity: you can let your audience
+play the game and perhaps gather statistics, too.

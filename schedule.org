@@ -1,36 +1,36 @@
 #+options: toc:nil
 * Schedule DSC 101 Fall 2021
 
-   | No | DATE   | LECTURES               | ASSIGNMENTS         | Project           |
-   |----+--------+------------------------+---------------------+-------------------|
-   |  1 | 17-Aug | Course overview        |                     |                   |
-   |  2 | 19-Aug | Course overview        |                     |                   |
-   |  3 | 24-Aug | Data Science overview  |                     |                   |
-   |  4 | 26-Aug | Data Science overview  | Intro to Basics     |                   |
-   |  5 | 31-Aug | Installing R / Shell   |                     |                   |
-   |  6 | 2-Sep  | Getting started with R | Vectors             |                   |
-   |  7 | 7-Sep  | Arithmetic with R      |                     |                   |
-   |  8 | 9-Sep  | Arithmetic with R      |                     | 1st sprint review |
-   |  9 | 14-Sep | Work on Projects       |                     |                   |
-   | 10 | 16-Sep | Data structures in R   | Matrices            |                   |
-   | 11 | 21-Sep | Data structures in R   |                     |                   |
-   | 12 | 23-Sep | CANCELLED              | Factors             |                   |
-   | 13 | 28-Sep | Vectors in R           |                     |                   |
-   | 14 | 30-Sep | Vectors in R           | Data frames         | Midterm exam      |
-   | 15 | 7-Oct  | PRESENTATIONS          | Lists               | 2nd sprint review |
-   | 16 | 12-Oct | Literate Programming   |                     |                   |
-   | 17 | 14-Oct | Data input/output      | Intro to graphics   |                   |
-   | 18 | 19-Oct | Base R graphics        |                     |                   |
-   | 19 | 21-Oct | Base R graphics        | Plot types          |                   |
-   | 20 | 26-Oct | Grammar of graphics    |                     |                   |
-   | 21 | 28-Oct | Grammar of graphics    | Adding plot details |                   |
-   | 22 | 2-Nov  | PRESENTATIONS          |                     | 3rd sprint review |
-   | 23 | 4-Nov  | Web Scraping           | Multiple plots      |                   |
-   | 24 | 9-Nov  | Text mining            |                     |                   |
-   | 25 | 11-Nov | Linear regression      | Plot customization  |                   |
-   | 26 | 16-Nov | Dates and times        |                     |                   |
-   | 27 | 18-Nov | Coding style           | Conditions & Flow   |                   |
-   | 28 | 23-Nov | Logistic regression    | Loops               |                   |
-   | 29 | 30-Nov | Team presentations     | Functions           | 4th sprint review |
-   | 30 | 2-Dec  | Team presentations     | Apply functions     | 4th sprint review |
+   | No | DATE   | LECTURES                   | ASSIGNMENTS         | Project           |
+   |----+--------+----------------------------+---------------------+-------------------|
+   |  1 | 17-Aug | Course overview            |                     |                   |
+   |  2 | 19-Aug | Course overview            |                     |                   |
+   |  3 | 24-Aug | Data Science overview      |                     |                   |
+   |  4 | 26-Aug | Data Science overview      | Intro to Basics     |                   |
+   |  5 | 31-Aug | Installing R / Shell       |                     |                   |
+   |  6 | 2-Sep  | Getting started with R     | Vectors             |                   |
+   |  7 | 7-Sep  | Arithmetic with R          |                     |                   |
+   |  8 | 9-Sep  | Arithmetic with R          |                     | 1st sprint review |
+   |  9 | 14-Sep | Work on Projects           |                     |                   |
+   | 10 | 16-Sep | Data structures in R       | Matrices            |                   |
+   | 11 | 21-Sep | Data structures in R       |                     |                   |
+   | 12 | 23-Sep | CANCELLED (Day of Renewal) | Factors             |                   |
+   | 13 | 28-Sep | Vectors in R               |                     |                   |
+   | 14 | 30-Sep | Vectors in R               | Data frames         | Midterm exam      |
+   | 15 | 7-Oct  | PRESENTATIONS              | Lists               | 2nd sprint review |
+   | 16 | 12-Oct | Literate Programming       |                     |                   |
+   | 17 | 14-Oct | Data input/output          | Intro to graphics   |                   |
+   | 18 | 19-Oct | Base R graphics            |                     |                   |
+   | 19 | 21-Oct | Base R graphics            | Plot types          |                   |
+   | 20 | 26-Oct | Grammar of graphics        |                     |                   |
+   | 21 | 28-Oct | Grammar of graphics        | Adding plot details |                   |
+   | 22 | 2-Nov  | PRESENTATIONS              |                     | 3rd sprint review |
+   | 23 | 4-Nov  | Web Scraping               | Multiple plots      |                   |
+   | 24 | 9-Nov  | Text mining                |                     |                   |
+   | 25 | 11-Nov | Linear regression          | Plot customization  |                   |
+   | 26 | 16-Nov | Dates and times            |                     |                   |
+   | 27 | 18-Nov | Coding style               | Conditions & Flow   |                   |
+   | 28 | 23-Nov | Logistic regression        | Loops               |                   |
+   | 29 | 30-Nov | Team presentations         | Functions           | 4th sprint review |
+   | 30 | 2-Dec  | Team presentations         | Apply functions     | 4th sprint review |
 

@@ -129,7 +129,7 @@
 <tr>
 <td class="org-right">12</td>
 <td class="org-left">23-Sep</td>
-<td class="org-left">CANCELLED</td>
+<td class="org-left">CANCELLED (Day of Renewal)</td>
 <td class="org-left">Factors</td>
 <td class="org-left">&#xa0;</td>
 </tr>

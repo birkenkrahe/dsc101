@@ -191,7 +191,6 @@
 
    See full [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.org][Schedule]]
 
-
 * Week 6 - September 21
 
   
@@ -199,7 +198,7 @@
 
   * Keep up with your *project* work!
   * Short midterm *exam* on Thu Sept 30!
-  * Includes everything except "Factors"
+  * Includes *everything* esp. DataCamp
   * Class on Thursday September 23 cancelled!
 
 * Footnotes

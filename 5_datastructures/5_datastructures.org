@@ -223,7 +223,7 @@
 
    * ~rbind~ attaches rows
    * ~cbind~ attaches columns
-     
+
      #+begin_src R :session :results output
        D <- rbind(c(1,4),c(2,2))
        D
@@ -273,6 +273,15 @@
      D[1,]   # row 1
    #+end_src
 
+   #+RESULTS:
+   :      [,1] [,2]
+   : [1,]    1    4
+   : [2,]    2    2
+   : [1] 4
+   : [1] 4 2
+   : [1] 2
+   : [1] 1 4
+
 * Lists
 
   * Lists can contain different data types
@@ -320,6 +329,31 @@
      print(hn)        # print hn (we can also just type hn
    #+end_src
 
+   #+RESULTS:
+   #+begin_example
+   [1] "list"
+   $breaks
+    [1]  400  500  600  700  800  900 1000 1100 1200 1300 1400
+
+   $counts
+    [1]  1  0  5 20 25 19 12 11  6  1
+
+   $density
+    [1] 0.0001 0.0000 0.0005 0.0020 0.0025 0.0019 0.0012 0.0011 0.0006 0.0001
+
+   $mids
+    [1]  450  550  650  750  850  950 1050 1150 1250 1350
+
+   $xname
+   [1] "Nile"
+
+   $equidist
+   [1] TRUE
+
+   attr(,"class")
+   [1] "histogram"
+   #+end_example
+
    * More common way to show structure with ~str~
 
      #+begin_src R :session :results output
@@ -347,18 +381,37 @@
    * Turn a list into a data frame using ~data.frame~
 
    #+begin_src R :session :results output
+
      fam <- list(kids=c("Jack","Jill"), ages=c(12,10))
      fam
      d <- data.frame(fam)
      d
+
    #+end_src
+
+   #+RESULTS:
+   : $kids
+   : [1] "Jack" "Jill"
+   :
+   : $ages
+   : [1] 12 10
+   :   kids ages
+   : 1 Jack   12
+   : 2 Jill   10
 
    * Turn vectors directly into a data frame
 
      #+begin_src R :session :results output
+
        df <- data.frame(kids=c("Jack","Jill"),ages=c(12,10))
        df
+
      #+end_src
+
+     #+RESULTS:
+     :   kids ages
+     : 1 Jack   12
+     : 2 Jill   10
 
 ** Read data frame from file
 
@@ -372,8 +425,16 @@
                   "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv",
                 header=FALSE, sep=,)
      head(pima_raw)
-     str(pima_raw)
    #+end_src
+
+   #+RESULTS:
+   :   V1  V2 V3 V4  V5   V6    V7 V8 V9
+   : 1  6 148 72 35   0 33.6 0.627 50  1
+   : 2  1  85 66 29   0 26.6 0.351 31  0
+   : 3  8 183 64  0   0 23.3 0.672 32  1
+   : 4  1  89 66 23  94 28.1 0.167 21  0
+   : 5  0 137 40 35 168 43.1 2.288 33  1
+   : 6  5 116 74  0   0 25.6 0.201 30  0
 
    * [[https://www.kaggle.com/uciml/pima-indians-diabetes-database/version/1][Download from Kaggle]] and read in from local machine
 
@@ -382,9 +443,22 @@
      pima <- read.csv(file="/home/marcus/GitHub/dsc101/5_datastructures/data/diabetes.csv",
                       header=TRUE,
                       sep=,)
-     head(pima)
      str(pima)
    #+end_src
+
+   #+RESULTS:
+   #+begin_example
+   'data.frame':        768 obs. of  9 variables:
+    $ Pregnancies             : int  6 1 8 1 0 5 3 10 2 8 ...
+    $ Glucose                 : int  148 85 183 89 137 116 78 115 197 125 ...
+    $ BloodPressure           : int  72 66 64 66 40 74 50 0 70 96 ...
+    $ SkinThickness           : int  35 29 0 23 35 0 32 0 45 0 ...
+    $ Insulin                 : int  0 0 0 94 168 0 88 0 543 0 ...
+    $ BMI                     : num  33.6 26.6 23.3 28.1 43.1 25.6 31 35.3 30.5 0 ...
+    $ DiabetesPedigreeFunction: num  0.627 0.351 0.672 0.167 2.288 ...
+    $ Age                     : int  50 31 32 21 33 30 26 29 53 54 ...
+    $ Outcome                 : int  1 0 1 0 1 0 1 0 1 1 ...
+   #+end_example
 
 * Classes
 
@@ -401,6 +475,10 @@
      class(Nile)
    #+end_src
 
+   #+RESULTS:
+   :  Time-Series [1:100] from 1871 to 1970: 1120 1160 963 1210 1160 1160 813 1230 1370 1140 ...
+   : [1] "ts"
+
 ** Class example: histogram
 
    * Non-graphical output of ~hist()~ has a class
@@ -411,6 +489,10 @@
      mode(hn)          # the object is of mode "list'
      class(hn)         # its object class is "histogram"
    #+end_src
+
+   #+RESULTS:
+   : [1] "list"
+   : [1] "histogram"
 
 ** What are classes good for?
 
@@ -426,20 +508,170 @@
      - Calling ~summary()~ on the output of ~lm()~ (regression)
 
    #+begin_src R :session :results output
-     summary(hn)
-     summary(lm(mtcars))
+     summary(hn) # summarize histogram of Nile data set
+     summary(Nile) # summarize time series of Nile data set
+     summary(lm(1:100~Nile)) # summarize linear fit of Nile data set
    #+end_src
+
+   #+RESULTS:
+   #+begin_example
+	    Length Class  Mode     
+   breaks   11     -none- numeric  
+   counts   10     -none- numeric  
+   density  10     -none- numeric  
+   mids     10     -none- numeric  
+   xname     1     -none- character
+   equidist  1     -none- logical
+      Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+     456.0   798.5   893.5   919.4  1032.5  1370.0
+
+   Call:
+   lm(formula = 1:100 ~ Nile)
+
+   Residuals:
+       Min      1Q  Median      3Q     Max 
+   -51.984 -22.428  -2.128  18.508  63.495 
+
+   Coefficients:
+		Estimate Std. Error t value Pr(>|t|)    
+   (Intercept) 123.83948   14.32659   8.644 1.05e-13 ***
+   Nile         -0.07977    0.01533  -5.204 1.07e-06 ***
+   ---
+   Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+   Residual standard error: 25.81 on 98 degrees of freedom
+   Multiple R-squared:  0.2165,	Adjusted R-squared:  0.2085 
+   F-statistic: 27.08 on 1 and 98 DF,  p-value: 1.072e-06
+   #+end_example
 
    * You can call ~plot()~ on just about any R object, e.g.
      - Call ~plot()~ on a time series like ~Nile~
      - Call ~plot()~ on a data frame like ~mtcars~
 
-   #+begin_src R :session :results output
-     plot(Nile)
-     plot(mtcars)
+   #+begin_src R :session :results output 
+     plot(Nile) # plot of Nile time series data
    #+end_src
 
+   #+RESULTS:
+
+   #+begin_src R :session :results output 
+     plot(hn)  # plot histogram
+   #+end_src
+
+   #+RESULTS:
+
+   #+begin_src R :session :results output 
+     plot(mtcars) # plot of all mtcars variables
+   #+end_src
+
+   #+RESULTS:
+
 * Extended example: regression analysis
+
+** Objective and data
+
+   We walk through a brief statistical regression analysis - fitting a
+   linear function to a small data set, showing different R objects
+   along the way.
+
+   The file ~Examsquiz.txt~ contains grades. The numbers correspond to
+   letter grades on a 5-point scale common in Continental Europe:
+
+   | LETTER | POINT |
+   |--------+-------|
+   | A+     |   0.7 |
+   | A      |   1.0 |
+   | A-     |   1.3 |
+   |--------+-------|
+   | B+     |   1.7 |
+   | B      |   2.0 |
+   | B-     |   2.3 |
+   |--------+-------|
+   | C+     |   2.7 |
+   | C      |   3.0 |
+   | C-     |   3.3 |
+   |--------+-------|
+   | D+     |   3.7 |
+   | D      |   4.0 |
+   | D-     |   4.3 |
+   |--------+-------|
+   | F      |   5.0 |
+   |--------+-------|
+
+   Each row contains the data for one student consisting of the midterm
+   examination grade, the final examination grade, and the average quiz
+   grade.
+
+   We want to see how well the midterm and quiz grades predict the
+   student's final exam grade.
+
+** Read data into R
+
+   * Make sure you are in the right folder
+   * Read in data file using ~read.table()~
+   * Don't read the first row as ~header~ (default)
+
+   #+begin_src R :session :results output
+     setwd("/home/marcus/GitHub/dsc101/5_datastructures")
+     examsquiz <- read.table(file="./data/ExamsQuiz.txt", header=FALSE)
+   #+end_src
+
+   * Take a look at the data with ~head()~
+   * R assigns default column vector names
+
+   #+begin_src R :session :results output
+     head(examsquiz)
+   #+end_src
+
+   #+RESULTS:
+   :    V1  V2 V3
+   : 1 3.0 1.0  1
+   : 2 2.7 2.3  1
+   : 3 3.7 1.7  1
+   : 4 1.7 1.7  1
+   : 5 5.0 1.7  1
+   : 6 2.0 1.3  1
+
+** Check R data
+
+   * ~examsquiz~ is an R object of class ~data.frame~
+   * ~str()~ also contains this information (and more)
+
+   #+begin_src R :session :results output
+     class(examsquiz)
+     str(examsquiz)
+   #+end_src
+
+   #+RESULTS:
+   : [1] "data.frame"
+   : 'data.frame':      34 obs. of  3 variables:
+   :  $ V1: num  3 2.7 3.7 1.7 5 2 3.7 4 1.7 5 ...
+   :  $ V2: num  1 2.3 1.7 1.7 1.7 1.3 1.7 1.3 1.7 1.7 ...
+   :  $ V3: num  1 1 1 1 1 1 1.3 1 1 1 ...
+
+** Model data
+
+   * Predict exam 2 score (~V2~) from exam 1 (~V1~)
+
+     #+begin_src R :session :results output
+       lma <- lm(examsquiz[,2] ~ examsquiz[,1]) # using indices
+     #+end_src
+
+   * The ~lm()~ function fits a linear prediction equation:
+
+     predicted exam 2 = b_0 + b_1 * exam 1
+   
+   * Check out ~help(lm)~ and ~example(lm)~ for details
+
+   How could we also have extracted the column vectors?
+
+   #+begin_src R :session :results output
+     lma <- lm(examsquiz$V2 ~ examsquiz$V1) # using accessor $
+   #+end_src
+
+   * 
+
+
 
 * Concept summary
 

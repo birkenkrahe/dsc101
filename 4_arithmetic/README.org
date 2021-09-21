@@ -1,0 +1,2 @@
+The markdown file does not render the LaTeX formulas. Please use the
+PDF (mobile or desktop), or the Org file (desktop).

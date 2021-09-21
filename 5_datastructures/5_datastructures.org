@@ -3,6 +3,8 @@
 #+SUBTITLE: DSC 101
 #+OPTIONS: toc:nil num:nil
 #+startup: hideblocks
+#+reveal_theme: black
+#+reveal_init_options: transition:'cube'
 * What will you learn?
 
   * Preview of important data structures
@@ -544,6 +546,7 @@
    F-statistic: 27.08 on 1 and 98 DF,  p-value: 1.072e-06
    #+end_example
 
+** Generic function example: ~plot()~
    * You can call ~plot()~ on just about any R object, e.g.
      - Call ~plot()~ on a time series like ~Nile~
      - Call ~plot()~ on a data frame like ~mtcars~
@@ -568,13 +571,16 @@
 
 * Extended example: regression analysis
 
-** Objective and data
+  [[./img/mtcars_lm.png]]
+
+** Objective
 
    We walk through a brief statistical regression analysis - fitting a
    linear function to a small data set, showing different R objects
    along the way.
 
-   The file ~Examsquiz.txt~ contains grades. The numbers correspond to
+** Data set
+   The file ~grades.txt~ contains grades. The numbers correspond to
    letter grades on a 5-point scale common in Continental Europe:
 
    | LETTER | POINT |
@@ -598,12 +604,17 @@
    | F      |   5.0 |
    |--------+-------|
 
+** Column vectors
+
    Each row contains the data for one student consisting of the midterm
    examination grade, the final examination grade, and the average quiz
    grade.
 
    We want to see how well the midterm and quiz grades predict the
    student's final exam grade.
+
+   We'll come back to this example when we go deeper into
+   visualization and data interpretation.
 
 ** Read data into R
 
@@ -613,14 +624,16 @@
 
    #+begin_src R :session :results output
      setwd("/home/marcus/GitHub/dsc101/5_datastructures")
-     examsquiz <- read.table(file="./data/ExamsQuiz.txt", header=FALSE)
+     grades <- read.table(file="./data/grades.txt", header=FALSE)
    #+end_src
+
+   #+RESULTS:
 
    * Take a look at the data with ~head()~
    * R assigns default column vector names
 
    #+begin_src R :session :results output
-     head(examsquiz)
+     head(grades)
    #+end_src
 
    #+RESULTS:
@@ -634,12 +647,12 @@
 
 ** Check R data
 
-   * ~examsquiz~ is an R object of class ~data.frame~
+   * ~grades~ is an R object of class ~data.frame~
    * ~str()~ also contains this information (and more)
 
    #+begin_src R :session :results output
-     class(examsquiz)
-     str(examsquiz)
+     class(grades)
+     str(grades)
    #+end_src
 
    #+RESULTS:
@@ -651,27 +664,431 @@
 
 ** Model data
 
-   * Predict exam 2 score (~V2~) from exam 1 (~V1~)
+   * Predict finals score (~V2~) from midterm scores (~V1~)
 
      #+begin_src R :session :results output
-       lma <- lm(examsquiz[,2] ~ examsquiz[,1]) # using indices
+       lma <- lm(grades[,2] ~ grades[,1]) # using indices
      #+end_src
 
-   * The ~lm()~ function fits a linear prediction equation:
+     #+RESULTS:
 
-     predicted exam 2 = b_0 + b_1 * exam 1
-   
+   * The ~lm()~ function fits a linear prediction equation: predicted
+     final = b_0 + b_1 * midterm, where b_0 and b_1 are constant
+     estimated from the data
+
    * Check out ~help(lm)~ and ~example(lm)~ for details
 
-   How could we also have extracted the column vectors?
+    How could we also have extracted the column vectors?
+
+** Extracting column vectors with ~$~
+
+   The accessor operator ~$~ works only for named non-atomic vectors
+
+    #+begin_src R :session :results output
+      lma <- lm(grades$V2 ~ grades$V1) # using accessor $
+    #+end_src
+
+    #+RESULTS:
+
+** Explore the ~lm~ object
+
+   * The fit returned by ~lm()~ is in an object
+   * The object is stored in the variable ~lma~
+   * ~lma~ is an instance of the class ~lm~
 
    #+begin_src R :session :results output
-     lma <- lm(examsquiz$V2 ~ examsquiz$V1) # using accessor $
+     class(lma)
    #+end_src
 
-   * 
+   #+RESULTS:
+   : [1] "lm"
 
+** List components of the object with ~attributes()~
 
+    #+begin_src R :session :results output
+      attributes(lma)
+    #+end_src
+
+    #+RESULTS:
+    : $names
+    :  [1] "coefficients"  "residuals"     "effects"       "rank"          "fitted.values" "assign"
+    :  [7] "qr"            "df.residual"   "xlevels"       "call"          "terms"         "model"
+    :
+    : $class
+    : [1] "lm"
+
+** More details with ~str()~
+
+   #+begin_src R :session :results output
+     str(lma)
+   #+end_src
+
+   #+RESULTS:
+   #+begin_example
+   List of 12
+    $ coefficients : Named num [1:2] 1.13 0.17
+     ..- attr(*, "names")= chr [1:2] "(Intercept)" "grades$V1"
+    $ residuals    : Named num [1:34] -0.64 0.711 -0.059 0.282 -0.281 ...
+     ..- attr(*, "names")= chr [1:34] "1" "2" "3" "4" ...
+    $ effects      : Named num [1:34] -8.9351 -1.3973 -0.0835 0.4484 -0.4293 ...
+     ..- attr(*, "names")= chr [1:34] "(Intercept)" "grades$V1" "" "" ...
+    $ rank         : int 2
+    $ fitted.values: Named num [1:34] 1.64 1.59 1.76 1.42 1.98 ...
+     ..- attr(*, "names")= chr [1:34] "1" "2" "3" "4" ...
+    $ assign       : int [1:2] 0 1
+    $ qr           :List of 5
+     ..$ qr   : num [1:34, 1:2] -5.831 0.171 0.171 0.171 0.171 ...
+     .. ..- attr(*, "dimnames")=List of 2
+     .. .. ..$ : chr [1:34] "1" "2" "3" "4" ...
+     .. .. ..$ : chr [1:2] "(Intercept)" "grades$V1"
+     .. ..- attr(*, "assign")= int [1:2] 0 1
+     ..$ qraux: num [1:2] 1.17 1.03
+     ..$ pivot: int [1:2] 1 2
+     ..$ tol  : num 1e-07
+     ..$ rank : int 2
+     ..- attr(*, "class")= chr "qr"
+    $ df.residual  : int 32
+    $ xlevels      : Named list()
+    $ call         : language lm(formula = grades$V2 ~ grades$V1)
+    $ terms        :Classes 'terms', 'formula'  language grades$V2 ~ grades$V1
+     .. ..- attr(*, "variables")= language list(grades$V2, grades$V1)
+     .. ..- attr(*, "factors")= int [1:2, 1] 0 1
+     .. .. ..- attr(*, "dimnames")=List of 2
+     .. .. .. ..$ : chr [1:2] "grades$V2" "grades$V1"
+     .. .. .. ..$ : chr "grades$V1"
+     .. ..- attr(*, "term.labels")= chr "grades$V1"
+     .. ..- attr(*, "order")= int 1
+     .. ..- attr(*, "intercept")= int 1
+     .. ..- attr(*, "response")= int 1
+     .. ..- attr(*, ".Environment")=<environment: R_
+
+     .. ..- attr(*, "predvars")= language list(grades$V2, grades$V1)
+     .. ..- attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+     .. .. ..- attr(*, "names")= chr [1:2] "grades$V2" "grades$V1"
+    $ model        :'data.frame':       34 obs. of  2 variables:
+     ..$ grades$V2: num [1:34] 1 2.3 1.7 1.7 1.7 1.3 1.7 1.3 1.7 1.7 ...
+     ..$ grades$V1: num [1:34] 3 2.7 3.7 1.7 5 2 3.7 4 1.7 5 ...
+     ..- attr(*, "terms")=Classes 'terms', 'formula'  language grades$V2 ~ grades$V1
+     .. .. ..- attr(*, "variables")= language list(grades$V2, grades$V1)
+     .. .. ..- attr(*, "factors")= int [1:2, 1] 0 1
+     .. .. .. ..- attr(*, "dimnames")=List of 2
+     .. .. .. .. ..$ : chr [1:2] "grades$V2" "grades$V1"
+     .. .. .. .. ..$ : chr "grades$V1"
+     .. .. ..- attr(*, "term.labels")= chr "grades$V1"
+     .. .. ..- attr(*, "order")= int 1
+     .. .. ..- attr(*, "intercept")= int 1
+     .. .. ..- attr(*, "response")= int 1
+     .. .. ..- attr(*, ".Environment")=<environment: R_
+
+     .. .. ..- attr(*, "predvars")= language list(grades$V2, grades$V1)
+     .. .. ..- attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+     .. .. .. ..- attr(*, "names")= chr [1:2] "grades$V2" "grades$V1"
+    - attr(*, "class")= chr "lm"
+   #+end_example
+
+** Objects store attributes
+
+    * Estimated linear coefficients are stored in ~lma$coefficients~
+    * Long names can be shortened (if they're not ambiguous)
+
+    #+begin_src R :session :results output
+      lma$coef
+    #+end_src
+
+    #+RESULTS:
+    : (Intercept)   grades$V1
+    :   1.1281758   0.1704965
+
+** Generic function ~coef~
+
+    There is a generic function, ~coef~, just for this, too
+
+    #+begin_src R :session :results output
+      coef(lma)
+    #+end_src
+
+    #+RESULTS:
+    : (Intercept)   grades$V1
+    :   1.1281758   0.1704965
+
+** Using generic ~print()~
+
+    You can also print the object ~lma~ itself
+
+    #+begin_src R :session :results output
+      lma
+    #+end_src
+
+    #+RESULTS:
+    :
+    : Call:
+    : lm(formula = grades$V2 ~ grades$V1)
+    :
+    : Coefficients:
+    : (Intercept)    grades$V1
+    :      1.1282       0.1705
+
+    * By default, this is the generic ~print()~ function
+    * ~print()~ hands the work over to ~print.lm()~
+
+** Classes contain ~methods()~
+
+    * See all methods of ~print()~ with ~methods()~
+
+    #+begin_src R :session :results output
+      methods("print")
+    #+end_src
+
+    #+RESULTS:
+    #+begin_example
+      [1] print.acf*
+      [2] print.anova*
+      [3] print.aov*
+      [4] print.aovlist*
+      [5] print.ar*
+      [6] print.Arima*
+      [7] print.arima0*
+      [8] print.AsIs
+      [9] print.aspell*
+     [10] print.aspell_inspect_context*
+     [11] print.bibentry*
+     [12] print.Bibtex*
+     [13] print.browseVignettes*
+     [14] print.by
+     [15] print.changedFiles*
+     [16] print.check_bogus_return*
+     [17] print.check_code_usage_in_package*
+     [18] print.check_compiled_code*
+     [19] print.check_demo_index*
+     [20] print.check_depdef*
+     [21] print.check_details*
+     [22] print.check_details_changes*
+     [23] print.check_doi_db*
+     [24] print.check_dotInternal*
+     [25] print.check_make_vars*
+     [26] print.check_nonAPI_calls*
+     [27] print.check_package_code_assign_to_globalenv*
+     [28] print.check_package_code_attach*
+     [29] print.check_package_code_data_into_globalenv*
+     [30] print.check_package_code_startup_functions*
+     [31] print.check_package_code_syntax*
+     [32] print.check_package_code_unload_functions*
+     [33] print.check_package_compact_datasets*
+     [34] print.check_package_CRAN_incoming*
+     [35] print.check_package_datalist*
+     [36] print.check_package_datasets*
+     [37] print.check_package_depends*
+     [38] print.check_package_description*
+     [39] print.check_package_description_encoding*
+     [40] print.check_package_license*
+     [41] print.check_packages_in_dir*
+     [42] print.check_packages_used*
+     [43] print.check_po_files*
+     [44] print.check_pragmas*
+     [45] print.check_Rd_line_widths*
+     [46] print.check_Rd_metadata*
+     [47] print.check_Rd_xrefs*
+     [48] print.check_RegSym_calls*
+     [49] print.check_S3_methods_needing_delayed_registration*
+     [50] print.check_so_symbols*
+     [51] print.check_T_and_F*
+     [52] print.check_url_db*
+     [53] print.check_vignette_index*
+     [54] print.checkDocFiles*
+     [55] print.checkDocStyle*
+     [56] print.checkFF*
+     [57] print.checkRd*
+     [58] print.checkRdContents*
+     [59] print.checkReplaceFuns*
+     [60] print.checkS3methods*
+     [61] print.checkTnF*
+     [62] print.checkVignettes*
+     [63] print.citation*
+     [64] print.codoc*
+     [65] print.codocClasses*
+     [66] print.codocData*
+     [67] print.colorConverter*
+     [68] print.compactPDF*
+     [69] print.condition
+     [70] print.connection
+     [71] print.CRAN_package_reverse_dependencies_and_views*
+     [72] print.data.frame
+     [73] print.Date
+     [74] print.default
+     [75] print.dendrogram*
+     [76] print.density*
+     [77] print.difftime
+     [78] print.dist*
+     [79] print.Dlist
+     [80] print.DLLInfo
+     [81] print.DLLInfoList
+     [82] print.DLLRegisteredRoutines
+     [83] print.dummy_coef*
+     [84] print.dummy_coef_list*
+     [85] print.ecdf*
+     [86] print.eigen
+     [87] print.factanal*
+     [88] print.factor
+     [89] print.family*
+     [90] print.fileSnapshot*
+     [91] print.findLineNumResult*
+     [92] print.formula*
+     [93] print.ftable*
+     [94] print.function
+     [95] print.getAnywhere*
+     [96] print.glm*
+     [97] print.hclust*
+     [98] print.help_files_with_topic*
+     [99] print.hexmode
+    [100] print.HoltWinters*
+    [101] print.hsearch*
+    [102] print.hsearch_db*
+    [103] print.htest*
+    [104] print.infl*
+    [105] print.integrate*
+    [106] print.isoreg*
+    [107] print.kmeans*
+    [108] print.Latex*
+    [109] print.LaTeX*
+    [110] print.libraryIQR
+    [111] print.listof
+    [112] print.lm*
+    [113] print.loadings*
+    [114] print.loess*
+    [115] print.logLik*
+    [116] print.ls_str*
+    [117] print.medpolish*
+    [118] print.MethodsFunction*
+    [119] print.mtable*
+    [120] print.NativeRoutineList
+    [121] print.news_db*
+    [122] print.nls*
+    [123] print.noquote
+    [124] print.numeric_version
+    [125] print.object_size*
+    [126] print.octmode
+    [127] print.packageDescription*
+    [128] print.packageInfo
+    [129] print.packageIQR*
+    [130] print.packageStatus*
+    [131] print.pairwise.htest*
+    [132] print.person*
+    [133] print.POSIXct
+    [134] print.POSIXlt
+    [135] print.power.htest*
+    [136] print.ppr*
+    [137] print.prcomp*
+    [138] print.princomp*
+    [139] print.proc_time
+    [140] print.raster*
+    [141] print.Rd*
+    [142] print.recordedplot*
+    [143] print.restart
+    [144] print.RGBcolorConverter*
+    [145] print.rle
+    [146] print.roman*
+    [147] print.sessionInfo*
+    [148] print.simple.list
+    [149] print.smooth.spline*
+    [150] print.socket*
+    [151] print.srcfile
+    [152] print.srcref
+    [153] print.stepfun*
+    [154] print.stl*
+    [155] print.StructTS*
+    [156] print.subdir_tests*
+    [157] print.summarize_CRAN_check_status*
+    [158] print.summary.aov*
+    [159] print.summary.aovlist*
+    [160] print.summary.ecdf*
+    [161] print.summary.glm*
+    [162] print.summary.lm*
+    [163] print.summary.loess*
+    [164] print.summary.manova*
+    [165] print.summary.nls*
+    [166] print.summary.packageStatus*
+    [167] print.summary.ppr*
+    [168] print.summary.prcomp*
+    [169] print.summary.princomp*
+    [170] print.summary.table
+    [171] print.summary.warnings
+    [172] print.summaryDefault
+    [173] print.table
+    [174] print.tables_aov*
+    [175] print.terms*
+    [176] print.ts*
+    [177] print.tskernel*
+    [178] print.TukeyHSD*
+    [179] print.tukeyline*
+    [180] print.tukeysmooth*
+    [181] print.undoc*
+    [182] print.vignette*
+    [183] print.warnings
+    [184] print.xgettext*
+    [185] print.xngettext*
+    [186] print.xtabs*
+    see '?methods' for accessing help and source code
+    #+end_example
+
+** More stats with ~summary()~
+
+    * Get more stats info with ~summary()~
+    * It triggers a call to ~summary.lm()~
+
+    #+begin_src R :session :results output
+      summary(lma)
+    #+end_src
+
+    #+RESULTS:
+    #+begin_example
+
+    Call:
+    lm(formula = grades$V2 ~ grades$V1)
+
+    Residuals:
+         Min       1Q   Median       3Q      Max
+    -0.98066 -0.29417 -0.08459  0.26919  2.01934
+
+    Coefficients:
+		Estimate Std. Error t value Pr(>|t|)
+    (Intercept)  1.12818    0.20142   5.601 3.46e-06 ***
+    grades$V1    0.17050    0.07309   2.333   0.0261 *
+    ---
+    Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+    Residual standard error: 0.599 on 32 degrees of freedom
+    Multiple R-squared:  0.1453, Adjusted R-squared:  0.1186
+    F-statistic: 5.442 on 1 and 32 DF,  p-value: 0.02611
+    #+end_example
+
+** Improving the model
+
+     * We can also estimate from both exam 1 and quiz scores
+     * To make it easier, we name the column vectors first
+
+     #+begin_src R :session :results output
+       names(grades) <- c("final","midterm", "quiz")
+       head(grades)
+     #+end_src
+
+     #+RESULTS:
+     :   final midterm quiz
+     : 1   3.0     1.0    1
+     : 2   2.7     2.3    1
+     : 3   3.7     1.7    1
+     : 4   1.7     1.7    1
+     : 5   5.0     1.7    1
+     : 6   2.0     1.3    1
+
+*** Add predictors
+
+     * Now we use ~+~ to add another predictor variable
+
+       #+begin_src R :session :results output
+	 lmb <- lm(grades$final ~ grades$midterm + grades$quiz)
+       #+end_src
+
+       #+RESULTS:
 
 * Concept summary
 

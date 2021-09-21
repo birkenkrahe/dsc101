@@ -8,17 +8,16 @@
   * Emacs Org-mode files are rendered as Markdown.
   * For a TOC, open the bullet point list menu
 
-** [[https://github.com/birkenkrahe/dsc101/blob/main/agenda.org][Agenda]]
-** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.org][Course diary]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/agenda.md][Agenda]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md][Course diary]]
 ** [[https://github.com/birkenkrahe/dsc101/discussions][Discussion forums]]
-** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.org][Frequently Asked Questions (FAQ)]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md][Frequently Asked Questions (FAQ)]]
 ** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] via [[https://colab.to/r][Google Colaboratory]]
-** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.org][Syllabus]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]]
 
 ** History
 
    First offered @Lyon: Fall 2021 (Undergrad). Previous versions @HWR:
    [Winter 2020](https://github.com/birkenkrahe/ds101)
-   (Extracurricular), Sommer 2021 (Master).
-
-   https://github.com/birkenkrahe/ai482/blob/main/1_overview/img/books.jpg
+   Semester 2023, 2025, 2027 (DSC 101).
+   (Extracurricular), Sommer 2021 (Master). Offered @Lyon Fall

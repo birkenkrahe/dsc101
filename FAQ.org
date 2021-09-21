@@ -1,4 +1,4 @@
-#+options: toc
+#+options: ^:nil toc:1
 * What is this?
 
   This is a Frequently Asked Questions (FAQ) file for the course DSC

@@ -1,3 +1,4 @@
+#+options: toc:nil
 * Schedule DSC 101 Fall 2021
 
    | No | DATE   | LECTURES                | ASSIGNMENTS         | Project           |

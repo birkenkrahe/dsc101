@@ -120,7 +120,7 @@
 <tr>
 <td class="org-right">11</td>
 <td class="org-left">21-Sep</td>
-<td class="org-left">Vectors in R</td>
+<td class="org-left">Data structures in R</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -129,7 +129,7 @@
 <tr>
 <td class="org-right">12</td>
 <td class="org-left">23-Sep</td>
-<td class="org-left">Vectors in R</td>
+<td class="org-left">CANCELLED</td>
 <td class="org-left">Factors</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -138,7 +138,7 @@
 <tr>
 <td class="org-right">13</td>
 <td class="org-left">28-Sep</td>
-<td class="org-left">Data frames and factors</td>
+<td class="org-left">Vectors in R</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -147,16 +147,16 @@
 <tr>
 <td class="org-right">14</td>
 <td class="org-left">30-Sep</td>
-<td class="org-left">Data frames and factors</td>
+<td class="org-left">Vectors in R</td>
 <td class="org-left">Data frames</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Midterm exam</td>
 </tr>
 
 
 <tr>
 <td class="org-right">15</td>
 <td class="org-left">7-Oct</td>
-<td class="org-left">NA</td>
+<td class="org-left">PRESENTATIONS</td>
 <td class="org-left">Lists</td>
 <td class="org-left">2nd sprint review</td>
 </tr>
@@ -219,7 +219,7 @@
 <tr>
 <td class="org-right">22</td>
 <td class="org-left">2-Nov</td>
-<td class="org-left">NA</td>
+<td class="org-left">PRESENTATIONS</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">3rd sprint review</td>
 </tr>

@@ -1,0 +1,3 @@
+Unfortunately, the markdown version of the Org-mode file does not
+render the code chunks. Please use the .org file on the desktop, or
+the PDF file on the mobile.

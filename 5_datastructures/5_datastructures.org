@@ -3,8 +3,6 @@
 #+SUBTITLE: DSC 101
 #+OPTIONS: toc:nil num:nil
 #+startup: hideblocks
-#+reveal_theme: black
-#+reveal_init_options: transition:'cube'
 * What will you learn?
 
   * Preview of important data structures
@@ -233,6 +231,14 @@
        E <- cbind(c(1,4),c(2,2))
        E
      #+end_src
+
+     #+RESULTS:
+     :      [,1] [,2]
+     : [1,]    1    4
+     : [2,]    2    2
+     :      [,1] [,2]
+     : [1,]    1    2
+     : [2,]    4    2
 
 ** Matrix algebra
 

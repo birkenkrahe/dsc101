@@ -194,12 +194,13 @@
 
 * Week 6 - September 21
 
+  
   [[./img/outlander.gif]]
 
   * Keep up with your *project* work!
   * Short midterm *exam* on Thu Sept 30!
-  * Includes everything learnt so far
-  * Does not include "Factors" (DataCamp)
+  * Includes everything except "Factors"
+  * Class on Thursday September 23 cancelled!
 
 * Footnotes
 

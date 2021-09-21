@@ -159,7 +159,7 @@
     * Payne: team? Citations / Literature / data
 
 * Week 5 - September 16
-
+  
   [[./img/outlander.gif]]
 
   These boys mean business.
@@ -190,6 +190,16 @@
    Vectors, factors, data frames and lists
 
    See full [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.org][Schedule]]
+
+
+* Week 6 - September 21
+
+  [[./img/outlander.gif]]
+
+  * Keep up with your *project* work!
+  * Short midterm *exam* on Thu Sept 30!
+  * Includes everything learnt so far
+  * Does not include "Factors" (DataCamp)
 
 * Footnotes
 

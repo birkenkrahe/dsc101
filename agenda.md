@@ -1,17 +1,18 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgc80264e)
--   [Week 2 - August 26](#org319d972)
--   [Week 3 - August 31](#org477ff39)
--   [Week 3 - September 2](#orga78d823)
--   [Week 4 - September 7](#org19933f4)
--   [Week 4 - September 9](#org34737ca)
--   [Week 5 - September 16](#org6c491a2)
+-   [Week 2 - August 24](#orga369088)
+-   [Week 2 - August 26](#orgb495751)
+-   [Week 3 - August 31](#orgd412879)
+-   [Week 3 - September 2](#org5ab66d0)
+-   [Week 4 - September 7](#orgdc45eb8)
+-   [Week 4 - September 9](#orgf35fccc)
+-   [Week 5 - September 16](#org7e82cc8)
+-   [Week 6 - September 21](#orgd9d0e5e)
 
 
 
-<a id="orgc80264e"></a>
+<a id="orga369088"></a>
 
 # Week 2 - August 24
 
@@ -33,7 +34,7 @@
 -   Questions?
 
 
-<a id="org319d972"></a>
+<a id="orgb495751"></a>
 
 # Week 2 - August 26
 
@@ -115,7 +116,7 @@
 -   Onwards: data science problems
 
 
-<a id="org477ff39"></a>
+<a id="orgd412879"></a>
 
 # Week 3 - August 31
 
@@ -128,7 +129,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orga78d823"></a>
+<a id="org5ab66d0"></a>
 
 # Week 3 - September 2
 
@@ -142,7 +143,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org19933f4"></a>
+<a id="orgdc45eb8"></a>
 
 # Week 4 - September 7
 
@@ -172,7 +173,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org34737ca"></a>
+<a id="orgf35fccc"></a>
 
 # Week 4 - September 9
 
@@ -318,7 +319,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org6c491a2"></a>
+<a id="org7e82cc8"></a>
 
 # Week 5 - September 16
 
@@ -353,6 +354,18 @@ These boys mean business.
 Vectors, factors, data frames and lists
 
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
+
+
+<a id="orgd9d0e5e"></a>
+
+# Week 6 - September 21
+
+![img](./img/outlander.gif)
+
+-   Keep up with your **project** work!
+-   Short midterm **exam** on Thu Sept 30!
+-   Includes everything learnt so far
+-   Does not include "Factors" (DataCamp)
 
 
 # Footnotes

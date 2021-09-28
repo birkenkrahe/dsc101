@@ -22,7 +22,7 @@
 <th scope="col" class="org-left">DATE</th>
 <th scope="col" class="org-left">LECTURES</th>
 <th scope="col" class="org-left">ASSIGNMENTS</th>
-<th scope="col" class="org-left">Project</th>
+<th scope="col" class="org-left">Project / Test</th>
 </tr>
 </thead>
 
@@ -138,7 +138,7 @@
 <tr>
 <td class="org-right">13</td>
 <td class="org-left">28-Sep</td>
-<td class="org-left">Vectors in R</td>
+<td class="org-left">Data structures in R</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -147,9 +147,9 @@
 <tr>
 <td class="org-right">14</td>
 <td class="org-left">30-Sep</td>
-<td class="org-left">Vectors in R</td>
-<td class="org-left">Data frames</td>
-<td class="org-left">Midterm exam</td>
+<td class="org-left">Data structures in R</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: Midterm exam</td>
 </tr>
 
 
@@ -157,7 +157,7 @@
 <td class="org-right">15</td>
 <td class="org-left">7-Oct</td>
 <td class="org-left">PRESENTATIONS</td>
-<td class="org-left">Lists</td>
+<td class="org-left">Data frames</td>
 <td class="org-left">2nd sprint review</td>
 </tr>
 
@@ -175,7 +175,7 @@
 <td class="org-right">17</td>
 <td class="org-left">14-Oct</td>
 <td class="org-left">Data input/output</td>
-<td class="org-left">Intro to graphics</td>
+<td class="org-left">[Importing data](https://learn.datacamp.com/courses/introduction-to-importing-data-in-r)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -183,9 +183,9 @@
 <tr>
 <td class="org-right">18</td>
 <td class="org-left">19-Oct</td>
-<td class="org-left">Base R graphics</td>
+<td class="org-left">Data input/output</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: input/output</td>
 </tr>
 
 
@@ -193,7 +193,7 @@
 <td class="org-right">19</td>
 <td class="org-left">21-Oct</td>
 <td class="org-left">Base R graphics</td>
-<td class="org-left">Plot types</td>
+<td class="org-left">[Intro to graphics](https://learn.datacamp.com/courses/data-visualization-in-r)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -201,9 +201,9 @@
 <tr>
 <td class="org-right">20</td>
 <td class="org-left">26-Oct</td>
-<td class="org-left">Grammar of graphics</td>
+<td class="org-left">Base R graphics</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: base graphics</td>
 </tr>
 
 
@@ -211,7 +211,7 @@
 <td class="org-right">21</td>
 <td class="org-left">28-Oct</td>
 <td class="org-left">Grammar of graphics</td>
-<td class="org-left">Adding plot details</td>
+<td class="org-left">[Intro to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -229,7 +229,7 @@
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
 <td class="org-left">Web Scraping</td>
-<td class="org-left">Multiple plots</td>
+<td class="org-left">[Intro to web scraping](https://learn.datacamp.com/courses/web-scraping-in-r)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -237,17 +237,17 @@
 <tr>
 <td class="org-right">24</td>
 <td class="org-left">9-Nov</td>
-<td class="org-left">Text mining</td>
+<td class="org-left">Web Scraping</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: web scraping</td>
 </tr>
 
 
 <tr>
 <td class="org-right">25</td>
 <td class="org-left">11-Nov</td>
-<td class="org-left">Linear regression</td>
-<td class="org-left">Plot customization</td>
+<td class="org-left">Using data.table</td>
+<td class="org-left">[Intro to data.table](https://learn.datacamp.com/courses/data-manipulation-with-datatable-in-r)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -255,17 +255,17 @@
 <tr>
 <td class="org-right">26</td>
 <td class="org-left">16-Nov</td>
-<td class="org-left">Dates and times</td>
+<td class="org-left">Using data.table</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: data.table</td>
 </tr>
 
 
 <tr>
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
-<td class="org-left">Coding style</td>
-<td class="org-left">Conditions & Flow</td>
+<td class="org-left">EDA</td>
+<td class="org-left">[Case study: EDA](https://learn.datacamp.com/courses/case-study-exploratory-data-analysis-in-r)</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -273,8 +273,8 @@
 <tr>
 <td class="org-right">28</td>
 <td class="org-left">23-Nov</td>
-<td class="org-left">Logistic regression</td>
-<td class="org-left">Loops</td>
+<td class="org-left">EDA</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -283,7 +283,7 @@
 <td class="org-right">29</td>
 <td class="org-left">30-Nov</td>
 <td class="org-left">Team presentations</td>
-<td class="org-left">Functions</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">4th sprint review</td>
 </tr>
 
@@ -292,7 +292,7 @@
 <td class="org-right">30</td>
 <td class="org-left">2-Dec</td>
 <td class="org-left">Team presentations</td>
-<td class="org-left">Apply functions</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-left">4th sprint review</td>
 </tr>
 </tbody>

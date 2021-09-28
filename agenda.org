@@ -192,7 +192,6 @@
    See full [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.org][Schedule]]
 
 * Week 6 - September 21
-
   
   [[./img/outlander.gif]]
 
@@ -200,6 +199,16 @@
   * Short midterm *exam* on Thu Sept 30!
   * Includes *everything* esp. DataCamp
   * Class on Thursday September 23 cancelled!
+
+* Week 7 - September 28
+
+    [[./img/tsushima.gif]]
+
+  * Midterm exam Thursday 1PM
+  * 2nd sprint review Oct 7 ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ]])
+  * DataCamp changes ([[https://github.com/birkenkrahe/dsc101/blob/main/schedule.md][schedule]])
+  * Datastructures: extended example
+  * After break: tests in class
 
 * Footnotes
 

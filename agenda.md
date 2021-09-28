@@ -1,18 +1,19 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgf8595b2)
--   [Week 2 - August 26](#org48970b4)
--   [Week 3 - August 31](#org5258d4a)
--   [Week 3 - September 2](#org6769ba7)
--   [Week 4 - September 7](#org0950c7a)
--   [Week 4 - September 9](#org78ecb68)
--   [Week 5 - September 16](#org9fec6c8)
--   [Week 6 - September 21](#orge3d4fa5)
+-   [Week 2 - August 24](#org9bd763c)
+-   [Week 2 - August 26](#orgefebb05)
+-   [Week 3 - August 31](#orgedc1e7e)
+-   [Week 3 - September 2](#org6e85c37)
+-   [Week 4 - September 7](#org5dad5ef)
+-   [Week 4 - September 9](#org7e5f286)
+-   [Week 5 - September 16](#org3d14fc7)
+-   [Week 6 - September 21](#orgf99f687)
+-   [Week 7 - September 28](#org4864cc0)
 
 
 
-<a id="orgf8595b2"></a>
+<a id="org9bd763c"></a>
 
 # Week 2 - August 24
 
@@ -34,7 +35,7 @@
 -   Questions?
 
 
-<a id="org48970b4"></a>
+<a id="orgefebb05"></a>
 
 # Week 2 - August 26
 
@@ -116,7 +117,7 @@
 -   Onwards: data science problems
 
 
-<a id="org5258d4a"></a>
+<a id="orgedc1e7e"></a>
 
 # Week 3 - August 31
 
@@ -129,7 +130,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org6769ba7"></a>
+<a id="org6e85c37"></a>
 
 # Week 3 - September 2
 
@@ -143,7 +144,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org0950c7a"></a>
+<a id="org5dad5ef"></a>
 
 # Week 4 - September 7
 
@@ -173,7 +174,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org78ecb68"></a>
+<a id="org7e5f286"></a>
 
 # Week 4 - September 9
 
@@ -319,7 +320,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org9fec6c8"></a>
+<a id="org3d14fc7"></a>
 
 # Week 5 - September 16
 
@@ -356,7 +357,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orge3d4fa5"></a>
+<a id="orgf99f687"></a>
 
 # Week 6 - September 21
 
@@ -366,6 +367,19 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Short midterm **exam** on Thu Sept 30!
 -   Includes **everything** esp. DataCamp
 -   Class on Thursday September 23 cancelled!
+
+
+<a id="org4864cc0"></a>
+
+# Week 7 - September 28
+
+![img](./img/tsushima.gif)
+
+-   Midterm exam Thursday 1PM
+-   2nd sprint review Oct 7 ([FAQ](https://github.com/birkenkrahe/org/blob/master/FAQ.md))
+-   DataCamp changes ([schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.md))
+-   Datastructures: extended example
+-   After break: tests in class
 
 
 # Footnotes

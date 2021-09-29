@@ -722,7 +722,7 @@
    #+begin_src R :session :results output
      str(lma)
    #+end_src
-
+   
    #+RESULTS:
    #+begin_example
    List of 12
@@ -1092,6 +1092,11 @@
 
 * Concept summary
 
+  * R has different data types (modes)
+  * Vectors and data frames are most important
+  * Everything in R is an object
+  * Objects are organized by class (e.g. "histogram")
+  * Generic functions match classes (e.g. "plot")
 
 * Code summary
 

@@ -338,6 +338,8 @@ of barplot).
 
     hist(Nile)
 
+![img](./img/histnile.png)
+
 
 ## BONUS:  Citing software (2)
 

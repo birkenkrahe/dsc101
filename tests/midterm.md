@@ -153,7 +153,7 @@ One of the built-in R functions is the logarithm.
 (2) How can you print this base value on the screen using `log10()`
 and e-notation?
 
-    					# the log10() function has the base 10
+    ## the log10() function has the base 10
     log10(1e+10) # same as log10(10000000000)
 
     : [1] 10
@@ -214,6 +214,8 @@ Explain why the following expression is FALSE:
 `identical(sqrt(2)**2,2)`
 
     identical(sqrt(2)^2,2)
+
+    : [1] FALSE
 
 Answer: the square of the square root of 2 is different from 2 due
 to rounding errors, because irrational numbers (like `sqrt(2)`)
@@ -287,7 +289,7 @@ vector, `A` is a matrix, and `df` is a data frame.
     : [1]  2 25 21
     : NULL
     : [1] "Bob's" "your"  "uncle"
-    : Bob's  your uncle 
+    : Bob's  your uncle
     :     2    25    21
 
 
@@ -329,6 +331,12 @@ What is the difference in output between `plot(Nile)` and
 Answer: `plot(Nile)` is a line diagram (a scatterplot with lines
 drawn through its points), while `hist(Nile)` is a histogram (a type
 of barplot).
+
+    plot(Nile)
+
+![img](./img/plotnile.png)
+
+    hist(Nile)
 
 
 ## BONUS:  Citing software (2)

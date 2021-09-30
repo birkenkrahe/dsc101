@@ -147,7 +147,7 @@
 <tr>
 <td class="org-right">14</td>
 <td class="org-left">30-Sep</td>
-<td class="org-left">Data structures in R</td>
+<td class="org-left">MIDTERM EXAM</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">Test: Midterm exam</td>
 </tr>
@@ -175,7 +175,7 @@
 <td class="org-right">17</td>
 <td class="org-left">14-Oct</td>
 <td class="org-left">Data input/output</td>
-<td class="org-left">[Importing data](https://learn.datacamp.com/courses/introduction-to-importing-data-in-r)</td>
+<td class="org-left">Importing data</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -193,7 +193,7 @@
 <td class="org-right">19</td>
 <td class="org-left">21-Oct</td>
 <td class="org-left">Base R graphics</td>
-<td class="org-left">[Intro to graphics](https://learn.datacamp.com/courses/data-visualization-in-r)</td>
+<td class="org-left">Intro to graphics</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -211,7 +211,7 @@
 <td class="org-right">21</td>
 <td class="org-left">28-Oct</td>
 <td class="org-left">Grammar of graphics</td>
-<td class="org-left">[Intro to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2)</td>
+<td class="org-left">Intro to `ggplot2`</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -229,7 +229,7 @@
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
 <td class="org-left">Web Scraping</td>
-<td class="org-left">[Intro to web scraping](https://learn.datacamp.com/courses/web-scraping-in-r)</td>
+<td class="org-left">Intro to web scraping</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -247,7 +247,7 @@
 <td class="org-right">25</td>
 <td class="org-left">11-Nov</td>
 <td class="org-left">Using data.table</td>
-<td class="org-left">[Intro to data.table](https://learn.datacamp.com/courses/data-manipulation-with-datatable-in-r)</td>
+<td class="org-left">Intro to data.table</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -265,7 +265,7 @@
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
 <td class="org-left">EDA</td>
-<td class="org-left">[Case study: EDA](https://learn.datacamp.com/courses/case-study-exploratory-data-analysis-in-r)</td>
+<td class="org-left">EDA Case Study</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 

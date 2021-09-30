@@ -16,20 +16,20 @@
    | 11 | 21-Sep | Data structures in R       |                       |                     |
    | 12 | 23-Sep | CANCELLED (Day of Renewal) | Factors               |                     |
    | 13 | 28-Sep | Data structures in R       |                       |                     |
-   | 14 | 30-Sep | Data structures in R       |                       | Test: Midterm exam  |
+   | 14 | 30-Sep | MIDTERM EXAM               |                       | Test: Midterm exam  |
    | 15 | 7-Oct  | PRESENTATIONS              | Data frames           | 2nd sprint review   |
    | 16 | 12-Oct | Literate Programming       |                       |                     |
-   | 17 | 14-Oct | Data input/output          | [[https://learn.datacamp.com/courses/introduction-to-importing-data-in-r][Importing data]]        |                     |
+   | 17 | 14-Oct | Data input/output          | Importing data        |                     |
    | 18 | 19-Oct | Data input/output          |                       | Test: input/output  |
-   | 19 | 21-Oct | Base R graphics            | [[https://learn.datacamp.com/courses/data-visualization-in-r][Intro to graphics]]     |                     |
+   | 19 | 21-Oct | Base R graphics            | Intro to graphics     |                     |
    | 20 | 26-Oct | Base R graphics            |                       | Test: base graphics |
-   | 21 | 28-Oct | Grammar of graphics        | [[https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2][Intro to ggplot2]]      |                     |
+   | 21 | 28-Oct | Grammar of graphics        | Intro to ~ggplot2~    |                     |
    | 22 | 2-Nov  | PRESENTATIONS              |                       | 3rd sprint review   |
-   | 23 | 4-Nov  | Web Scraping               | [[https://learn.datacamp.com/courses/web-scraping-in-r][Intro to web scraping]] |                     |
+   | 23 | 4-Nov  | Web Scraping               | Intro to web scraping |                     |
    | 24 | 9-Nov  | Web Scraping               |                       | Test: web scraping  |
-   | 25 | 11-Nov | Using data.table           | [[https://learn.datacamp.com/courses/data-manipulation-with-datatable-in-r][Intro to data.table]]   |                     |
+   | 25 | 11-Nov | Using data.table           | Intro to data.table   |                     |
    | 26 | 16-Nov | Using data.table           |                       | Test: data.table    |
-   | 27 | 18-Nov | EDA                        | [[https://learn.datacamp.com/courses/case-study-exploratory-data-analysis-in-r][Case study: EDA]]       |                     |
+   | 27 | 18-Nov | EDA                        | EDA Case Study        |                     |
    | 28 | 23-Nov | EDA                        |                       |                     |
    | 29 | 30-Nov | Team presentations         |                       | 4th sprint review   |
    | 30 | 2-Dec  | Team presentations         |                       | 4th sprint review   |

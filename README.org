@@ -8,12 +8,13 @@
   * Emacs Org-mode files are rendered as Markdown.
   * For a TOC, open the bullet point list menu
 
-** [[https://github.com/birkenkrahe/dsc101/blob/main/agenda.md][Agenda]]
-** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md][Course diary]]
-** [[https://github.com/birkenkrahe/dsc101/discussions][Discussion forums]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.md][Schedule]] of the course (up to date)
+** [[https://github.com/birkenkrahe/dsc101/blob/main/agenda.md][Agenda]] for every session
+** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md][Course diary]] for further reading
+** [[https://github.com/birkenkrahe/dsc101/discussions][Discussion forums]] for assignments
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md][Frequently Asked Questions (FAQ)]]
-** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] via [[https://colab.to/r][Google Colaboratory]]
-** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]]
+** [[https://github.com/birkenkrahe/dsc101/tree/main/notebooks][Jupyter notebooks]] via [[https://colab.to/r][Google Colaboratory]] 
+** [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md][Syllabus]] for a course overview
 
 ** History
 

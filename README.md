@@ -7,13 +7,16 @@
 -   For a TOC, open the bullet point list menu
 
 
-## [Agenda](https://github.com/birkenkrahe/dsc101/blob/main/agenda.md)
+## [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.md) of the course (up to date)
 
 
-## [Course diary](https://github.com/birkenkrahe/dsc101/blob/main/diary.md)
+## [Agenda](https://github.com/birkenkrahe/dsc101/blob/main/agenda.md) for every session
 
 
-## [Discussion forums](https://github.com/birkenkrahe/dsc101/discussions)
+## [Course diary](https://github.com/birkenkrahe/dsc101/blob/main/diary.md) for further reading
+
+
+## [Discussion forums](https://github.com/birkenkrahe/dsc101/discussions) for assignments
 
 
 ## [Frequently Asked Questions (FAQ)](https://github.com/birkenkrahe/dsc101/blob/main/FAQ.md)
@@ -22,7 +25,7 @@
 ## [Jupyter notebooks](https://github.com/birkenkrahe/dsc101/tree/main/notebooks) via [Google Colaboratory](https://colab.to/r)
 
 
-## [Syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md)
+## [Syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md) for a course overview
 
 
 ## History

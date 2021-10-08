@@ -1,3 +1,4 @@
+#+startup: overview
 #+options: ^:nil toc:1
 * What is this?
 

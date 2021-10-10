@@ -12,3 +12,9 @@ reveal.js
 
 # ignore .tex files
 *.tex
+
+# ignore dvi
+*.dvi
+
+#ignore archive
+#*#

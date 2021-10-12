@@ -1,0 +1,377 @@
+#+TITLE: LITERATE PROGRAMMING
+#+AUTHOR: Marcus Birkenkrahe
+#+DATE: Winter 2020
+#+EMAIL: birkenkrahe@hwr-berlin.de
+#+STARTUP: folded
+# #+OPTIONS: toc:nil
+#+INFOJS_OPT: :view:info
+#+BEGIN_EXPORT html
+<style>
+blockquote {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFF8DC;
+    border-left: 2px solid #ffeb8e;
+    border-left-color: rgb(255, 228, 102);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+pre {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-left: 2px solid #ffeb8e;
+    border-left-color: red;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+img {
+  border: 1px solid #2F4F4F;
+}
+ul {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FAEBD7;
+    color: black;
+    border-left: 2px solid #ffeb8e;
+    border-left-color: black;
+    display: block;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    list-style-type: circle ;
+    list-style-position: inside;
+}
+ </style>
+#+END_EXPORT
+# * AGENDA
+#   * [X] SIMULTANEOUS SIP: GET YOUR DRINK(s) READY!
+#   * [X] DataCamp assignment: visualization (23 Dec)
+#   * [X] [[https://kahoot.it/challenge/01649284?challenge-id=32bfe8b2-c872-4689-82a0-cfbbfd74c311_1607535238476][Kahoot! Revision "Introduction to R"]]
+#   * [X] Process Mining demo (Celonis) 6 Jan 7 PM
+#   * [X] "Computation Notebooks" => productivity
+#     - Poll / Check-in "What makes you productive?"
+#     - To Do/check lists - Trello (task manager)
+#     - Flashcards = learning device
+#     - Producere = combine things to create...
+#     - Integrate to dos and email (reminders)
+#     - 80/20 rule (Pareto principle) / prioritization
+#     - Time management (Pomodoro technique)
+#     - Mindfulness exercise (focus)
+#     - Note taking (Google, OneNote,...)
+* WHAT WILL YOU LEARN?
+
+  * What is the main idea behind the Web?
+  * What are Markup and Markdown?
+  * What is "literate programming"?
+  * What does it have to do with data science notebooks?
+  * Which data science notebooks are out there?
+  * How can I use notebooks for data science?
+  * How can I use notebooks in my own work?
+
+  #+CAPTION: Photo: Peggy Bacon in mid-air backflip, Sydney 1937. Source: [[https://flic.kr/p/5FytjL][State Lib. NSW@flickr]] 
+  #+ATTR_HTML: :width 500px
+  #+ATTR_ORG: :width 500px
+  #+ATTR_LATEX: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/img/moodle-pics/r_notebooks.jpg]]
+* IT'S PERSONAL
+
+  * DESY Particle Physics PhD
+  * CERN WWW development
+  * What is the main idea behind the Web?
+  -----
+    /See figure [[fig:desy]] for a glimpse of the early days of the Web./
+  -----
+  #+CAPTION: Virtual Library page for Literate Programming @DESY, 1994 (Source: Wayback Machine)
+  #+NAME: fig:desy
+  #+ATTR_ORG: :width 500px
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX: :width 500px
+  [[./img/desy.png]]
+* WHAT IS MARKUP?
+  * HTML = HyperText Markup Language
+  * Hide meta information - unlike "WYSIWIG"
+  * Example - active text element behind [[https://www.w3schools.com][This is a link]].
+  #+begin_example
+  <a href="https://www.w3schools.com">This is a link</a>
+  #+end_example
+  Q: /Who can write HTML (and CSS) documents?/[fn:4] 
+* WHAT IS MARKDOWN? (1)
+  #+begin_quote
+  »The idea for Markdown is to make it easy to read, write, and edit
+  prose. HTML is a publishing format; Markdown is a writing
+  format. Thus, Markdown’s formatting syntax only addresses issues
+  that can be conveyed in plain text.« -- [[gruber][John Gruber]]
+  #+end_quote
+* WHAT IS MARKDOWN? (2)
+  * Easy-to-read and easy-to-write
+  * Easy to customize (see figure [[fig:yaml]])
+  * Even easier than HTML:
+  #+begin_example
+  [This is a link](https://www.w3schools.com)
+
+  <a href="https://www.w3schools.com">This is a link</a>
+  #+end_example
+  /Q: Have you come across Markup or Markdown?/
+* WHAT IS MARKDOWN (3)  
+  * [[https://en.wikipedia.org/wiki/YAML][YAML]] ("YAML Ain't Markup Language")
+  * Used for configuration (e.g. headers)
+  * Used in R Markdown Notebooks
+  #+CAPTION: YAML header in R Markdown file (left) and rendering (right) (Source: [[smith][Smith 2020]])
+  #+NAME: fig:yaml
+  #+ATTR_ORG: :width 500px
+  #+ATTR_HTML: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/yaml.png]]
+* [[https://orgmode.org/][ORG-MODE]]
+  * Major GNU Emacs editor mode[fn:2]
+  * Plain text markup + export + publishing
+  * Literate Programming environment[fn:5]
+
+  /Q: Can you think of any reasons to live life in plain text?/
+  -----
+  See figure [[fig:org]] for an example of this very page displayed in
+  Emacs Org-mode.
+  -----
+  #+CAPTION: GNU Emacs Org-mode Markup example
+  #+NAME: fig:org
+  #+ATTR_ORG: :width 500px
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/org.png]]
+* LITERATE PROGRAMMING
+  #+begin_quote
+  »Instead of imagining that our main task is to instruct a /computer/
+  what to do, let us concentrate rather on explaining to /human beings/
+  what we want a computer to do.« -- [[knuth][Donald Knuth]]
+  #+end_quote
+  #+CAPTION: Donald M. Knutz, 1958, working on an IBM 650 computer ([[https://catonmat.net/donald-knuths-first-computer][Source]]).
+  #+NAME: fig:knuth
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/knuth.jpg]]
+* LITPROG: WHY?
+  * Machines cannot handle uncertainty (figure [[fig:program]])
+  * Humans like stories
+  #+CAPTION: Von Neumann's First Computer Program ([[knuth][Knuth, 1970]])
+  #+NAME: fig:program
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/neumann.png]]
+* LITPROG: HOW?
+  * Write programs for use by humans /and/ by machines
+  * Write mainly documentation that also contains code
+  -----
+  Figure [[fig:scoring]] shows part of a literate program.
+  program
+  #+CAPTION: Another screenshot of Knuth's ~cweb~ version of ~advent~.
+  #+NAME: fig:scoring
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX:  :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/scoring.png]]
+* LITPROG: WORKFLOW
+  * Documentation + code is contained in one file (~file.w~)
+  * Tangling leads to a file that the computer can run
+  * Weaving leads to a file that can be printed 
+  -----
+  See figure [[fig:cweb]] for the complete workflow.
+  -----
+  #+CAPTION: Literate programming process chain ([[cweb][Knuth/Levy, 2002]]).
+  #+NAME: fig:cweb
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX: :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/cweb.png]]
+* LITPROG: EXAMPLE
+  * [[https://en.wikipedia.org/wiki/Colossal_Cave_Adventure][~advent~]] is the first digital Role Playing Game (RPG)
+  * It was rewritten in ~cweb~ by Don Knuth (see figure [[fig:index]])
+  * /Try typing ~advent~ in your terminal!/
+  -----
+  Figure [[fig:advent]] shows the first few moments of the game ([[http://literateprogramming.com/adventure.pdf][source]]).
+  -----
+  #+CAPTION: Adventure game in Linux - see ~advent(6)~
+  #+NAME: fig:advent
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX:  :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/advent.png]]
+* LITPROG: PRINTOUT
+  Figure [[fig:define]] shows the printout that corresponds to figure
+  [[fig:advent]] ([[http://literateprogramming.com/adventure.pdf][source]]).
+  #+CAPTION: Screenshot of Knuth's ~cweb~ version of ~advent~.
+  #+NAME: fig:define
+  #+ATTR_HTML: :width 500px
+  #+ATTR_LATEX:  :width 500px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/define.png]]
+* LITPROG: STORY
+  * Automatic index of commands, variables, objects
+  * Index of subroutines, table of contents
+  * Support for digital, code-based storytelling
+  -----
+  Figures [[fig:index]] and [[fig:toc]] show part of the index and the table
+  of contents of the ~cweb~ printout. 
+  -----
+  #+CAPTION: Index for the "Adventure" game by (Crowther, 1975), [[advent][Knuth (1998)]].
+  #+NAME: fig:index
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/index.png]]
+  -----
+  #+CAPTION: Table of Contents for the "Adventure" game (Crowther, 1975), [[advent][Knuth (1998)]].
+  #+NAME: fig:toc
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/toc.png]]
+
+* LITPROG PROS AND CONS
+  | *LITPROG PROS*            | *LITPROG *CONS*                  |
+  |-------------------------+-------------------------------|
+  | Storytelling supported  | Requires thought              |
+  |-------------------------+-------------------------------|
+  | Prettyprinting w/$\TeX$ | $\TeX$ difficult to learn     |
+  |-------------------------+-------------------------------|
+  | Automatic index/TOC     | Requires (different) training |
+  |-------------------------+-------------------------------|
+  | Free Software           | Standardisation difficult     |
+  |-------------------------+-------------------------------|
+* THE CASE FOR LITPROG
+  * Code and documentation in separate files and rarely synchronized,
+  * Variable names that are mnemonics and acronyms, not words,
+  * Documentation that is seldom created by the programmer, and
+  * Documentation that has a lower priority than the program.
+  See also: [[childs2010][Childs, 2010]]:
+  #+begin_quote
+  »It is commonly accepted in software engineering circles that one of
+  the greatest needs in computing is the reduction of the cost of
+  maintenance of codes.  Maintenance programmers spend at least half of
+  their time trying to understand what code does and maintenance is
+  accepted to be 60% to 80% of a code’s cost.«
+  #+end_quote
+* MODERN APPLICATION EXAMPLES
+  * [[http://www.extremeprogramming.org/][Extreme Programming]] (XP)
+  * [[http://agilemodeling.com/][Agile Modeling]] (AM)
+  * Interactive programming (see figure [[fig:ipython]])
+  -----
+  Figure [[fig:ipython]] shows a computational [[http://ipython.org/][IPython]] notebook
+  from 2005. IPython is the precursor of Jupyter notebooks.
+  -----
+  #+CAPTION: IPython notebook. By Shishirdasika, [[https://creativecommons.org/licenses/by-sa/3.0][CC BY-SA 3.0]], via Wikimedia Commons
+  #+NAME: fig:ipython
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/ipython.png]]
+  
+  # -----
+  # Figure [[fig:xkcd]] illustrates the pitfalls of /communication/ 
+  # ([[https://xkcd.com/1028/][Source: xkcd.com]]).
+
+  # #+CAPTION: Scrum values (Source: scrum.org)
+  # #+NAME: fig:xkcd
+  # #+ATTR_HTML: :width 600px
+  # #+ATTR_LATEX:  :width 600px
+  # [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/xkcd.png]]
+  
+* AGILE METHODOLOGIES
+  * Ways to develop and document anything
+  * Better suited for /complex/ projects and /culturally/ diverse teams
+  * Core value: optimize customer /communication/
+  -----  
+  Figure [[fig:scrum]]: [[https://www.scrum.org/resources/what-is-scrum/][Scrum]] is the best known agile methodology.
+  -----
+  #+CAPTION: Scrum values (Source: scrum.org)
+  #+NAME: fig:scrum
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/scrum.png]]
+* NOTEBOOK EXAMPLES
+  * [[https://monty.shinyapps.io/subsetting/#section-introduction][Subsetting quiz as shiny app with ~learnr~ package]]
+  * [[https://web.archive.org/web/20161002004240/http://www.desy.de/user/projects/LitProg/Course.html][GNA Internet Course on Literate Programming (1994)]]
+  * [[https://docs.deepnote.com/deepnote-crash-course-videos][SQL cells in Deepnote (demo, 1 min)]]
+  * [[https://www.kaggle.com/uciml/pima-indians-diabetes-database][Kaggle notebook from Pima Indians database]]
+  * [[https://count.co/n/S9PSxqZBPM9][Count cloud notebook]]
+  * [[https://projects.datacamp.com/projects/41][Introduction to DataCamp projects (with R)]]
+  * [[https://rmarkdown.rstudio.com/gallery.html][R Markdown Outputs Gallery]]
+* NOTEBOOK TUTORIALS
+  * Tutorial: [[https://www.datacamp.com/community/blog/jupyter-notebook-r][Jupyter and R Markdown: Notebooks with R]] (2016)
+  * Book: [[https://bookdown.org/yihui/rmarkdown/notebook.html][R notebook (bookdown)]]
+  * Article: [[https://medium.com/swlh/r-notebook-for-dummies-save-and-share-results-easily-51d343a4882][R notebooks for dummies]] (2020)
+  * Course: [[https://learn.datacamp.com/courses/reporting-with-rmarkdown][Reporting with R Markdown]] (2020)
+  * Course: [[https://rmarkdown.rstudio.com/index.html][R Markdown from RStudio]]
+* ORG-MODE AGAIN
+  * Notebooks work with R, SQL, Python,...anything
+  * [[https://sqlite.org/about.html][SQLite]] example (SQLite = SQL for IoT)
+  * Present, too, if you like
+  * R notebook example (print+plot)
+  -----  
+  Figure [[fig:sqlite]] shows an SQLite notebook example
+  -----
+  #+CAPTION: SQLite notebook example (Emacs/Org-mode)
+  #+NAME: fig:sqlite
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/sqlite.png]]
+
+* NOTEBOOK DEMO (RSTUDIO CLOUD)
+  * EDA using the [[http://heather.cs.ucdavis.edu/FasteR/data/Pima.csv][~Pima~ Indian data set]] (via Matloff)
+  * Head over to [[https://rstudio.cloud/project/2030701][this RStudio cloud notebook]] to start
+  * Compare your results with [[https://moodle.hwr-berlin.de/mod/resource/view.php?id=911275][this solution (PDF)]]
+-----
+Figure [[fig:demo]] shows a screenshot from the RStudio cloud workspace
+where we will practice R notebook creation and execution.
+-----
+  #+CAPTION: RStudio cloud workspace with R notebook demo.
+  #+NAME: fig:demo
+  #+ATTR_HTML: :width 600px
+  #+ATTR_LATEX:  :width 600px
+  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/demo.png]]
+* NOTEBOOK APPLICATIONS FOR YOU
+  * Emacs + ESS + Org-mode (Tutorial)
+  * RStudio notebooks
+  * Write your next paper or thesis as a "literate program"[fn:3]
+* REFERENCES
+  (1) <<knuth>> Donald E. Knuth, "Von Neumann's First Computer
+  Program". Computing Surveys, 2(4), 1970.
+
+  (2) <<gruber>> John Gruber, "Markdown:
+  Syntax". Blog. [[https://daringfireball.net/projects/markdown/syntax#block][daringfireball.net]]
+
+  (3) <<cweb>> Donald E. Knuth and Silvio Levy, "The ~CWEB~ System of
+  Structured Documentation", 2002. Manual. [[http://www.literateprogramming.com/cweb.pdf][literateprogramming.com]]
+
+  (4) <<advent>> [[http://www.literateprogramming.com/adventure.pdf][Don Woods and Don Knuth, 1998.]]
+
+  (5) <<childs>> Bart Childs, "Literate Programming, Why?"
+  (n.d.). [[http://www.literateprogramming.com/bchilds1.pdf][literateprogramming.com]]
+
+  (6) <<childs2010>> Bart Childs, "Thirty years of literate
+  programming and more?". [[https://www.tug.org/TUGboat/tb31-2/tb98childs.pdf][TUGboat, Volume 31(2), 2010:183-188]].
+
+  (7) <<smith>> Zachary M. Smith, "R Markdown Crash Course",
+  2020-03-02. [[https://zsmith27.github.io/rmarkdown_crash-course/index.html][github.com]]
+* Footnotes
+
+[fn:5]See also: [[https://orgmode.org/resources/img/features/tables.gif][Org-mode spreadsheets (Gif)]] 
+
+[fn:4]For a live view, right click & pick "View page source" in your
+browser.
+
+[fn:3] Remember: litprog means "documentation first" - this is
+data-driven storytelling from the story rather than from the data
+end - much easier and much more likely to result in a good story!
+
+[fn:2] A major mode in Emacs is an editing environment that is
+customized for a particular purpose - e.g. coding in a specific
+language like R, or writing notes, like Org-mode, or presenting, like
+Org-present. Most editors don't have this possibility. For GNU Emacs,
+all modes are easily extensible, that is users can create their own
+customizations and contribute them to the editor - just like packages
+in R.
+
+[fn:1] ~Perl~ is a wonderful programming language specialized on
+processing text. It is, by the way, a great extension to knowing R and
+SQL, and arguably even easier to learn than Python.

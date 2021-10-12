@@ -72,11 +72,11 @@ points - any more will get you extra points.
     x[c(1,2,3)] # indexing with vector
     subset(x,x<4) # function subset()
     subset(x,x==1|x==2|x==3) # function subset()
-    subset(x,x!=4&x!=5) # function subset()
+    subset(x,x!=4&x!=5&x!=6) # function subset()
     x[seq(from=1,to=3)] # indexing with sequence vector
     x[rep(c(1,2,3))] # indexing with repetition vector
-    x[(-4):(-5)] # indexing with removing end indices
-    x[c(-4,-5)] # indexing with removing end indices
+    x[(-4):(-6)] # indexing with removing end indices
+    x[c(-4,-5,-6)] # indexing with removing end indices
 
     [1] 1 2 3
     [1] 1 2 3

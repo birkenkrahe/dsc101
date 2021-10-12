@@ -5,7 +5,3 @@
   the term. Notify me if you notice any mistakes or anything else that
   should be corrected.
 
-* Midterm problems and solutions
-
-  You find the [[https://github.com/birkenkrahe/notebooksf21/blob/main/Midterm_problems.ipynb][problem set notebook here]]. Open it in colab to work on
-  it. When you're done, compare with the [[https://github.com/birkenkrahe/dsc101/blob/main/tests/Midterm_solution.ipynb][solution notebook]].

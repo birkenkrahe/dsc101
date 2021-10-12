@@ -2,72 +2,9 @@
 #+AUTHOR: Marcus Birkenkrahe
 #+DATE: Winter 2020
 #+EMAIL: birkenkrahe@hwr-berlin.de
-#+STARTUP: folded
+#+STARTUP: overview
 # #+OPTIONS: toc:nil
-#+INFOJS_OPT: :view:info
-#+BEGIN_EXPORT html
-<style>
-blockquote {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #FFF8DC;
-    border-left: 2px solid #ffeb8e;
-    border-left-color: rgb(255, 228, 102);
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-pre {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-    border-left: 2px solid #ffeb8e;
-    border-left-color: red;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-}
-img {
-  border: 1px solid #2F4F4F;
-}
-ul {
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #FAEBD7;
-    color: black;
-    border-left: 2px solid #ffeb8e;
-    border-left-color: black;
-    display: block;
-    margin-block-start: 4em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    list-style-type: circle ;
-    list-style-position: inside;
-}
- </style>
-#+END_EXPORT
-# * AGENDA
-#   * [X] SIMULTANEOUS SIP: GET YOUR DRINK(s) READY!
-#   * [X] DataCamp assignment: visualization (23 Dec)
-#   * [X] [[https://kahoot.it/challenge/01649284?challenge-id=32bfe8b2-c872-4689-82a0-cfbbfd74c311_1607535238476][Kahoot! Revision "Introduction to R"]]
-#   * [X] Process Mining demo (Celonis) 6 Jan 7 PM
-#   * [X] "Computation Notebooks" => productivity
-#     - Poll / Check-in "What makes you productive?"
-#     - To Do/check lists - Trello (task manager)
-#     - Flashcards = learning device
-#     - Producere = combine things to create...
-#     - Integrate to dos and email (reminders)
-#     - 80/20 rule (Pareto principle) / prioritization
-#     - Time management (Pomodoro technique)
-#     - Mindfulness exercise (focus)
-#     - Note taking (Google, OneNote,...)
-* WHAT WILL YOU LEARN?
+* What will you learn?
 
   * What is the main idea behind the Web?
   * What are Markup and Markdown?
@@ -77,33 +14,31 @@ ul {
   * How can I use notebooks for data science?
   * How can I use notebooks in my own work?
 
-  #+CAPTION: Photo: Peggy Bacon in mid-air backflip, Sydney 1937. Source: [[https://flic.kr/p/5FytjL][State Lib. NSW@flickr]] 
   #+ATTR_HTML: :width 500px
-  #+ATTR_ORG: :width 500px
-  #+ATTR_LATEX: :width 500px
-  [[~/OneDrive/2020_Winter/DS101/img/moodle-pics/r_notebooks.jpg]]
-* IT'S PERSONAL
+  [[./img/backflip.jpg]]
+  
+* It's personal
 
   * DESY Particle Physics PhD
   * CERN WWW development
   * What is the main idea behind the Web?
-  -----
-    /See figure [[fig:desy]] for a glimpse of the early days of the Web./
-  -----
-  #+CAPTION: Virtual Library page for Literate Programming @DESY, 1994 (Source: Wayback Machine)
-  #+NAME: fig:desy
-  #+ATTR_ORG: :width 500px
   #+ATTR_HTML: :width 500px
-  #+ATTR_LATEX: :width 500px
   [[./img/desy.png]]
+
+  /Image: glimpse of the early days of the web/
+  
 * WHAT IS MARKUP?
+
   * HTML = HyperText Markup Language
   * Hide meta information - unlike "WYSIWIG"
   * Example - active text element behind [[https://www.w3schools.com][This is a link]].
-  #+begin_example
+
+  #+begin_src
   <a href="https://www.w3schools.com">This is a link</a>
-  #+end_example
+  #+end_src
+
   Q: /Who can write HTML (and CSS) documents?/[fn:4] 
+
 * WHAT IS MARKDOWN? (1)
   #+begin_quote
   »The idea for Markdown is to make it easy to read, write, and edit

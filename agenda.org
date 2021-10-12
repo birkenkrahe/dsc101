@@ -4,6 +4,7 @@
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
 #+OPTIONS: toc:1 num:nil fig:nil
+#+STARTUP: overview
 * Week 2 - August 24
 
   #+attr_html: :height 300px
@@ -210,6 +211,13 @@
   * Datastructures: extended example
   * After break: tests in class
 
+* Week 9 - October 12
+
+  * Fall 2021 Midterm Exam (colab)
+  * Data structures practice (colab)
+  * [[https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF][2021 New York R Conference]]
+  * Thu: Importing data ([[https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r][DataCamp]])
+  
 * Footnotes
 
 [fn:5]Some advice on doing online exercises: THINK THINGS THROUGH FOR

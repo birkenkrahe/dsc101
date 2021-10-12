@@ -33,9 +33,10 @@
   * Hide meta information - unlike "WYSIWIG"
   * Example - active text element behind [[https://www.w3schools.com][This is a link]].
 
-  #+begin_src
+  #+begin_export ascii
   <a href="https://www.w3schools.com">This is a link</a>
-  #+end_src
+  #+end_export
+
 
   Q: /Who can write HTML (and CSS) documents?/[fn:4] 
 

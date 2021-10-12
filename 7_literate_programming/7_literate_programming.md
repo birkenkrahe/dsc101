@@ -1,34 +1,34 @@
 
 # Table of Contents
 
-1.  [What will you learn?](#org5e9b532)
-2.  [It's personal](#org58c07e0)
-3.  [WHAT IS MARKUP?](#orgafc087c)
-4.  [WHAT IS MARKDOWN? (1)](#org33beb97)
-5.  [WHAT IS MARKDOWN? (2)](#org3697e04)
-6.  [WHAT IS MARKDOWN (3)](#org099018e)
-7.  [ORG-MODE](#org87cc49e)
-8.  [LITERATE PROGRAMMING](#orgf77c9c4)
-9.  [LITPROG: WHY?](#org88987d3)
-10. [LITPROG: HOW?](#orgf359fab)
-11. [LITPROG: WORKFLOW](#orgdaf7484)
-12. [LITPROG: EXAMPLE](#org44162f1)
-13. [LITPROG: PRINTOUT](#org5889075)
-14. [LITPROG: STORY](#orgc6acc29)
-15. [LITPROG PROS AND CONS](#orgf9a8c21)
-16. [THE CASE FOR LITPROG](#orgc44b1fa)
-17. [MODERN APPLICATION EXAMPLES](#orgc366419)
-18. [AGILE METHODOLOGIES](#orgade9df5)
-19. [NOTEBOOK EXAMPLES](#org2650f61)
-20. [NOTEBOOK TUTORIALS](#org3e476e7)
-21. [ORG-MODE AGAIN](#org1925c1d)
-22. [NOTEBOOK DEMO (RSTUDIO CLOUD)](#orgea6d0a3)
-23. [NOTEBOOK APPLICATIONS FOR YOU](#orgb076b76)
-24. [REFERENCES](#org75bf6f1)
+1.  [What will you learn?](#org913bc60)
+2.  [It's personal](#org68072e6)
+3.  [WHAT IS MARKUP?](#org8bc87c9)
+4.  [WHAT IS MARKDOWN? (1)](#orgceb51ca)
+5.  [WHAT IS MARKDOWN? (2)](#org97f094e)
+6.  [WHAT IS MARKDOWN (3)](#orgba08c50)
+7.  [ORG-MODE](#org254a619)
+8.  [LITERATE PROGRAMMING](#orge59f17d)
+9.  [LITPROG: WHY?](#orgd547e74)
+10. [LITPROG: HOW?](#org2e02dc8)
+11. [LITPROG: WORKFLOW](#orgbc3ccd5)
+12. [LITPROG: EXAMPLE](#org5d94be4)
+13. [LITPROG: PRINTOUT](#orga05c805)
+14. [LITPROG: STORY](#org2748b55)
+15. [LITPROG PROS AND CONS](#orgb0ba441)
+16. [THE CASE FOR LITPROG](#orgb08ad28)
+17. [MODERN APPLICATION EXAMPLES](#org9419957)
+18. [AGILE METHODOLOGIES](#org6307a2f)
+19. [NOTEBOOK EXAMPLES](#org57e7939)
+20. [NOTEBOOK TUTORIALS](#orga0c42ac)
+21. [ORG-MODE AGAIN](#orgb367dc5)
+22. [NOTEBOOK DEMO (RSTUDIO CLOUD)](#orgf43dbdc)
+23. [NOTEBOOK APPLICATIONS FOR YOU](#orgba301de)
+24. [REFERENCES](#orgc8c326f)
 
 
 
-<a id="org5e9b532"></a>
+<a id="org913bc60"></a>
 
 # What will you learn?
 
@@ -43,7 +43,7 @@
 ![img](./img/backflip.jpg)
 
 
-<a id="org58c07e0"></a>
+<a id="org68072e6"></a>
 
 # It's personal
 
@@ -56,7 +56,7 @@
 *Image: glimpse of the early days of the web*
 
 
-<a id="orgafc087c"></a>
+<a id="org8bc87c9"></a>
 
 # WHAT IS MARKUP?
 
@@ -64,27 +64,25 @@
 -   Hide meta information - unlike "WYSIWIG"
 -   Example - active text element behind [This is a link](https://www.w3schools.com).
 
-    <a href="https://www.w3schools.com">This is a link</a>
-
 Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> 
 
 
-<a id="org33beb97"></a>
+<a id="orgceb51ca"></a>
 
 # WHAT IS MARKDOWN? (1)
 
 > »The idea for Markdown is to make it easy to read, write, and edit
 > prose. HTML is a publishing format; Markdown is a writing
 > format. Thus, Markdown’s formatting syntax only addresses issues
-> that can be conveyed in plain text.« &#x2013; [John Gruber](#orgc8fae92)
+> that can be conveyed in plain text.« &#x2013; [John Gruber](#org87018c0)
 
 
-<a id="org3697e04"></a>
+<a id="org97f094e"></a>
 
 # WHAT IS MARKDOWN? (2)
 
 -   Easy-to-read and easy-to-write
--   Easy to customize (see figure [26](#orge59b1b2))
+-   Easy to customize (see figure [26](#org20224ab))
 -   Even easier than HTML:
 
     [This is a link](https://www.w3schools.com)
@@ -94,7 +92,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 *Q: Have you come across Markup or Markdown?*
 
 
-<a id="org099018e"></a>
+<a id="orgba08c50"></a>
 
 # WHAT IS MARKDOWN (3)
 
@@ -102,10 +100,10 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 -   Used for configuration (e.g. headers)
 -   Used in R Markdown Notebooks
 
-![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/yaml.png "YAML header in R Markdown file (left) and rendering (right) (Source: [Smith 2020](#org3aba072))")
+![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/yaml.png "YAML header in R Markdown file (left) and rendering (right) (Source: [Smith 2020](#org7c43e23))")
 
 
-<a id="org87cc49e"></a>
+<a id="org254a619"></a>
 
 # [ORG-MODE](https://orgmode.org/)
 
@@ -117,7 +115,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 
 ---
 
-See figure [32](#orgf91aad9) for an example of this very page displayed in
+See figure [32](#org50101da) for an example of this very page displayed in
 Emacs Org-mode.
 
 ---
@@ -125,28 +123,28 @@ Emacs Org-mode.
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/org.png "GNU Emacs Org-mode Markup example")
 
 
-<a id="orgf77c9c4"></a>
+<a id="orge59f17d"></a>
 
 # LITERATE PROGRAMMING
 
 > »Instead of imagining that our main task is to instruct a *computer*
 > what to do, let us concentrate rather on explaining to *human beings*
-> what we want a computer to do.« &#x2013; [Donald Knuth](#org4d889c1)
+> what we want a computer to do.« &#x2013; [Donald Knuth](#org34f7cc1)
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/knuth.jpg "Donald M. Knutz, 1958, working on an IBM 650 computer ([Source](https://catonmat.net/donald-knuths-first-computer)).")
 
 
-<a id="org88987d3"></a>
+<a id="orgd547e74"></a>
 
 # LITPROG: WHY?
 
--   Machines cannot handle uncertainty (figure [37](#orga85db07))
+-   Machines cannot handle uncertainty (figure [37](#orga623f02))
 -   Humans like stories
 
-![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/neumann.png "Von Neumann's First Computer Program ([Knuth, 1970](#org4d889c1))")
+![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/neumann.png "Von Neumann's First Computer Program ([Knuth, 1970](#org34f7cc1))")
 
 
-<a id="orgf359fab"></a>
+<a id="org2e02dc8"></a>
 
 # LITPROG: HOW?
 
@@ -155,13 +153,13 @@ Emacs Org-mode.
 
 ---
 
-Figure [41](#orgfd93c8a) shows part of a literate program.
+Figure [41](#org287cc31) shows part of a literate program.
 program
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/scoring.png "Another screenshot of Knuth's `cweb` version of `advent`.")
 
 
-<a id="orgdaf7484"></a>
+<a id="orgbc3ccd5"></a>
 
 # LITPROG: WORKFLOW
 
@@ -171,41 +169,41 @@ program
 
 ---
 
-See figure [46](#orgb552893) for the complete workflow.
+See figure [46](#org5c0eca8) for the complete workflow.
 
 ---
 
-![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/cweb.png "Literate programming process chain ([Knuth/Levy, 2002](#orgb44c0c1)).")
+![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/cweb.png "Literate programming process chain ([Knuth/Levy, 2002](#org1b021bd)).")
 
 
-<a id="org44162f1"></a>
+<a id="org5d94be4"></a>
 
 # LITPROG: EXAMPLE
 
 -   [`advent`](https://en.wikipedia.org/wiki/Colossal_Cave_Adventure) is the first digital Role Playing Game (RPG)
--   It was rewritten in `cweb` by Don Knuth (see figure [58](#org46c73a5))
+-   It was rewritten in `cweb` by Don Knuth (see figure [58](#org960e6ff))
 -   *Try typing `advent` in your terminal!*
 
 ---
 
-Figure [51](#org3a640a7) shows the first few moments of the game ([source](http://literateprogramming.com/adventure.pdf)).
+Figure [51](#org6b3d81f) shows the first few moments of the game ([source](http://literateprogramming.com/adventure.pdf)).
 
 ---
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/advent.png "Adventure game in Linux - see `advent(6)`")
 
 
-<a id="org5889075"></a>
+<a id="orga05c805"></a>
 
 # LITPROG: PRINTOUT
 
-Figure [53](#orga649b85) shows the printout that corresponds to figure
-[51](#org3a640a7) ([source](http://literateprogramming.com/adventure.pdf)).
+Figure [53](#org688d911) shows the printout that corresponds to figure
+[51](#org6b3d81f) ([source](http://literateprogramming.com/adventure.pdf)).
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/define.png "Screenshot of Knuth's `cweb` version of `advent`.")
 
 
-<a id="orgc6acc29"></a>
+<a id="org2748b55"></a>
 
 # LITPROG: STORY
 
@@ -215,19 +213,19 @@ Figure [53](#orga649b85) shows the printout that corresponds to figure
 
 ---
 
-Figures [58](#org46c73a5) and [59](#orgf61d1be) show part of the index and the table
+Figures [58](#org960e6ff) and [59](#orgbf62f81) show part of the index and the table
 of contents of the `cweb` printout. 
 
 ---
 
-![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/index.png "Index for the "Adventure" game by (Crowther, 1975), [Knuth (1998)](#orgd06a074).")
+![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/index.png "Index for the "Adventure" game by (Crowther, 1975), [Knuth (1998)](#org44e17eb).")
 
 ---
 
-![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/toc.png "Table of Contents for the "Adventure" game (Crowther, 1975), [Knuth (1998)](#orgd06a074).")
+![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/toc.png "Table of Contents for the "Adventure" game (Crowther, 1975), [Knuth (1998)](#org44e17eb).")
 
 
-<a id="orgf9a8c21"></a>
+<a id="orgb0ba441"></a>
 
 # LITPROG PROS AND CONS
 
@@ -276,7 +274,7 @@ of contents of the `cweb` printout.
 </table>
 
 
-<a id="orgc44b1fa"></a>
+<a id="orgb08ad28"></a>
 
 # THE CASE FOR LITPROG
 
@@ -285,7 +283,7 @@ of contents of the `cweb` printout.
 -   Documentation that is seldom created by the programmer, and
 -   Documentation that has a lower priority than the program.
 
-See also: [Childs, 2010](#org0729fbb):
+See also: [Childs, 2010](#org6a41ed6):
 
 > »It is commonly accepted in software engineering circles that one of
 > the greatest needs in computing is the reduction of the cost of
@@ -294,17 +292,17 @@ See also: [Childs, 2010](#org0729fbb):
 > accepted to be 60% to 80% of a code’s cost.«
 
 
-<a id="orgc366419"></a>
+<a id="org9419957"></a>
 
 # MODERN APPLICATION EXAMPLES
 
 -   [Extreme Programming](http://www.extremeprogramming.org/) (XP)
 -   [Agile Modeling](http://agilemodeling.com/) (AM)
--   Interactive programming (see figure [70](#orgdc8a527))
+-   Interactive programming (see figure [70](#org7bb6dbe))
 
 ---
 
-Figure [70](#orgdc8a527) shows a computational [IPython](http://ipython.org/) notebook
+Figure [70](#org7bb6dbe) shows a computational [IPython](http://ipython.org/) notebook
 from 2005. IPython is the precursor of Jupyter notebooks.
 
 ---
@@ -312,7 +310,7 @@ from 2005. IPython is the precursor of Jupyter notebooks.
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/ipython.png "IPython notebook. By Shishirdasika, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons")
 
 
-<a id="orgade9df5"></a>
+<a id="org6307a2f"></a>
 
 # AGILE METHODOLOGIES
 
@@ -322,14 +320,14 @@ from 2005. IPython is the precursor of Jupyter notebooks.
 
 ---
 
-Figure [75](#org008c1ca): [Scrum](https://www.scrum.org/resources/what-is-scrum/) is the best known agile methodology.
+Figure [75](#org7032340): [Scrum](https://www.scrum.org/resources/what-is-scrum/) is the best known agile methodology.
 
 ---
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/scrum.png "Scrum values (Source: scrum.org)")
 
 
-<a id="org2650f61"></a>
+<a id="org57e7939"></a>
 
 # NOTEBOOK EXAMPLES
 
@@ -342,7 +340,7 @@ Figure [75](#org008c1ca): [Scrum](https://www.scrum.org/resources/what-is-scrum/
 -   [R Markdown Outputs Gallery](https://rmarkdown.rstudio.com/gallery.html)
 
 
-<a id="org3e476e7"></a>
+<a id="orga0c42ac"></a>
 
 # NOTEBOOK TUTORIALS
 
@@ -353,7 +351,7 @@ Figure [75](#org008c1ca): [Scrum](https://www.scrum.org/resources/what-is-scrum/
 -   Course: [R Markdown from RStudio](https://rmarkdown.rstudio.com/index.html)
 
 
-<a id="org1925c1d"></a>
+<a id="orgb367dc5"></a>
 
 # ORG-MODE AGAIN
 
@@ -364,14 +362,14 @@ Figure [75](#org008c1ca): [Scrum](https://www.scrum.org/resources/what-is-scrum/
 
 ---
 
-Figure [93](#org7686e93) shows an SQLite notebook example
+Figure [93](#org4872f69) shows an SQLite notebook example
 
 ---
 
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/sqlite.png "SQLite notebook example (Emacs/Org-mode)")
 
 
-<a id="orgea6d0a3"></a>
+<a id="orgf43dbdc"></a>
 
 # NOTEBOOK DEMO (RSTUDIO CLOUD)
 
@@ -381,7 +379,7 @@ Figure [93](#org7686e93) shows an SQLite notebook example
 
 ---
 
-Figure [98](#orga45520c) shows a screenshot from the RStudio cloud workspace
+Figure [98](#orga7094a3) shows a screenshot from the RStudio cloud workspace
 where we will practice R notebook creation and execution.
 
 ---
@@ -389,7 +387,7 @@ where we will practice R notebook creation and execution.
 ![img](c:/Users/birkenkrahe/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/demo.png "RStudio cloud workspace with R notebook demo.")
 
 
-<a id="orgb076b76"></a>
+<a id="orgba301de"></a>
 
 # NOTEBOOK APPLICATIONS FOR YOU
 
@@ -398,28 +396,28 @@ where we will practice R notebook creation and execution.
 -   Write your next paper or thesis as a "literate program"<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
 
 
-<a id="org75bf6f1"></a>
+<a id="orgc8c326f"></a>
 
 # REFERENCES
 
-(1) <a id="org4d889c1"></a> Donald E. Knuth, "Von Neumann's First Computer
+(1) <a id="org34f7cc1"></a> Donald E. Knuth, "Von Neumann's First Computer
 Program". Computing Surveys, 2(4), 1970.
 
-(2) <a id="orgc8fae92"></a> John Gruber, "Markdown:
+(2) <a id="org87018c0"></a> John Gruber, "Markdown:
 Syntax". Blog. [daringfireball.net](https://daringfireball.net/projects/markdown/syntax#block)
 
-(3) <a id="orgb44c0c1"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
+(3) <a id="org1b021bd"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
 Structured Documentation", 2002. Manual. [literateprogramming.com](http://www.literateprogramming.com/cweb.pdf)
 
-(4) <a id="orgd06a074"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf)
+(4) <a id="org44e17eb"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf)
 
-(5) <a id="org085abc8"></a> Bart Childs, "Literate Programming, Why?"
+(5) <a id="orgf71200f"></a> Bart Childs, "Literate Programming, Why?"
 (n.d.). [literateprogramming.com](http://www.literateprogramming.com/bchilds1.pdf)
 
-(6) <a id="org0729fbb"></a> Bart Childs, "Thirty years of literate
+(6) <a id="org6a41ed6"></a> Bart Childs, "Thirty years of literate
 programming and more?". [TUGboat, Volume 31(2), 2010:183-188](https://www.tug.org/TUGboat/tb31-2/tb98childs.pdf).
 
-(7) <a id="org3aba072"></a> Zachary M. Smith, "R Markdown Crash Course",
+(7) <a id="org7c43e23"></a> Zachary M. Smith, "R Markdown Crash Course",
 2020-03-02. [github.com](https://zsmith27.github.io/rmarkdown_crash-course/index.html)
 
 

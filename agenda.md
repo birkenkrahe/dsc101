@@ -1,19 +1,20 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org9bd763c)
--   [Week 2 - August 26](#orgefebb05)
--   [Week 3 - August 31](#orgedc1e7e)
--   [Week 3 - September 2](#org6e85c37)
--   [Week 4 - September 7](#org5dad5ef)
--   [Week 4 - September 9](#org7e5f286)
--   [Week 5 - September 16](#org3d14fc7)
--   [Week 6 - September 21](#orgf99f687)
--   [Week 7 - September 28](#org4864cc0)
+-   [Week 2 - August 24](#org3103eb5)
+-   [Week 2 - August 26](#orgdce81fa)
+-   [Week 3 - August 31](#org713037d)
+-   [Week 3 - September 2](#org05ee711)
+-   [Week 4 - September 7](#org2f844d5)
+-   [Week 4 - September 9](#orga42b8fe)
+-   [Week 5 - September 16](#org5775724)
+-   [Week 6 - September 21](#org530141a)
+-   [Week 7 - September 28](#org076e5f0)
+-   [Week 9 - October 12: Literate Programming](#org78c1163)
 
 
 
-<a id="org9bd763c"></a>
+<a id="org3103eb5"></a>
 
 # Week 2 - August 24
 
@@ -35,7 +36,7 @@
 -   Questions?
 
 
-<a id="orgefebb05"></a>
+<a id="orgdce81fa"></a>
 
 # Week 2 - August 26
 
@@ -117,7 +118,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgedc1e7e"></a>
+<a id="org713037d"></a>
 
 # Week 3 - August 31
 
@@ -130,7 +131,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org6e85c37"></a>
+<a id="org05ee711"></a>
 
 # Week 3 - September 2
 
@@ -144,7 +145,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org5dad5ef"></a>
+<a id="org2f844d5"></a>
 
 # Week 4 - September 7
 
@@ -174,7 +175,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org7e5f286"></a>
+<a id="orga42b8fe"></a>
 
 # Week 4 - September 9
 
@@ -191,7 +192,6 @@ What do you remember from last time?
 ![img](./img/sprint.gif)
 
 -   Everyone: present yr research question
-
 -   Everyone else: prepare 1 question
 -   Ask 2 of your questions
 -   MB: critique questions
@@ -320,7 +320,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org3d14fc7"></a>
+<a id="org5775724"></a>
 
 # Week 5 - September 16
 
@@ -357,7 +357,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgf99f687"></a>
+<a id="org530141a"></a>
 
 # Week 6 - September 21
 
@@ -369,7 +369,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org4864cc0"></a>
+<a id="org076e5f0"></a>
 
 # Week 7 - September 28
 
@@ -380,6 +380,21 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   DataCamp changes ([schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.md))
 -   Datastructures: extended example
 -   After break: tests in class
+
+
+<a id="org78c1163"></a>
+
+# Week 9 - October 12: Literate Programming
+
+![img](./img/mmix.jpg)
+
+-   Fall 2021 Midterm Exam ([colab](https://github.com/birkenkrahe/notebooksf21/blob/main/Midterm_problems.ipynb))
+-   Data structures practice ([colab](https://github.com/birkenkrahe/notebooksf21/blob/main/EDA_basics_problems.ipynb))
+-   [2021 New York R Conference](https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF)
+-   Thu: Importing data ([DataCamp](https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r))
+    
+    *Image source: Ruckert, M (2015). The MMIX
+    Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
 # Footnotes

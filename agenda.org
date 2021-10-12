@@ -48,7 +48,7 @@
    | Nov  | First results          |
    | Dec  | Final presentation     |
 
-*** What's in a sprint review?   
+*** What's in a sprint review?
 
     1) What did we want to achieve in the last sprint?
     2) What did we achieve in the last sprint?
@@ -67,7 +67,7 @@
 * Week 3 - August 31
 
   [[./img/rugby.gif]]
-  
+
   * [[https://lyon.schoology.com/assignment/5258461219/assessment_questions][Test 2 is live - 11 questions]]
   * [[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp: keep the momentum going]]
   * [[https://github.com/birkenkrahe/dsc101/blob/main/syllabus.md#schedule-and-session-content][New project deadline: 9-Sep-2021]]
@@ -85,13 +85,13 @@
   * Packages
   * Datasets
   * [[https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f][Video lectures @YouTube]] (45')
-  
+
 * Week 4 - September 7
-  
+
   [[./img/valhalla.gif]]
 
   The project journey begins!
-    
+
 ** Housekeeping
 
    * [[https://lyon.schoology.com/assignment/5285493129][Test 3 "Getting started with R"]]
@@ -121,9 +121,9 @@
 
 ** Sprint reviews
 
-     [[./img/sprint.gif]]
+   [[./img/sprint.gif]]
 
-     * Everyone: present yr research question
+   * Everyone: present yr research question
    * Everyone else: prepare 1 question
    * Ask 2 of your questions
    * MB: critique questions
@@ -160,7 +160,7 @@
     * Payne: team? Citations / Literature / data
 
 * Week 5 - September 16
-  
+
   [[./img/outlander.gif]]
 
   These boys mean business.
@@ -170,15 +170,15 @@
    #+attr_html: :width 300px
    [[./img/corner.gif]]
 
-  * Data checking projects ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][diary]])
-  * Project idea: [[https://lucidmanager.org/data-science/text-adventure//][adventure games]][fn:1]
-  * Project idea: [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]][fn:2]
-  * Project idea! [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]][fn:3]
+   * Data checking projects ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][diary]])
+   * Project idea: [[https://lucidmanager.org/data-science/text-adventure//][adventure games]][fn:1]
+   * Project idea: [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]][fn:2]
+   * Project idea! [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]][fn:3]
 
 ** R Data structures
 
    [[./img/structures.gif]]
-   
+
    * DataCamp[fn:5] (doing [[https://www.datacamp.com/mobile#!][drills]]?)[fn:4]
    * Vectors, matrices, data frames, lists
    * Classes, objects, types
@@ -193,7 +193,7 @@
    See full [[https://github.com/birkenkrahe/dsc101/blob/main/schedule.org][Schedule]]
 
 * Week 6 - September 21
-  
+
   [[./img/outlander.gif]]
 
   * Keep up with your *project* work!
@@ -203,7 +203,7 @@
 
 * Week 7 - September 28
 
-    [[./img/tsushima.gif]]
+  [[./img/tsushima.gif]]
 
   * Midterm exam Thursday 1PM
   * 2nd sprint review Oct 7 ([[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ]])
@@ -211,12 +211,18 @@
   * Datastructures: extended example
   * After break: tests in class
 
-* Week 9 - October 12
+* Week 9 - October 12: Literate Programming
 
-  * Fall 2021 Midterm Exam (colab)
-  * Data structures practice (colab)
+  #+attr_html: :width 600px
+  [[./img/mmix.jpg]]
+
+  * Fall 2021 Midterm Exam ([[https://github.com/birkenkrahe/notebooksf21/blob/main/Midterm_problems.ipynb][colab]])
+  * Data structures practice ([[https://github.com/birkenkrahe/notebooksf21/blob/main/EDA_basics_problems.ipynb][colab]])
   * [[https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF][2021 New York R Conference]]
   * Thu: Importing data ([[https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r][DataCamp]])
+
+    /Image source: Ruckert, M (2015). The MMIX
+    Supplement. Addison-Wesley. [[https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314][Online: Amazon]]./
   
 * Footnotes
 

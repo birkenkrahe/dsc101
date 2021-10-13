@@ -32,7 +32,11 @@ Note: if you were not in class today, **be on time** on Thursday for
 a Colaboratory refresher (if you need it) and **bring your own**
 laptop to class if possible! Several of the PCs in 209 seem buggy -
 I'll try to sort it out by Thursday but I'm not sure I will
-succeed.
+succeed. If you haven't done it yet, [open the notebook in
+Colaboratory](https://github.com/birkenkrahe/dsc101/blob/main/tests/Midterm_problems.ipynb) and answer the first few questions (same as the
+midterm exam).
+
+![img](./img/colab.png)
 
 
 ## Links mentioned

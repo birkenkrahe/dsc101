@@ -36,6 +36,9 @@ succeed. If you haven't done it yet, [open the notebook in
 Colaboratory](https://github.com/birkenkrahe/dsc101/blob/main/tests/Midterm_problems.ipynb) (see image below) and answer the first few questions
 (same as the midterm exam).
 
+*Image: screenshot of midterm exam problem set as interactive
+notebook.*
+
 ![img](./img/colab.png)
 
 

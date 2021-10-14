@@ -1,0 +1,11 @@
+
+# Table of Contents
+
+
+
+Upload your solutions to notebook exercises to this directory.
+
+Pick the right date.
+
+Put your name in the filename.
+

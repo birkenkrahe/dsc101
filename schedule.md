@@ -165,7 +165,7 @@
 <tr>
 <td class="org-right">16</td>
 <td class="org-left">12-Oct</td>
-<td class="org-left">Literate Programming</td>
+<td class="org-left">Exam review</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -174,9 +174,9 @@
 <tr>
 <td class="org-right">17</td>
 <td class="org-left">14-Oct</td>
-<td class="org-left">Data input/output</td>
+<td class="org-left">Literate Programming</td>
 <td class="org-left">Importing data</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: data structures</td>
 </tr>
 
 
@@ -211,7 +211,7 @@
 <td class="org-right">21</td>
 <td class="org-left">28-Oct</td>
 <td class="org-left">Grammar of graphics</td>
-<td class="org-left">Intro to `ggplot2`</td>
+<td class="org-left">Intro to <code>ggplot2</code></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 

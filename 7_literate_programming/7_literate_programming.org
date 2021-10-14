@@ -1,9 +1,7 @@
 #+TITLE: LITERATE PROGRAMMING
 #+AUTHOR: Marcus Birkenkrahe
-#+DATE: Winter 2020
-#+EMAIL: birkenkrahe@hwr-berlin.de
-#+STARTUP: overview
-# #+OPTIONS: toc:nil
+#+STARTUP: showall
+#+OPTIONS: toc:nil
 * What will you learn?
 
   * What is the main idea behind the Web?
@@ -82,7 +80,7 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
 
   /Image: this very page in Emacs Org-mode./
 
-* LITERATE PROGRAMMING
+* Literate programming
 
   #+begin_quote
   »Instead of imagining that our main task is to instruct a /computer/
@@ -110,54 +108,49 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
    [[./img/scoring.png]]
 
 ** Literate programming workflow
-  
+
    * Documentation + code is contained in one file (~file.w~)
    * Tangling leads to a file that the computer can run
    * Weaving leads to a file that can be printed
 
    #+ATTR_HTML: :width 500px
-    [[./img/cweb.png]]
+   [[./img/cweb.png]]
+
+*** Literate programming example: ~adventure~
+
+    * [[https://en.wikipedia.org/wiki/Colossal_Cave_Adventure][~advent~]] is the first digital Role Playing Game (RPG)
+    * It was rewritten in ~cweb~ by Don Knuth
+    * [[https://quuxplusone.github.io/Advent/][Play it online here!]] (Linux: built-in ~$ advent~)
+
+    #+ATTR_HTML: :width 500px
+    [[./img/advent.png]]
+
+    (Source: [[adventure][Adventure, 1976]])
+
+*** Literate programming example: ~adventure~
+
+    Literate program text that corresponds to the instructions above:
+
+    #+ATTR_HTML: :width 500px
+    [[./img/adventpgm.png]]
+
+*** Literate programming example: ~adventure~
 
 
-* Literate programming example
-  
-  * [[https://en.wikipedia.org/wiki/Colossal_Cave_Adventure][~advent~]] is the first digital Role Playing Game (RPG)
-  * It was rewritten in ~cweb~ by Don Knuth
-  * /Try typing ~advent~ in your terminal!/
+    * Automatic index of commands, variables, objects
+    * Index of subroutines, table of contents
+    * Support for digital, code-based storytelling
 
-  #+ATTR_HTML: :width 500px
-   [[./img/advent.png]]
+      /Image: automatic index of ~adventure~/
+      #+ATTR_HTML: :width 500px
+      [[./img/index.png]]
 
-  
-* LITPROG: PRINTOUT
-  Figure [[fig:define]] shows the printout that corresponds to figure
- ]] ([[http://literateprogramming.com/adventure.pdf][source]]).
-  #+CAPTION: Screenshot of Knuth's ~cweb~ version of ~advent~.
-  #+NAME: fig:define
-  #+ATTR_HTML: :width 500px
-  #+ATTR_LATEX:  :width 500px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/define.png]]
-* LITPROG: STORY
-  * Automatic index of commands, variables, objects
-  * Index of subroutines, table of contents
-  * Support for digital, code-based storytelling
-  -----
-  Figures [[fig:index]] and [[fig:toc]] show part of the index and the table
-  of contents of the ~cweb~ printout.
-  -----
-  #+CAPTION: Index for the "Adventure" game by (Crowther, 1975), [[advent][Knuth (1998)]].
-  #+NAME: fig:index
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/index.png]]
-  -----
-  #+CAPTION: Table of Contents for the "Adventure" game (Crowther, 1975), [[advent][Knuth (1998)]].
-  #+NAME: fig:toc
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/toc.png]]
+      /Image: automatic table of contents of ~adventure~/
+      #+ATTR_HTML: :width 500px
+      [[./img/toc.png]]
 
-* LITPROG PROS AND CONS
+* Pros and cons of literate programming
+
   | *LITPROG PROS*            | *LITPROG *CONS*                  |
   |-------------------------+-------------------------------|
   | Storytelling supported  | Requires thought              |
@@ -168,120 +161,122 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
   |-------------------------+-------------------------------|
   | Free Software           | Standardisation difficult     |
   |-------------------------+-------------------------------|
-* THE CASE FOR LITPROG
+
+* The case for literate programming
+
   * Code and documentation in separate files and rarely synchronized,
   * Variable names that are mnemonics and acronyms, not words,
   * Documentation that is seldom created by the programmer, and
   * Documentation that has a lower priority than the program.
-  See also: [[childs2010][Childs, 2010]]:
+
+    See also: "Whither Literate Programming" ([[myers][Myers, 2018]])
+
   #+begin_quote
   »It is commonly accepted in software engineering circles that one of
   the greatest needs in computing is the reduction of the cost of
-  maintenance of codes.  Maintenance programmers spend at least half of
-  their time trying to understand what code does and maintenance is
-  accepted to be 60% to 80% of a code’s cost.«
+  maintenance of codes.  Maintenance programmers spend at least half
+  of their time trying to understand what code does and maintenance is
+  accepted to be 60% to 80% of a code’s cost.« ([[childs2010][Childs, 2010]])
   #+end_quote
-* MODERN APPLICATION EXAMPLES
+
+* Modern application examples
+
   * [[http://www.extremeprogramming.org/][Extreme Programming]] (XP)
   * [[http://agilemodeling.com/][Agile Modeling]] (AM)
-  * Interactive programming (see figure [[fig:ipython]])
-  -----
-  Figure [[fig:ipython]] shows a computational [[http://ipython.org/][IPython]] notebook
-  from 2005. IPython is the precursor of Jupyter notebooks.
-  -----
-  #+CAPTION: IPython notebook. By Shishirdasika, [[https://creativecommons.org/licenses/by-sa/3.0][CC BY-SA 3.0]], via Wikimedia Commons
-  #+NAME: fig:ipython
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/ipython.png]]
+  * Interactive programming
 
-  # -----
-  # Figure [[fig:xkcd]] illustrates the pitfalls of /communication/
-  # ([[https://xkcd.com/1028/][Source: xkcd.com]]).
+  /Image: computational [[http://ipython.org/][IPython]] notebook from 2005 (precursor of
+  Jupyter notebooks)/
 
-  # #+CAPTION: Scrum values (Source: scrum.org)
-  # #+NAME: fig:xkcd
-  # #+ATTR_HTML: :width 600px
-  # #+ATTR_LATEX:  :width 600px
-  # [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/xkcd.png]]
+  #+ATTR_HTML: :width 600px
+  [[./img/ipython.png]]
 
-* AGILE METHODOLOGIES
-  * Ways to develop and document anything
-  * Better suited for /complex/ projects and /culturally/ diverse teams
-  * Core value: optimize customer /communication/
-  -----
-  Figure [[fig:scrum]]: [[https://www.scrum.org/resources/what-is-scrum/][Scrum]] is the best known agile methodology.
-  -----
-  #+CAPTION: Scrum values (Source: scrum.org)
-  #+NAME: fig:scrum
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/scrum.png]]
-* NOTEBOOK EXAMPLES
-  * [[https://monty.shinyapps.io/subsetting/#section-introduction][Subsetting quiz as shiny app with ~learnr~ package]]
-  * [[https://web.archive.org/web/20161002004240/http://www.desy.de/user/projects/LitProg/Course.html][GNA Internet Course on Literate Programming (1994)]]
-  * [[https://docs.deepnote.com/deepnote-crash-course-videos][SQL cells in Deepnote (demo, 1 min)]]
-  * [[https://www.kaggle.com/uciml/pima-indians-diabetes-database][Kaggle notebook from Pima Indians database]]
-  * [[https://count.co/n/S9PSxqZBPM9][Count cloud notebook]]
-  * [[https://projects.datacamp.com/projects/41][Introduction to DataCamp projects (with R)]]
-  * [[https://rmarkdown.rstudio.com/gallery.html][R Markdown Outputs Gallery]]
-* NOTEBOOK TUTORIALS
-  * Tutorial: [[https://www.datacamp.com/community/blog/jupyter-notebook-r][Jupyter and R Markdown: Notebooks with R]] (2016)
-  * Book: [[https://bookdown.org/yihui/rmarkdown/notebook.html][R notebook (bookdown)]]
-  * Article: [[https://medium.com/swlh/r-notebook-for-dummies-save-and-share-results-easily-51d343a4882][R notebooks for dummies]] (2020)
-  * Course: [[https://learn.datacamp.com/courses/reporting-with-rmarkdown][Reporting with R Markdown]] (2020)
-  * Course: [[https://rmarkdown.rstudio.com/index.html][R Markdown from RStudio]]
-* ORG-MODE AGAIN
-  * Notebooks work with R, SQL, Python,...anything
-  * [[https://sqlite.org/about.html][SQLite]] example (SQLite = SQL for IoT)
-  * Present, too, if you like
-  * R notebook example (print+plot)
-  -----
-  Figure [[fig:sqlite]] shows an SQLite notebook example
-  -----
-  #+CAPTION: SQLite notebook example (Emacs/Org-mode)
-  #+NAME: fig:sqlite
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/sqlite.png]]
+** Agile methodologies
 
-* NOTEBOOK DEMO (RSTUDIO CLOUD)
-  * EDA using the [[http://heather.cs.ucdavis.edu/FasteR/data/Pima.csv][~Pima~ Indian data set]] (via Matloff)
-  * Head over to [[https://rstudio.cloud/project/2030701][this RStudio cloud notebook]] to start
-  * Compare your results with [[https://moodle.hwr-berlin.de/mod/resource/view.php?id=911275][this solution (PDF)]]
-  -----
-  Figure [[fig:demo]] shows a screenshot from the RStudio cloud workspace
-  where we will practice R notebook creation and execution.
-  -----
-  #+CAPTION: RStudio cloud workspace with R notebook demo.
-  #+NAME: fig:demo
-  #+ATTR_HTML: :width 600px
-  #+ATTR_LATEX:  :width 600px
-  [[~/OneDrive/2020_Winter/DS101/ds_lectures/6_litpRog/img/demo.png]]
-* NOTEBOOK APPLICATIONS FOR YOU
-  * Emacs + ESS + Org-mode (Tutorial)
+   * Ways to develop and document anything
+   * Better suited for /complex/ projects and /culturally/ diverse teams
+   * Core value: optimize customer /communication/
+
+   /Image: [[https://www.scrum.org/resources/what-is-scrum/][Scrum]] is the best known agile methodology/
+
+   #+ATTR_HTML: :width 600px
+   [[./img/scrum.png]]
+
+** Notebook examples
+
+   * [[https://monty.shinyapps.io/subsetting/#section-introduction][Subsetting quiz as shiny app with ~learnr~ package]]
+   * [[https://web.archive.org/web/20161002004240/http://www.desy.de/user/projects/LitProg/Course.html][GNA Internet Course on Literate Programming (1994)]]
+   * [[https://docs.deepnote.com/deepnote-crash-course-videos][SQL cells in Deepnote (demo, 1 min)]]
+   * [[https://www.kaggle.com/uciml/pima-indians-diabetes-database][Kaggle notebook from Pima Indians database]]
+   * [[https://count.co/n/S9PSxqZBPM9][Count cloud notebook]]
+   * [[https://projects.datacamp.com/projects/41][Introduction to DataCamp projects (with R)]]
+   * [[https://rmarkdown.rstudio.com/gallery.html][R Markdown Outputs Gallery]]
+
+** Notebook tutorials
+
+   * Tutorial: [[https://www.datacamp.com/community/blog/jupyter-notebook-r][Jupyter and R Markdown: Notebooks with R]] (2016)
+   * Book: [[https://bookdown.org/yihui/rmarkdown/notebook.html][R notebook (bookdown)]]
+   * Article: [[https://medium.com/swlh/r-notebook-for-dummies-save-and-share-results-easily-51d343a4882][R notebooks for dummies]] (2020)
+   * Course: [[https://learn.datacamp.com/courses/reporting-with-rmarkdown][Reporting with R Markdown]] (2020)
+   * Course: [[https://rmarkdown.rstudio.com/index.html][R Markdown from RStudio]]
+
+** Org-mode again
+
+   * Notebooks work with R, SQL, Python,...anything
+   * [[https://sqlite.org/about.html][SQLite]] example (SQLite = SQL for IoT)
+   * Present, too, if you like
+   * R notebook example (print+plot)
+
+     -----
+   /Image: SQLite notebook example/
+
+   #+ATTR_HTML: :width 600px
+   [[./img/sqlite.png]]
+
+** Notebook demo (rstudio cloud)
+
+   * EDA using the [[http://heather.cs.ucdavis.edu/FasteR/data/Pima.csv][~Pima~ Indian data set]] (via Matloff)
+   * Head over to [[https://rstudio.cloud/project/2030701][this RStudio cloud notebook]] to start
+   * Compare your results with [[https://moodle.hwr-berlin.de/mod/resource/view.php?id=911275][this solution (PDF)]]
+
+   /Image: screenshot from the RStudio cloud workspace/
+   #+ATTR_HTML: :width 600px
+   [[./img/demo.png]]
+
+* Notebook applications for you
+
+  #+attr_html: :width 600px
+  [[./img/batter.gif]]
+  
+  * Emacs + ESS + Org-mode (see [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org89c9b03][FAQ]])
   * RStudio notebooks
   * Write your next paper or thesis as a "literate program"[fn:3]
-* REFERENCES
-  (1) <<knuth>> Donald E. Knuth, "Von Neumann's First Computer
-  Program". Computing Surveys, 2(4), 1970.
 
-  (2) <<gruber>> John Gruber, "Markdown:
-  Syntax". Blog. [[https://daringfireball.net/projects/markdown/syntax#block][daringfireball.net]]
+* References
 
-  (3) <<cweb>> Donald E. Knuth and Silvio Levy, "The ~CWEB~ System of
-  Structured Documentation", 2002. Manual. [[http://www.literateprogramming.com/cweb.pdf][literateprogramming.com]]
-
-  (4) <<advent>> [[http://www.literateprogramming.com/adventure.pdf][Don Woods and Don Knuth, 1998.]]
-
-  (5) <<childs>> Bart Childs, "Literate Programming, Why?"
+  <<childs>> Bart Childs, "Literate Programming, Why?"
   (n.d.). [[http://www.literateprogramming.com/bchilds1.pdf][literateprogramming.com]]
 
-  (6) <<childs2010>> Bart Childs, "Thirty years of literate
+  <<childs2010>> Bart Childs, "Thirty years of literate
   programming and more?". [[https://www.tug.org/TUGboat/tb31-2/tb98childs.pdf][TUGboat, Volume 31(2), 2010:183-188]].
 
-  (7) <<smith>> Zachary M. Smith, "R Markdown Crash Course",
+  <<gruber>> John Gruber, "Markdown:
+  Syntax". Blog. [[https://daringfireball.net/projects/markdown/syntax#block][daringfireball.net]]
+
+  <<knuth>> Donald E. Knuth, "Von Neumann's First Computer
+  Program". Computing Surveys, 2(4), 1970.
+
+  <<cweb>> Donald E. Knuth and Silvio Levy, "The ~CWEB~ System of
+  Structured Documentation", 2002. Manual. [[http://www.literateprogramming.com/cweb.pdf][literateprogramming.com]]
+
+  <<adventure>> [[http://www.literateprogramming.com/adventure.pdf][Don Woods and Don Knuth, 1998.]] ([[https://quuxplusone.github.io/Advent/][Play online]])
+
+  <<myers>> Bob Myers (2018). Whither Literate Programming
+  [blog]. [[https://torazaburo.medium.com/whither-literate-programming-1-f7326fec86e4][Online: medium.com]].
+
+  <<smith>> Zachary M. Smith, "R Markdown Crash Course",
   2020-03-02. [[https://zsmith27.github.io/rmarkdown_crash-course/index.html][github.com]]
+
 * Footnotes
 
 [fn:5]See also: [[https://orgmode.org/resources/img/features/tables.gif][Org-mode spreadsheets (Gif)]]

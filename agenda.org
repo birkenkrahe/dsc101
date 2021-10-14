@@ -216,10 +216,10 @@
   #+attr_html: :width 600px
   [[./img/mmix.jpg]]
 
-  * Fall 2021 Midterm Exam ([[https://github.com/birkenkrahe/notebooksf21/blob/main/Midterm_problems.ipynb][colab]])
-  * Data structures practice ([[https://github.com/birkenkrahe/notebooksf21/blob/main/EDA_basics_problems.ipynb][colab]])
+  * Fall 2021 Midterm Exam ([[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
+  * Data structures practice ([[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
   * [[https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF][2021 New York R Conference]]
-  * Thu: Importing data ([[https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r][DataCamp]])
+  * By 18_Oct: Importing data ([[https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r][DataCamp]])
 
     /Image source: Ruckert, M (2015). The MMIX
     Supplement. Addison-Wesley. [[https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314][Online: Amazon]]./
@@ -229,6 +229,7 @@
   [[./img/dance.gif]]
   
   * Data input (assignment/practice)
+  * Lecture: literate programming
   * Interactive lecture "Vectors in R"
   * New: [[https://app.datacamp.com/learn/competitions][DataCamp competitions]]
     

@@ -111,7 +111,7 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
 
    * Documentation + code is contained in one file (~file.w~)
    * Tangling leads to a file that the computer can run
-   * Weaving leads to a file that can be printed
+   * Weaving leads to a file that can be printed (~*.dvi~[fn:6])
 
    #+ATTR_HTML: :width 500px
    [[./img/cweb.png]]
@@ -278,6 +278,9 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
   2020-03-02. [[https://zsmith27.github.io/rmarkdown_crash-course/index.html][github.com]]
 
 * Footnotes
+
+[fn:6]~*.dvi~ files ("device independent") are binary output files of
+the TeX typesetting software ([[https://texfaq.org/FAQ-dvi][texfaq]]) 
 
 [fn:5]See also: [[https://orgmode.org/resources/img/features/tables.gif][Org-mode spreadsheets (Gif)]]
 

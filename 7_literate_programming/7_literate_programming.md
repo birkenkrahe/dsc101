@@ -44,7 +44,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 > »The idea for Markdown is to make it easy to read, write, and edit
 > prose. HTML is a publishing format; Markdown is a writing
 > format. Thus, Markdown’s formatting syntax only addresses issues that
-> can be conveyed in plain text.« &#x2013; [John Gruber](#org43881c7)
+> can be conveyed in plain text.« &#x2013; [John Gruber](#org946e967)
 
 
 ## Why markdown?
@@ -84,7 +84,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 
 > »Instead of imagining that our main task is to instruct a *computer*
 > what to do, let us concentrate rather on explaining to *human beings*
-> what we want a computer to do.« &#x2013; [Donald Knuth](#org4032ded)
+> what we want a computer to do.« &#x2013; [Donald Knuth](#org0da3a14)
 
 ![img](./img/knuth.jpg)
 
@@ -122,7 +122,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 
 ![img](./img/advent.png)
 
-(Source: [Adventure, 1976](#org661bdf9))
+(Source: [Adventure, 1976](#orgefd58ad))
 
 
 ### Literate programming example: `adventure`
@@ -201,13 +201,13 @@ Literate program text that corresponds to the instructions above:
 -   Documentation that is seldom created by the programmer, and
 -   Documentation that has a lower priority than the program.
     
-    See also: "Whither Literate Programming" ([Myers, 2018](#org350cb48))
+    See also: "Whither Literate Programming" ([Myers, 2018](#org85a638b))
 
 > »It is commonly accepted in software engineering circles that one of
 > the greatest needs in computing is the reduction of the cost of
 > maintenance of codes.  Maintenance programmers spend at least half
 > of their time trying to understand what code does and maintenance is
-> accepted to be 60% to 80% of a code’s cost.« ([Childs, 2010](#org57f0d00))
+> accepted to be 60% to 80% of a code’s cost.« ([Childs, 2010](#orgf800482))
 
 
 # Modern application examples
@@ -239,7 +239,7 @@ Jupyter notebooks)*
 -   [GNA Internet Course on Literate Programming (1994)](https://web.archive.org/web/20161002004240/http://www.desy.de/user/projects/LitProg/Course.html)
 -   [SQL cells in Deepnote (demo, 1 min)](https://docs.deepnote.com/deepnote-crash-course-videos)
 -   [Kaggle notebook from Pima Indians database](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
--   [Count cloud notebook](https://count.co/n/S9PSxqZBPM9)
+-   [Count cloud notebook](https://count.co/)
 -   [Introduction to DataCamp projects (with R)](https://projects.datacamp.com/projects/41)
 -   [R Markdown Outputs Gallery](https://rmarkdown.rstudio.com/gallery.html)
 
@@ -289,27 +289,27 @@ Jupyter notebooks)*
 
 # References
 
-<a id="org67815ba"></a> Bart Childs, "Literate Programming, Why?"
+<a id="org864567f"></a> Bart Childs, "Literate Programming, Why?"
 (n.d.). [literateprogramming.com](http://www.literateprogramming.com/bchilds1.pdf)
 
-<a id="org57f0d00"></a> Bart Childs, "Thirty years of literate
+<a id="orgf800482"></a> Bart Childs, "Thirty years of literate
 programming and more?". [TUGboat, Volume 31(2), 2010:183-188](https://www.tug.org/TUGboat/tb31-2/tb98childs.pdf).
 
-<a id="org43881c7"></a> John Gruber, "Markdown:
+<a id="org946e967"></a> John Gruber, "Markdown:
 Syntax". Blog. [daringfireball.net](https://daringfireball.net/projects/markdown/syntax#block)
 
-<a id="org4032ded"></a> Donald E. Knuth, "Von Neumann's First Computer
+<a id="org0da3a14"></a> Donald E. Knuth, "Von Neumann's First Computer
 Program". Computing Surveys, 2(4), 1970.
 
-<a id="org3e7220b"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
+<a id="orgba16d45"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
 Structured Documentation", 2002. Manual. [literateprogramming.com](http://www.literateprogramming.com/cweb.pdf)
 
-<a id="org661bdf9"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf) ([Play online](https://quuxplusone.github.io/Advent/))
+<a id="orgefd58ad"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf) ([Play online](https://quuxplusone.github.io/Advent/))
 
-<a id="org350cb48"></a> Bob Myers (2018). Whither Literate Programming
+<a id="org85a638b"></a> Bob Myers (2018). Whither Literate Programming
 [blog]. [Online: medium.com](https://torazaburo.medium.com/whither-literate-programming-1-f7326fec86e4).
 
-<a id="org46a03f6"></a> Zachary M. Smith, "R Markdown Crash Course",
+<a id="orga55b39e"></a> Zachary M. Smith, "R Markdown Crash Course",
 2020-03-02. [github.com](https://zsmith27.github.io/rmarkdown_crash-course/index.html)
 
 

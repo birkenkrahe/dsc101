@@ -208,7 +208,7 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
    * [[https://web.archive.org/web/20161002004240/http://www.desy.de/user/projects/LitProg/Course.html][GNA Internet Course on Literate Programming (1994)]]
    * [[https://docs.deepnote.com/deepnote-crash-course-videos][SQL cells in Deepnote (demo, 1 min)]]
    * [[https://www.kaggle.com/uciml/pima-indians-diabetes-database][Kaggle notebook from Pima Indians database]]
-   * [[https://count.co/n/S9PSxqZBPM9][Count cloud notebook]]
+   * [[https://count.co/][Count cloud notebook]]
    * [[https://projects.datacamp.com/projects/41][Introduction to DataCamp projects (with R)]]
    * [[https://rmarkdown.rstudio.com/gallery.html][R Markdown Outputs Gallery]]
 

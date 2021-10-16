@@ -5,3 +5,12 @@
   the term. Notify me if you notice any mistakes or anything else that
   should be corrected.
 
+** [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][Problems]]
+
+   Jupyter (R) notebooks created in Google Colaboratory
+   (~https://colab.to/r~).
+
+** [[https://github.com/birkenkrahe/dsc101/tree/main/tests/solutions][Solutions]]
+
+   Solution notebooks uploaded by you (format: ~[date]_[name].ipynb~,
+   and sample solutions uploaded by me (after practice).

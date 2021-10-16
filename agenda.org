@@ -216,8 +216,8 @@
   #+attr_html: :width 600px
   [[./img/mmix.jpg]]
 
-  * Fall 2021 Midterm Exam ([[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
-  * Data structures practice ([[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
+  * Fall 2021 Midterm Exam (problem [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
+  * Data structures practice (problem [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][notebook]])
   * [[https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF][2021 New York R Conference]]
   * By 18_Oct: Importing data ([[https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r][DataCamp]])
 
@@ -228,9 +228,9 @@
 
   [[./img/dance.gif]]
 
-  * Review: EDA practice notebook (20')
-  * Lecture: Literate programming (20')
-  * Guided practice: data input (20')
+  * Review: [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][EDA practice notebook]] (20')
+  * Lecture: [[https://github.com/birkenkrahe/dsc101/tree/main/7_literate_programming][Literate programming]] (20')
+  * Practice test: [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][data input]] (20')
   * Discussion and questions (15')
   * New: [[https://app.datacamp.com/learn/competitions][DataCamp competitions]]
 

@@ -227,12 +227,13 @@
 * Week 10 - October 19+21
 
   [[./img/dance.gif]]
-  
-  * Data input (assignment/practice)
-  * Lecture: literate programming
-  * Interactive lecture "Vectors in R"
+
+  * Review: EDA practice notebook (20')
+  * Lecture: Literate programming (20')
+  * Guided practice: data input (20')
+  * Discussion and questions (15')
   * New: [[https://app.datacamp.com/learn/competitions][DataCamp competitions]]
-    
+
 * Footnotes
 
 [fn:5]Some advice on doing online exercises: THINK THINGS THROUGH FOR

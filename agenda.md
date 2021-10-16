@@ -1,21 +1,21 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orga5ea153)
--   [Week 2 - August 26](#org1ac226d)
--   [Week 3 - August 31](#orgf6dfdd0)
--   [Week 3 - September 2](#orgbf1070e)
--   [Week 4 - September 7](#org5e9e246)
--   [Week 4 - September 9](#orgb5e85b9)
--   [Week 5 - September 16](#org3f1ea26)
--   [Week 6 - September 21](#org08c08ed)
--   [Week 7 - September 28](#org33f30d3)
--   [Week 9 - October 12+14](#org15c28ae)
--   [Week 10 - October 19+21](#org868067b)
+-   [Week 2 - August 24](#orgafc6f60)
+-   [Week 2 - August 26](#org32bd1cd)
+-   [Week 3 - August 31](#org260fe3d)
+-   [Week 3 - September 2](#org9f3276d)
+-   [Week 4 - September 7](#orgc43ee2c)
+-   [Week 4 - September 9](#org9b7c53a)
+-   [Week 5 - September 16](#orgad9a70e)
+-   [Week 6 - September 21](#orge20a584)
+-   [Week 7 - September 28](#org7c536b9)
+-   [Week 9 - October 12+14](#org651eead)
+-   [Week 10 - October 19+21](#org3084a1f)
 
 
 
-<a id="orga5ea153"></a>
+<a id="orgafc6f60"></a>
 
 # Week 2 - August 24
 
@@ -37,7 +37,7 @@
 -   Questions?
 
 
-<a id="org1ac226d"></a>
+<a id="org32bd1cd"></a>
 
 # Week 2 - August 26
 
@@ -119,7 +119,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgf6dfdd0"></a>
+<a id="org260fe3d"></a>
 
 # Week 3 - August 31
 
@@ -132,7 +132,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgbf1070e"></a>
+<a id="org9f3276d"></a>
 
 # Week 3 - September 2
 
@@ -146,7 +146,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org5e9e246"></a>
+<a id="orgc43ee2c"></a>
 
 # Week 4 - September 7
 
@@ -176,7 +176,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgb5e85b9"></a>
+<a id="org9b7c53a"></a>
 
 # Week 4 - September 9
 
@@ -321,7 +321,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org3f1ea26"></a>
+<a id="orgad9a70e"></a>
 
 # Week 5 - September 16
 
@@ -358,7 +358,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org08c08ed"></a>
+<a id="orge20a584"></a>
 
 # Week 6 - September 21
 
@@ -370,7 +370,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org33f30d3"></a>
+<a id="org7c536b9"></a>
 
 # Week 7 - September 28
 
@@ -383,29 +383,31 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org15c28ae"></a>
+<a id="org651eead"></a>
 
 # Week 9 - October 12+14
 
 ![img](./img/mmix.jpg)
 
--   Fall 2021 Midterm Exam ([colab](https://github.com/birkenkrahe/notebooksf21/blob/main/Midterm_problems.ipynb))
--   Data structures practice ([colab](https://github.com/birkenkrahe/notebooksf21/blob/main/EDA_basics_problems.ipynb))
+-   Fall 2021 Midterm Exam ([notebook](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems))
+-   Data structures practice ([notebook](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems))
 -   [2021 New York R Conference](https://youtube.com/playlist?list=PLlzRFZmxVl9RVwRP6WKOUXTiRMFkF2cPF)
--   Thu: Importing data ([DataCamp](https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r))
+-   By 18<sub>Oct</sub>: Importing data ([DataCamp](https://app.datacamp.com/learn/courses/introduction-to-importing-data-in-r))
     
     *Image source: Ruckert, M (2015). The MMIX
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org868067b"></a>
+<a id="org3084a1f"></a>
 
 # Week 10 - October 19+21
 
 ![img](./img/dance.gif)
 
--   Data input (assignment/practice)
--   Interactive lecture "Vectors in R"
+-   Review: EDA practice notebook (20')
+-   Lecture: Literate programming (20')
+-   Guided practice: data input (20')
+-   Discussion and questions (15')
 -   New: [DataCamp competitions](https://app.datacamp.com/learn/competitions)
 
 

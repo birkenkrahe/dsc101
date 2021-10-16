@@ -19,19 +19,19 @@
 
 <tbody>
 <tr>
-<td class="org-left">Midterm<sub>problems</sub></td>
+<td class="org-left">Midterm-problems</td>
 <td class="org-left">Midterm exam fall 2021</td>
 </tr>
 
 
 <tr>
-<td class="org-left">EDA<sub>basics</sub><sub>problems</sub></td>
+<td class="org-left">EDA-basics-problems</td>
 <td class="org-left">Complete exploratory data analysis workflow</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Data<sub>input</sub></td>
+<td class="org-left">Data-input</td>
 <td class="org-left">Data input from flat files in R</td>
 </tr>
 </tbody>

@@ -3,9 +3,9 @@
    
 | NAME                | DESCRIPTION                                 |
 |---------------------+---------------------------------------------|
-| Midterm_problems    | Midterm exam fall 2021                      |
-| EDA_basics_problems | Complete exploratory data analysis workflow |
-| Data_input          | Data input from flat files in R             |
+| Midterm-problems    | Midterm exam fall 2021                      |
+| EDA-basics-problems | Complete exploratory data analysis workflow |
+| Data-input          | Data input from flat files in R             |
 
   [[../img/problem.gif]]
 

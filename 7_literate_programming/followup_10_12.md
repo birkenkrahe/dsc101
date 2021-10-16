@@ -2,7 +2,7 @@
 # Followup Oct 12, 2021 - LitProg
 
 -   [Whiteboards](https://drive.google.com/drive/folders/1jMzKWroneUX8n1jnLtB413osHRU4gibo?usp=sharing)
--   [Colaboratory notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/Midterm_problems.ipynb) (a [Jupyter notebook](https://jupyter.org/))
+-   [Colaboratory notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/Midterm_problems.ipynb) (a [Jupyter notebook](https://jupyter.org/))
 
 Today's session was all about repeating foundations of R. These are
 really important - more than half of all the things you'll do to
@@ -33,7 +33,7 @@ a Colaboratory refresher (if you need it) and **bring your own**
 laptop to class if possible! Several of the PCs in 209 seem buggy -
 I'll try to sort it out by Thursday but I'm not sure I will
 succeed. If you haven't done it yet, [open the notebook in
-Colaboratory](https://github.com/birkenkrahe/dsc101/blob/main/tests/Midterm_problems.ipynb) (see image below) and answer the first few questions
+Colaboratory](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/Midterm_problems.ipynb) (see image below) and answer the first few questions
 (same as the midterm exam).
 
 *Image: screenshot of midterm exam problem set as interactive

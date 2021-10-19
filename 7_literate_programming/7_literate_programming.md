@@ -44,7 +44,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 > »The idea for Markdown is to make it easy to read, write, and edit
 > prose. HTML is a publishing format; Markdown is a writing
 > format. Thus, Markdown’s formatting syntax only addresses issues that
-> can be conveyed in plain text.« &#x2013; [John Gruber](#org79f0886)
+> can be conveyed in plain text.« &#x2013; [John Gruber](#org9a5165b)
 
 
 ## Why markdown?
@@ -84,7 +84,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 
 > »Instead of imagining that our main task is to instruct a *computer*
 > what to do, let us concentrate rather on explaining to *human beings*
-> what we want a computer to do.« &#x2013; [Donald Knuth](#org205adb9)
+> what we want a computer to do.« &#x2013; [Donald Knuth](#orgeebed00)
 
 ![img](./img/knuth.jpg)
 
@@ -122,7 +122,7 @@ Q: *Who can write HTML (and CSS) documents?*<sup><a id="fnr.1" class="footref" h
 
 ![img](./img/advent.png)
 
-(Source: [Adventure, 1976](#org3da95f1))
+(Source: [Adventure, 1976](#org75ea38a))
 
 
 ### Literate programming example: `adventure`
@@ -201,13 +201,13 @@ Literate program text that corresponds to the instructions above:
 -   Documentation that is seldom created by the programmer, and
 -   Documentation that has a lower priority than the program.
     
-    See also: "Whither Literate Programming" ([Myers, 2018](#org02573e4))
+    See also: "Whither Literate Programming" ([Myers, 2018](#org6973f41))
 
 > »It is commonly accepted in software engineering circles that one of
 > the greatest needs in computing is the reduction of the cost of
 > maintenance of codes.  Maintenance programmers spend at least half
 > of their time trying to understand what code does and maintenance is
-> accepted to be 60% to 80% of a code’s cost.« ([Childs, 2010](#org33f7266))
+> accepted to be 60% to 80% of a code’s cost.« ([Childs, 2010](#orga9de50e))
 
 
 # Modern application examples
@@ -252,6 +252,10 @@ Jupyter notebooks)*
 -   Course: [Reporting with R Markdown](https://learn.datacamp.com/courses/reporting-with-rmarkdown) (2020)
 -   Course: [R Markdown from RStudio](https://rmarkdown.rstudio.com/index.html)
 
+*Image: screenshot from the RStudio cloud workspace*
+
+![img](./img/demo.png)
+
 
 ## Org-mode again
 
@@ -267,52 +271,41 @@ Jupyter notebooks)*
 ![img](./img/sqlite.png)
 
 
-## Notebook demo (rstudio cloud)
-
--   EDA using the [`Pima` Indian data set](http://heather.cs.ucdavis.edu/FasteR/data/Pima.csv) (via Matloff)
--   Head over to [this RStudio cloud notebook](https://rstudio.cloud/project/2030701) to start
--   Compare your results with [this solution (PDF)](https://moodle.hwr-berlin.de/mod/resource/view.php?id=911275)
-
-*Image: screenshot from the RStudio cloud workspace*
-
-![img](./img/demo.png)
-
-
 # Notebook applications for you
 
 ![img](./img/batter.gif)
 
 -   Emacs + ESS + Org-mode (see [FAQ](https://github.com/birkenkrahe/org/blob/master/FAQ.md#org89c9b03))
--   RStudio notebooks
--   Write your next paper or thesis as a "literate program"<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
+-   RStudio R notebooks
+-   Write your next homework as a "literate program"<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 
 
 # References
 
-<a id="org9389255"></a> Bart Childs, "Literate Programming, Why?"
+<a id="orgdf25428"></a> Bart Childs, "Literate Programming, Why?"
 (n.d.). [literateprogramming.com](http://www.literateprogramming.com/bchilds1.pdf)
 
-<a id="org33f7266"></a> Bart Childs, "Thirty years of literate
+<a id="orga9de50e"></a> Bart Childs, "Thirty years of literate
 programming and more?". [TUGboat, Volume 31(2), 2010:183-188](https://www.tug.org/TUGboat/tb31-2/tb98childs.pdf).
 
-<a id="org79f0886"></a> John Gruber, "Markdown:
+<a id="org9a5165b"></a> John Gruber, "Markdown:
 Syntax". Blog. [daringfireball.net](https://daringfireball.net/projects/markdown/syntax#block)
 
-<a id="org205adb9"></a> Donald E. Knuth, "Von Neumann's First Computer
+<a id="orgeebed00"></a> Donald E. Knuth, "Von Neumann's First Computer
 Program". Computing Surveys, 2(4), 1970.
 
-<a id="org7adc68a"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
+<a id="orgcd12cad"></a> Donald E. Knuth and Silvio Levy, "The `CWEB` System of
 Structured Documentation", 2002. Manual. [literateprogramming.com](http://www.literateprogramming.com/cweb.pdf)
 
-<a id="org02573e4"></a> Bob Myers (2018). Whither Literate Programming
+<a id="org6973f41"></a> Bob Myers (2018). Whither Literate Programming
 [blog]. [Online: medium.com](https://torazaburo.medium.com/whither-literate-programming-1-f7326fec86e4).
 
-<a id="org1e80afb"></a> Wikipedia (14 Oct 2021). TeX [article]. [Online:
+<a id="org4dedb91"></a> Wikipedia (14 Oct 2021). TeX [article]. [Online:
 en.wikipedia.org.](https://en.wikipedia.org/wiki/TeX)
 
-<a id="org3da95f1"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf) ([Play online](https://quuxplusone.github.io/Advent/))
+<a id="org75ea38a"></a> [Don Woods and Don Knuth, 1998.](http://www.literateprogramming.com/adventure.pdf) ([Play online](https://quuxplusone.github.io/Advent/))
 
-<a id="org75829c4"></a> Zachary M. Smith, "R Markdown Crash Course",
+<a id="org6855622"></a> Zachary M. Smith, "R Markdown Crash Course",
 2020-03-02. [github.com](https://zsmith27.github.io/rmarkdown_crash-course/index.html)
 
 
@@ -337,8 +330,9 @@ the TeX typesetting software ([texfaq](https://texfaq.org/FAQ-dvi))
 <sup><a id="fn.5" href="#fnr.5">5</a></sup> TeX is a typesetting system designed and written by Donald Knuth
 as a literate program. The LaTeX typesetting system, popular in
 science and research, is derived from TeX. For more, see Wikipedia
-([2021](#org1e80afb)).
+([2021](#org4dedb91)).
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> Remember: litprog means "documentation first" - this is
-data-driven storytelling from the story rather than from the data
-end - much easier and much more likely to result in a good story!
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> I promise that it'll dazzle your teacher! Remember: litprog
+means "documentation first" - this is data-driven storytelling from
+the story rather than from the data end - much easier and much more
+likely to result in a good story!

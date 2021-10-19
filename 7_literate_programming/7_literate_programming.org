@@ -220,6 +220,10 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
    * Course: [[https://learn.datacamp.com/courses/reporting-with-rmarkdown][Reporting with R Markdown]] (2020)
    * Course: [[https://rmarkdown.rstudio.com/index.html][R Markdown from RStudio]]
 
+   /Image: screenshot from the RStudio cloud workspace/
+   #+ATTR_HTML: :width 600px
+   [[./img/demo.png]]
+   
 ** Org-mode again
 
    * Notebooks work with R, SQL, Python,...anything
@@ -233,24 +237,14 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
    #+ATTR_HTML: :width 600px
    [[./img/sqlite.png]]
 
-** Notebook demo (rstudio cloud)
-
-   * EDA using the [[http://heather.cs.ucdavis.edu/FasteR/data/Pima.csv][~Pima~ Indian data set]] (via Matloff)
-   * Head over to [[https://rstudio.cloud/project/2030701][this RStudio cloud notebook]] to start
-   * Compare your results with [[https://moodle.hwr-berlin.de/mod/resource/view.php?id=911275][this solution (PDF)]]
-
-   /Image: screenshot from the RStudio cloud workspace/
-   #+ATTR_HTML: :width 600px
-   [[./img/demo.png]]
-
 * Notebook applications for you
 
   #+attr_html: :width 600px
   [[./img/batter.gif]]
   
   * Emacs + ESS + Org-mode (see [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#org89c9b03][FAQ]])
-  * RStudio notebooks
-  * Write your next paper or thesis as a "literate program"[fn:3]
+  * RStudio R notebooks
+  * Write your next homework as a "literate program"[fn:3]
 
 * References
 
@@ -295,9 +289,10 @@ the TeX typesetting software ([[https://texfaq.org/FAQ-dvi][texfaq]])
 [fn:4]For a live view, right click & pick "View page source" in your
 browser.
 
-[fn:3] Remember: litprog means "documentation first" - this is
-data-driven storytelling from the story rather than from the data
-end - much easier and much more likely to result in a good story!
+[fn:3] I promise that it'll dazzle your teacher! Remember: litprog
+means "documentation first" - this is data-driven storytelling from
+the story rather than from the data end - much easier and much more
+likely to result in a good story!
 
 [fn:2] A major mode in Emacs is an editing environment that is
 customized for a particular purpose - e.g. coding in a specific

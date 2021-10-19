@@ -1,11 +1,11 @@
 #+options: toc:nil
 ** Problem notebooks
    
-| NAME                 | DESCRIPTION                                 |
-|----------------------+---------------------------------------------|
-| Midterm-problems     | Midterm exam fall 2021                      |
-| EDA-basics-problems  | Complete exploratory data analysis workflow |
-| Data-import-problems | Data input from flat files in R             |
+| NAME                 | DESCRIPTION                                 | DATE   |
+|----------------------+---------------------------------------------+--------|
+| Midterm-problems     | Midterm exam fall 2021                      | Oct 12 |
+| EDA-basics-problems  | Complete exploratory data analysis workflow | Oct 14 |
+| Data-import-problems | Data input from flat files in R             | Oct 19 |
 
 [[../img/problem.gif]]
 

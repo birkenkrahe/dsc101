@@ -1,0 +1,93 @@
+#+startup: overview
+#+options: toc:1
+* Data import in R
+** [[https://campus.datacamp.com/courses/introduction-to-importing-data-in-r/][DataCamp chapter]]
+
+*** Uploading files
+
+    * Download the files ~hotdogs.txt~ and ~swimming_pools.csv~ from
+      GitHub to your computer.
+    * Find out, in which working directory you currently are.
+
+      #+begin_src R :session :results output
+        getwd()
+      #+end_src
+
+*** Notebook navigation
+
+    * Open the folder symbol on the left. It only shows the contents
+      of the current folder (~sample_data~), not the name of that
+      folder.
+    * Navigate to the next higher folder by clicking on the symbol
+      right above the folder ~sample_data~.
+
+    You are now looking at a complete Linux file tree.
+
+    * In the sidebar, right-click on the folder ~home~ and choose
+      ~Upload~. Now upload the files ~hotdogs.txt~ and
+      ~swimming_pools.csv~ from your computer to this drive.
+
+    * In the notebook, navigate inside R from the current directory to
+      the directory where the files are located.
+
+      #+begin_src R :session :results output
+	setwd("~/Documents/GitHub/dsc101/tests/data")
+	getwd()
+        dir()
+      #+end_src
+
+      #+RESULTS:
+      : 
+      : [1] "C:/Users/birkenkrahe/Documents/GitHub/dsc101/tests/data"
+      : 
+      : [1] "hotdogs.txt"        "potatoes.csv"       "potatoes.tsv"      
+      : [4] "swimming_pools.csv" "urbanpop.xls"       "urbanpop.xlsx"
+
+*** Finding files
+
+    Finding out which files exist in the current directory with
+    ~dir()~[fn:1].
+
+    #+begin_src R :session :results output
+      dir()
+      Sys.which("README.org")
+    #+end_src
+
+    #+RESULTS:
+    : [1] "README.org"  "README.org~"
+    :
+    :                                                            README.org
+    : "c:\\Users\\BIRKEN~1\\DOCUME~1\\GitHub\\dsc101\\8_DATA~1\\README.org"
+
+    Store the result of ~dir()~ and find out what type of object it is.
+
+    #+begin_src R :session :results output
+      v <- dir() # or list.files()
+      class(v) # object class
+      str(v)  # object structure
+    #+end_src
+
+    #+RESULTS:
+    :
+    : [1] "character"
+    :
+    :  chr [1:2] "README.org" "README.org~"
+
+* Importing flat files
+
+** Concept summary
+
+** Code summary
+
+
+
+* Web scraping
+
+* Footnotes
+
+[fn:1]Alternative commands to get to the OS level include>: ~system()~
+and ~Sys.which, but I have not been able to get it to work under
+Windows (because I just don't know this OS very well). Commands that
+do work are ~Sys.which("[command]"), which will tell you the path to a
+command (if C can find it). Try ~Sys.which("R")~ to find the path to
+~R.exe~. A direct alternative to ~dir()~ is ~list.files()~.

@@ -1,0 +1,6 @@
+* Getting started with RStudio cloud
+
+  * Go to https://cloud.rstudio.com
+  * Pick "Get started for free"
+  * Register using your ~@lyon.edu@ Google account
+

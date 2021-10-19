@@ -232,9 +232,23 @@
   * Lecture: [[https://github.com/birkenkrahe/dsc101/tree/main/7_literate_programming][Literate programming]] (20')
   * Practice test: [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][data input]] (20')
   * Discussion and questions (15')
-  * New: [[https://app.datacamp.com/learn/competitions][DataCamp competitions]]
+  * Next: [[https://campus.datacamp.com/courses/data-visualization-in-r/a-quick-introduction-to-base-r-graphics?ex=1][introduction to base R graphics]][fn:7]
+  * Current: [[https://www.kaggle.com/c/kaggle-survey-2021][Kaggle Data Science Survey]] ([[https://projects.datacamp.com/projects/74][project]])[fn:6]
 
 * Footnotes
+
+[fn:7]In this overview course, you meet base R graphics, which is a
+very powerful toolbox to create plots and communicate your message
+using graphs. In class, we may look at some extra plot types, and you
+can complete this excellent DataCamp course on your own!
+
+[fn:6]Since a few years, Kaggle, the competition platform owned by
+Google, publishes meta data about data science and invites everyone to
+construct data-driven narratives about the field. The results are
+quite fun - and DataCamp has turned the 2017 survey into a mini
+project, which is fairly easy to follow. Unfortunately, it's
+"tidyverse" infused. I'd like to recreate this project without the
+need for "tidyverse" intervention.
 
 [fn:5]Some advice on doing online exercises: THINK THINGS THROUGH FOR
 YOURSELF! Don't just go through the motions. There's plenty to learn

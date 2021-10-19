@@ -31,7 +31,7 @@
 
 
 <tr>
-<td class="org-left">Data-input</td>
+<td class="org-left">Data-import-problems</td>
 <td class="org-left">Data input from flat files in R</td>
 </tr>
 </tbody>

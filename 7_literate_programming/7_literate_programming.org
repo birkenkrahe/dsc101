@@ -151,11 +151,11 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
 
 * Pros and cons of literate programming
 
-  | *LITPROG PROS*            | *LITPROG *CONS*                  |
+  | *LITPROG PROS*          | *LITPROG *CONS*               |
   |-------------------------+-------------------------------|
   | Storytelling supported  | Requires thought              |
   |-------------------------+-------------------------------|
-  | Prettyprinting w/$\TeX$ | $\TeX$ difficult to learn     |
+  | Prettyprinting with TeX[fn:7] | TeX difficult to learn        |
   |-------------------------+-------------------------------|
   | Automatic index/TOC     | Requires (different) training |
   |-------------------------+-------------------------------|
@@ -269,15 +269,23 @@ can be conveyed in plain text.« -- [[gruber][John Gruber]]
   <<cweb>> Donald E. Knuth and Silvio Levy, "The ~CWEB~ System of
   Structured Documentation", 2002. Manual. [[http://www.literateprogramming.com/cweb.pdf][literateprogramming.com]]
 
-  <<adventure>> [[http://www.literateprogramming.com/adventure.pdf][Don Woods and Don Knuth, 1998.]] ([[https://quuxplusone.github.io/Advent/][Play online]])
-
   <<myers>> Bob Myers (2018). Whither Literate Programming
   [blog]. [[https://torazaburo.medium.com/whither-literate-programming-1-f7326fec86e4][Online: medium.com]].
+
+  <<wiki>> Wikipedia (14 Oct 2021). TeX [article]. [[https://en.wikipedia.org/wiki/TeX][Online:
+  en.wikipedia.org.]]
+
+  <<adventure>> [[http://www.literateprogramming.com/adventure.pdf][Don Woods and Don Knuth, 1998.]] ([[https://quuxplusone.github.io/Advent/][Play online]])
 
   <<smith>> Zachary M. Smith, "R Markdown Crash Course",
   2020-03-02. [[https://zsmith27.github.io/rmarkdown_crash-course/index.html][github.com]]
 
 * Footnotes
+
+[fn:7]TeX is a typesetting system designed and written by Donald Knuth
+as a literate program. The LaTeX typesetting system, popular in
+science and research, is derived from TeX. For more, see Wikipedia
+([[wiki][2021]]).
 
 [fn:6]~*.dvi~ files ("device independent") are binary output files of
 the TeX typesetting software ([[https://texfaq.org/FAQ-dvi][texfaq]]) 

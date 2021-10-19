@@ -1,21 +1,21 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgb3a4420)
--   [Week 2 - August 26](#org1aba1b4)
--   [Week 3 - August 31](#org66ed367)
--   [Week 3 - September 2](#orgb9a7c28)
--   [Week 4 - September 7](#orgace6ebd)
--   [Week 4 - September 9](#org7c99842)
--   [Week 5 - September 16](#org2249b4f)
--   [Week 6 - September 21](#org08ae472)
--   [Week 7 - September 28](#orga7e7561)
--   [Week 9 - October 12+14](#org7b04d61)
--   [Week 10 - October 19+21](#orgfb48a6c)
+-   [Week 2 - August 24](#orgf0977f9)
+-   [Week 2 - August 26](#org3c4a1e2)
+-   [Week 3 - August 31](#org9fc8890)
+-   [Week 3 - September 2](#orgc1054c7)
+-   [Week 4 - September 7](#org511a066)
+-   [Week 4 - September 9](#org0dde6af)
+-   [Week 5 - September 16](#org8894dfd)
+-   [Week 6 - September 21](#orge6a68b5)
+-   [Week 7 - September 28](#orgd1b89c2)
+-   [Week 9 - October 12+14](#org7da67b1)
+-   [Week 10 - October 19](#org976bc3a)
 
 
 
-<a id="orgb3a4420"></a>
+<a id="orgf0977f9"></a>
 
 # Week 2 - August 24
 
@@ -37,7 +37,7 @@
 -   Questions?
 
 
-<a id="org1aba1b4"></a>
+<a id="org3c4a1e2"></a>
 
 # Week 2 - August 26
 
@@ -119,7 +119,7 @@
 -   Onwards: data science problems
 
 
-<a id="org66ed367"></a>
+<a id="org9fc8890"></a>
 
 # Week 3 - August 31
 
@@ -132,7 +132,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgb9a7c28"></a>
+<a id="orgc1054c7"></a>
 
 # Week 3 - September 2
 
@@ -146,7 +146,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgace6ebd"></a>
+<a id="org511a066"></a>
 
 # Week 4 - September 7
 
@@ -176,7 +176,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org7c99842"></a>
+<a id="org0dde6af"></a>
 
 # Week 4 - September 9
 
@@ -321,7 +321,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org2249b4f"></a>
+<a id="org8894dfd"></a>
 
 # Week 5 - September 16
 
@@ -358,7 +358,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org08ae472"></a>
+<a id="orge6a68b5"></a>
 
 # Week 6 - September 21
 
@@ -370,7 +370,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="orga7e7561"></a>
+<a id="orgd1b89c2"></a>
 
 # Week 7 - September 28
 
@@ -383,7 +383,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org7b04d61"></a>
+<a id="org7da67b1"></a>
 
 # Week 9 - October 12+14
 
@@ -398,9 +398,9 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="orgfb48a6c"></a>
+<a id="org976bc3a"></a>
 
-# Week 10 - October 19+21
+# Week 10 - October 19
 
 ![img](./img/dance.gif)
 
@@ -408,7 +408,8 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Lecture: [Literate programming](https://github.com/birkenkrahe/dsc101/tree/main/7_literate_programming) (20')
 -   Practice test: [data input](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems) (20')
 -   Discussion and questions (15')
--   New: [DataCamp competitions](https://app.datacamp.com/learn/competitions)
+-   Next: [introduction to base R graphics](https://campus.datacamp.com/courses/data-visualization-in-r/a-quick-introduction-to-base-r-graphics?ex=1)<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
+-   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
 # Footnotes
@@ -435,3 +436,16 @@ that DataCamp never tells you. For now, make ample use of `help()`!
 
 <sup><a id="fn.5" href="#fnr.5">5</a></sup> Hopefully, you remember that your DataCamp completion rate makes
 up 15% of your total grade ([see syllabus](https://github.com/birkenkrahe/dsc101/blob/main/syllabus.org#datacamp-assignments-15)).
+
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> In this overview course, you meet base R graphics, which is a
+very powerful toolbox to create plots and communicate your message
+using graphs. In class, we may look at some extra plot types, and you
+can complete this excellent DataCamp course on your own!
+
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> Since a few years, Kaggle, the competition platform owned by
+Google, publishes meta data about data science and invites everyone to
+construct data-driven narratives about the field. The results are
+quite fun - and DataCamp has turned the 2017 survey into a mini
+project, which is fairly easy to follow. Unfortunately, it's
+"tidyverse" infused. I'd like to recreate this project without the
+need for "tidyverse" intervention.

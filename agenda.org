@@ -241,7 +241,7 @@
 
 | [[https://lyon.schoology.com/assignment/5403804250][Quiz + review]]         | Literate programming and vectors) | '20 |
 | Classroom review      | Data import practice notebook     | '20 |
-| Interactive lecture   | Base R graphics with ~plot()~     | '30 |
+| Interactive [[https://github.com/birkenkrahe/dsc101/tree/main/8_plotting][lecture]]   | Base R graphics with ~plot()~     | '30 |
 | Online [[https://lyon.schoology.com/page/5285373816][Video playlist]] | Vectors 1-3 ([[https://github.com/birkenkrahe/dsc101/tree/main/6_vectors][GitHub script]])       | '5  |
 
 * Footnotes

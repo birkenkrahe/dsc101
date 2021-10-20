@@ -235,6 +235,13 @@
   * Next: [[https://campus.datacamp.com/courses/data-visualization-in-r/a-quick-introduction-to-base-r-graphics?ex=1][Introduction to base R graphics]][fn:7]
   * Current: [[https://www.kaggle.com/c/kaggle-survey-2021][Kaggle Data Science Survey]] ([[https://projects.datacamp.com/projects/74][project]])[fn:6]
 
+* Week 10 - October  21
+
+  * Quiz (litprog and vectors)
+  * Video playlist: vectors
+  * 
+
+  
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a

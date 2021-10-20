@@ -229,7 +229,7 @@
   [[./img/dance.gif]]
 
   * Review: [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][EDA practice notebook]] (20')
-  * Lecture: [[https://github.com/birkenkrahe/dsc101/tree/main/7_literate_programming][Literate programming]] (20')
+  * Lecture: [[https://github.com/birkenkrahe/dsc101/blob/main/7_litprog/][Literate programming]] (20')
   * Practice test: [[https://github.com/birkenkrahe/dsc101/tree/main/tests/problems][data import]] (20') => homework
   * Discussion and questions (15')
   * Next: [[https://campus.datacamp.com/courses/data-visualization-in-r/a-quick-introduction-to-base-r-graphics?ex=1][Introduction to base R graphics]][fn:7]

@@ -1,0 +1,799 @@
+#+TITLE: Basic R Plotting
+#+AUTHOR: Marcus Birkenkrahe
+#+DATE: Winter 2020
+#+EMAIL: birkenkrahe@hwr-berlin.de
+#+STARTUP: folded
+#+OPTIONS: toc:nil
+#+INFOJS_OPT: :view:info
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./style.css" />
+* What will you learn?
+
+  * Basic R plotting with [[https://r-coder.com/plot-r/][~plot~]]
+  * [[./img/params.png][Graphical parameters]] to customize plots
+  * Adding stuff to an already [[./img/stuff12.png][existing plot]]
+  * Complete [[https://youtube.com/playlist?list=PL6SfZh1-kWXkDVwgn2kXG13Y4SnoWDj9q][video playlist]] (60 min) available
+  * Source: T M Davies, Book of R (chapter 7)
+
+  #+CAPTION: A terrible plot (Source: appsruntheworld.com)
+  #+ATTR_HTML: :width 900px
+  [[./img/plotting_2_cover.png]]
+
+  WHY IS THIS A *"TERRIBLE PLOT"?
+
+  #+begin_quote ANSWER
+
+1) It contains too much information!
+2) The scale on the left and on the right are different and do not
+   both begin at $0$. The right one is likely a logarithmic scale.
+3) The values on the x-axis are alphabetized, which makes no
+   sense. Instead, the bar chart should be reordered by height.
+4) The CAGR ("Compound Annual Growth Rate") line plot (time
+   series) has no (clear) relationship with the bar chart.
+
+  #+end_quote
+
+* What is ~plot~?
+
+  * Default plot of ~plot()~: [[https://chartio.com/learn/charts/what-is-a-scatter-plot/][scatterplot]]
+  * Generic (= built in) R function (Base-R!)
+  * Versatile (= customizable) R function (OOP!)
+
+* Define and plot two vectors
+
+  * Define two sample vectors
+  * Plot them with ~plot~
+  * Save the plot with ~ggsave~
+
+  #+begin_src R :results output graphics :file ./img/vecplot.png
+
+    ## define two vectors and plot them
+    foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+    bar <- c(2,2.2,-1.3,0,0.2)
+    plot(x=foo, y=bar, main="Vectorplot") # output is redirected
+
+  #+end_src
+
+  #+CAPTION: Scatterplot from two coordinate vectors
+  [[./img/vecplot.png]]
+
+* Save your plot to a file
+
+  * Simplest way is with ~ggsave~
+  * ~ggsave~ is part of the ~ggplot2~ package
+  * ~.png~ stands for "Portable Network Graphics"
+
+  #+begin_src R :results output
+
+    ## load ggplot (for ggsave)
+    library(ggplot2)
+    ggsave(filename="vecplot.png")
+
+  #+end_src
+
+* Plot vectors as matrix
+
+  #+begin_src R :results output graphics :file ./img/matplot.png
+
+    ## define matrix and plot it
+    foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+    bar <- c(2,2.2,-1.3,0,0.2)
+    baz <- cbind(foo,bar)
+    baz
+    plot(baz, main="Matrixplot")
+
+  #+end_src
+
+  #+CAPTION: Scatterplot from a matrix
+  [[./img/matplot.png]]
+
+  Output:
+  #+begin_example
+  :      foo  bar
+  : [1,] 1.1  2.0
+  : [2,] 2.0  2.2
+  : [3,] 3.5 -1.3
+  : [4,] 3.9  0.0
+  : [5,] 4.2  0.2
+  #+end_example
+
+* Graphical parameters
+** Line and point ~type~
+
+   * Set ~type~ attribute
+   * ~"l"~ for line plots
+   * ~"b"~ for both lines and [data]points
+   * ~"o"~ for plotting points over lines
+   * ~"n"~ for no points whatsoever
+
+*** Lines only
+
+    #+begin_src R :results output graphics :file ./img/lnplot.png
+
+      ## plot vectors with lines between the points
+      foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+      bar <- c(2,2.2,-1.3,0,0.2)
+
+      plot(foo,bar, type="l") # type "l" = lineplot
+
+    #+end_src
+
+    #+CAPTION: Line plot from two coordinate vectors (~type="l"~)
+    #+attr_html: :width 300px
+    [[./img/lnplot.png]]
+
+
+*** Lines and points
+
+    #+begin_src R :results output graphics :file ./img/lbplot.png
+
+      ## plot vectors with lines between the points as circles
+      foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+      bar <- c(2,2.2,-1.3,0,0.2)
+
+      plot(foo,bar, type="b")  # b = "both points and lines"
+
+    #+end_src
+
+    #+CAPTION: Line plot from two coordinate vectors (~type="b"~)
+    #+attr_html: :width 300px
+    [[./img/lbplot.png]]
+
+*** Lines plotted over points
+
+    #+begin_src R :results output graphics :file ./img/loplot.png
+
+      ## plot vectors with lines between the points as circles
+      ## and overplot the points with lines
+      foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+      bar <- c(2,2.2,-1.3,0,0.2)
+
+      plot(foo,bar, type="o")  # o = "points and lines overplotted"
+
+    #+end_src
+
+    #+CAPTION: Line plot from two coordinate vectors  (~type="o"~)
+    #+attr_html: :width 300px
+    [[./img/loplot.png]]
+
+*** No points
+
+    Useful e.g. to build a plot up in stages
+
+    #+begin_src R :results output graphics :file ./img/noplot.png
+
+      ## define vectors
+      foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+      bar <- c(2,2.2,-1.3,0,0.2)
+
+      plot(foo,bar, type="n")  # n = "no points"
+
+    #+end_src
+
+    #+CAPTION: No plot from two coordinate vectors  (~type="n"~)
+    #+attr_html: :width 300px
+    [[./img/noplot.png]]
+
+
+*** Challenge
+
+    * Build a plot with lines and points from ~rnorm(1:10)~
+    * Repeat the command a couple of times
+    * What do you think the function ~rnorm~ does?
+
+** Title and axis labels: ~main~, ~xlab~ ~ylab~
+
+   * Use ~main~ to title your plot
+   * Use the escape character ~\n~ to go over several lines
+   * See "[[https://campus.datacamp.com/courses/string-manipulation-with-stringr-in-r/string-basics?ex=4][String manipulation with ~stringr~]]" in DataCamp
+
+   #+begin_src R :results output graphics :file ./img/ltplot.png
+
+     ## plot vectors with axis labels and title over two lines
+     foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+     bar <- c(2,2.2,-1.3,0,0.2)
+
+     plot(foo,bar, type="b",
+          main="My lovely plot\ntitle on two lines",
+          xlab="x axis label", ylab="location y")
+
+   #+end_src
+
+
+   #+CAPTION: Labeled and titled vector plot
+   #+ATTR_HTML: :width 400
+   [[./img/ltplot.png]]
+
+** Adding color: ~col~
+
+   * Available color string values: ~colors()~
+   * See also ~demo("colors")~ and "[[http://www.sthda.com/english/wiki/colors-in-r][colors in R]]"
+
+   #+begin_src R :results output
+
+     colors()[10:15] # 6 elements of the ~colors~ characters
+
+   #+end_src
+
+   * To set color, use the ~col~ attribute in ~plot~
+
+   #+begin_src R :results output graphics :file ./img/colplot.png
+
+     foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+     bar <- c(2,2.2,-1.3,0,0.2)
+
+     plot(foo,bar, type="b",    # lines and points
+          main="Color demo\n\"red\"", # title
+          col="red")    # color the plot
+
+   #+end_src
+
+   #+CAPTION: Colored plot (~col="red"~)
+   #+ATTR_HTML: :width 400
+   [[./img/colplot.png]]
+
+** Line and Point appearances: ~pch~, ~lty~, ~cex~
+*** Point characters: ~pch~
+
+    * Point appearance: ~pch~ attribute
+    * Specify any character or a value between ~1~ and ~25~
+    * More information: ~?points~
+
+    #+begin_src R :results output graphics :file ./img/pch.png
+
+      ## show all available point appearances
+      plot((1:25),(1:25), main="pch demo",pch=(1:25))
+
+    #+end_src
+
+    #+CAPTION: Point character values (~pch = [1:25]~)
+    #+attr_html: :width 400px
+    [[./img/pch.png]]
+
+*** Line characters: ~lty~
+
+    * Line appearance: ~lty~ attribute
+    * Assign values ~1~ through ~6~
+    * Function ~abline~ draws lines
+
+    #+begin_src R :results output graphics :file ./img/lty.png
+
+      ##
+      plot(1:6, main="lty=(1:6)", xlab="",ylab="",type="n")
+
+      abline(v=(1:6),   # draw line at every vector element
+             col=c("blue","red","seagreen",  # 6 colors
+                   "black","orange","aquamarine4"),
+             lty=(1:6)) # align line types with the vector
+
+    #+end_src
+
+    #+CAPTION: Line type values (~lty = [1:6])
+    #+ATTR_HTML: :width 400
+    [[./img/lty.png]]
+
+*** Point extension: ~lwd~ and ~cex~
+
+    * Plotted point size: ~cex~ attribute
+    * ~cex~ must be positive
+
+    #+begin_src R :results output graphics :file ./img/cex.png
+
+      plot((1:8),                 # vector definition
+           main="cex=2\npch=16",  # title
+           xlab="",               # empty label
+           ylab="",               # empty label
+           col=(1:8),             # color vector
+           pch=16,                # point character
+           cex=2)                 # double the point size
+
+    #+end_src
+
+    #+CAPTION: Integer options of ~col~ using ~cex=2~
+    #+ATTR_HTML: :width 400
+    [[./img/cex.png]]
+
+*** Line thickness
+
+    * Line thickness: ~lwd~ attribute
+    * ~lwd~ must be positive
+
+    #+begin_src R :results output graphics :file ./img/lwd.png
+
+      ##
+      plot(1:6, main="lty=(1:6)", xlab="",ylab="",type="n")
+      abline(v=(1:6), col=c("blue","red","seagreen",
+                            "black","orange","aquamarine4"),
+             lty=(1:6),
+             lwd=4)      # increase default line thickness
+
+    #+end_src
+
+    #+RESULTS:
+
+    #+CAPTION: Line thickness demonstration for options of ~lty~ using ~lwd=4~
+    #+ATTR_HTML: :width 400
+    [[./img/lwd.png]]
+
+** Plotting region limits: ~xlim~, ~ylim~
+
+   * R chooses displayed plot ranges based in input values
+   * Custom plot ranges: attributes ~xlim~, ~ylim~
+   * Values are set as vectors with ~c()~
+
+   #+begin_src R :results output graphics :file ./img/lim1.png
+
+     ## sample vectors
+     foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+     bar <- c(2,2.2,-1.3,0,0.2)
+
+     ## plot with custom range
+     plot(foo, bar, type="b",
+          main="custom area\ndemo",
+          xlab="",
+          ylab="",
+          col="blue",
+          pch=8,
+          lty=2,
+          cex=2.3,
+          lwd=3.3,
+          xlim=c(-10,5), # x axis
+          ylim=c(-3,3))  # y axis
+
+   #+end_src
+
+   #+CAPTION: custom range: $xlim=[-10,5]$, $ylim=[-3,3]$
+   #+ATTR_HTML: :width 400
+   [[./img/lim1.png]]
+
+   * You are not tied to the input values
+   * In the following example, some points cannot be shown
+
+   #+begin_src R :results output graphics :file ./img/lim2.png
+
+     foo  <- c(1.1, 2, 3.5, 3.9, 4.2)
+     bar <- c(2,2.2,-1.3,0,0.2)
+     plot(foo, bar, type="b",
+          main="custom area\ndemo",
+          xlab="",ylab="",
+          col="chocolate4",
+          pch=15,
+          lty=3,
+          cex=0.7,
+          lwd=2,
+          xlim=c(3,5),
+          ylim=c(-0.5,0.2))
+
+   #+end_src
+
+   #+CAPTION: custom range: $xlim=[3,5]$, $ylim=[-0.5,0.2]$
+   #+ATTR_HTML: :width 400
+   [[./img/lim2.png]]
+
+* ADDING STUFF TO AN EXISTING PLOT
+  We're going to build the plot shown in figure [[fig:davies]] step by
+  step using the graphical parameters already shown and a few
+  ready-to-use functions that add to an existing plot without
+  refreshing or clearing the window, in only 10 lines of code.
+
+  In figure [[fig:davies]], data points are plotted differently depending
+  on their relative position to the "sweet spot":
+  * Points with $y>5$ are marked with a ~purple~ $\times$ (~pch=4~)
+  * Points with $y<-5$ are marked with a ~green~ $+$ (~pch=3~)
+  * Points with $y\in[-5,5]$ but outside the sweet spot are marked $\circ$
+  * Point in the sweet spot with $x\in[5,15]$ and $y\in[-5,5]$ are
+    marked with a ~blue~ $\bullet$
+  * To delineate the sweet spot, we use thick (~lwd=2~) dashed
+    (~lty=2~) ~red~ ~lines~
+  * The sweet spot is named and labeled (~text~) with an arrow (~arrows~)
+  * There is a ~legend~ explaining point and line types
+  #+CAPTION: Elaborated sample plot of hypothetical data (Source: Davies, 2016)
+  #+NAME: fig:davies
+  #+ATTR_LATEX: :width 300px
+  #+ATTR_HTML: :width 600
+  [[./img/stuff12.png]]
+** Data
+   We add two hypothetical vectors and plot them (fig. [[fig:stuff1]])
+   using only default settings of ~plot~.
+
+   #+begin_src R :results output graphics :file ./img/stuff1.png
+     ## define x and y vectors for 20 (x,y) locations
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78,-11.67,
+            1.17, 15.62)
+     plot(x,y)
+   #+end_src
+
+   #+CAPTION: Scatterplot of hypothetical data in vectors ~x~ and ~y~
+   #+NAME: fig:stuff1
+   [[./img/stuff1.png]]
+
+** Create empty region
+   Create an empty plotting region to add points and draw lines but
+   don't plot anything - see figure [[fig:stuff2]].
+
+   #+begin_src R :results output graphics :file ./img/stuff2.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+
+     ## create region for plot without plotting anthing
+     plot(x,y, type="n", main="")
+   #+end_src
+
+   #+CAPTION: Empty plotting region for customization
+   #+NAME: fig:stuff2
+   [[./img/stuff2.png]]
+
+** Add horizontal lines
+   Add straight lines spanning a plot using [[https://www.rdocumentation.org/packages/graphics/versions/3.6.2/topics/abline][~abline~]]. Specify /slope/
+   and /intercept/ values, or just add horizontal or vertical
+   lines. The code below adds two separate horizontal lines at $y=5$
+   and $y=-5$ using the parameter ~h=c(-5,5)~. We want the lines red,
+   dashed and with double thickness. See figure [[fig:stuff3]].
+   #+begin_src R :results output graphics :file ./img/stuff3.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+
+     ## add straight horizontal lines
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+   #+end_src
+
+   #+CAPTION: Draw red, dashed, thick horizontal lines
+   #+NAME: fig:stuff3
+   [[./img/stuff3.png]]
+
+   For vertical lines, you could have written ~v=c(-5,5)~, which would
+   have drawn lines at $x=-5$ and $x=5$. See ~?abline~ for more info.
+
+** Add vertical segments
+   Add shorter vertical lines to form a box for the "sweet spot". We
+   use ~segments~ since we don't want the lines to span the whole
+   region. ~segments~ takes a "from" coordinate (~x0~ and ~y0~) and a
+   "to" coordinate (~x1~ and ~y1~). The vector-oriented behavior of R
+   matches the two sets of coordinates - e.g. from ~(5,-5)~ to ~(5,5)~
+   for the first line. See figure [[fig:stuff4]].
+
+   #+begin_src R :results output graphics :file ./img/stuff4.png
+
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="") # empty plot
+     abline(h=c(-5,5), col="red", lty=2, lwd=2) # horizontal line
+
+     ## add segment from x in [5,15] to y in [-5,5]
+     segments(
+       x0=c(5,15), y0=c(-5,-5), # draw from x0,y0 to
+       x1=c(5,15), y1=c(5,5),   #           x1,y1
+       col="red",
+       lty=3,
+       lwd=2)
+   #+end_src
+
+   #+RESULTS:
+
+   Note that the left segment goes from ~(x0[1],y0[1])=(5,-5)~ to
+   ~(x1[1],y1[1])=(5,5)~, and the right segment goes from
+   ~(x0[2],y0[2])=(15,-5)~ to ~(x1[2],y1[2])=(15,5)~.
+
+   So to draw only the left/right line, the following commands would
+   also apply:
+
+   #+begin_example R
+     segments(x0=5, y0=-5,x1=5, y1=5)
+     segments(x0=15,y0=-5,x1=15,y1=5)
+   #+end_example
+
+
+   #+CAPTION: Add segment from $x\in[5,15]$ to $y\in[-5,5]$
+   #+NAME: fig:stuff4
+   [[./img/stuff4.png]]
+
+** Add upper points
+   Use the function ~points~ to extract specific coordinates from the
+   data vectors ~x~ and ~y~ to the plot. Like ~plot~, ~points~ takes
+   two arguments of equal length with $x$ and $y$ values.
+
+   Use logical subsetting to identify and extract elements where
+   $y\geq5$, add them as ~purple~ $\times$ symbols (~pch=4~),
+   enlarged by a factor two with ~cex~, as shown in figure
+   [[fig:stuff5]].
+
+   #+begin_src R :results output graphics :file ./img/stuff5.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15),
+              y0=c(-5,-5),
+              x1=c(5,15),
+              y1=c(5,5),
+              col="red",
+              lty=3,
+              lwd=2)
+
+     ## Add points with y greater or equal 5
+     points(x[y>5], y[y>5],
+            pch=4,
+            col="darkmagenta",
+            cex=2)
+   #+end_src
+
+   #+CAPTION: Add points with $y\geq5$ as fat, purple $\times$ signs
+   #+NAME: fig:stuff5
+   [[./img/stuff5.png]]
+
+** Add lower points
+   Extract points from the vectors with $y\leq-5$ using enlarged,
+   green $+$ symbols - see figure [[fig:stuff6]].
+
+   #+begin_src R :results output graphics :file ./img/stuff6.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5),
+              x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta",
+            cex=2)
+
+     ## Add points with y smaller or equal -5
+     points(x[y<=-5], y[y<=-5],
+            pch=3, col="darkgreen", cex=2)
+   #+end_src
+
+   #+CAPTION: Add points with $y\leq-5$ as fat, green $+$ signs
+   #+NAME: fig:stuff6
+   [[./img/stuff6.png]]
+
+** Add sweet spot points
+   Extract points in the segment drawn before. These points fulfil the
+   condition $x\in[5,15] \cup y\in[-5,5]$. Plot them as full blue
+   $\bullet$ signs - as shown in figure [[fig:stuff7]].
+
+   #+begin_src R :results output graphics :file ./img/stuff7.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5),
+              x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5], pch=3,
+            col="darkgreen", cex=2)
+
+     ## Add points inside the segment
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],
+            pch=19,col="blue")
+   #+end_src
+
+   #+CAPTION: Add sweet spot points as filled blue $\bullet$ signs
+   #+NAME: fig:stuff7
+   [[./img/stuff7.png]]
+
+** Add remaining points
+   All remaining points satisfy the condition: $x<5$ or $x>15$, and
+   $y\in(-5,5)$. See figure [[fig:stuff8]].
+
+   #+begin_src R :results output graphics :file ./img/stuff8.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5),
+              x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5], pch=3,
+            col="darkgreen", cex=2)
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],
+            pch=19,col="blue")
+
+     ## Add remaining points x<5 or x>15 AND y in (-5,5)
+     points(x[(x<5|x>15)&(y>-5&y<5)],
+            y[(x<5|x>15)&(y>-5&y<5)])
+   #+end_src
+
+   #+CAPTION: Add remaining points as default black $\circ$ sign
+   #+NAME: fig:stuff8
+   [[./img/stuff8.png]]
+
+** Draw lines
+   Use ~lines~ to draw lines connecting the coordinates in ~x~ and
+   ~y~. Draw them in dash-dot-dash style (~lty=4~), see figure [[fig:stuff9]].
+
+   #+begin_src R :results output graphics :file ./img/stuff9.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5),
+              x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5],
+            pch=3, col="darkgreen", cex=2)
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],pch=19,col="blue")
+     points(x[(x<5|x>15)&(y>-5&y<5)],
+            y[(x<5|x>15)&(y>-5&y<5)])
+
+     ## draw lines
+     lines(x,y,lty=4)
+   #+end_src
+
+   #+CAPTION: Draw lines as dash-dot-dash type between all points
+   #+NAME: fig:stuff9
+   [[./img/stuff9.png]]
+
+** Add arrow pointing to the sweet spot
+   The function ~arrows~ is used just like ~segments~ with limiting
+   coordinate pairs ~(x0,y0)~ and ~(x1,y1)~. The arrow head is by
+   default pointed at the "to" coordinate - check ~?arrows~ to find
+   out how to alter this. See [[fig:stuff10]] for the result.
+
+   #+begin_src R :results output graphics :file ./img/stuff10.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5), x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5], pch=3,
+            col="darkgreen", cex=2)
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],
+            pch=19,col="blue")
+     points(x[(x<5|x>15)&(y>-5&y<5)],
+            y[(x<5|x>15)&(y>-5&y<5)])
+     lines(x,y,lty=4)
+
+     ## add arrow
+     arrows(x0=8, y0=14, x1=11,y1=2.5)
+   #+end_src
+
+   #+CAPTION: Add arrow
+   #+NAME: fig:stuff10
+   [[./img/stuff10.png]]
+** Print label at top of arrow
+   Print label on the plot at the top of the arrow using the function
+   ~text~. By default, the text in ~labels~ is centered on the given
+   coordinates, as shown in [[fig:stuff11]].
+
+   #+begin_src R :results output graphics :file ./img/stuff11.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5),
+              x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4,
+            col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5], pch=3,
+            col="darkgreen", cex=2)
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],pch=19,col="blue")
+     points(x[(x<5|x>15)&(y>-5&y<5)],
+            y[(x<5|x>15)&(y>-5&y<5)])
+     lines(x,y,lty=4)
+     arrows(x0=8, y0=14, x1=11,y1=2.5)
+
+     ## add arrow label
+     text(x=8, y=15, labels="sweet spot")
+   #+end_src
+
+   #+CAPTION: Add arrow label
+   #+NAME: fig:stuff11
+   [[./img/stuff11.png]]
+** Print legend
+   Find the final result with the legend in [[fig:stuff12]]. Here, you
+   need to use a fair amount of ~NA~ values, because the graphical
+   vectors have to have the same length to be processed.
+
+   #+begin_src R :results output graphics :file ./img/stuff12.png
+     x <- 1:20
+     y <- c(-1.49, 3.37, 2.59, -2.78, -3.94, -0.92,
+            6.43, 8.51, 3.41, -8.23, -12.01, -6.58,
+            2.87, 14.12, 9.63, -4.58, -14.78, -11.67,
+            1.17, 15.62)
+     plot(x,y, type="n", main="")
+     abline(h=c(-5,5), col="red", lty=2, lwd=2)
+     segments(x0=c(5,15), y0=c(-5,-5), x1=c(5,15), y1=c(5,5),
+              col="red", lty=3, lwd=2)
+     points(x[y>5], y[y>5], pch=4, col="darkmagenta", cex=2)
+     points(x[y<=-5], y[y<=-5], pch=3, col="darkgreen", cex=2)
+     points(x[(x>=5&x<=15)&(y>=-5&y<=5)],
+            y[(x>=5&x<=15)&(y>=-5&y<=5)],pch=19,col="blue")
+     points(x[(x<5|x>15)&(y>-5&y<5)],
+            y[(x<5|x>15)&(y>-5&y<5)])
+     lines(x,y,lty=4)
+     arrows(x0=8, y0=14, x1=11,y1=2.5)
+     text(x=8, y=15, labels="sweet spot")
+
+     ## add legend
+     legend("bottomleft",
+            legend=c("overall process", "sweet",
+                     "standard", "too big",
+                     "too small", "sweet y range",
+                     "sweet x range"),
+            pch=c(NA,19,1,4,3,NA,NA),
+            lty=c(4,NA,NA,NA,NA,2,3),
+            col=c("black","blue","black",
+                  "darkmagenta","darkgreen","red","red"),
+            lwd=c(1,NA,NA,NA,NA,2,2),
+            pt.cex=c(NA,1,1,2,2,NA,NA))
+   #+end_src
+
+   #+CAPTION: Add arrow label
+   #+NAME: fig:stuff12
+   [[./img/stuff12.png]]
+
+* SUMMARY
+
+  * ~plot~ is a generic R function with many different possible
+    parameters to customize plots.
+  * You can change line type, point type, color points and restrict
+    plotting regions.
+  * You can add points, lines and text to an existing plot.
+
+* CODE SUMMARY
+  Parameters for scatterplots with ~plot~:
+
+  | PARAMETER              | DESCRIPTION                          |
+  |------------------------+--------------------------------------|
+  | ~type~                 | how to plot given coordinates        |
+  | ~main~, ~xlab~, ~ylab~ | plot title and axis labels           |
+  | ~col~                  | colors for plotting lines and points |
+  | ~pch~                  | point character (plotting symbol)    |
+  | ~cex~                  | character expansion/point size       |
+  | ~lty~                  | type of line (solid. dotted, dashed) |
+  | ~lwd~                  | line width / thickness               |
+  | ~xlim~, ~ylim~         | horizontal/vertical region limits    |
+  | ~points~               | function to add points to a plot     |
+  | ~lines~, ~ablines~     | functions to add lines to a plot     |
+  | ~text~                 | function to write text in a plot     |
+  | ~arrows~               | function to add arrows to a plot     |
+  | ~legend~               | function to add a legend to a plot   |
+  | ~segments~             | function to add line segments        |

@@ -1,21 +1,22 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org5d049b8)
--   [Week 2 - August 26](#org73d647b)
--   [Week 3 - August 31](#orge4bb545)
--   [Week 3 - September 2](#orgff8a37d)
--   [Week 4 - September 7](#orgeec7501)
--   [Week 4 - September 9](#orgef7ffef)
--   [Week 5 - September 16](#org07ee345)
--   [Week 6 - September 21](#org1a02c6c)
--   [Week 7 - September 28](#org613b513)
--   [Week 9 - October 12+14](#org9587268)
--   [Week 10 - October 19](#org5723a6a)
+-   [Week 2 - August 24](#orgce07822)
+-   [Week 2 - August 26](#org948b3c7)
+-   [Week 3 - August 31](#orgf563f56)
+-   [Week 3 - September 2](#org4b8b343)
+-   [Week 4 - September 7](#org375f69f)
+-   [Week 4 - September 9](#orge3261a5)
+-   [Week 5 - September 16](#org3cfc87e)
+-   [Week 6 - September 21](#orga189e09)
+-   [Week 7 - September 28](#org1f1417d)
+-   [Week 9 - October 12+14](#orga20a30e)
+-   [Week 10 - October 19](#org6af7112)
+-   [Week 10 - October  21](#orgb69733c)
 
 
 
-<a id="org5d049b8"></a>
+<a id="orgce07822"></a>
 
 # Week 2 - August 24
 
@@ -37,7 +38,7 @@
 -   Questions?
 
 
-<a id="org73d647b"></a>
+<a id="org948b3c7"></a>
 
 # Week 2 - August 26
 
@@ -119,7 +120,7 @@
 -   Onwards: data science problems
 
 
-<a id="orge4bb545"></a>
+<a id="orgf563f56"></a>
 
 # Week 3 - August 31
 
@@ -132,7 +133,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgff8a37d"></a>
+<a id="org4b8b343"></a>
 
 # Week 3 - September 2
 
@@ -146,7 +147,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgeec7501"></a>
+<a id="org375f69f"></a>
 
 # Week 4 - September 7
 
@@ -176,7 +177,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgef7ffef"></a>
+<a id="orge3261a5"></a>
 
 # Week 4 - September 9
 
@@ -321,7 +322,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org07ee345"></a>
+<a id="org3cfc87e"></a>
 
 # Week 5 - September 16
 
@@ -358,7 +359,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org1a02c6c"></a>
+<a id="orga189e09"></a>
 
 # Week 6 - September 21
 
@@ -370,7 +371,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org613b513"></a>
+<a id="org1f1417d"></a>
 
 # Week 7 - September 28
 
@@ -383,7 +384,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org9587268"></a>
+<a id="orga20a30e"></a>
 
 # Week 9 - October 12+14
 
@@ -398,7 +399,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org5723a6a"></a>
+<a id="org6af7112"></a>
 
 # Week 10 - October 19
 
@@ -406,10 +407,57 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 
 -   Review: [EDA practice notebook](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems) (20')
 -   Lecture: [Literate programming](https://github.com/birkenkrahe/dsc101/tree/main/7_literate_programming) (20')
--   Practice test: [data input](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems) (20')
+-   Practice test: [data import](https://github.com/birkenkrahe/dsc101/tree/main/tests/problems) (20') => homework
 -   Discussion and questions (15')
 -   Next: [Introduction to base R graphics](https://campus.datacamp.com/courses/data-visualization-in-r/a-quick-introduction-to-base-r-graphics?ex=1)<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
+
+
+<a id="orgb69733c"></a>
+
+# Week 10 - October  21
+
+![img](./img/eastwood.gif)
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://lyon.schoology.com/assignment/5403804250">Quiz + review</a></td>
+<td class="org-left">Literate programming and vectors)</td>
+<td class="org-left">'20</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Classroom review</td>
+<td class="org-left">Data import practice notebook</td>
+<td class="org-left">'20</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Interactive lecture</td>
+<td class="org-left">Base R graphics with <code>plot()</code></td>
+<td class="org-left">'30</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Online <a href="https://lyon.schoology.com/page/5285373816">Video playlist</a></td>
+<td class="org-left">Vectors 1-3</td>
+<td class="org-left">'5</td>
+</tr>
+</tbody>
+</table>
 
 
 # Footnotes

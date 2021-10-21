@@ -1,22 +1,22 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org169ad14)
--   [Week 2 - August 26](#orged8a1a6)
--   [Week 3 - August 31](#orgfb2f5dc)
--   [Week 3 - September 2](#org2d9e29b)
--   [Week 4 - September 7](#orgee60d46)
--   [Week 4 - September 9](#org90acd50)
--   [Week 5 - September 16](#org8aff3cc)
--   [Week 6 - September 21](#org1012b08)
--   [Week 7 - September 28](#org795f0bc)
--   [Week 9 - October 12+14](#orgafe9053)
--   [Week 10 - October 19](#org2ad1f12)
--   [Week 10 - October  21](#org94a3dc6)
+-   [Week 2 - August 24](#orgc084e00)
+-   [Week 2 - August 26](#org8d617b5)
+-   [Week 3 - August 31](#org585b30c)
+-   [Week 3 - September 2](#orgcfec3fa)
+-   [Week 4 - September 7](#orgdcd1c8c)
+-   [Week 4 - September 9](#org5f588ea)
+-   [Week 5 - September 16](#org4a28ec0)
+-   [Week 6 - September 21](#org3aa2ae3)
+-   [Week 7 - September 28](#org2adecde)
+-   [Week 9 - October 12+14](#org843ecee)
+-   [Week 10 - October 19](#org9ead5aa)
+-   [Week 10 - October  21](#orga2e29a7)
 
 
 
-<a id="org169ad14"></a>
+<a id="orgc084e00"></a>
 
 # Week 2 - August 24
 
@@ -38,7 +38,7 @@
 -   Questions?
 
 
-<a id="orged8a1a6"></a>
+<a id="org8d617b5"></a>
 
 # Week 2 - August 26
 
@@ -120,7 +120,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgfb2f5dc"></a>
+<a id="org585b30c"></a>
 
 # Week 3 - August 31
 
@@ -133,7 +133,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org2d9e29b"></a>
+<a id="orgcfec3fa"></a>
 
 # Week 3 - September 2
 
@@ -147,7 +147,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgee60d46"></a>
+<a id="orgdcd1c8c"></a>
 
 # Week 4 - September 7
 
@@ -177,7 +177,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org90acd50"></a>
+<a id="org5f588ea"></a>
 
 # Week 4 - September 9
 
@@ -322,7 +322,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org8aff3cc"></a>
+<a id="org4a28ec0"></a>
 
 # Week 5 - September 16
 
@@ -359,7 +359,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org1012b08"></a>
+<a id="org3aa2ae3"></a>
 
 # Week 6 - September 21
 
@@ -371,7 +371,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org795f0bc"></a>
+<a id="org2adecde"></a>
 
 # Week 7 - September 28
 
@@ -384,7 +384,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgafe9053"></a>
+<a id="org843ecee"></a>
 
 # Week 9 - October 12+14
 
@@ -399,7 +399,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org2ad1f12"></a>
+<a id="org9ead5aa"></a>
 
 # Week 10 - October 19
 
@@ -413,7 +413,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org94a3dc6"></a>
+<a id="orga2e29a7"></a>
 
 # Week 10 - October  21
 
@@ -440,7 +440,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 <tr>
 <td class="org-left">Classroom review</td>
 <td class="org-left">Data import practice notebook</td>
-<td class="org-left">'20</td>
+<td class="org-left">'25</td>
 </tr>
 
 
@@ -454,7 +454,14 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 <tr>
 <td class="org-left">Online <a href="https://lyon.schoology.com/page/5285373816">Video playlist</a></td>
 <td class="org-left">Vectors 1-3 (<a href="https://github.com/birkenkrahe/dsc101/tree/main/6_vectors">GitHub script</a>)</td>
-<td class="org-left">'5</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Cheatsheet</td>
+<td class="org-left">The whole spectrum of <code>plot()</code></td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>

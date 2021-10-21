@@ -237,13 +237,20 @@
 
 * Week 10 - October  21
 
-  [[./img/eastwood.gif]]
+  [[./img/pendulum.gif]]
 
 | [[https://lyon.schoology.com/assignment/5403804250][Quiz + review]]          | Literate programming and vectors) | '20 |
 | Classroom review       | Data import practice notebook     | '25 |
 | Interactive [[https://github.com/birkenkrahe/dsc101/tree/main/8_plotting][lecture]]    | Base R graphics with ~plot()~     | '30 |
 | Online [[https://lyon.schoology.com/page/5285373816][Video playlist]]  | Vectors 1-3 ([[https://github.com/birkenkrahe/dsc101/tree/main/6_vectors][GitHub script]])       | NA  |
 | Cheat sheet ([[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/cheatsheet.pdf][PDF]],[[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][HTML]]) | The whole spectrum of ~plot()~    | NA  |
+
+* Week 11 - October 26+28
+
+  [[./img/eastwood.gif]]
+
+  * Graded notebook exercise
+  * 
 
 * Footnotes
 

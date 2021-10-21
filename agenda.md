@@ -1,23 +1,24 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org0027105)
--   [Week 2 - August 26](#org1bdcec6)
--   [Week 3 - August 31](#org6177499)
--   [Week 3 - September 2](#orgf7afc59)
--   [Week 4 - September 7](#org8a9b0a3)
--   [Week 4 - September 9](#orgeb967a6)
--   [Week 5 - September 16](#org211d93b)
--   [Week 6 - September 21](#org439483a)
--   [Week 7 - September 28](#org6843bf8)
--   [Week 9 - October 12+14](#org7b2ed95)
--   [Week 10 - October 19](#org4c54051)
--   [Week 10 - October  21](#orgb53ac01)
--   [References](#org3cb0bb1)
+-   [Week 2 - August 24](#org169ef04)
+-   [Week 2 - August 26](#orgdeed0fa)
+-   [Week 3 - August 31](#org89a3622)
+-   [Week 3 - September 2](#org3aa8ce4)
+-   [Week 4 - September 7](#orge6cd2d7)
+-   [Week 4 - September 9](#org4f7822f)
+-   [Week 5 - September 16](#org8fa7112)
+-   [Week 6 - September 21](#org8065444)
+-   [Week 7 - September 28](#org1b54049)
+-   [Week 9 - October 12+14](#orgcb526e8)
+-   [Week 10 - October 19](#org8cc8048)
+-   [Week 10 - October  21](#org3a4c01b)
+-   [Week 11 - October 26+28](#org71af653)
+-   [References](#org1a7e2aa)
 
 
 
-<a id="org0027105"></a>
+<a id="org169ef04"></a>
 
 # Week 2 - August 24
 
@@ -39,7 +40,7 @@
 -   Questions?
 
 
-<a id="org1bdcec6"></a>
+<a id="orgdeed0fa"></a>
 
 # Week 2 - August 26
 
@@ -121,7 +122,7 @@
 -   Onwards: data science problems
 
 
-<a id="org6177499"></a>
+<a id="org89a3622"></a>
 
 # Week 3 - August 31
 
@@ -134,7 +135,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgf7afc59"></a>
+<a id="org3aa8ce4"></a>
 
 # Week 3 - September 2
 
@@ -148,7 +149,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org8a9b0a3"></a>
+<a id="orge6cd2d7"></a>
 
 # Week 4 - September 7
 
@@ -178,7 +179,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgeb967a6"></a>
+<a id="org4f7822f"></a>
 
 # Week 4 - September 9
 
@@ -323,7 +324,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org211d93b"></a>
+<a id="org8fa7112"></a>
 
 # Week 5 - September 16
 
@@ -360,7 +361,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org439483a"></a>
+<a id="org8065444"></a>
 
 # Week 6 - September 21
 
@@ -372,7 +373,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org6843bf8"></a>
+<a id="org1b54049"></a>
 
 # Week 7 - September 28
 
@@ -385,7 +386,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org7b2ed95"></a>
+<a id="orgcb526e8"></a>
 
 # Week 9 - October 12+14
 
@@ -400,7 +401,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org4c54051"></a>
+<a id="org8cc8048"></a>
 
 # Week 10 - October 19
 
@@ -414,11 +415,11 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgb53ac01"></a>
+<a id="org3a4c01b"></a>
 
 # Week 10 - October  21
 
-![img](./img/eastwood.gif)
+![img](./img/pendulum.gif)
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -468,7 +469,17 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org3cb0bb1"></a>
+<a id="org71af653"></a>
+
+# Week 11 - October 26+28
+
+![img](./img/eastwood.gif)
+
+-   Graded notebook exercise
+-   
+
+
+<a id="org1a7e2aa"></a>
 
 # References
 

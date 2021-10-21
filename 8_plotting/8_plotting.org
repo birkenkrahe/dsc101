@@ -125,7 +125,6 @@
     #+attr_html: :width 300px
     [[./img/lnplot.png]]
 
-
 *** Lines and points
 
     #+begin_src R :results output graphics :file ./img/lbplot.png
@@ -372,7 +371,7 @@
    #+CAPTION: custom range: $xlim=[3,5]$, $ylim=[-0.5,0.2]$
    #+ATTR_HTML: :width 400
    [[./img/lim2.png]]
-
+   
 * ADDING STUFF TO AN EXISTING PLOT
 
   We're going to build the plot shown in figure [[fig:davies]] step by

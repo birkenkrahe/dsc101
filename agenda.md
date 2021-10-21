@@ -1,24 +1,24 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org169ef04)
--   [Week 2 - August 26](#orgdeed0fa)
--   [Week 3 - August 31](#org89a3622)
--   [Week 3 - September 2](#org3aa8ce4)
--   [Week 4 - September 7](#orge6cd2d7)
--   [Week 4 - September 9](#org4f7822f)
--   [Week 5 - September 16](#org8fa7112)
--   [Week 6 - September 21](#org8065444)
--   [Week 7 - September 28](#org1b54049)
--   [Week 9 - October 12+14](#orgcb526e8)
--   [Week 10 - October 19](#org8cc8048)
--   [Week 10 - October  21](#org3a4c01b)
--   [Week 11 - October 26+28](#org71af653)
--   [References](#org1a7e2aa)
+-   [Week 2 - August 24](#org2f8a975)
+-   [Week 2 - August 26](#org469a718)
+-   [Week 3 - August 31](#orgd1f7682)
+-   [Week 3 - September 2](#orgb3c1ca8)
+-   [Week 4 - September 7](#org5f1100e)
+-   [Week 4 - September 9](#orgc24cbdc)
+-   [Week 5 - September 16](#org64d1ecb)
+-   [Week 6 - September 21](#org645ddc7)
+-   [Week 7 - September 28](#orgfa407fa)
+-   [Week 9 - October 12+14](#orgb990669)
+-   [Week 10 - October 19](#org6d3f33f)
+-   [Week 10 - October  21](#org59cde35)
+-   [Week 11 - October 26+28](#org23da15b)
+-   [References](#org5fbf2fa)
 
 
 
-<a id="org169ef04"></a>
+<a id="org2f8a975"></a>
 
 # Week 2 - August 24
 
@@ -40,7 +40,7 @@
 -   Questions?
 
 
-<a id="orgdeed0fa"></a>
+<a id="org469a718"></a>
 
 # Week 2 - August 26
 
@@ -122,7 +122,7 @@
 -   Onwards: data science problems
 
 
-<a id="org89a3622"></a>
+<a id="orgd1f7682"></a>
 
 # Week 3 - August 31
 
@@ -135,7 +135,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org3aa8ce4"></a>
+<a id="orgb3c1ca8"></a>
 
 # Week 3 - September 2
 
@@ -149,7 +149,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orge6cd2d7"></a>
+<a id="org5f1100e"></a>
 
 # Week 4 - September 7
 
@@ -179,7 +179,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org4f7822f"></a>
+<a id="orgc24cbdc"></a>
 
 # Week 4 - September 9
 
@@ -324,7 +324,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org8fa7112"></a>
+<a id="org64d1ecb"></a>
 
 # Week 5 - September 16
 
@@ -361,7 +361,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org8065444"></a>
+<a id="org645ddc7"></a>
 
 # Week 6 - September 21
 
@@ -373,7 +373,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org1b54049"></a>
+<a id="orgfa407fa"></a>
 
 # Week 7 - September 28
 
@@ -386,7 +386,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgcb526e8"></a>
+<a id="orgb990669"></a>
 
 # Week 9 - October 12+14
 
@@ -401,7 +401,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org8cc8048"></a>
+<a id="org6d3f33f"></a>
 
 # Week 10 - October 19
 
@@ -415,7 +415,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org3a4c01b"></a>
+<a id="org59cde35"></a>
 
 # Week 10 - October  21
 
@@ -469,17 +469,16 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org71af653"></a>
+<a id="org23da15b"></a>
 
 # Week 11 - October 26+28
 
 ![img](./img/eastwood.gif)
 
 -   Graded notebook exercise
--   
 
 
-<a id="org1a7e2aa"></a>
+<a id="org5fbf2fa"></a>
 
 # References
 

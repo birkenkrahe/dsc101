@@ -250,7 +250,6 @@
   [[./img/eastwood.gif]]
 
   * Graded notebook exercise
-  * 
 
 * Footnotes
 

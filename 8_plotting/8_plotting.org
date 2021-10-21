@@ -12,13 +12,13 @@
   * [[./img/params.png][Graphical parameters]] to customize plots
   * Adding stuff to an already [[./img/stuff12.png][existing plot]]
   * Complete [[https://youtube.com/playlist?list=PL6SfZh1-kWXkDVwgn2kXG13Y4SnoWDj9q][video playlist]] (60 min) available
-  * Source: T M Davies, Book of R (chapter 7)
+  * Source: [[davies][T M Davies, Book of R (chapter 7)]]
 
   #+CAPTION: A terrible plot (Source: appsruntheworld.com)
   #+ATTR_HTML: :width 900px
   [[./img/plotting_2_cover.png]]
 
-  WHY IS THIS A *"TERRIBLE PLOT"?
+  WHY IS THIS A "TERRIBLE PLOT"?
 
   #+begin_quote ANSWER
 
@@ -34,9 +34,13 @@
 
 * What is ~plot~?
 
+  /Image: Overplotting measures. Source: [[yi][Yi, 2019]]/
+  #+attr_html: :width 600px
+  [[./img/scatterplot.png]]
+  
   * Default plot of ~plot()~: [[https://chartio.com/learn/charts/what-is-a-scatter-plot/][scatterplot]]
-  * Generic (= built in) R function (Base-R!)
-  * Versatile (= customizable) R function (OOP!)
+  * Built-in R function (base R)
+  * Generic (= customizable) R function (OOP!)
 
 * Define and plot two vectors
 
@@ -370,6 +374,7 @@
    [[./img/lim2.png]]
 
 * ADDING STUFF TO AN EXISTING PLOT
+
   We're going to build the plot shown in figure [[fig:davies]] step by
   step using the graphical parameters already shown and a few
   ready-to-use functions that add to an existing plot without
@@ -377,6 +382,7 @@
 
   In figure [[fig:davies]], data points are plotted differently depending
   on their relative position to the "sweet spot":
+
   * Points with $y>5$ are marked with a ~purple~ $\times$ (~pch=4~)
   * Points with $y<-5$ are marked with a ~green~ $+$ (~pch=3~)
   * Points with $y\in[-5,5]$ but outside the sweet spot are marked $\circ$
@@ -386,6 +392,7 @@
     (~lty=2~) ~red~ ~lines~
   * The sweet spot is named and labeled (~text~) with an arrow (~arrows~)
   * There is a ~legend~ explaining point and line types
+
   #+CAPTION: Elaborated sample plot of hypothetical data (Source: Davies, 2016)
   #+NAME: fig:davies
   #+ATTR_LATEX: :width 300px
@@ -473,11 +480,11 @@
 
      ## add segment from x in [5,15] to y in [-5,5]
      segments(
-       x0=c(5,15), y0=c(-5,-5), # draw from x0,y0 to
-       x1=c(5,15), y1=c(5,5),   #           x1,y1
-       col="red",
-       lty=3,
-       lwd=2)
+         x0=c(5,15), y0=c(-5,-5), # draw from x0,y0 to
+         x1=c(5,15), y1=c(5,5),   #           x1,y1
+         col="red",
+         lty=3,
+         lwd=2)
    #+end_src
 
    #+RESULTS:
@@ -797,3 +804,10 @@
   | ~arrows~               | function to add arrows to a plot     |
   | ~legend~               | function to add a legend to a plot   |
   | ~segments~             | function to add line segments        |
+
+* References
+
+  <<davies>> Davies TM (2016). The Book of R. NoStarch Press.
+
+  <<yi>> Yi M (Oct 16, 2019). A Complete Guide to Scatter Plots
+  [tutorial]. [[https://chartio.com/learn/charts/what-is-a-scatter-plot/][Online: chartio.com.]]

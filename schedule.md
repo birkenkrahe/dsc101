@@ -193,7 +193,7 @@
 <td class="org-right">19</td>
 <td class="org-left">21-Oct</td>
 <td class="org-left">Base R graphics</td>
-<td class="org-left">Intro to graphics</td>
+<td class="org-left">Intro to <code>plot()</code></td>
 <td class="org-left">Test: input/output</td>
 </tr>
 
@@ -210,7 +210,7 @@
 <tr>
 <td class="org-right">21</td>
 <td class="org-left">28-Oct</td>
-<td class="org-left">Grammar of graphics</td>
+<td class="org-left">Different plot types</td>
 <td class="org-left">Different plot types</td>
 <td class="org-left">Test: base graphics</td>
 </tr>
@@ -228,8 +228,8 @@
 <tr>
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
-<td class="org-left">Web Scraping</td>
-<td class="org-left">Intro to <code>ggplot2</code></td>
+<td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
+<td class="org-left">Adding details to plots</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -237,7 +237,7 @@
 <tr>
 <td class="org-right">24</td>
 <td class="org-left">9-Nov</td>
-<td class="org-left">Web Scraping</td>
+<td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">Test: web scraping</td>
 </tr>
@@ -246,8 +246,8 @@
 <tr>
 <td class="org-right">25</td>
 <td class="org-left">11-Nov</td>
-<td class="org-left">Using data.table</td>
-<td class="org-left">Intro to data.table</td>
+<td class="org-left">Managing visual complexity</td>
+<td class="org-left">How much is too much</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -255,7 +255,7 @@
 <tr>
 <td class="org-right">26</td>
 <td class="org-left">16-Nov</td>
-<td class="org-left">Using data.table</td>
+<td class="org-left">Managing visual complexity</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">Test: data.table</td>
 </tr>
@@ -264,8 +264,8 @@
 <tr>
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
-<td class="org-left">EDA</td>
-<td class="org-left">EDA Case Study</td>
+<td class="org-left">Advanced plot customization</td>
+<td class="org-left">Advanced plot customization</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 
@@ -273,7 +273,7 @@
 <tr>
 <td class="org-right">28</td>
 <td class="org-left">23-Nov</td>
-<td class="org-left">EDA</td>
+<td class="org-left">Advanced plot customization</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 </tr>

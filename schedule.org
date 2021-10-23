@@ -1,36 +1,36 @@
 #+options: toc:nil
 * Schedule DSC 101 Fall 2021
 
-   | No | DATE   | LECTURES                   | ASSIGNMENTS          | Project / Test        |
-   |----+--------+----------------------------+----------------------+-----------------------|
-   |  1 | 17-Aug | Course overview            |                      |                       |
-   |  2 | 19-Aug | Course overview            |                      |                       |
-   |  3 | 24-Aug | Data Science overview      |                      |                       |
-   |  4 | 26-Aug | Data Science overview      | Intro to Basics      |                       |
-   |  5 | 31-Aug | Installing R / Shell       |                      |                       |
-   |  6 | 2-Sep  | Getting started with R     | Vectors              |                       |
-   |  7 | 7-Sep  | Arithmetic with R          |                      |                       |
-   |  8 | 9-Sep  | Arithmetic with R          |                      | 1st sprint review     |
-   |  9 | 14-Sep | Work on Projects           |                      |                       |
-   | 10 | 16-Sep | Data structures in R       | Matrices             |                       |
-   | 11 | 21-Sep | Data structures in R       |                      |                       |
-   | 12 | 23-Sep | CANCELLED (Day of Renewal) | Factors              |                       |
-   | 13 | 28-Sep | Data structures in R       |                      |                       |
-   | 14 | 30-Sep | MIDTERM EXAM               |                      | Test: Midterm exam    |
-   | 15 | 7-Oct  | PRESENTATIONS              | Data frames          | 2nd sprint review     |
-   | 16 | 12-Oct | Exam review                |                      |                       |
-   | 17 | 14-Oct | Literate Programming       | Importing data       | Test: data structures |
-   | 18 | 19-Oct | Data input/output          |                      |                       |
-   | 19 | 21-Oct | Base R graphics            | Intro to graphics    | Test: input/output    |
-   | 20 | 26-Oct | Base R graphics            |                      |                       |
-   | 21 | 28-Oct | Grammar of graphics        | Different plot types | Test: base graphics   |
-   | 22 | 2-Nov  | PRESENTATIONS              |                      | 3rd sprint review     |
-   | 23 | 4-Nov  | Web Scraping               | Intro to ~ggplot2~   |                       |
-   | 24 | 9-Nov  | Web Scraping               |                      | Test: web scraping    |
-   | 25 | 11-Nov | Using data.table           | Intro to data.table  |                       |
-   | 26 | 16-Nov | Using data.table           |                      | Test: data.table      |
-   | 27 | 18-Nov | EDA                        | EDA Case Study       |                       |
-   | 28 | 23-Nov | EDA                        |                      |                       |
-   | 29 | 30-Nov | Team presentations         |                      | 4th sprint review     |
-   | 30 | 2-Dec  | Team presentations         |                      | 4th sprint review     |
+   | No | DATE   | LECTURES                        | ASSIGNMENTS                 | Project / Test        |
+   |----+--------+---------------------------------+-----------------------------+-----------------------|
+   |  1 | 17-Aug | Course overview                 |                             |                       |
+   |  2 | 19-Aug | Course overview                 |                             |                       |
+   |  3 | 24-Aug | Data Science overview           |                             |                       |
+   |  4 | 26-Aug | Data Science overview           | Intro to Basics             |                       |
+   |  5 | 31-Aug | Installing R / Shell            |                             |                       |
+   |  6 | 2-Sep  | Getting started with R          | Vectors                     |                       |
+   |  7 | 7-Sep  | Arithmetic with R               |                             |                       |
+   |  8 | 9-Sep  | Arithmetic with R               |                             | 1st sprint review     |
+   |  9 | 14-Sep | Work on Projects                |                             |                       |
+   | 10 | 16-Sep | Data structures in R            | Matrices                    |                       |
+   | 11 | 21-Sep | Data structures in R            |                             |                       |
+   | 12 | 23-Sep | CANCELLED (Day of Renewal)      | Factors                     |                       |
+   | 13 | 28-Sep | Data structures in R            |                             |                       |
+   | 14 | 30-Sep | MIDTERM EXAM                    |                             | Test: Midterm exam    |
+   | 15 | 7-Oct  | PRESENTATIONS                   | Data frames                 | 2nd sprint review     |
+   | 16 | 12-Oct | Exam review                     |                             |                       |
+   | 17 | 14-Oct | Literate Programming            | Importing data              | Test: data structures |
+   | 18 | 19-Oct | Data input/output               |                             |                       |
+   | 19 | 21-Oct | Base R graphics                 | Intro to ~plot()~           | Test: input/output    |
+   | 20 | 26-Oct | Base R graphics                 |                             |                       |
+   | 21 | 28-Oct | Different plot types            | Different plot types        | Test: base graphics   |
+   | 22 | 2-Nov  | PRESENTATIONS                   |                             | 3rd sprint review     |
+   | 23 | 4-Nov  | Grammar of graphics (~ggplot2~) | Adding details to plots     |                       |
+   | 24 | 9-Nov  | Grammar of graphics (~ggplot2~) |                             | Test: web scraping    |
+   | 25 | 11-Nov | Managing visual complexity      | How much is too much        |                       |
+   | 26 | 16-Nov | Managing visual complexity      |                             | Test: data.table      |
+   | 27 | 18-Nov | Advanced plot customization     | Advanced plot customization |                       |
+   | 28 | 23-Nov | Advanced plot customization     |                             |                       |
+   | 29 | 30-Nov | Team presentations              |                             | 4th sprint review     |
+   | 30 | 2-Dec  | Team presentations              |                             | 4th sprint review     |
 

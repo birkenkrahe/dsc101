@@ -185,7 +185,7 @@
 <td class="org-left">19-Oct</td>
 <td class="org-left">Data input/output</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: input/output</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -194,7 +194,7 @@
 <td class="org-left">21-Oct</td>
 <td class="org-left">Base R graphics</td>
 <td class="org-left">Intro to graphics</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: input/output</td>
 </tr>
 
 
@@ -203,7 +203,7 @@
 <td class="org-left">26-Oct</td>
 <td class="org-left">Base R graphics</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: base graphics</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -211,8 +211,8 @@
 <td class="org-right">21</td>
 <td class="org-left">28-Oct</td>
 <td class="org-left">Grammar of graphics</td>
-<td class="org-left">Intro to <code>ggplot2</code></td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Different plot types</td>
+<td class="org-left">Test: base graphics</td>
 </tr>
 
 
@@ -229,7 +229,7 @@
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
 <td class="org-left">Web Scraping</td>
-<td class="org-left">Intro to web scraping</td>
+<td class="org-left">Intro to <code>ggplot2</code></td>
 <td class="org-left">&#xa0;</td>
 </tr>
 

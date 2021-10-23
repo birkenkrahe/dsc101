@@ -176,7 +176,7 @@
 <td class="org-left">14-Oct</td>
 <td class="org-left">Literate Programming</td>
 <td class="org-left">Importing data</td>
-<td class="org-left">Test: data structures</td>
+<td class="org-left">Notebook: data structures</td>
 </tr>
 
 
@@ -185,7 +185,7 @@
 <td class="org-left">19-Oct</td>
 <td class="org-left">Data input/output</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Notebook: Data import</td>
 </tr>
 
 
@@ -194,7 +194,7 @@
 <td class="org-left">21-Oct</td>
 <td class="org-left">Base R graphics</td>
 <td class="org-left">Intro to <code>plot()</code></td>
-<td class="org-left">Test: input/output</td>
+<td class="org-left">Test: vectorization/litprog</td>
 </tr>
 
 
@@ -203,7 +203,7 @@
 <td class="org-left">26-Oct</td>
 <td class="org-left">Base R graphics</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Notebook: base graphics</td>
 </tr>
 
 
@@ -212,7 +212,7 @@
 <td class="org-left">28-Oct</td>
 <td class="org-left">Different plot types</td>
 <td class="org-left">Different plot types</td>
-<td class="org-left">Test: base graphics</td>
+<td class="org-left">Notebook: plot types</td>
 </tr>
 
 
@@ -239,7 +239,7 @@
 <td class="org-left">9-Nov</td>
 <td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: web scraping</td>
+<td class="org-left">Test: grammar of graphics</td>
 </tr>
 
 
@@ -248,7 +248,7 @@
 <td class="org-left">11-Nov</td>
 <td class="org-left">Managing visual complexity</td>
 <td class="org-left">How much is too much</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Notebook: visualization</td>
 </tr>
 
 
@@ -257,7 +257,7 @@
 <td class="org-left">16-Nov</td>
 <td class="org-left">Managing visual complexity</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: data.table</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -266,7 +266,7 @@
 <td class="org-left">18-Nov</td>
 <td class="org-left">Advanced plot customization</td>
 <td class="org-left">Advanced plot customization</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Notebook: plot customization</td>
 </tr>
 
 
@@ -275,7 +275,7 @@
 <td class="org-left">23-Nov</td>
 <td class="org-left">Advanced plot customization</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: plotting</td>
 </tr>
 
 

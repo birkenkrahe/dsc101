@@ -1,24 +1,24 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgd6f61c3)
--   [Week 2 - August 26](#org3bc101c)
--   [Week 3 - August 31](#org6646b24)
--   [Week 3 - September 2](#org1c868c9)
--   [Week 4 - September 7](#org85e00b9)
--   [Week 4 - September 9](#org51b937b)
--   [Week 5 - September 16](#org3249256)
--   [Week 6 - September 21](#org529308f)
--   [Week 7 - September 28](#org2a82183)
--   [Week 9 - October 12+14](#org653fbda)
--   [Week 10 - October 19](#org397493c)
--   [Week 10 - October  21](#orgcbbb93c)
--   [Week 11 - October 26+28](#org3f0e905)
--   [References](#orgaed76d3)
+-   [Week 2 - August 24](#org6b56298)
+-   [Week 2 - August 26](#org84e227d)
+-   [Week 3 - August 31](#org11ecc07)
+-   [Week 3 - September 2](#orgbf06d3e)
+-   [Week 4 - September 7](#org453e716)
+-   [Week 4 - September 9](#orgf9495d1)
+-   [Week 5 - September 16](#org7bec4b6)
+-   [Week 6 - September 21](#orgb30d9d7)
+-   [Week 7 - September 28](#org81f7f1d)
+-   [Week 9 - October 12+14](#orge4288ac)
+-   [Week 10 - October 19](#org6021fc3)
+-   [Week 10 - October  21](#orgfc4a86a)
+-   [Week 11 - October 26+28](#org87949cd)
+-   [References](#org0952894)
 
 
 
-<a id="orgd6f61c3"></a>
+<a id="org6b56298"></a>
 
 # Week 2 - August 24
 
@@ -40,7 +40,7 @@
 -   Questions?
 
 
-<a id="org3bc101c"></a>
+<a id="org84e227d"></a>
 
 # Week 2 - August 26
 
@@ -122,7 +122,7 @@
 -   Onwards: data science problems
 
 
-<a id="org6646b24"></a>
+<a id="org11ecc07"></a>
 
 # Week 3 - August 31
 
@@ -135,7 +135,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org1c868c9"></a>
+<a id="orgbf06d3e"></a>
 
 # Week 3 - September 2
 
@@ -149,7 +149,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org85e00b9"></a>
+<a id="org453e716"></a>
 
 # Week 4 - September 7
 
@@ -179,7 +179,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org51b937b"></a>
+<a id="orgf9495d1"></a>
 
 # Week 4 - September 9
 
@@ -324,7 +324,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org3249256"></a>
+<a id="org7bec4b6"></a>
 
 # Week 5 - September 16
 
@@ -361,7 +361,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org529308f"></a>
+<a id="orgb30d9d7"></a>
 
 # Week 6 - September 21
 
@@ -373,7 +373,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org2a82183"></a>
+<a id="org81f7f1d"></a>
 
 # Week 7 - September 28
 
@@ -386,7 +386,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org653fbda"></a>
+<a id="orge4288ac"></a>
 
 # Week 9 - October 12+14
 
@@ -401,7 +401,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org397493c"></a>
+<a id="org6021fc3"></a>
 
 # Week 10 - October 19
 
@@ -415,7 +415,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgcbbb93c"></a>
+<a id="orgfc4a86a"></a>
 
 # Week 10 - October  21
 
@@ -472,16 +472,22 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/dsc101_test7_stats.png)
 
 
-<a id="org3f0e905"></a>
+<a id="org87949cd"></a>
 
 # Week 11 - October 26+28
 
+*Image: "What you put in is what you get out" -Clint Eastwood*
 ![img](./img/eastwood.gif)
 
--   Graded notebook exercise
+-   Graded notebook exercise - **submit by Thu 28 Oct**
+-   Average DataCamp completion so far =
+
+*Image: email reminder - do you get these?*
+
+![img](./img/datacamp.png)
 
 
-<a id="orgaed76d3"></a>
+<a id="org0952894"></a>
 
 # References
 

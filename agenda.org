@@ -250,9 +250,15 @@
 
 * Week 11 - October 26+28
 
+  /Image: "What you put in is what you get out" -Clint Eastwood/
   [[./img/eastwood.gif]]
 
-  * Graded notebook exercise
+  * Graded notebook exercise - *submit by Thu 28 Oct*
+  * Average DataCamp completion so far = 
+
+  /Image: email reminder - do you get these?/
+  #+attr_html: :width 400px
+  [[./img/datacamp.png]]
 
 * Footnotes
 

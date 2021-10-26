@@ -246,6 +246,14 @@
   | Cheat sheet ([[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/cheatsheet.pdf][PDF]],[[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][HTML]]) | The whole spectrum of ~plot()~    | NA  |
 
 * Week 11 - October 26+28
+
+  * Truth-telling
+  * Graded practice notebook
+  * Sprint review
+  * Example project
+  * DataCamp assignments
+  * Data Import practice notebook review (video playlist available)
+ 
 ** Truth-telling
    [[./img/eastwood.gif]]
 
@@ -258,7 +266,9 @@
    [[./img/dsc101_test7_stats.png]]
    /Image: test 7 stats/
 
-   * Graded notebook exercise - *submit by Thursday Oct 28, 1PM*
+   * Thursday 28 Oct: graded notebook exercise
+   * Open book, in class, 60 minutes
+   * 
 
 ** Sprint review due Nov 3
 

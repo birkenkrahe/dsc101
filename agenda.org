@@ -245,16 +245,16 @@
   | Online [[https://lyon.schoology.com/page/5285373816][Video playlist]]  | Vectors 1-3 ([[https://github.com/birkenkrahe/dsc101/tree/main/6_vectors][GitHub script]])       | NA  |
   | Cheat sheet ([[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/cheatsheet.pdf][PDF]],[[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][HTML]]) | The whole spectrum of ~plot()~    | NA  |
 
-  /Image: quiz stats/
-  [[./img/dsc101_test7_stats.png]]
-
 * Week 11 - October 26+28
 
-  /Image: "What you put in is what you get out" -Clint Eastwood/
+  [[./img/dsc101_test7_stats.png]]
+  /Image: quiz stats/
+
   [[./img/eastwood.gif]]
+  /Image: "What you put in is what you get out" -Clint Eastwood/
 
   * Graded notebook exercise - *submit by Thu 28 Oct*
-  * Average DataCamp completion so far = 
+  * Average DataCamp completion so far =
 
   /Image: email reminder - do you get these?/
   #+attr_html: :width 400px

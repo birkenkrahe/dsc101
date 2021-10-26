@@ -229,7 +229,7 @@
   base R, no matter how many times the creators and contributors of
   this package bundle may say so.
 
-* Data or graph checking projects
+* Data or graph checking projects (10-07-2021)
 
   Many of the project proposals by the course participants are still
   much too complex for my taste - the research questions need to be
@@ -262,6 +262,10 @@
   And here's a 2020 list of useful sites for [[https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d][finding free, public
   datasets]] for EDA tasks.
 
+* I'm puzzled why students don't cooperate (10-25-2021)
+
+  
+  
 * References
 
   Really? References in a diary? I know that you know that I am not

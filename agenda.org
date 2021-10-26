@@ -280,7 +280,7 @@
      - data sets you found or investigated
      - research path that you sketched
      - notebook that you created
-   * Upload your
+   * Upload your PDF or PPT file to this folder
 
 ** Example project: income evaluation
 

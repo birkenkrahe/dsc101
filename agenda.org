@@ -268,7 +268,7 @@
 
    * Thursday 28 Oct: graded notebook exercise
    * Open book, in class, 60 minutes
-   * 
+   * Includes DataCamp assignments: plotting/import
 
 ** Sprint review due Nov 3
 
@@ -282,9 +282,10 @@
      - notebook that you created
    * Upload your
 
-** Example project: income evaluation (Jacker, Bohm, 2020)
+** Example project: income evaluation
 
-   * Analysis and visualization of a public income distribution dataset
+   * Analysis and visualization of a public income distribution
+     dataset (Jacker, Bohm, 2020).
    * [[https://www.kaggle.com/birkenkrahe/income-evaluation-r][Link to the Kaggle notebook]]
    * Team used ~ggplot2~, ~apply~, histogram and heatmap plots
    * Source section is not complete, and introduction is sparse
@@ -300,7 +301,17 @@
 
    * Average DataCamp completion so far: ~61.57%~
    * The graded practice notebook uses these data
-  
+
+** Data import review
+
+   [[./img/sidebar.png]]
+   
+   [[https://lyon.schoology.com/page/5409309307][Link: Lyon Schoology]]
+   
+   * Problem notebook
+   * Solution notebook
+   * Video playlist (75 min)
+   
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a
@@ -343,3 +354,7 @@ play the game and perhaps gather statistics, too.
 
   David Gerard (August 8, 2017). Basic R Graphics Cheat Sheet. [[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][Online:
   dcgerard.github.io.]]
+
+  Jacker C/Bohm A (Feb 2020). Income Evaluation (R)
+  [Notebook]. [[https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook][Online: kaggle.com.]]
+  

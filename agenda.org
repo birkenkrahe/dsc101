@@ -250,7 +250,7 @@
    [[./img/eastwood.gif]]
 
    #+begin_quote
-   "What you put into life is what you get out" -Clint Eastwood/
+   "What you put into life is what you get out" -Clint Eastwood
    #+end_quote
 
 ** Tests and assignments

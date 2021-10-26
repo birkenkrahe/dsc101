@@ -1,24 +1,24 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgb2d194c)
--   [Week 2 - August 26](#orgf978931)
--   [Week 3 - August 31](#orge9a0e2b)
--   [Week 3 - September 2](#org2b132d3)
--   [Week 4 - September 7](#orgb8ff44f)
--   [Week 4 - September 9](#orgbee9164)
--   [Week 5 - September 16](#orgdefbe64)
--   [Week 6 - September 21](#orgb9483b1)
--   [Week 7 - September 28](#orgcade184)
--   [Week 9 - October 12+14](#org8ab0b6e)
--   [Week 10 - October 19](#org0fb7025)
--   [Week 10 - October  21](#org28601ff)
--   [Week 11 - October 26+28](#orgfd18db1)
--   [References](#org99e22bb)
+-   [Week 2 - August 24](#orgc233961)
+-   [Week 2 - August 26](#orgd3526b7)
+-   [Week 3 - August 31](#org1df14a0)
+-   [Week 3 - September 2](#org71e6469)
+-   [Week 4 - September 7](#org3d4fa7f)
+-   [Week 4 - September 9](#orgaea0f1f)
+-   [Week 5 - September 16](#org9ee21ab)
+-   [Week 6 - September 21](#orgd4e9cad)
+-   [Week 7 - September 28](#orgf8ef4aa)
+-   [Week 9 - October 12+14](#orgbde0fd3)
+-   [Week 10 - October 19](#org4077876)
+-   [Week 10 - October  21](#org4efe3e4)
+-   [Week 11 - October 26+28](#orgc77fc03)
+-   [References](#org10ed6fb)
 
 
 
-<a id="orgb2d194c"></a>
+<a id="orgc233961"></a>
 
 # Week 2 - August 24
 
@@ -40,7 +40,7 @@
 -   Questions?
 
 
-<a id="orgf978931"></a>
+<a id="orgd3526b7"></a>
 
 # Week 2 - August 26
 
@@ -122,7 +122,7 @@
 -   Onwards: data science problems
 
 
-<a id="orge9a0e2b"></a>
+<a id="org1df14a0"></a>
 
 # Week 3 - August 31
 
@@ -135,7 +135,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org2b132d3"></a>
+<a id="org71e6469"></a>
 
 # Week 3 - September 2
 
@@ -149,7 +149,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgb8ff44f"></a>
+<a id="org3d4fa7f"></a>
 
 # Week 4 - September 7
 
@@ -179,7 +179,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgbee9164"></a>
+<a id="orgaea0f1f"></a>
 
 # Week 4 - September 9
 
@@ -324,7 +324,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="orgdefbe64"></a>
+<a id="org9ee21ab"></a>
 
 # Week 5 - September 16
 
@@ -361,7 +361,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgb9483b1"></a>
+<a id="orgd4e9cad"></a>
 
 # Week 6 - September 21
 
@@ -373,7 +373,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="orgcade184"></a>
+<a id="orgf8ef4aa"></a>
 
 # Week 7 - September 28
 
@@ -386,7 +386,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org8ab0b6e"></a>
+<a id="orgbde0fd3"></a>
 
 # Week 9 - October 12+14
 
@@ -401,7 +401,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org0fb7025"></a>
+<a id="org4077876"></a>
 
 # Week 10 - October 19
 
@@ -415,7 +415,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org28601ff"></a>
+<a id="org4efe3e4"></a>
 
 # Week 10 - October  21
 
@@ -469,7 +469,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgfd18db1"></a>
+<a id="orgc77fc03"></a>
 
 # Week 11 - October 26+28
 
@@ -481,13 +481,35 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 > "What you put into life is what you get out" -Clint Eastwood
 
 
-## Tests and assignments
+## Graded practice notebook
 
 ![img](./img/dsc101_test7_stats.png)
 *Image: test 7 stats*
 
--   Graded notebook exercise - **submit by Thu 28 Oct, 1PM**
--   Next Tuesday: test 8 - plotting (multiple choice quiz)
+-   Graded notebook exercise - **submit by Thursday Oct 28, 1PM**
+
+
+## Sprint review due Nov 3
+
+![img](./img/rugby.gif)
+
+-   See [FAQ](https://github.com/birkenkrahe/org/blob/master/FAQ.md#what-should-we-do-in-the-third-sprint) - focus on your results, like:
+    -   literature review
+    -   plots you already made
+    -   data sets you found or investigated
+    -   research path that you sketched
+    -   notebook that you created
+-   Upload your
+
+
+## Example project: income evaluation (Jacker, Bohm, 2020)
+
+-   Analysis and visualization of a public income distribution dataset
+-   [Link to the Kaggle notebook](https://www.kaggle.com/birkenkrahe/income-evaluation-r)
+-   Team used `ggplot2`, `apply`, histogram and heatmap plots
+-   Source section is not complete, and introduction is sparse
+    
+    ![img](./img/kaggle.png)
 
 
 ## DataCamp assignments
@@ -497,9 +519,10 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/datacamp.png)
 
 -   Average DataCamp completion so far: `61.57%`
+-   The graded practice notebook uses these data
 
 
-<a id="org99e22bb"></a>
+<a id="org10ed6fb"></a>
 
 # References
 

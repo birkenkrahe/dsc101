@@ -253,13 +253,34 @@
    "What you put into life is what you get out" -Clint Eastwood
    #+end_quote
 
-** Tests and assignments
+** Graded practice notebook
 
    [[./img/dsc101_test7_stats.png]]
    /Image: test 7 stats/
 
-   * Graded notebook exercise - *submit by Thu 28 Oct, 1PM*
-   * Next Tuesday: test 8 - plotting (multiple choice quiz)
+   * Graded notebook exercise - *submit by Thursday Oct 28, 1PM*
+
+** Sprint review due Nov 3
+
+   [[./img/rugby.gif]]
+   
+   * See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#what-should-we-do-in-the-third-sprint][FAQ]] - focus on your results, like:
+     - literature review
+     - plots you already made
+     - data sets you found or investigated
+     - research path that you sketched
+     - notebook that you created
+   * Upload your
+
+** Example project: income evaluation (Jacker, Bohm, 2020)
+
+   * Analysis and visualization of a public income distribution dataset
+   * [[https://www.kaggle.com/birkenkrahe/income-evaluation-r][Link to the Kaggle notebook]]
+   * Team used ~ggplot2~, ~apply~, histogram and heatmap plots
+   * Source section is not complete, and introduction is sparse
+
+     #+attr_html: :width 400px
+     [[./img/kaggle.png]]
 
 ** DataCamp assignments
 
@@ -268,6 +289,7 @@
    [[./img/datacamp.png]]
 
    * Average DataCamp completion so far: ~61.57%~
+   * The graded practice notebook uses these data
   
 * Footnotes
 

@@ -311,7 +311,7 @@
    
    * Problem notebook
    * Solution notebook
-   * Video playlist (75 min)
+   * Video playlist (45 min)
 
 ** Plotting with ~plot()~
 

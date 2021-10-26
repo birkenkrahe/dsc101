@@ -246,20 +246,29 @@
   | Cheat sheet ([[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/cheatsheet.pdf][PDF]],[[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][HTML]]) | The whole spectrum of ~plot()~    | NA  |
 
 * Week 11 - October 26+28
+** Truth-telling
+   [[./img/eastwood.gif]]
 
-  [[./img/dsc101_test7_stats.png]]
-  /Image: quiz stats/
+   #+begin_quote
+   "What you put in is what you get out" -Clint Eastwood/
+   #+end_quote
 
-  [[./img/eastwood.gif]]
-  /Image: "What you put in is what you get out" -Clint Eastwood/
+** Tests and assignments
 
-  * Graded notebook exercise - *submit by Thu 28 Oct*
-  * Average DataCamp completion so far =
+   [[./img/dsc101_test7_stats.png]]
+   /Image: test 7 stats/
 
-  /Image: email reminder - do you get these?/
-  #+attr_html: :width 400px
-  [[./img/datacamp.png]]
+   * Graded notebook exercise - *submit by Thu 28 Oct, 1PM*
+   * Next Tuesday: test 8 - plotting (multiple choice quiz)
 
+** DataCamp assignments
+
+   /Image: email reminder - do you get these?/
+   #+attr_html: :width 400px
+   [[./img/datacamp.png]]
+
+   * Average DataCamp completion so far: ~61.57%~
+  
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a

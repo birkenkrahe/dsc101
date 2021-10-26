@@ -285,8 +285,9 @@
 ** Example project: income evaluation
 
    * Analysis and visualization of a public income distribution
-     dataset (Jacker, Bohm, 2020).
+     dataset (Jacker, Bohm, 2021).
    * [[https://www.kaggle.com/birkenkrahe/income-evaluation-r][Link to the Kaggle notebook]]
+   * [[https://github.com/birkenkrahe/dsc101/blob/main/projects/examples/income_distribution_2021/income-evaluation-r.ipynb][Link to the GitHub copy]] (Jupyter Notebook)
    * Team used ~ggplot2~, ~apply~, histogram and heatmap plots
    * Source section is not complete, and introduction is sparse
 
@@ -311,7 +312,13 @@
    * Problem notebook
    * Solution notebook
    * Video playlist (75 min)
-   
+
+** Plotting with ~plot()~
+
+   * Building a complex plot from scratch
+   * Elaborate plot customization
+   * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
+     
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a
@@ -355,6 +362,6 @@ play the game and perhaps gather statistics, too.
   David Gerard (August 8, 2017). Basic R Graphics Cheat Sheet. [[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][Online:
   dcgerard.github.io.]]
 
-  Jacker C/Bohm A (Feb 2020). Income Evaluation (R)
+  Jacker C/Bohm A (Feb 2021). Income Evaluation (R)
   [Notebook]. [[https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook][Online: kaggle.com.]]
   

@@ -1,24 +1,24 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orga638241)
--   [Week 2 - August 26](#org67f59e5)
--   [Week 3 - August 31](#orgc00d1a1)
--   [Week 3 - September 2](#org47780e2)
--   [Week 4 - September 7](#org3878932)
--   [Week 4 - September 9](#org6cfa6b7)
--   [Week 5 - September 16](#org07592d5)
--   [Week 6 - September 21](#orgfe3decb)
--   [Week 7 - September 28](#orga34a3f9)
--   [Week 9 - October 12+14](#org0f33fa0)
--   [Week 10 - October 19](#orge5e8d51)
--   [Week 10 - October  21](#org4bd618e)
--   [Week 11 - October 26+28](#orgea78ca5)
--   [References](#org03f5d92)
+-   [Week 2 - August 24](#org1e9fa9e)
+-   [Week 2 - August 26](#org505c7b2)
+-   [Week 3 - August 31](#org1be55ac)
+-   [Week 3 - September 2](#org2aee5c0)
+-   [Week 4 - September 7](#org72a629a)
+-   [Week 4 - September 9](#orgbcb4127)
+-   [Week 5 - September 16](#org4a9debe)
+-   [Week 6 - September 21](#orgdabcda7)
+-   [Week 7 - September 28](#org6846ee9)
+-   [Week 9 - October 12+14](#org890be87)
+-   [Week 10 - October 19](#orgd5bfd0a)
+-   [Week 10 - October  21](#org772352d)
+-   [Week 11 - October 26+28](#org1731eab)
+-   [References](#orgcd144d3)
 
 
 
-<a id="orga638241"></a>
+<a id="org1e9fa9e"></a>
 
 # Week 2 - August 24
 
@@ -40,7 +40,7 @@
 -   Questions?
 
 
-<a id="org67f59e5"></a>
+<a id="org505c7b2"></a>
 
 # Week 2 - August 26
 
@@ -122,7 +122,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgc00d1a1"></a>
+<a id="org1be55ac"></a>
 
 # Week 3 - August 31
 
@@ -135,7 +135,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org47780e2"></a>
+<a id="org2aee5c0"></a>
 
 # Week 3 - September 2
 
@@ -149,7 +149,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org3878932"></a>
+<a id="org72a629a"></a>
 
 # Week 4 - September 7
 
@@ -179,7 +179,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org6cfa6b7"></a>
+<a id="orgbcb4127"></a>
 
 # Week 4 - September 9
 
@@ -324,7 +324,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org07592d5"></a>
+<a id="org4a9debe"></a>
 
 # Week 5 - September 16
 
@@ -361,7 +361,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgfe3decb"></a>
+<a id="orgdabcda7"></a>
 
 # Week 6 - September 21
 
@@ -373,7 +373,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="orga34a3f9"></a>
+<a id="org6846ee9"></a>
 
 # Week 7 - September 28
 
@@ -386,7 +386,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org0f33fa0"></a>
+<a id="org890be87"></a>
 
 # Week 9 - October 12+14
 
@@ -401,7 +401,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="orge5e8d51"></a>
+<a id="orgd5bfd0a"></a>
 
 # Week 10 - October 19
 
@@ -415,7 +415,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org4bd618e"></a>
+<a id="org772352d"></a>
 
 # Week 10 - October  21
 
@@ -469,7 +469,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgea78ca5"></a>
+<a id="org1731eab"></a>
 
 # Week 11 - October 26+28
 
@@ -508,14 +508,15 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     -   data sets you found or investigated
     -   research path that you sketched
     -   notebook that you created
--   Upload your
+-   Upload your PDF or PPT file to this folder
 
 
 ## Example project: income evaluation
 
 -   Analysis and visualization of a public income distribution
-    dataset (Jacker, Bohm, 2020).
+    dataset (Jacker, Bohm, 2021).
 -   [Link to the Kaggle notebook](https://www.kaggle.com/birkenkrahe/income-evaluation-r)
+-   [Link to the GitHub copy](https://github.com/birkenkrahe/dsc101/blob/main/projects/examples/income_distribution_2021/income-evaluation-r.ipynb) (Jupyter Notebook)
 -   Team used `ggplot2`, `apply`, histogram and heatmap plots
 -   Source section is not complete, and introduction is sparse
     
@@ -543,14 +544,21 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (75 min)
 
 
-<a id="org03f5d92"></a>
+## Plotting with `plot()`
+
+-   Building a complex plot from scratch
+-   Elaborate plot customization
+-   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
+
+
+<a id="orgcd144d3"></a>
 
 # References
 
 David Gerard (August 8, 2017). Basic R Graphics Cheat Sheet. [Online:
 dcgerard.github.io.](https://dcgerard.github.io/stat234/base_r_cheatsheet.html)
 
-Jacker C/Bohm A (Feb 2020). Income Evaluation (R)
+Jacker C/Bohm A (Feb 2021). Income Evaluation (R)
 [Notebook]. [Online: kaggle.com.](https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook)
 
 

@@ -61,9 +61,9 @@
     #+begin_src R :session :results file graphics :file ./img/trends.png
       ## read data from CSV file
       trends <- read.table(
-        file="./data/multiTimeline.csv",
-        header=TRUE,
-        sep=",")
+          file="./data/multiTimeline.csv",
+          header=TRUE,
+          sep=",")
 
       ## convert Month column to Date format
       library(anytime)
@@ -118,9 +118,9 @@
    #+begin_src R :session :results file graphics :file ./img/avg.png
      ## read data from CSV file
      trends <- read.table(
-       file="./data/multiTimeline.csv",
-       header=TRUE,
-       sep=",")
+         file="./data/multiTimeline.csv",
+         header=TRUE,
+         sep=",")
 
      ## convert Month column to Date format
      library(anytime)
@@ -262,10 +262,6 @@
   And here's a 2020 list of useful sites for [[https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d][finding free, public
   datasets]] for EDA tasks.
 
-* I'm puzzled why students don't cooperate (10-25-2021)
-
-  
-  
 * References
 
   Really? References in a diary? I know that you know that I am not

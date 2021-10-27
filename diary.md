@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [What is this?](#org0335416)
-2.  [Redrawing Google trend chart (07-13-2021)](#org8aec0e4)
-3.  [Data science process (07-15-2021)](#org25cca22)
-4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#orgefd5901)
-5.  [Data or graph checking projects](#orgb5fb841)
-6.  [References](#orgddc913b)
+1.  [What is this?](#orgf65d460)
+2.  [Redrawing Google trend chart (07-13-2021)](#org69eef71)
+3.  [Data science process (07-15-2021)](#orgb06744c)
+4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#orged12a4c)
+5.  [Data or graph checking projects (10-07-2021)](#org277899c)
+6.  [References](#orgac84678)
 
 
 
-<a id="org0335416"></a>
+<a id="orgf65d460"></a>
 
 # What is this?
 
@@ -19,7 +19,7 @@ the DSC 101 course, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org8aec0e4"></a>
+<a id="org69eef71"></a>
 
 # Redrawing Google trend chart (07-13-2021)
 
@@ -73,9 +73,9 @@ Here is a [short tutorial](https://www.statology.org/how-to-plot-multiple-lines-
 
     ## read data from CSV file
     trends <- read.table(
-      file="./data/multiTimeline.csv",
-      header=TRUE,
-      sep=",")
+        file="./data/multiTimeline.csv",
+        header=TRUE,
+        sep=",")
     
     ## convert Month column to Date format
     library(anytime)
@@ -122,55 +122,55 @@ Here is a [short tutorial](https://www.statology.org/how-to-plot-multiple-lines-
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left">`read.table`</td>
-<td class="org-left">upload data as `data.frame`</td>
+<td class="org-left"><code>read.table</code></td>
+<td class="org-left">upload data as <code>data.frame</code></td>
 </tr>
 
 
 <tr>
-<td class="org-left">`library()`</td>
+<td class="org-left"><code>library()</code></td>
 <td class="org-left">load R package</td>
 </tr>
 
 
 <tr>
-<td class="org-left">`anytime::anydate()`</td>
-<td class="org-left">convert vector to `Date` format</td>
+<td class="org-left"><code>anytime::anydate()</code></td>
+<td class="org-left">convert vector to <code>Date</code> format</td>
 </tr>
 
 
 <tr>
-<td class="org-left">`cbind()`</td>
-<td class="org-left">attach column to `data.frame`</td>
+<td class="org-left"><code>cbind()</code></td>
+<td class="org-left">attach column to <code>data.frame</code></td>
 </tr>
 
 
 <tr>
-<td class="org-left">`$`</td>
-<td class="org-left">extract vector from `data.frame`</td>
+<td class="org-left"><code>$</code></td>
+<td class="org-left">extract vector from <code>data.frame</code></td>
 </tr>
 
 
 <tr>
-<td class="org-left">`<-`</td>
+<td class="org-left"><code>&lt;-</code></td>
 <td class="org-left">assign right hand to left hand side</td>
 </tr>
 
 
 <tr>
-<td class="org-left">`plot()`</td>
+<td class="org-left"><code>plot()</code></td>
 <td class="org-left">draw scatter plot</td>
 </tr>
 
 
 <tr>
-<td class="org-left">`lines()`</td>
+<td class="org-left"><code>lines()</code></td>
 <td class="org-left">draw line graph</td>
 </tr>
 
 
 <tr>
-<td class="org-left">`barplot()`</td>
+<td class="org-left"><code>barplot()</code></td>
 <td class="org-left">draw barplot</td>
 </tr>
 </tbody>
@@ -183,9 +183,9 @@ For some simple examples, see this [short tutorial](http://www.sthda.com/english
 
     ## read data from CSV file
     trends <- read.table(
-      file="./data/multiTimeline.csv",
-      header=TRUE,
-      sep=",")
+        file="./data/multiTimeline.csv",
+        header=TRUE,
+        sep=",")
     
     ## convert Month column to Date format
     library(anytime)
@@ -203,14 +203,14 @@ For some simple examples, see this [short tutorial](http://www.sthda.com/english
     	col=c("blue","red"))
 
 
-<a id="org25cca22"></a>
+<a id="orgb06744c"></a>
 
 # Data science process (07-15-2021)
 
 I was digging around my notes made for an online test lecture on May
 19, on "Exploring data with R" (see [presentation](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf) & [notes](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_notes.pdf)), for an
 update on a [data science overview lecture](https://github.com/birkenkrahe/dsc101/tree/main/2_datascience). For this talk, I had
-developed the model shown in figure [11](#orgf277eac): there are two pathways
+developed the model shown in figure [11](#org58bb0a1): there are two pathways
 towards machine learning. One pathway relied more on coding and
 algorithms (traditionally taught in CS programs), the other one
 relied more on modeling and heuristics (traditionally taught in
@@ -227,13 +227,13 @@ experience of a CS professor that some CS students with more than
 average interest in mathematics wanted to specialize on data
 science. The other one related to my experience with exploratory
 data analysis as a way of solving hard, data rich problems for real
-clients (see figure [14](#org4ad8084)).
+clients (see figure [14](#orgd4dc460)).
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png)
 
 I added this to the other two data science workflow images that I
 already had in the lecture. And I added yet another one (see figure
-[16](#orgf910147)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
+[16](#orga6f1f6e)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
 how everything comes back and returns to the "real world" here, and
 the feedback loop provided by the data analysis "pipeline".
 
@@ -265,18 +265,18 @@ them to the lecture - will see in August if this makes any
 difference or not<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>.
 
 
-<a id="orgefd5901"></a>
+<a id="orged12a4c"></a>
 
 # "Teaching the tidyverse in 2021" (09-07-2021)
 
 I've mentioned the "tidyverse" before. This morning, I read an
 article (posted in RWeekly, the weekly aggregator of R news that you
 should subscribe to) "Teaching the tidyverse in 2021"
-([Cetinkaya-Rundel, 2021](#org96a05ef)), which upset me. I will briefly explain
+([Cetinkaya-Rundel, 2021](#orgab5f807)), which upset me. I will briefly explain
 why. The article mentions the 2020 series of the same title, which
 begins with the claim that "updates to tidyverse packages are
 specifically designed to make it easier for new learners to get
-started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org5639c4d)).
+started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org30a9c2c)).
 
 Instead of a long rant (see Matloff's "TidyverseSceptic" for a
 complete picture of the criticism), just look at the first figure,
@@ -297,9 +297,9 @@ base R, no matter how many times the creators and contributors of
 this package bundle may say so.
 
 
-<a id="orgb5fb841"></a>
+<a id="org277899c"></a>
 
-# Data or graph checking projects
+# Data or graph checking projects (10-07-2021)
 
 Many of the project proposals by the course participants are still
 much too complex for my taste - the research questions need to be
@@ -311,11 +311,11 @@ a student project from last term. This team of Master students
 focused on a graph published in The Economist. I have uploaded their
 final report "Improve Visualization of Popular Support for Executive
 Actions in the U.S." and the data ([Cai, Otlu and Rauenbusch,
-2021](#org535b7c5)). It's a very good piece of work, created with a lot of effort
+2021](#org2c6cdf9)). It's a very good piece of work, created with a lot of effort
 over a period of three months. Less would easily do for our course.
 
 Here is a more recent data checking example that you might find
-interesting, by [Matloff (2021)](#org3044eef). This highly opinionated data
+interesting, by [Matloff (2021)](#org65e9a04). This highly opinionated data
 checking post uses statistical arguments to check policy
 decisions. From the conclusions:
 
@@ -331,7 +331,7 @@ And here's a 2020 list of useful sites for [finding free, public
 datasets](https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d) for EDA tasks.
 
 
-<a id="orgddc913b"></a>
+<a id="orgac84678"></a>
 
 # References
 
@@ -343,22 +343,22 @@ at all, because referencing is about (a) intellectual property
 rights (you should care about rights!), and (b) the truth (which
 must be spoken!).
 
-<a id="org535b7c5"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
+<a id="org2c6cdf9"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
 Visualization of Popular Support for Executive Actions in the
 U.S. [Report]. Berlin School of Economics and Law. [Online: GitHub.](https://github.com/birkenkrahe/dsc101/tree/main/projects/examples/cai_et_al_2021)
 
-<a id="org5639c4d"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
+<a id="org30a9c2c"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
 in 2020 - Part 1: Getting started [Blog]. [Online:
 education.rstudio.com.](https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/)
 
-<a id="org96a05ef"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
+<a id="orgab5f807"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
 in 2021 [Blog]. [Online: tidyverse.org.](https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/)
 
-<a id="orgde97483"></a> Matloff N (2020). TidyverseSceptic - An alternate view
+<a id="org93a8422"></a> Matloff N (2020). TidyverseSceptic - An alternate view
 of the Tidyverse "dialect" of the R language, and its promotion by
 RStudio. [Online: github.com](https://github.com/matloff/TidyverseSkeptic).
 
-<a id="org3044eef"></a> Matloff N (9 Sept 2021). At Crossroads in California
+<a id="org65e9a04"></a> Matloff N (9 Sept 2021). At Crossroads in California
 K-12 Math Education [Blog]. [Online: normsaysno.wordpress.com.](https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/)
 
 

@@ -45,6 +45,13 @@
 <tr>
 <td class="org-left">Plotting-problems</td>
 <td class="org-left">Plotting problems</td>
+<td class="org-left">Oct 26</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Different-plots-problems</td>
+<td class="org-left">Different plots</td>
 <td class="org-left">Oct 28</td>
 </tr>
 </tbody>

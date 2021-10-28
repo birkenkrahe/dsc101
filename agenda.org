@@ -316,7 +316,7 @@
 
   [[./img/plot.gif]]
   
-  * Continue review of Data Import problem notebook
+  * Continue review of [[https://colab.research.google.com/drive/1Dn-Y4GzG2KNIfwW56LCZ33sZEMnREunC?usp=sharing][Data Import problem notebook]] (GDrive)
   
 ** Different plot types
 

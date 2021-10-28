@@ -40,6 +40,13 @@
 <td class="org-left">Data input from flat files in R</td>
 <td class="org-left">Oct 19</td>
 </tr>
+
+
+<tr>
+<td class="org-left">Plotting-problems</td>
+<td class="org-left">Plotting problems</td>
+<td class="org-left">Oct 28</td>
+</tr>
 </tbody>
 </table>
 

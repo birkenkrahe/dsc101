@@ -245,7 +245,7 @@
   | Online [[https://lyon.schoology.com/page/5285373816][Video playlist]]  | Vectors 1-3 ([[https://github.com/birkenkrahe/dsc101/tree/main/6_vectors][GitHub script]])       | NA  |
   | Cheat sheet ([[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/cheatsheet.pdf][PDF]],[[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][HTML]]) | The whole spectrum of ~plot()~    | NA  |
 
-* Week 11 - October 26+28
+* Week 11 - October 26
 
   * Truth-telling
   * Graded practice notebook
@@ -301,7 +301,6 @@
    [[./img/datacamp.png]]
 
    * Average DataCamp completion so far: ~61.57%~
-   * The graded practice notebook uses these data
 
 ** Data import review
 
@@ -313,6 +312,18 @@
    * Solution notebook
    * Video playlist (45 min)
 
+* Week 11 - October 28
+
+  [[./img/plot.gif]]
+  
+  * Continue review of Data Import problem notebook
+  
+** Different plot types
+
+   * Histogram, density plots, qqplots
+   * Plotting display functions
+   * [[https://colab.research.google.com/drive/1Dn-Y4GzG2KNIfwW56LCZ33sZEMnREunC?usp=sharing][GitHub practice problem notebook]] (active)
+  
 ** Plotting with ~plot()~
 
    * Building a complex plot from scratch

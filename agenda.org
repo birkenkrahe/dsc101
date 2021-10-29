@@ -253,7 +253,7 @@
   * Example project
   * DataCamp assignments
   * Data Import practice notebook review (video playlist available)
- 
+
 ** Truth-telling
    [[./img/eastwood.gif]]
 
@@ -273,7 +273,7 @@
 ** Sprint review due Nov 3
 
    [[./img/rugby.gif]]
-   
+
    * See [[https://github.com/birkenkrahe/org/blob/master/FAQ.md#what-should-we-do-in-the-third-sprint][FAQ]] - focus on your results, like:
      - literature review
      - plots you already made
@@ -305,9 +305,9 @@
 ** Data import review
 
    [[./img/sidebar.png]]
-   
+
    [[https://lyon.schoology.com/page/5409309307][Link: Lyon Schoology]]
-   
+
    * Problem notebook
    * Solution notebook
    * Video playlist (45 min)
@@ -315,21 +315,40 @@
 * Week 11 - October 28
 
   [[./img/plot.gif]]
-  
+
   * Continue review of [[https://colab.research.google.com/drive/1Dn-Y4GzG2KNIfwW56LCZ33sZEMnREunC?usp=sharing][Data Import problem notebook]] (GDrive)
-  
+
 ** Different plot types
 
-   * Histogram, density plots, qqplots
+   * Histogram
    * Plotting display functions
    * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb][GitHub practice problem notebook]] (active)
+
+* Week 12 - November 2
+
+  [[./img/animation.gif]]
   
+  Lame statistician's joke (via [[https://twitter.com/data_question/status/1453214682135900164?t=etylWfYp1X26UwOqE0fvqQ&s=03][#RStats]]):
+
+  #+begin_quote
+  Median and mode walks into a bar.  Bartender: where's the third guy?
+  Median: He is not our friend anymore. Mode: He is mean
+  #+end_quote
+
+** Different plot types
+
+   * Density plots, qqplots
+   * Plotting display functions
+   * Bagplots, Boxplots
+   * Mosaicplots, Sunflowerplots
+   * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb][GitHub practice problem notebook]] (active)
+
 ** Plotting with ~plot()~
 
    * Building a complex plot from scratch
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
-     
+
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a
@@ -375,4 +394,3 @@ play the game and perhaps gather statistics, too.
 
   Jacker C/Bohm A (Feb 2021). Income Evaluation (R)
   [Notebook]. [[https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook][Online: kaggle.com.]]
-  

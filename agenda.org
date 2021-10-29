@@ -325,17 +325,21 @@
    * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb][GitHub practice problem notebook]] (active)
 
 * Week 12 - November 2
+ 
+  3rd Sprint review!
 
-  [[./img/animation.gif]]
-  
+  [[./img/sprint3.gif]]
+
+
+* Week 12 - November 4
+** Different plot types
+
   Lame statistician's joke (via [[https://twitter.com/data_question/status/1453214682135900164?t=etylWfYp1X26UwOqE0fvqQ&s=03][#RStats]]):
 
   #+begin_quote
   Median and mode walks into a bar.  Bartender: where's the third guy?
   Median: He is not our friend anymore. Mode: He is mean
   #+end_quote
-
-** Different plot types
 
    * Density plots, qqplots
    * Plotting display functions
@@ -345,10 +349,12 @@
 
 ** Plotting with ~plot()~
 
+   [[./img/animation.gif]]
+   
    * Building a complex plot from scratch
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
-
+  
 * Footnotes
 
 [fn:7]In this overview course, you meet base R graphics, which is a

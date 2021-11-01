@@ -219,7 +219,7 @@
 <tr>
 <td class="org-right">22</td>
 <td class="org-left">2-Nov</td>
-<td class="org-left">PRESENTATIONS</td>
+<td class="org-left"><del>PRESENTATIONS</del></td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">3rd sprint review</td>
 </tr>
@@ -228,7 +228,7 @@
 <tr>
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
-<td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
+<td class="org-left">Adding deatils to plots</td>
 <td class="org-left">Adding details to plots</td>
 <td class="org-left">&#xa0;</td>
 </tr>

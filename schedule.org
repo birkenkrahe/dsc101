@@ -24,8 +24,8 @@
    | 19 | 21-Oct | Base R graphics                 | Intro to ~plot()~           | Test: vectorization/litprog  |
    | 20 | 26-Oct | Base R graphics                 |                             | Notebook: base graphics      |
    | 21 | 28-Oct | Different plot types            | Different plot types        | Notebook: plot types         |
-   | 22 | 2-Nov  | PRESENTATIONS                   |                             | 3rd sprint review            |
-   | 23 | 4-Nov  | Grammar of graphics (~ggplot2~) | Adding details to plots     |                              |
+   | 22 | 2-Nov  | +PRESENTATIONS+                 |                             | 3rd sprint review            |
+   | 23 | 4-Nov  | Adding deatils to plots         | Adding details to plots     |                              |
    | 24 | 9-Nov  | Grammar of graphics (~ggplot2~) |                             | Test: grammar of graphics    |
    | 25 | 11-Nov | Managing visual complexity      | How much is too much        | Notebook: visualization      |
    | 26 | 16-Nov | Managing visual complexity      |                             |                              |

@@ -332,6 +332,11 @@
 
 * Week 12 - November 4
 
+  #+begin_quote
+  Remember the DataCamp mobile app for daily drills! 5 minutes a day
+  make your ignorance go away!
+  #+end_quote
+  
   #+attr_html: :width 200px
   [[./img/learn-anytime.png]]
 

@@ -331,7 +331,15 @@
   [[./img/sprint3.gif]]
 
 * Week 12 - November 4
+
+  #+attr_html: :width 200px
+  [[./img/learn-anytime.png]]
+
+  /Image: DataCamp mobile app (datacamp,2021)/
+
 ** Different plot types
+
+
 
    Lame statistician's joke (via [[https://twitter.com/data_question/status/1453214682135900164?t=etylWfYp1X26UwOqE0fvqQ&s=03][#RStats]]):
 
@@ -364,7 +372,7 @@
    #+end_quote
 
    Source: Rauenbusch J (2021).
-   
+
 ** New CRAN packages
 
    (Via [[https://rweekly.org/2021-W44.html][~RWeekly.org~]])
@@ -420,6 +428,9 @@ the result. Nice presentation opportunity: you can let your audience
 play the game and perhaps gather statistics, too.
 
 * References
+
+  DataCamp (2021). Grow your data skills with DataCamp for Mobile
+  [website]. URL: [[https://www.datacamp.com/mobile][datacamp.com/mobile]]
 
   Gerard D (August 8, 2017). Basic R Graphics Cheat Sheet. [[https://dcgerard.github.io/stat234/base_r_cheatsheet.html][URL:
   dcgerard.github.io.]]

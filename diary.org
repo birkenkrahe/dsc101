@@ -262,6 +262,71 @@
   And here's a 2020 list of useful sites for [[https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d][finding free, public
   datasets]] for EDA tasks.
 
+* From the sickbed (11-02-2021)
+
+  I've been too ill to teach for a couple of days (just a bad cold,
+  nothing to worry about but still debilitating). This hasn't stopped
+  me from hunting and gathering R examples. Here are a few recent
+  captures.
+  
+** Webscraping example
+
+   #+attr_html: :width 400px
+   [[./img/webscraping.png]]
+
+   #+begin_quote
+   "Webscraping with R was critical to the success of my research."
+   #+end_quote
+
+   From a recent Master thesis. The author had to gather data from
+   many different online curricula and collect them as a table for
+   further analysis.
+   
+   Source: [[jens][Rauenbusch J (2021)]].
+
+** New CRAN packages
+
+   (Via [[https://rweekly.org/2021-W44.html][~RWeekly.org~]], which you should subscribe to!)
+
+   #+attr_html: :width 400px
+   [[./img/chaos.png]]
+
+   /Image: chaos machine setup - original is clickable ([[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][Wilke, 2021]])
+
+   * ~cfbfastR~: Functions to Access College Football Play by Play
+     Data (lvl=2
+   * [[https://blogs.rstudio.com/ai/posts/2021-10-29-segmentation-torch-android/][Train in R, run on Android - image segmentation with ~torch~]]
+     (lvl=3)
+   * [[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][Constructing a Chaos Machine]]: translating temperature
+     measurements into sound in real time ([[https://gitlab.com/urswilke/chaos_machine_code/-/tree/master/R/preliminary_study/preliminary_study.md][R notebook]]) (lvl=3)
+
+** "Tidyverse" tidbit
+
+   #+begin_quote
+   "Evangelist instructors write evangelistic exams."
+   #+end_quote
+
+   Comment by [[matloff][Norman Matloff]] on Twitter about this tweet:
+
+   [[./img/tidyverse.png]]
+   
+   The ~data.table~ package, which contains the ~fread()~ function, is
+   fantastically fast and overall wonderful. ~fread()~ is featured in
+   the introductory data import with R course from DataCamp. You
+   should also take a look at the full ~data.table~ course - see this
+   [[https://www.datacamp.com/community/tutorials/data-table-cheat-sheet][introductory blog post]] for starters ([[willems][Willems, 2021]]).
+
+** The battle between Python and R has been concluded
+
+   I thought this article with the title from the headline ([[battle][Valdeleon,
+   2021]]) is spot on - there's no need to pitch one of these languages
+   against the other. Each of them has its pros and cons, and it
+   depends on the job which one you should learn and use.
+
+   In fact, many projects require knowledge of both R and Python -
+   compare the project featured above where temperature measurements
+   are turned into sound ([[wilke][Wilke 2021]]).
+   
 * References
 
   Really? References in a diary? I know that you know that I am not
@@ -290,6 +355,21 @@
   <<matloff21>> Matloff N (9 Sept 2021). At Crossroads in California
   K-12 Math Education [Blog]. [[https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/][Online: normsaysno.wordpress.com.]]
 
+  <<jens>> Rauenbusch J (2021). Design in MBA Education in the
+  U.S. Towards a Design-Integrated Curriculum to Prepare Future
+  Leaders for a Volatile, Uncertain, Complex, and Ambiguous (VUCA)
+  World. MA thesis, Berlin School of Economics and Law.
+
+  <<battle>> Valdeleon J (29 Aug 2021). The battle between Python & R
+  has been concluded [blog]. URL: [[https://medium.com/codex/the-battle-between-python-r-has-been-concluded-b6ffda4ef87][medium.com]].
+
+  <<wilke>> Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing
+  Temperature Measurements into Sound [Blog]. URL:
+  [[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][rssblogg.netlify.app]].
+
+  <<willems>> Willems K (July 14th, 2021). The data.table R Package
+  Cheat Sheet. URL: [[https://www.datacamp.com/community/tutorials/data-table-cheat-sheet][datacamp.com]].
+  
 * Footnotes
 
 [fn:2]How will I know? Because it is clear from the discussion and the

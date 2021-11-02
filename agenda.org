@@ -339,7 +339,7 @@
 
 ** Different plot types
 
-
+   [[./img/nerd.gif]]
 
    Lame statistician's joke (via [[https://twitter.com/data_question/status/1453214682135900164?t=etylWfYp1X26UwOqE0fvqQ&s=03][#RStats]]):
 
@@ -361,33 +361,6 @@
    * Building a complex plot from scratch
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
-
-** Webscraping example
-
-   #+attr_html: :width 400px
-   [[./img/webscraping.png]]
-
-   #+begin_quote
-   "Webscraping with R was critical to the success of my research."
-   #+end_quote
-
-   Source: Rauenbusch J (2021).
-
-** New CRAN packages
-
-   (Via [[https://rweekly.org/2021-W44.html][~RWeekly.org~]])
-
-   #+attr_html: :width 400px
-   [[./img/chaos.png]]
-
-   /Image: chaos machine setup - original is clickable ([[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][Wilke, 2021]])
-
-   * ~cfbfastR~: Functions to Access College Football Play by Play
-     Data (lvl=2
-   * [[https://blogs.rstudio.com/ai/posts/2021-10-29-segmentation-torch-android/][Train in R, run on Android - image segmentation with ~torch~]]
-     (lvl=3)
-   * [[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][Constructing a Chaos Machine]]: translating temperature
-     measurements into sound in real time ([[https://gitlab.com/urswilke/chaos_machine_code/-/tree/master/R/preliminary_study/preliminary_study.md][R notebook]]) (lvl=3)
 
 * Footnotes
 
@@ -438,10 +411,3 @@ play the game and perhaps gather statistics, too.
   Jacker C/Bohm A (Feb 2021). Income Evaluation (R) [Notebook]. [[https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook][URL:
   kaggle.com.]]
 
-  Rauenbusch J (2021). Design in MBA Education in the U.S. Towards a
-  Design-Integrated Curriculum to Prepare Future Leaders for a
-  Volatile, Uncertain, Complex, and Ambiguous (VUCA) World. MA
-  thesis, Berlin School of Economics and Law.
-
-  Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing Temperature
-  Measurements into Sound [Blog]. URL: [[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][rssblogg.netlify.app]].

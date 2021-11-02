@@ -337,6 +337,15 @@
 
   /Image: DataCamp mobile app (datacamp,2021)/
 
+** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New diary entry "From the sickbed..."]]
+
+   [[./img/diary.gif]]
+
+   * Webscraping
+   * New CRAN R packages
+   * "Tidyverse" Twitter Tidbit
+   * The battle between Python and R has been concluded
+   
 ** Different plot types
 
    [[./img/nerd.gif]]

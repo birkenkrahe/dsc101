@@ -1,27 +1,27 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org4bfb705)
--   [Week 2 - August 26](#orgf73b78d)
--   [Week 3 - August 31](#org00512d0)
--   [Week 3 - September 2](#org557edab)
--   [Week 4 - September 7](#orgf4217de)
--   [Week 4 - September 9](#org71cccfc)
--   [Week 5 - September 16](#org9d22308)
--   [Week 6 - September 21](#orgbf1c441)
--   [Week 7 - September 28](#orga22eace)
--   [Week 9 - October 12+14](#orgbf8c4fa)
--   [Week 10 - October 19](#orgf613c02)
--   [Week 10 - October  21](#orgec65d1b)
--   [Week 11 - October 26](#org7d1cdb8)
--   [Week 11 - October 28](#orga65c942)
--   [Week 12 - November 2](#org3e36dd6)
--   [Week 12 - November 4](#org731bcca)
--   [References](#org5d6fe15)
+-   [Week 2 - August 24](#orgd49d123)
+-   [Week 2 - August 26](#org509edd6)
+-   [Week 3 - August 31](#orgba0a4ee)
+-   [Week 3 - September 2](#org8f8914f)
+-   [Week 4 - September 7](#orgbfb6fee)
+-   [Week 4 - September 9](#org51e8501)
+-   [Week 5 - September 16](#orgf290495)
+-   [Week 6 - September 21](#org2a063be)
+-   [Week 7 - September 28](#orgfba7cb5)
+-   [Week 9 - October 12+14](#orga6e1c90)
+-   [Week 10 - October 19](#org3d52b42)
+-   [Week 10 - October  21](#orgc0ceda5)
+-   [Week 11 - October 26](#orgc4415e8)
+-   [Week 11 - October 28](#org9a1643b)
+-   [Week 12 - November 2](#org22b6520)
+-   [Week 12 - November 4](#org65daa73)
+-   [References](#org9a43593)
 
 
 
-<a id="org4bfb705"></a>
+<a id="orgd49d123"></a>
 
 # Week 2 - August 24
 
@@ -43,7 +43,7 @@
 -   Questions?
 
 
-<a id="orgf73b78d"></a>
+<a id="org509edd6"></a>
 
 # Week 2 - August 26
 
@@ -125,7 +125,7 @@
 -   Onwards: data science problems
 
 
-<a id="org00512d0"></a>
+<a id="orgba0a4ee"></a>
 
 # Week 3 - August 31
 
@@ -138,7 +138,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org557edab"></a>
+<a id="org8f8914f"></a>
 
 # Week 3 - September 2
 
@@ -152,7 +152,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgf4217de"></a>
+<a id="orgbfb6fee"></a>
 
 # Week 4 - September 7
 
@@ -182,7 +182,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org71cccfc"></a>
+<a id="org51e8501"></a>
 
 # Week 4 - September 9
 
@@ -327,7 +327,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org9d22308"></a>
+<a id="orgf290495"></a>
 
 # Week 5 - September 16
 
@@ -364,7 +364,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgbf1c441"></a>
+<a id="org2a063be"></a>
 
 # Week 6 - September 21
 
@@ -376,7 +376,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="orga22eace"></a>
+<a id="orgfba7cb5"></a>
 
 # Week 7 - September 28
 
@@ -389,7 +389,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgbf8c4fa"></a>
+<a id="orga6e1c90"></a>
 
 # Week 9 - October 12+14
 
@@ -404,7 +404,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="orgf613c02"></a>
+<a id="org3d52b42"></a>
 
 # Week 10 - October 19
 
@@ -418,7 +418,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgec65d1b"></a>
+<a id="orgc0ceda5"></a>
 
 # Week 10 - October  21
 
@@ -472,7 +472,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org7d1cdb8"></a>
+<a id="orgc4415e8"></a>
 
 # Week 11 - October 26
 
@@ -546,7 +546,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="orga65c942"></a>
+<a id="org9a1643b"></a>
 
 # Week 11 - October 28
 
@@ -562,7 +562,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb) (active)
 
 
-<a id="org3e36dd6"></a>
+<a id="org22b6520"></a>
 
 # Week 12 - November 2
 
@@ -571,13 +571,23 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org731bcca"></a>
+<a id="org65daa73"></a>
 
 # Week 12 - November 4
 
 ![img](./img/learn-anytime.png)
 
 *Image: DataCamp mobile app (datacamp,2021)*
+
+
+## [New diary entry "From the sickbed&#x2026;"](https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021)
+
+![img](./img/diary.gif)
+
+-   Webscraping
+-   New CRAN R packages
+-   "Tidyverse" Twitter Tidbit
+-   The battle between Python and R has been concluded
 
 
 ## Different plot types
@@ -605,32 +615,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-## Webscraping example
-
-![img](./img/webscraping.png)
-
-> "Webscraping with R was critical to the success of my research."
-
-Source: Rauenbusch J (2021).
-
-
-## New CRAN packages
-
-(Via [`RWeekly.org`](https://rweekly.org/2021-W44.html))
-
-![img](./img/chaos.png)
-
-/Image: chaos machine setup - original is clickable ([Wilke, 2021](https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/))
-
--   `cfbfastR`: Functions to Access College Football Play by Play
-    Data (lvl=2
--   [Train in R, run on Android - image segmentation with `torch`](https://blogs.rstudio.com/ai/posts/2021-10-29-segmentation-torch-android/)
-    (lvl=3)
--   [Constructing a Chaos Machine](https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/): translating temperature
-    measurements into sound in real time ([R notebook](https://gitlab.com/urswilke/chaos_machine_code/-/tree/master/R/preliminary_study/preliminary_study.md)) (lvl=3)
-
-
-<a id="org5d6fe15"></a>
+<a id="org9a43593"></a>
 
 # References
 
@@ -642,14 +627,6 @@ dcgerard.github.io.](https://dcgerard.github.io/stat234/base_r_cheatsheet.html)
 
 Jacker C/Bohm A (Feb 2021). Income Evaluation (R) [Notebook]. [URL:
 kaggle.com.](https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook)
-
-Rauenbusch J (2021). Design in MBA Education in the U.S. Towards a
-Design-Integrated Curriculum to Prepare Future Leaders for a
-Volatile, Uncertain, Complex, and Ambiguous (VUCA) World. MA
-thesis, Berlin School of Economics and Law.
-
-Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing Temperature
-Measurements into Sound [Blog]. URL: [rssblogg.netlify.app](https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/).
 
 
 # Footnotes

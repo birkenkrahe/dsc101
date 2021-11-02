@@ -300,7 +300,7 @@
    * [[https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/][Constructing a Chaos Machine]]: translating temperature
      measurements into sound in real time ([[https://gitlab.com/urswilke/chaos_machine_code/-/tree/master/R/preliminary_study/preliminary_study.md][R notebook]]) (lvl=3)
 
-** "Tidyverse" tidbit
+** "Tidyverse" twitter tidbit
 
    #+begin_quote
    "Evangelist instructors write evangelistic exams."

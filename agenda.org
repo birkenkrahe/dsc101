@@ -332,7 +332,6 @@
 
 * Week 12 - November 4
 
-
   | Remember the DataCamp mobile app for daily drills! |
   | 5 minutes a day make your ignorance go away!       |
 
@@ -343,7 +342,7 @@
 
   /Image: DataCamp mobile app (datacamp,2021)/
 
-** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New diary entry "From the sickbed..."]]
+** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New ~dsc101~ diary entry "From the sickbed..."]]
 
    [[./img/diary.gif]]
 
@@ -351,6 +350,9 @@
    * New CRAN R packages
    * "Tidyverse" Twitter Tidbit
    * The battle between Python and R has been concluded
+** [[https://github.com/birkenkrahe/org/blob/master/diary.md#join-me-in-spring-2022-nov-3][New ~org~ diary entry "Join me in spring 2022!"]]
+
+   [[./img/joinme.gif]]
    
 ** Different plot types
 

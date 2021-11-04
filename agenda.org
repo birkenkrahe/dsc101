@@ -361,8 +361,11 @@
 
    #+begin_quote
    Median and mode walks into a bar.
+
    Bartender: where's the third guy?
+
    Median: He is not our friend anymore.
+
    Mode: He is mean
    #+end_quote
 

@@ -368,7 +368,7 @@
 
    Mode: He is mean
    #+end_quote
-
+   -----
    * Density plots, qqplots
    * Plotting display functions
    * Bagplots, Boxplots
@@ -431,4 +431,3 @@ play the game and perhaps gather statistics, too.
 
   Jacker C/Bohm A (Feb 2021). Income Evaluation (R) [Notebook]. [[https://www.kaggle.com/birkenkrahe/income-evaluation-r/notebook][URL:
   kaggle.com.]]
-

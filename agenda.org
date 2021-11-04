@@ -389,10 +389,13 @@
    -----
    * Density plots, qqplots
    * Plotting display functions
-   * Bagplots, Boxplots
-   * Mosaicplots, Sunflowerplots
+   * Sunflower plots, Boxplots, Mosaicplots (problem set 1)
+   * Bagplots, Correlation plots, decision tree models (problem set 2)
    * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems1.ipynb][GitHub practice problem notebook]] (active)
    * [[https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing][This is how far we got last time]] (active)
+
+     | Short test on data import | Tue Nov 9  |
+     | Short test on plot types  | Thu Nov 11 |
 
 ** Plotting with ~plot()~
 

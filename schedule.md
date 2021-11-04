@@ -212,7 +212,7 @@
 <td class="org-left">28-Oct</td>
 <td class="org-left">Different plot types</td>
 <td class="org-left">Different plot types</td>
-<td class="org-left">Notebook: plot types</td>
+<td class="org-left">Notebook: plot types 1</td>
 </tr>
 
 
@@ -228,7 +228,7 @@
 <tr>
 <td class="org-right">23</td>
 <td class="org-left">4-Nov</td>
-<td class="org-left">Adding deatils to plots</td>
+<td class="org-left">Adding details to plots</td>
 <td class="org-left">Adding details to plots</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -239,7 +239,7 @@
 <td class="org-left">9-Nov</td>
 <td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: grammar of graphics</td>
+<td class="org-left">Notebook: plot types 2</td>
 </tr>
 
 
@@ -248,7 +248,7 @@
 <td class="org-left">11-Nov</td>
 <td class="org-left">Managing visual complexity</td>
 <td class="org-left">How much is too much</td>
-<td class="org-left">Notebook: visualization</td>
+<td class="org-left">Test: data import</td>
 </tr>
 
 
@@ -257,7 +257,7 @@
 <td class="org-left">16-Nov</td>
 <td class="org-left">Managing visual complexity</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: plot types</td>
 </tr>
 
 
@@ -266,7 +266,7 @@
 <td class="org-left">18-Nov</td>
 <td class="org-left">Advanced plot customization</td>
 <td class="org-left">Advanced plot customization</td>
-<td class="org-left">Notebook: plot customization</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -275,7 +275,7 @@
 <td class="org-left">23-Nov</td>
 <td class="org-left">Advanced plot customization</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: plotting</td>
+<td class="org-left">Exit quiz</td>
 </tr>
 
 

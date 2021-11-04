@@ -332,6 +332,16 @@
 
 * Week 12 - November 4
 
+  [[./img/winter.gif]]
+  
+| Housekeeping | Daily practice       | 15 |
+|              | Projects: Last Stand |    |
+|              | New diary entries    |    |
+| Notebook     | Different plot types | 30 |
+| Lecture      | Plotting with ~plot~ | 30 |
+  
+** Daily practice  
+
   | Remember the DataCamp mobile app for daily drills! |
   | 5 minutes a day make your ignorance go away!       |
 
@@ -340,6 +350,14 @@
 
   /Image: DataCamp mobile app (datacamp,2021)/
 
+** Projects - Last Stand
+
+   [[./img/project.gif]]
+
+   * Only [[https://github.com/birkenkrahe/dsc101/tree/main/presentations/3rd_sprint_review][three teams delivered]]
+   * If in trouble: scale back[fn:8]
+   * Talk to me if you need support
+   
 ** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New ~dsc101~ diary entry "From the sickbed..."]]
 
    [[./img/diary.gif]]
@@ -384,6 +402,16 @@
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
 
 * Footnotes
+
+[fn:8]Back off your ambitious EDA project problem from the first part
+of the course and get real: perhaps you just haven't spent enough time
+with the material yet, or you won't have the time until the projects
+are due ([[https://github.com/birkenkrahe/dsc101/blob/main/schedule.md][Nov 30/Dec 2]]). If this is the case, pick a built-in R
+dataset, analyze it as we've done it in the course many times, put
+your findings in an interactive R notebook (use Colaboratory or
+RStudio), and base your presentation on that. Or stick with your
+original idea and document it up to the point that you reached in your
+research.
 
 [fn:7]In this overview course, you meet base R graphics, which is a
 very powerful toolbox to create plots and communicate your message

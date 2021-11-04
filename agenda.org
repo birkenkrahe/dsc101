@@ -384,13 +384,35 @@
     | Short test on data import | Tue Nov 9  |
     | Short test on plot types  | Thu Nov 11 |
     | Exit quiz                 | Tue Nov 23 |
+
+    /Tip: screenshot your DataCamp results and download the slides!/
+
+    #+attr_html: :width 400px
+    [[./img/sunflowerplot.png]]
+
+    #+attr_html: :width 400px
+    [[./img/boxplot.png]]
+
+    #+attr_html: :width 400px
+    [[./img/mosaicplots.png]]
+
+    #+attr_html: :width 400px
+    [[./img/corrplot.png]]
+
+    #+attr_html: :width 400px
+    [[./img/treemodel.png]]
+
 *** Homework
 
     [[./img/homework.gif]]
-    
+
     Complete the R notebook ~different-plots-problems-2.ipynb~ on your
-    own and share it with me.
-    
+    own and share it with me. The notebook will cover:
+
+    * boxplots
+    * mosaic plots
+    * correlation plots
+
 ** Different plot types
 
    [[./img/nerd.gif]]
@@ -421,6 +443,7 @@
    * Building a complex plot from scratch
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
+
 
 * Footnotes
 

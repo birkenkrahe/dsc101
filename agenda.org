@@ -348,10 +348,11 @@
    * New CRAN R packages
    * "Tidyverse" Twitter Tidbit
    * The battle between Python and R has been concluded
+
 ** [[https://github.com/birkenkrahe/org/blob/master/diary.md#join-me-in-spring-2022-nov-3][New ~org~ diary entry "Join me in spring 2022!"]]
 
    [[./img/joinme.gif]]
-   
+
 ** Different plot types
 
    [[./img/nerd.gif]]
@@ -359,8 +360,10 @@
    Lame statistician's joke (via [[https://twitter.com/data_question/status/1453214682135900164?t=etylWfYp1X26UwOqE0fvqQ&s=03][#RStats]]):
 
    #+begin_quote
-   Median and mode walks into a bar.  Bartender: where's the third guy?
-   Median: He is not our friend anymore. Mode: He is mean
+   Median and mode walks into a bar.
+   Bartender: where's the third guy?
+   Median: He is not our friend anymore.
+   Mode: He is mean
    #+end_quote
 
    * Density plots, qqplots

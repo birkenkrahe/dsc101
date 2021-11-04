@@ -1,27 +1,27 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org21a2d52)
--   [Week 2 - August 26](#org15b0992)
--   [Week 3 - August 31](#org5063c1e)
--   [Week 3 - September 2](#org5a5380a)
--   [Week 4 - September 7](#org02decc8)
--   [Week 4 - September 9](#org59123a8)
--   [Week 5 - September 16](#org688878f)
--   [Week 6 - September 21](#orgc7a8896)
--   [Week 7 - September 28](#org8058e8a)
--   [Week 9 - October 12+14](#org191bf40)
--   [Week 10 - October 19](#org5652710)
--   [Week 10 - October  21](#orgac8d93d)
--   [Week 11 - October 26](#orgd2d57c4)
--   [Week 11 - October 28](#org597ca72)
--   [Week 12 - November 2](#org52391c5)
--   [Week 12 - November 4](#org0778099)
--   [References](#org4955171)
+-   [Week 2 - August 24](#orgad85da4)
+-   [Week 2 - August 26](#orgfff92bf)
+-   [Week 3 - August 31](#orgc3eb63c)
+-   [Week 3 - September 2](#org5593867)
+-   [Week 4 - September 7](#org84fc103)
+-   [Week 4 - September 9](#org1b2328a)
+-   [Week 5 - September 16](#org815e08f)
+-   [Week 6 - September 21](#orgf7bd596)
+-   [Week 7 - September 28](#org7ec36e9)
+-   [Week 9 - October 12+14](#org1e49255)
+-   [Week 10 - October 19](#org84ef1af)
+-   [Week 10 - October  21](#orgd5d2042)
+-   [Week 11 - October 26](#org60d912f)
+-   [Week 11 - October 28](#orge4edbb8)
+-   [Week 12 - November 2](#orgeec2b76)
+-   [Week 12 - November 4](#orgdb78495)
+-   [References](#org7bdb585)
 
 
 
-<a id="org21a2d52"></a>
+<a id="orgad85da4"></a>
 
 # Week 2 - August 24
 
@@ -43,7 +43,7 @@
 -   Questions?
 
 
-<a id="org15b0992"></a>
+<a id="orgfff92bf"></a>
 
 # Week 2 - August 26
 
@@ -125,7 +125,7 @@
 -   Onwards: data science problems
 
 
-<a id="org5063c1e"></a>
+<a id="orgc3eb63c"></a>
 
 # Week 3 - August 31
 
@@ -138,7 +138,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org5a5380a"></a>
+<a id="org5593867"></a>
 
 # Week 3 - September 2
 
@@ -152,7 +152,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org02decc8"></a>
+<a id="org84fc103"></a>
 
 # Week 4 - September 7
 
@@ -182,7 +182,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org59123a8"></a>
+<a id="org1b2328a"></a>
 
 # Week 4 - September 9
 
@@ -327,7 +327,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org688878f"></a>
+<a id="org815e08f"></a>
 
 # Week 5 - September 16
 
@@ -364,7 +364,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgc7a8896"></a>
+<a id="orgf7bd596"></a>
 
 # Week 6 - September 21
 
@@ -376,7 +376,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org8058e8a"></a>
+<a id="org7ec36e9"></a>
 
 # Week 7 - September 28
 
@@ -389,7 +389,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org191bf40"></a>
+<a id="org1e49255"></a>
 
 # Week 9 - October 12+14
 
@@ -404,7 +404,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org5652710"></a>
+<a id="org84ef1af"></a>
 
 # Week 10 - October 19
 
@@ -418,7 +418,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgac8d93d"></a>
+<a id="orgd5d2042"></a>
 
 # Week 10 - October  21
 
@@ -472,7 +472,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgd2d57c4"></a>
+<a id="org60d912f"></a>
 
 # Week 11 - October 26
 
@@ -546,7 +546,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org597ca72"></a>
+<a id="orge4edbb8"></a>
 
 # Week 11 - October 28
 
@@ -559,10 +559,10 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 
 -   Histogram
 -   Plotting display functions
--   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb) (active)
+-   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org52391c5"></a>
+<a id="orgeec2b76"></a>
 
 # Week 12 - November 2
 
@@ -571,7 +571,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org0778099"></a>
+<a id="orgdb78495"></a>
 
 # Week 12 - November 4
 
@@ -706,7 +706,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="org4955171"></a>
+<a id="org7bdb585"></a>
 
 # References
 

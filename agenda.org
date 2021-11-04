@@ -338,40 +338,59 @@
   |              | Projects: Last Stand |    |
   |              | New diary entries    |    |
   |              | Next tests           |    |
+  |              | Homework             |    |
   | Notebook     | Different plot types | 30 |
   | Lecture      | Plotting with ~plot~ | 30 |
 
-** Daily practice
+** Housekeeping
 
-   | Remember the DataCamp mobile app for daily drills! |
-   | 5 minutes a day make your ignorance go away!       |
+   [[./img/housekeeping.gif]]
 
-   #+attr_html: :width 200px
-   [[./img/learn-anytime.png]]
+*** Daily practice
 
-   /Image: DataCamp mobile app (datacamp,2021)/
+    | Remember the DataCamp mobile app for daily drills! |
+    | 5 minutes a day make your ignorance go away!       |
 
-** Projects - Last Stand
+    #+attr_html: :width 200px
+    [[./img/learn-anytime.png]]
 
-   [[./img/project.gif]]
+    /Image: DataCamp mobile app (datacamp,2021)/
 
-   * Only [[https://github.com/birkenkrahe/dsc101/tree/main/presentations/3rd_sprint_review][three teams delivered]]
-   * If in trouble: scale back[fn:8]
-   * Talk to me if you need support
+*** Projects - Last Stand
 
-** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New ~dsc101~ diary entry "From the sickbed..."]]
+    [[./img/project.gif]]
 
-   [[./img/diary.gif]]
+    * Only [[https://github.com/birkenkrahe/dsc101/tree/main/presentations/3rd_sprint_review][three teams delivered]]
+    * If in trouble: scale back[fn:8]
+    * Talk to me if you need support
 
-   * Webscraping
-   * New CRAN R packages
-   * "Tidyverse" Twitter Tidbit
-   * The battle between Python and R has been concluded
+*** [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#from-the-sickbed-11-02-2021][New ~dsc101~ diary entry "From the sickbed..."]]
 
-** [[https://github.com/birkenkrahe/org/blob/master/diary.md#join-me-in-spring-2022-nov-3][New ~org~ diary entry "Join me in spring 2022!"]]
+    [[./img/diary.gif]]
 
-   [[./img/joinme.gif]]
+    * Webscraping
+    * New CRAN R packages
+    * "Tidyverse" Twitter Tidbit
+    * The battle between Python and R has been concluded
 
+*** [[https://github.com/birkenkrahe/org/blob/master/diary.md#join-me-in-spring-2022-nov-3][New ~org~ diary entry "Join me in spring 2022!"]]
+
+    [[./img/joinme.gif]]
+
+*** Next tests
+
+    [[./img/test.gif]]
+
+    | Short test on data import | Tue Nov 9  |
+    | Short test on plot types  | Thu Nov 11 |
+    | Exit quiz                 | Tue Nov 23 |
+*** Homework
+
+    [[./img/homework.gif]]
+    
+    Complete the R notebook ~different-plots-problems-2.ipynb~ on your
+    own and share it with me.
+    
 ** Different plot types
 
    [[./img/nerd.gif]]
@@ -394,14 +413,6 @@
    * Bagplots, Correlation plots, decision tree models (problem set 2)
    * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems1.ipynb][GitHub practice problem notebook]] (active)
    * [[https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing][This is how far we got last time]] (active)
-
-** Next tests
-
-   [[./img/test.gif]]
-
-   | Short test on data import | Tue Nov 9  |
-   | Short test on plot types  | Thu Nov 11 |
-   | Exit quiz                 | Tue Nov 23 |
 
 ** Plotting with ~plot()~
 

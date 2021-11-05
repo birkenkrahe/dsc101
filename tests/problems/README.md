@@ -50,9 +50,16 @@
 
 
 <tr>
-<td class="org-left">Different-plots-problems</td>
-<td class="org-left">Different plots</td>
+<td class="org-left">Different-plots-problems 1</td>
+<td class="org-left">Different plots part 1</td>
 <td class="org-left">Oct 28</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Different-plots-problems 2</td>
+<td class="org-left">Different plots part 2</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>

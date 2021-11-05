@@ -1,6 +1,6 @@
 
 
-# Upload your solution for the "[different plot types notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems.ipynb)" here as a notebook file!
+# Upload your solution for the "[different plot types notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb)" here as a notebook file!
 
 We'll discuss the results in the next session, and/or you can work
 through the notebook at your own pace and compare with my sample

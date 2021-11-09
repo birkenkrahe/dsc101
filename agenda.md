@@ -1,29 +1,29 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org0e8e774)
--   [Week 2 - August 26](#org9ea4436)
--   [Week 3 - August 31](#org2f7a3c1)
--   [Week 3 - September 2](#org83858e9)
--   [Week 4 - September 7](#orge2ce3c4)
--   [Week 4 - September 9](#orgc6675ac)
--   [Week 5 - September 16](#orga2d6de8)
--   [Week 6 - September 21](#org647febb)
--   [Week 7 - September 28](#orgf69c995)
--   [Week 9 - October 12+14](#org2b2db40)
--   [Week 10 - October 19](#org4afc866)
--   [Week 10 - October  21](#org61cce29)
--   [Week 11 - October 26](#orgb5a0bf6)
--   [Week 11 - October 28](#org03ae6d0)
--   [Week 12 - November 2](#org46fa397)
--   [Week 12 - November 4](#org9ff0805)
--   [Week 13 - November 9](#orgb653762)
--   [Week 13 - November 11](#org415d04c)
--   [References](#orgd91d5d8)
+-   [Week 2 - August 24](#org85b363a)
+-   [Week 2 - August 26](#orgd29c314)
+-   [Week 3 - August 31](#org31cb01a)
+-   [Week 3 - September 2](#org1997cb7)
+-   [Week 4 - September 7](#org7780006)
+-   [Week 4 - September 9](#org4f135f0)
+-   [Week 5 - September 16](#orgde1c2a2)
+-   [Week 6 - September 21](#orgc30c790)
+-   [Week 7 - September 28](#orgb455429)
+-   [Week 9 - October 12+14](#org64adaac)
+-   [Week 10 - October 19](#org65c9b45)
+-   [Week 10 - October  21](#orge9973d9)
+-   [Week 11 - October 26](#org28868f2)
+-   [Week 11 - October 28](#org8faac03)
+-   [Week 12 - November 2](#org32d6160)
+-   [Week 12 - November 4](#org50427b2)
+-   [Week 13 - November 9](#org8905f55)
+-   [Week 13 - November 11](#org6391623)
+-   [References](#org57bcba2)
 
 
 
-<a id="org0e8e774"></a>
+<a id="org85b363a"></a>
 
 # Week 2 - August 24
 
@@ -45,7 +45,7 @@
 -   Questions?
 
 
-<a id="org9ea4436"></a>
+<a id="orgd29c314"></a>
 
 # Week 2 - August 26
 
@@ -127,7 +127,7 @@
 -   Onwards: data science problems
 
 
-<a id="org2f7a3c1"></a>
+<a id="org31cb01a"></a>
 
 # Week 3 - August 31
 
@@ -140,7 +140,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org83858e9"></a>
+<a id="org1997cb7"></a>
 
 # Week 3 - September 2
 
@@ -154,7 +154,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orge2ce3c4"></a>
+<a id="org7780006"></a>
 
 # Week 4 - September 7
 
@@ -184,7 +184,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgc6675ac"></a>
+<a id="org4f135f0"></a>
 
 # Week 4 - September 9
 
@@ -329,7 +329,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="orga2d6de8"></a>
+<a id="orgde1c2a2"></a>
 
 # Week 5 - September 16
 
@@ -366,7 +366,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org647febb"></a>
+<a id="orgc30c790"></a>
 
 # Week 6 - September 21
 
@@ -378,7 +378,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="orgf69c995"></a>
+<a id="orgb455429"></a>
 
 # Week 7 - September 28
 
@@ -391,7 +391,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org2b2db40"></a>
+<a id="org64adaac"></a>
 
 # Week 9 - October 12+14
 
@@ -406,7 +406,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org4afc866"></a>
+<a id="org65c9b45"></a>
 
 # Week 10 - October 19
 
@@ -420,7 +420,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org61cce29"></a>
+<a id="orge9973d9"></a>
 
 # Week 10 - October  21
 
@@ -474,7 +474,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgb5a0bf6"></a>
+<a id="org28868f2"></a>
 
 # Week 11 - October 26
 
@@ -548,7 +548,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org03ae6d0"></a>
+<a id="org8faac03"></a>
 
 # Week 11 - October 28
 
@@ -564,7 +564,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org46fa397"></a>
+<a id="org32d6160"></a>
 
 # Week 12 - November 2
 
@@ -573,7 +573,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org9ff0805"></a>
+<a id="org50427b2"></a>
 
 # Week 12 - November 4
 
@@ -776,7 +776,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="orgb653762"></a>
+<a id="org8905f55"></a>
 
 # Week 13 - November 9
 
@@ -846,7 +846,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="org415d04c"></a>
+<a id="org6391623"></a>
 
 # Week 13 - November 11
 
@@ -877,7 +877,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 </table>
 
 
-<a id="orgd91d5d8"></a>
+<a id="org57bcba2"></a>
 
 # References
 
@@ -943,4 +943,4 @@ research.
 of "Python for R users" is concerned with data structures in both
 languages. It will enable you to get started in Python if you so
 wish. If you already know Python, this may help you to
-compartimentalize.
+compartimentalize. [You can get Python here](https://www.python.org/downloads/).

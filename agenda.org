@@ -467,7 +467,7 @@
 of "Python for R users" is concerned with data structures in both
 languages. It will enable you to get started in Python if you so
 wish. If you already know Python, this may help you to
-compartimentalize.
+compartimentalize. [[https://www.python.org/downloads/][You can get Python here]].
 
 [fn:8]Back off your ambitious EDA project problem from the first part
 of the course and get real: perhaps you just haven't spent enough time

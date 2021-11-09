@@ -436,6 +436,16 @@
    * [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems1.ipynb][GitHub practice problem notebook]] (active)
    * [[https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing][This is how far we got last time]] (active)
 
+* Week 13 - November 9
+
+  #+attr_html: :width 600px
+  [[./img/bridge.jpeg]]
+
+  | [[https://lyon.schoology.com/assignment/5445614139][Test 8]]  | Data import with R         | 15' |
+  | Project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A     | 15' |
+  | Example | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]] |     |
+  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]] | Plotting with R            | 45' |
+
 ** Plotting with ~plot()~
 
    [[./img/animation.gif]]
@@ -443,7 +453,6 @@
    * Building a complex plot from scratch
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
-
 
 * Footnotes
 

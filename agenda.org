@@ -441,12 +441,13 @@
   #+attr_html: :width 600px
   [[./img/bridge.jpeg]]
 
-  | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A           | 15' |
-  | Example  | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]       |     |
-  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook)       | 60' |
-  | Homework | Plotting types notebook 2        | 30' |
-  |          | DataCamp [[https://campus.datacamp.com/courses/data-visualization-in-r/adding-details-to-plots?ex=1][Adding details to plots]] | 30' |
-  | Bonus    | DataCamp [[https://app.datacamp.com/learn/courses/python-for-r-users][Python for R Users]][fn:9]      |     |
+  | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15' |
+  |          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |     |
+  |          | [[https://itch.io/jam/game-off-2021][Game Off 2021]]: Bug! ([[https://lucidmanager.org/tags/r-games/][Games in R]])  |     |
+  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook)        | 60' |
+  | Homework | Plotting types notebook 2         | 30' |
+  |          | DataCamp [[https://campus.datacamp.com/courses/data-visualization-in-r/adding-details-to-plots?ex=1][Adding details to plots]]  | 30' |
+  | Bonus    | DataCamp [[https://app.datacamp.com/learn/courses/python-for-r-users][Python for R Users]][fn:9] |     |
 
 ** Plotting with ~plot()~
 

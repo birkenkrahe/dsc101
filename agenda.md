@@ -1,29 +1,29 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgfd1f421)
--   [Week 2 - August 26](#org8597d8e)
--   [Week 3 - August 31](#org71d33e6)
--   [Week 3 - September 2](#orgff5a17b)
--   [Week 4 - September 7](#org9815c05)
--   [Week 4 - September 9](#orgb2b8671)
--   [Week 5 - September 16](#org80a13dd)
--   [Week 6 - September 21](#org1745d5d)
--   [Week 7 - September 28](#org557ff71)
--   [Week 9 - October 12+14](#org15a21b1)
--   [Week 10 - October 19](#org3e0b061)
--   [Week 10 - October  21](#org9264b62)
--   [Week 11 - October 26](#orgf6dd789)
--   [Week 11 - October 28](#org893a7cd)
--   [Week 12 - November 2](#org80d4083)
--   [Week 12 - November 4](#orgb98d903)
--   [Week 13 - November 9](#org391d5b0)
--   [Week 13 - November 11](#orgae1b2d8)
--   [References](#org99fc34f)
+-   [Week 2 - August 24](#org20709f0)
+-   [Week 2 - August 26](#org36737f9)
+-   [Week 3 - August 31](#org19396fb)
+-   [Week 3 - September 2](#org40b8d22)
+-   [Week 4 - September 7](#org055fa64)
+-   [Week 4 - September 9](#orgaae34aa)
+-   [Week 5 - September 16](#orgbc5596b)
+-   [Week 6 - September 21](#org5167754)
+-   [Week 7 - September 28](#orgb36af48)
+-   [Week 9 - October 12+14](#orgfc90e23)
+-   [Week 10 - October 19](#org59e6698)
+-   [Week 10 - October  21](#org22a4354)
+-   [Week 11 - October 26](#org8ac9c5e)
+-   [Week 11 - October 28](#orgde6668c)
+-   [Week 12 - November 2](#org5ca2b3a)
+-   [Week 12 - November 4](#org53ca0ba)
+-   [Week 13 - November 9](#org25c8eda)
+-   [Week 13 - November 11](#orgaf6d440)
+-   [References](#org5aa1baf)
 
 
 
-<a id="orgfd1f421"></a>
+<a id="org20709f0"></a>
 
 # Week 2 - August 24
 
@@ -45,7 +45,7 @@
 -   Questions?
 
 
-<a id="org8597d8e"></a>
+<a id="org36737f9"></a>
 
 # Week 2 - August 26
 
@@ -127,7 +127,7 @@
 -   Onwards: data science problems
 
 
-<a id="org71d33e6"></a>
+<a id="org19396fb"></a>
 
 # Week 3 - August 31
 
@@ -140,7 +140,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="orgff5a17b"></a>
+<a id="org40b8d22"></a>
 
 # Week 3 - September 2
 
@@ -154,7 +154,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org9815c05"></a>
+<a id="org055fa64"></a>
 
 # Week 4 - September 7
 
@@ -184,7 +184,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgb2b8671"></a>
+<a id="orgaae34aa"></a>
 
 # Week 4 - September 9
 
@@ -329,7 +329,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org80a13dd"></a>
+<a id="orgbc5596b"></a>
 
 # Week 5 - September 16
 
@@ -366,7 +366,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org1745d5d"></a>
+<a id="org5167754"></a>
 
 # Week 6 - September 21
 
@@ -378,7 +378,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org557ff71"></a>
+<a id="orgb36af48"></a>
 
 # Week 7 - September 28
 
@@ -391,7 +391,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org15a21b1"></a>
+<a id="orgfc90e23"></a>
 
 # Week 9 - October 12+14
 
@@ -406,7 +406,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org3e0b061"></a>
+<a id="org59e6698"></a>
 
 # Week 10 - October 19
 
@@ -420,7 +420,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org9264b62"></a>
+<a id="org22a4354"></a>
 
 # Week 10 - October  21
 
@@ -474,7 +474,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgf6dd789"></a>
+<a id="org8ac9c5e"></a>
 
 # Week 11 - October 26
 
@@ -548,7 +548,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org893a7cd"></a>
+<a id="orgde6668c"></a>
 
 # Week 11 - October 28
 
@@ -564,7 +564,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org80d4083"></a>
+<a id="org5ca2b3a"></a>
 
 # Week 12 - November 2
 
@@ -573,7 +573,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="orgb98d903"></a>
+<a id="org53ca0ba"></a>
 
 # Week 12 - November 4
 
@@ -776,7 +776,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="org391d5b0"></a>
+<a id="org25c8eda"></a>
 
 # Week 13 - November 9
 
@@ -846,7 +846,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="orgae1b2d8"></a>
+<a id="orgaf6d440"></a>
 
 # Week 13 - November 11
 
@@ -877,7 +877,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 </table>
 
 
-<a id="org99fc34f"></a>
+<a id="org5aa1baf"></a>
 
 # References
 
@@ -945,4 +945,5 @@ languages. It will enable you to get started in Python if you so
 wish. If you already know Python, this may help you to
 compartimentalize. [You can get Python here](https://www.python.org/downloads/). On Windows, the best way
 is to download Ubuntu from the Microsoft Store and install it under
-Linux! (See the FAQ for instructions on how to do that).
+Linux - then `python3` comes already pre-installed! (See the FAQ for
+instructions on how to do that).

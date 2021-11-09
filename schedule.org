@@ -32,7 +32,7 @@
    | 27 | 18-Nov | Advanced plot customization     | (10) How much is too much        |                             |
    | 28 | 23-Nov | Advanced plot customization     | (11) Advanced plot customization | Exit quiz                   |
    | 29 | 30-Nov | Team presentations              |                                  | 4TH SPRINT REVIEW           |
-   | 30 | 2-Dec  | Team presentations              |                                  | 4TH SPRINT REVIEW           |
+   | 30 | 2-Dec  | Team presentations              | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |
 
 * Footnotes
 

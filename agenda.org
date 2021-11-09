@@ -441,11 +441,12 @@
   #+attr_html: :width 600px
   [[./img/bridge.jpeg]]
 
-  | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A     | 15' |
-  | Example  | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]] |     |
-  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook) | 60' |
-  | Homework | Plotting types notebook 2  | 30' |
-  |          | DataCamp assignment        | 30' |
+  | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A           | 15' |
+  | Example  | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]       |     |
+  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook)       | 60' |
+  | Homework | Plotting types notebook 2        | 30' |
+  |          | DataCamp [[https://campus.datacamp.com/courses/data-visualization-in-r/adding-details-to-plots?ex=1][Adding details to plots]] | 30' |
+  | Bonus    | DataCamp [[https://app.datacamp.com/learn/courses/python-for-r-users][Python for R Users]][fn:9]      |     |
 
 ** Plotting with ~plot()~
 
@@ -461,6 +462,12 @@
     | Lecture | Working with ~ggplot2~ | 60' |
   
 * Footnotes
+
+[fn:9]This is a "bonus" assignment for extra credit. The basic chapter
+of "Python for R users" is concerned with data structures in both
+languages. It will enable you to get started in Python if you so
+wish. If you already know Python, this may help you to
+compartimentalize.
 
 [fn:8]Back off your ambitious EDA project problem from the first part
 of the course and get real: perhaps you just haven't spent enough time

@@ -1,29 +1,29 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org8599cd5)
--   [Week 2 - August 26](#orgdf762c9)
--   [Week 3 - August 31](#orgf1dff37)
--   [Week 3 - September 2](#org345296a)
--   [Week 4 - September 7](#org47fc63b)
--   [Week 4 - September 9](#org5d77c4b)
--   [Week 5 - September 16](#org63f8f6a)
--   [Week 6 - September 21](#org0a644ab)
--   [Week 7 - September 28](#org6dbf4ce)
--   [Week 9 - October 12+14](#org22b3db7)
--   [Week 10 - October 19](#org4d7915a)
--   [Week 10 - October  21](#org13a6afa)
--   [Week 11 - October 26](#orgd143661)
--   [Week 11 - October 28](#orgbfdc627)
--   [Week 12 - November 2](#orga3b47f6)
--   [Week 12 - November 4](#orgd2f2496)
--   [Week 13 - November 9](#org7c70569)
--   [Week 13 - November 11](#orgeab2cb6)
--   [References](#org85bcf1d)
+-   [Week 2 - August 24](#org0e8e774)
+-   [Week 2 - August 26](#org9ea4436)
+-   [Week 3 - August 31](#org2f7a3c1)
+-   [Week 3 - September 2](#org83858e9)
+-   [Week 4 - September 7](#orge2ce3c4)
+-   [Week 4 - September 9](#orgc6675ac)
+-   [Week 5 - September 16](#orga2d6de8)
+-   [Week 6 - September 21](#org647febb)
+-   [Week 7 - September 28](#orgf69c995)
+-   [Week 9 - October 12+14](#org2b2db40)
+-   [Week 10 - October 19](#org4afc866)
+-   [Week 10 - October  21](#org61cce29)
+-   [Week 11 - October 26](#orgb5a0bf6)
+-   [Week 11 - October 28](#org03ae6d0)
+-   [Week 12 - November 2](#org46fa397)
+-   [Week 12 - November 4](#org9ff0805)
+-   [Week 13 - November 9](#orgb653762)
+-   [Week 13 - November 11](#org415d04c)
+-   [References](#orgd91d5d8)
 
 
 
-<a id="org8599cd5"></a>
+<a id="org0e8e774"></a>
 
 # Week 2 - August 24
 
@@ -45,7 +45,7 @@
 -   Questions?
 
 
-<a id="orgdf762c9"></a>
+<a id="org9ea4436"></a>
 
 # Week 2 - August 26
 
@@ -127,7 +127,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgf1dff37"></a>
+<a id="org2f7a3c1"></a>
 
 # Week 3 - August 31
 
@@ -140,7 +140,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org345296a"></a>
+<a id="org83858e9"></a>
 
 # Week 3 - September 2
 
@@ -154,7 +154,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org47fc63b"></a>
+<a id="orge2ce3c4"></a>
 
 # Week 4 - September 7
 
@@ -184,7 +184,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org5d77c4b"></a>
+<a id="orgc6675ac"></a>
 
 # Week 4 - September 9
 
@@ -329,7 +329,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org63f8f6a"></a>
+<a id="orga2d6de8"></a>
 
 # Week 5 - September 16
 
@@ -366,7 +366,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org0a644ab"></a>
+<a id="org647febb"></a>
 
 # Week 6 - September 21
 
@@ -378,7 +378,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org6dbf4ce"></a>
+<a id="orgf69c995"></a>
 
 # Week 7 - September 28
 
@@ -391,7 +391,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org22b3db7"></a>
+<a id="org2b2db40"></a>
 
 # Week 9 - October 12+14
 
@@ -406,7 +406,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org4d7915a"></a>
+<a id="org4afc866"></a>
 
 # Week 10 - October 19
 
@@ -420,7 +420,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org13a6afa"></a>
+<a id="org61cce29"></a>
 
 # Week 10 - October  21
 
@@ -474,7 +474,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgd143661"></a>
+<a id="orgb5a0bf6"></a>
 
 # Week 11 - October 26
 
@@ -548,7 +548,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="orgbfdc627"></a>
+<a id="org03ae6d0"></a>
 
 # Week 11 - October 28
 
@@ -564,7 +564,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="orga3b47f6"></a>
+<a id="org46fa397"></a>
 
 # Week 12 - November 2
 
@@ -573,7 +573,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="orgd2f2496"></a>
+<a id="org9ff0805"></a>
 
 # Week 12 - November 4
 
@@ -776,7 +776,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="org7c70569"></a>
+<a id="orgb653762"></a>
 
 # Week 13 - November 9
 
@@ -823,8 +823,15 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <tr>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">DataCamp assignment</td>
+<td class="org-left">DataCamp <a href="https://campus.datacamp.com/courses/data-visualization-in-r/adding-details-to-plots?ex=1">Adding details to plots</a></td>
 <td class="org-left">30'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Bonus</td>
+<td class="org-left">DataCamp <a href="https://app.datacamp.com/learn/courses/python-for-r-users">Python for R Users</a><sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup></td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
@@ -839,7 +846,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="orgeab2cb6"></a>
+<a id="org415d04c"></a>
 
 # Week 13 - November 11
 
@@ -870,7 +877,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 </table>
 
 
-<a id="org85bcf1d"></a>
+<a id="orgd91d5d8"></a>
 
 # References
 
@@ -931,3 +938,9 @@ your findings in an interactive R notebook (use Colaboratory or
 RStudio), and base your presentation on that. Or stick with your
 original idea and document it up to the point that you reached in your
 research.
+
+<sup><a id="fn.9" href="#fnr.9">9</a></sup> This is a "bonus" assignment for extra credit. The basic chapter
+of "Python for R users" is concerned with data structures in both
+languages. It will enable you to get started in Python if you so
+wish. If you already know Python, this may help you to
+compartimentalize.

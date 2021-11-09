@@ -292,7 +292,7 @@
 <td class="org-right">30</td>
 <td class="org-left">2-Dec</td>
 <td class="org-left">Team presentations</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">(12) Python for R users (Bonus)</td>
 <td class="org-left">4TH SPRINT REVIEW</td>
 </tr>
 </tbody>

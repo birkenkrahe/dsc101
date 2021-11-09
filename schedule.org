@@ -1,7 +1,7 @@
 #+options: toc:nil
 * Schedule DSC 101 Fall 2021
 
-   | No | DATE   | LECTURES                        | ASSIGNMENTS[fn:1]                | Project[fn:3] / Test[fn:2]              |
+   | No | DATE   | LECTURES                        | ASSIGNMENTS[fn:1]                | Project[fn:3] / Test[fn:2]  |
    |----+--------+---------------------------------+----------------------------------+-----------------------------|
    |  1 | 17-Aug | Course overview                 |                                  |                             |
    |  2 | 19-Aug | Course overview                 |                                  |                             |
@@ -23,14 +23,14 @@
    | 18 | 19-Oct | Data input/output               |                                  | Notebook: Data import       |
    | 19 | 21-Oct | Base R graphics                 | (7) Intro to ~plot()~            | Test: vectorization/litprog |
    | 20 | 26-Oct | Base R graphics                 |                                  | Notebook: base graphics     |
-   | 21 | 28-Oct | Different plot types            | (8) Different plot types         | Notebook: plot types 1      |
+   | 21 | 28-Oct | Different plot types            |                                  | Notebook: plot types 1      |
    | 22 | 2-Nov  | +PRESENTATIONS+                 |                                  | 3RD SPRINT REVIEW (ONLINE)  |
-   | 23 | 4-Nov  | Adding details to plots         | (9) Adding details to plots      |                             |
-   | 24 | 9-Nov  | Grammar of graphics (~ggplot2~) |                                  | Notebook: plot types 2      |
-   | 25 | 11-Nov | Managing visual complexity      | (10) How much is too much        | Test: data import           |
-   | 26 | 16-Nov | Managing visual complexity      |                                  | Test: plot types            |
-   | 27 | 18-Nov | Advanced plot customization     | (11) Advanced plot customization |                             |
-   | 28 | 23-Nov | Advanced plot customization     |                                  | Exit quiz                   |
+   | 23 | 4-Nov  | Different plot types            | (8) Different plot types         |                             |
+   | 24 | 9-Nov  | Adding details to plots         |                                  | Notebook: plot types 2      |
+   | 25 | 11-Nov | Grammar of graphics (~ggplot2~) | (9) Adding details to plots      | Test: data import           |
+   | 26 | 16-Nov | Practicing with ~ggplot2~       |                                  | Test: plot types            |
+   | 27 | 18-Nov | Advanced plot customization     | (10) How much is too much        |                             |
+   | 28 | 23-Nov | Advanced plot customization     | (11) Advanced plot customization | Exit quiz                   |
    | 29 | 30-Nov | Team presentations              |                                  | 4TH SPRINT REVIEW           |
    | 30 | 2-Dec  | Team presentations              |                                  | 4TH SPRINT REVIEW           |
 

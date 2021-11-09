@@ -441,10 +441,11 @@
   #+attr_html: :width 600px
   [[./img/bridge.jpeg]]
 
-  | [[https://lyon.schoology.com/assignment/5445614139][Test 8]]  | Data import with R         | 15' |
-  | Project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A     | 15' |
-  | Example | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]] |     |
-  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]] | Plotting with R            | 45' |
+  | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A     | 15' |
+  | Example  | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]] |     |
+  | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook) | 60' |
+  | Homework | Plotting types notebook 2  | 30' |
+  |          | DataCamp assignment        | 30' |
 
 ** Plotting with ~plot()~
 
@@ -454,6 +455,11 @@
    * Elaborate plot customization
    * [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][GitHub notebook copy]] (not active)
 
+* Week 13 - November 11
+
+    | [[https://lyon.schoology.com/assignment/5445614139][Test 8]]  | Data import with R     | 15' |
+    | Lecture | Working with ~ggplot2~ | 60' |
+  
 * Footnotes
 
 [fn:8]Back off your ambitious EDA project problem from the first part

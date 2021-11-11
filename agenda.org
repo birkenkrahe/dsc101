@@ -457,24 +457,25 @@
 
 * Week 13 - November 11
 
-  
-    | TODAY        | TOPIC                  | TIME |
-    |--------------+------------------------+------|
-    | Housekeeping | News/Tests/Homework    | 15'  |
-    | Practice     | Different plots part 2 | 30'  |
-    | Lecture      | Working with ~ggplot2~ | 30'  |
+  [[./img/veterans.png]]
+
+  | TODAY        | TOPIC                      | TIME |
+  |--------------+----------------------------+------|
+  | Housekeeping | News/Tests/Homework        | 15'  |
+  | Practice     | Different plots part 2     | 30'  |
+  | Lecture      | Working with ~ggplot2~ (1) | 30'  |
 
 ** Housekeeping
-  #+attr_html: :width 500px
-  [[./img/update.jpg]]
+   #+attr_html: :width 500px
+   [[./img/update.jpg]]
 
-  | Final project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15'    |
-  | News          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |        |
-  |               | [[https://itch.io/jam/game-off-2021][Game Off 2021]]: Bug! ([[https://lucidmanager.org/tags/r-games/][Games in R]])  |        |
-  | Homework      | [[https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/][Update R for Windows]]              |        |
-  | Test 8        | Data import and base plotting     | Nov 16 |
-  | Test 9        | Grammar of graphics and ~ggplot2~ | Nov 18 |
-  | Test exam     | Practicing the exam (45')         | Nov 23 |
+   | Final project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15'    |
+   | News          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |        |
+   |               | [[https://itch.io/jam/game-off-2021][Game Off 2021]]: Bug! ([[https://lucidmanager.org/tags/r-games/][Games in R]])  |        |
+   | Homework      | [[https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/][Update R for Windows]]              |        |
+   | Test 8        | Data import and base plotting     | Nov 16 |
+   | Test 9        | Grammar of graphics and ~ggplot2~ | Nov 18 |
+   | Test exam     | Practicing the exam (45')         | Nov 23 |
 
 ** Homework: update R
 
@@ -497,7 +498,16 @@
 
    #+attr_html: :width 500px
    [[./img/update1.png]]
-   
+
+
+* Week 14 - November 16
+
+  | TODAY    | TOPIC                      | TIME |
+  |----------+----------------------------+------|
+  | Test     | Plotting with base R       | 15'  |
+  | Lecture  | Working with ~ggplot2~ (2) | 30'  |
+  | Practice | Practicing with ~ggplot2~  | 30'  |
+
 * Footnotes
 
 [fn:9]This is a "bonus" assignment for extra credit. The basic chapter

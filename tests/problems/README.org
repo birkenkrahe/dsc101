@@ -8,7 +8,7 @@
 | Data-import-problems       | Data input from flat files in R             | Oct 19 |
 | Plotting-problems          | Plotting problems                           | Oct 26 |
 | Different-plots-problems 1 | Different plots part 1                      | Oct 28 |
-| Different-plots-problems 2 | Different plots part 2                      |        |
+| Different-plots-problems 2 | Different plots part 2                      | Nov 11 |
 
 [[../img/problem.gif]]
 

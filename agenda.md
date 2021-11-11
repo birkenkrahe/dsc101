@@ -1,29 +1,29 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org8622551)
--   [Week 2 - August 26](#org21908e7)
--   [Week 3 - August 31](#orgf73ab3c)
--   [Week 3 - September 2](#org53df6b3)
--   [Week 4 - September 7](#orgc1c715d)
--   [Week 4 - September 9](#orgdef6dba)
--   [Week 5 - September 16](#orge6cf6c4)
--   [Week 6 - September 21](#org916b776)
--   [Week 7 - September 28](#org8f9c012)
--   [Week 9 - October 12+14](#orgde82bf7)
--   [Week 10 - October 19](#org95113e5)
--   [Week 10 - October  21](#orgb75a13b)
--   [Week 11 - October 26](#orgdd463c6)
--   [Week 11 - October 28](#org9d910e9)
--   [Week 12 - November 2](#org1410c37)
--   [Week 12 - November 4](#orgb307c3b)
--   [Week 13 - November 9](#org6b64389)
--   [Week 13 - November 11](#org75886f5)
--   [References](#org4e7c4f1)
+-   [Week 2 - August 24](#org218111f)
+-   [Week 2 - August 26](#org5e3999a)
+-   [Week 3 - August 31](#orgb6041c9)
+-   [Week 3 - September 2](#org1e6ce53)
+-   [Week 4 - September 7](#org2d55f54)
+-   [Week 4 - September 9](#org71836b0)
+-   [Week 5 - September 16](#org5516fc9)
+-   [Week 6 - September 21](#orgd15a908)
+-   [Week 7 - September 28](#org29f5932)
+-   [Week 9 - October 12+14](#org1926e15)
+-   [Week 10 - October 19](#orgc3864b5)
+-   [Week 10 - October  21](#org1116e65)
+-   [Week 11 - October 26](#org4ad96de)
+-   [Week 11 - October 28](#orgbe798de)
+-   [Week 12 - November 2](#org97330c3)
+-   [Week 12 - November 4](#org8594a07)
+-   [Week 13 - November 9](#org430551f)
+-   [Week 13 - November 11](#orgbc324ce)
+-   [References](#orga1ac788)
 
 
 
-<a id="org8622551"></a>
+<a id="org218111f"></a>
 
 # Week 2 - August 24
 
@@ -45,7 +45,7 @@
 -   Questions?
 
 
-<a id="org21908e7"></a>
+<a id="org5e3999a"></a>
 
 # Week 2 - August 26
 
@@ -127,7 +127,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgf73ab3c"></a>
+<a id="orgb6041c9"></a>
 
 # Week 3 - August 31
 
@@ -140,7 +140,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org53df6b3"></a>
+<a id="org1e6ce53"></a>
 
 # Week 3 - September 2
 
@@ -154,7 +154,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orgc1c715d"></a>
+<a id="org2d55f54"></a>
 
 # Week 4 - September 7
 
@@ -184,7 +184,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="orgdef6dba"></a>
+<a id="org71836b0"></a>
 
 # Week 4 - September 9
 
@@ -329,7 +329,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="orge6cf6c4"></a>
+<a id="org5516fc9"></a>
 
 # Week 5 - September 16
 
@@ -366,7 +366,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org916b776"></a>
+<a id="orgd15a908"></a>
 
 # Week 6 - September 21
 
@@ -378,7 +378,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org8f9c012"></a>
+<a id="org29f5932"></a>
 
 # Week 7 - September 28
 
@@ -391,7 +391,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgde82bf7"></a>
+<a id="org1926e15"></a>
 
 # Week 9 - October 12+14
 
@@ -406,7 +406,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org95113e5"></a>
+<a id="orgc3864b5"></a>
 
 # Week 10 - October 19
 
@@ -420,7 +420,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgb75a13b"></a>
+<a id="org1116e65"></a>
 
 # Week 10 - October  21
 
@@ -474,7 +474,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="orgdd463c6"></a>
+<a id="org4ad96de"></a>
 
 # Week 11 - October 26
 
@@ -548,7 +548,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org9d910e9"></a>
+<a id="orgbe798de"></a>
 
 # Week 11 - October 28
 
@@ -564,7 +564,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org1410c37"></a>
+<a id="org97330c3"></a>
 
 # Week 12 - November 2
 
@@ -573,7 +573,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="orgb307c3b"></a>
+<a id="org8594a07"></a>
 
 # Week 12 - November 4
 
@@ -776,7 +776,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="org6b64389"></a>
+<a id="org430551f"></a>
 
 # Week 13 - November 9
 
@@ -797,20 +797,6 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 <td class="org-left">Project</td>
 <td class="org-left"><a href="https://github.com/birkenkrahe/org/blob/master/FAQ.md">FAQ Presentation</a> / Q&amp;A</td>
 <td class="org-left">15'</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left"><a href="https://towardsdatascience.com/empires-and-eda-4cbefc91a96a">How historians crunch data</a></td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left"><a href="https://itch.io/jam/game-off-2021">Game Off 2021</a>: Bug! (<a href="https://lucidmanager.org/tags/r-games/">Games in R</a>)</td>
-<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -853,7 +839,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="org75886f5"></a>
+<a id="orgbc324ce"></a>
 
 # Week 13 - November 11
 
@@ -867,24 +853,124 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <col  class="org-left" />
 </colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">TODAY</th>
+<th scope="col" class="org-left">TOPIC</th>
+<th scope="col" class="org-left">TIME</th>
+</tr>
+</thead>
+
 <tbody>
 <tr>
-<td class="org-left"><a href="https://lyon.schoology.com/assignment/5445614139">Test 8</a></td>
-<td class="org-left">Data import with R</td>
+<td class="org-left">Housekeeping</td>
+<td class="org-left">News/Tests/Homework</td>
 <td class="org-left">15'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Practice</td>
+<td class="org-left">Different plots part 2</td>
+<td class="org-left">30'</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Lecture</td>
 <td class="org-left">Working with <code>ggplot2</code></td>
-<td class="org-left">60'</td>
+<td class="org-left">30'</td>
 </tr>
 </tbody>
 </table>
 
 
-<a id="org4e7c4f1"></a>
+## Housekeeping
+
+![img](./img/update.jpg)
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Final project</td>
+<td class="org-left"><a href="https://github.com/birkenkrahe/org/blob/master/FAQ.md">FAQ Presentation</a> / Q&amp;A</td>
+<td class="org-left">15'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">News</td>
+<td class="org-left"><a href="https://towardsdatascience.com/empires-and-eda-4cbefc91a96a">How historians crunch data</a></td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left"><a href="https://itch.io/jam/game-off-2021">Game Off 2021</a>: Bug! (<a href="https://lucidmanager.org/tags/r-games/">Games in R</a>)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Homework</td>
+<td class="org-left"><a href="https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/">Update R for Windows</a></td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Test 8</td>
+<td class="org-left">Data import and base plotting</td>
+<td class="org-left">Nov 16</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Test 9</td>
+<td class="org-left">Grammar of graphics and <code>ggplot2</code></td>
+<td class="org-left">Nov 18</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Test exam</td>
+<td class="org-left">Practicing the exam (45')</td>
+<td class="org-left">Nov 23</td>
+</tr>
+</tbody>
+</table>
+
+
+## Homework: update R
+
+![img](./img/update.jpg)
+
+-   Some packages won't work unless you upgrade base R
+-   You can also do this right in the R GUI
+-   The current version is "Bird Hippie" (4.1.2 - Nov 1)
+
+    install.packages(installr)
+    library(installr)
+    updateR()
+
+-   You have an option to use `RGui` or the `RTerm`
+-   Send me a screenshot of your updated installation
+-   The profile prompt should be your name. Like this:
+
+![img](./img/update1.png)
+
+
+<a id="orga1ac788"></a>
 
 # References
 

@@ -442,8 +442,6 @@
   [[./img/bridge.jpeg]]
 
   | Project  | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15' |
-  |          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |     |
-  |          | [[https://itch.io/jam/game-off-2021][Game Off 2021]]: Bug! ([[https://lucidmanager.org/tags/r-games/][Games in R]])  |     |
   | [[https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org][Lecture]]  | Plotting with R (notebook)        | 60' |
   | Homework | Plotting types notebook 2         | 30' |
   |          | DataCamp [[https://campus.datacamp.com/courses/data-visualization-in-r/adding-details-to-plots?ex=1][Adding details to plots]]  | 30' |
@@ -459,9 +457,47 @@
 
 * Week 13 - November 11
 
-    | [[https://lyon.schoology.com/assignment/5445614139][Test 8]]  | Data import with R     | 15' |
-    | Lecture | Working with ~ggplot2~ | 60' |
   
+    | TODAY        | TOPIC                  | TIME |
+    |--------------+------------------------+------|
+    | Housekeeping | News/Tests/Homework    | 15'  |
+    | Practice     | Different plots part 2 | 30'  |
+    | Lecture      | Working with ~ggplot2~ | 30'  |
+
+** Housekeeping
+  #+attr_html: :width 500px
+  [[./img/update.jpg]]
+
+  | Final project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15'    |
+  | News          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |        |
+  |               | [[https://itch.io/jam/game-off-2021][Game Off 2021]]: Bug! ([[https://lucidmanager.org/tags/r-games/][Games in R]])  |        |
+  | Homework      | [[https://www.r-statistics.com/2015/06/a-step-by-step-screenshots-tutorial-for-upgrading-r-on-windows/][Update R for Windows]]              |        |
+  | Test 8        | Data import and base plotting     | Nov 16 |
+  | Test 9        | Grammar of graphics and ~ggplot2~ | Nov 18 |
+  | Test exam     | Practicing the exam (45')         | Nov 23 |
+
+** Homework: update R
+
+   #+attr_html: :width 500px
+   [[./img/update.jpg]]
+
+   * Some packages won't work unless you upgrade base R
+   * You can also do this right in the R GUI
+   * The current version is "Bird Hippie" (4.1.2 - Nov 1)
+
+   #+begin_example
+   install.packages(installr)
+   library(installr)
+   updateR()
+   #+end_example
+
+   * You have an option to use ~RGui~ or the ~RTerm~
+   * Send me a screenshot of your updated installation
+   * The profile prompt should be your name. Like this:
+
+   #+attr_html: :width 500px
+   [[./img/update1.png]]
+   
 * Footnotes
 
 [fn:9]This is a "bonus" assignment for extra credit. The basic chapter

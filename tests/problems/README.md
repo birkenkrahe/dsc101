@@ -59,7 +59,7 @@
 <tr>
 <td class="org-left">Different-plots-problems 2</td>
 <td class="org-left">Different plots part 2</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Nov 11</td>
 </tr>
 </tbody>
 </table>

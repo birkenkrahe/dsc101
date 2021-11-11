@@ -1,38 +1,38 @@
 #+options: toc:nil
 * Schedule DSC 101 Fall 2021
 
-   | No | DATE   | LECTURES                        | ASSIGNMENTS[fn:1]                | Project[fn:3] / Test[fn:2]  |
-   |----+--------+---------------------------------+----------------------------------+-----------------------------|
-   |  1 | 17-Aug | Course overview                 |                                  |                             |
-   |  2 | 19-Aug | Course overview                 |                                  |                             |
-   |  3 | 24-Aug | Data Science overview           |                                  |                             |
-   |  4 | 26-Aug | Data Science overview           | (1) Intro to Basics              |                             |
-   |  5 | 31-Aug | Installing R / Shell            |                                  |                             |
-   |  6 | 2-Sep  | Getting started with R          | (2) Vectors                      |                             |
-   |  7 | 7-Sep  | Arithmetic with R               |                                  |                             |
-   |  8 | 9-Sep  | Arithmetic with R               |                                  | 1ST SPRINT REVIEW           |
-   |  9 | 14-Sep | Work on Projects                |                                  |                             |
-   | 10 | 16-Sep | Data structures in R            | (3) Matrices                     |                             |
-   | 11 | 21-Sep | Data structures in R            |                                  |                             |
-   | 12 | 23-Sep | CANCELLED (Day of Renewal)      | (4) Factors                      |                             |
-   | 13 | 28-Sep | Data structures in R            |                                  |                             |
-   | 14 | 30-Sep | MIDTERM EXAM                    |                                  | Test: Midterm exam          |
-   | 15 | 7-Oct  | PRESENTATIONS                   | (5) Data frames                  | 2ND SPRINT REVIEW           |
-   | 16 | 12-Oct | Exam review                     |                                  |                             |
-   | 17 | 14-Oct | Literate Programming            | (6) Importing data               | Notebook: data structures   |
-   | 18 | 19-Oct | Data input/output               |                                  | Notebook: Data import       |
-   | 19 | 21-Oct | Base R graphics                 | (7) Intro to ~plot()~            | Test: vectorization/litprog |
-   | 20 | 26-Oct | Base R graphics                 |                                  | Notebook: base graphics     |
-   | 21 | 28-Oct | Different plot types            |                                  | Notebook: plot types 1      |
-   | 22 | 2-Nov  | +PRESENTATIONS+                 |                                  | 3RD SPRINT REVIEW (ONLINE)  |
-   | 23 | 4-Nov  | Different plot types            | (8) Different plot types         |                             |
-   | 24 | 9-Nov  | Adding details to plots         |                                  | Notebook: plot types 2      |
-   | 25 | 11-Nov | Grammar of graphics (~ggplot2~) | (9) Adding details to plots      | Test: data import           |
-   | 26 | 16-Nov | Practicing with ~ggplot2~       |                                  | Test: plot types            |
-   | 27 | 18-Nov | Advanced plot customization     | (10) How much is too much        |                             |
-   | 28 | 23-Nov | Advanced plot customization     | (11) Advanced plot customization | Exit quiz                   |
-   | 29 | 30-Nov | Team presentations              |                                  | 4TH SPRINT REVIEW           |
-   | 30 | 2-Dec  | Team presentations              | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |
+   | No | DATE   | LECTURES                          | ASSIGNMENTS[fn:1]                | Project[fn:3] / Test[fn:2]  |
+   |----+--------+-----------------------------------+----------------------------------+-----------------------------|
+   |  1 | 17-Aug | Course overview                   |                                  |                             |
+   |  2 | 19-Aug | Course overview                   |                                  |                             |
+   |  3 | 24-Aug | Data Science overview             |                                  |                             |
+   |  4 | 26-Aug | Data Science overview             | (1) Intro to Basics              |                             |
+   |  5 | 31-Aug | Installing R / Shell              |                                  |                             |
+   |  6 | 2-Sep  | Getting started with R            | (2) Vectors                      |                             |
+   |  7 | 7-Sep  | Arithmetic with R                 |                                  |                             |
+   |  8 | 9-Sep  | Arithmetic with R                 |                                  | 1ST SPRINT REVIEW           |
+   |  9 | 14-Sep | Work on Projects                  |                                  |                             |
+   | 10 | 16-Sep | Data structures in R              | (3) Matrices                     |                             |
+   | 11 | 21-Sep | Data structures in R              |                                  |                             |
+   | 12 | 23-Sep | CANCELLED (Day of Renewal)        | (4) Factors                      |                             |
+   | 13 | 28-Sep | Data structures in R              |                                  |                             |
+   | 14 | 30-Sep | MIDTERM EXAM                      |                                  | Test: Midterm exam          |
+   | 15 | 7-Oct  | PRESENTATIONS                     | (5) Data frames                  | 2ND SPRINT REVIEW           |
+   | 16 | 12-Oct | Exam review                       |                                  |                             |
+   | 17 | 14-Oct | Literate Programming              | (6) Importing data               | Notebook: data structures   |
+   | 18 | 19-Oct | Data input/output                 |                                  | Notebook: Data import       |
+   | 19 | 21-Oct | Base R graphics                   | (7) Intro to ~plot()~            | Test: vectorization/litprog |
+   | 20 | 26-Oct | Base R graphics                   |                                  | Notebook: base graphics     |
+   | 21 | 28-Oct | Practice different plot types 1   |                                  | Notebook: plot types 1      |
+   | 22 | 2-Nov  | +PRESENTATIONS+                   |                                  | 3RD SPRINT REVIEW (ONLINE)  |
+   | 23 | 4-Nov  | Different plot types              | (8) Different plot types         |                             |
+   | 24 | 9-Nov  | Practice adding details to plots  |                                  | Notebook: adding details    |
+   | 25 | 11-Nov | Practicing with different plots 2 | (9) Adding details to plots      | Notebook: plot types 2      |
+   | 26 | 16-Nov | Grammar of graphics (~ggplot2~)   |                                  | Test: plot types            |
+   | 27 | 18-Nov | Practicing with ~ggplot2~         | (10) How much is too much        | Test: ggplot2               |
+   | 28 | 23-Nov | Summary and exam preparation      | (11) Advanced plot customization | Exit quiz                   |
+   | 29 | 30-Nov | Team presentations                |                                  | 4TH SPRINT REVIEW           |
+   | 30 | 2-Dec  | Team presentations                | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |
 
 * Footnotes
 

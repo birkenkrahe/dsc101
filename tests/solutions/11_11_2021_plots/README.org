@@ -1,0 +1,3 @@
+#+OPTIONS: toc:nil
+* Solutions for the [[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_2.ipynb][2nd notebook "different plot types"]]
+  

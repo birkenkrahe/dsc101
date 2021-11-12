@@ -5,3 +5,13 @@
   notebook (~ggplot2_.ipynb~), and as a script (markdown and org
   format). The script contains much more information. The notebook is
   focused on doing stuff.
+
+  | ~ggplot2_.ipynb~     | active practice notebook[fn:1]            |
+  | ~ggplot2_done.ipynb~ | complete practice notebook                |
+  | ~ggplot2.md~         | script (Winter 2020/21) as Markdown       |
+  | ~ggplot2.org~        | script (Winter 2020/21) as Emacs Org-file |
+
+* Footnotes
+
+[fn:1]This means that you can open it in Google Colaboratory, save
+your own copy, and work it out for yourself. 

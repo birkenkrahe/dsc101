@@ -273,7 +273,7 @@
 <tr>
 <td class="org-right">28</td>
 <td class="org-left">23-Nov</td>
-<td class="org-left">Test exam (45')</td>
+<td class="org-left">Summary and test exam</td>
 <td class="org-left">(11) Advanced plot customization</td>
 <td class="org-left">Exit quiz</td>
 </tr>
@@ -282,7 +282,7 @@
 <tr>
 <td class="org-right">29</td>
 <td class="org-left">30-Nov</td>
-<td class="org-left">Team presentations</td>
+<td class="org-left">Team presentations (online<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>)</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">4TH SPRINT REVIEW</td>
 </tr>
@@ -291,7 +291,7 @@
 <tr>
 <td class="org-right">30</td>
 <td class="org-left">2-Dec</td>
-<td class="org-left">Team presentations</td>
+<td class="org-left">Team presentations (online)</td>
 <td class="org-left">(12) Python for R users (Bonus)</td>
 <td class="org-left">4TH SPRINT REVIEW</td>
 </tr>
@@ -301,10 +301,15 @@
 
 # Footnotes
 
-<sup><a id="fn.1" href="#fnr.1">1</a></sup> You must complete 50% of all assignments on time to pass the course.
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> You must complete at least **50%** of all assignments **on time** to
+pass the course. DataCamp logs your completion record.
 
 <sup><a id="fn.2" href="#fnr.2">2</a></sup> You have to get at least 50% for the term project to pass the course.
 
 <sup><a id="fn.3" href="#fnr.3">3</a></sup> Tests are not graded and can be played an unlimited number of
 times. Test questions are imported in the final exam (to pass the
 course, you must complete the final exam with at least 50%).
+
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> I have been invited to my green card interview in Frankfurt,
+Germany, for December 3rd. This means that you will need to submit
+online presentations in the form of videos. Details in class.

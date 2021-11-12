@@ -501,13 +501,21 @@
 
 
 * Week 14 - November 16
+** Scots!
+   
+  #+attr_html: :width 400px
+  [[./img/scots.png]]
 
+** Agenda
+
+   
+   
   | TODAY    | TOPIC                      | TIME |
   |----------+----------------------------+------|
   | Test     | Plotting with base R       | 15'  |
-  | Lecture  | Working with ~ggplot2~ (2) | 30'  |
+  | Lecture  | Working with ~ggplot2~)    | 30'  |
   | Practice | Practicing with ~ggplot2~  | 30'  |
-
+  
 * Footnotes
 
 [fn:9]This is a "bonus" assignment for extra credit. The basic chapter

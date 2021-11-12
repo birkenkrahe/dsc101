@@ -30,11 +30,15 @@
    | 25 | 11-Nov | Practicing with different plots 2 | (9) Adding details to plots      | Notebook: plot types 2      |
    | 26 | 16-Nov | Grammar of graphics (~ggplot2~)   |                                  | Test: plot types            |
    | 27 | 18-Nov | Practicing with ~ggplot2~         | (10) How much is too much        | Test: ggplot2               |
-   | 28 | 23-Nov | Summary and exam preparation      | (11) Advanced plot customization | Exit quiz                   |
-   | 29 | 30-Nov | Team presentations                |                                  | 4TH SPRINT REVIEW           |
-   | 30 | 2-Dec  | Team presentations                | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |
+   | 28 | 23-Nov | Summary and test exam             | (11) Advanced plot customization | Exit quiz                   |
+   | 29 | 30-Nov | Team presentations (online[fn:4])       |                                  | 4TH SPRINT REVIEW           |
+   | 30 | 2-Dec  | Team presentations (online)       | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |
 
 * Footnotes
+
+[fn:4]I have been invited to my green card interview in Frankfurt,
+Germany, for December 3rd. This means that you will need to submit
+online presentations in the form of videos. Details in class.
 
 [fn:3]You have to get at least 50% for the term project to pass the course.
 
@@ -42,4 +46,5 @@
 times. Test questions are imported in the final exam (to pass the
 course, you must complete the final exam with at least 50%).
 
-[fn:1]You must complete 50% of all assignments on time to pass the course.  
+[fn:1]You must complete at least *50%* of all assignments *on time* to
+pass the course. DataCamp logs your completion record.

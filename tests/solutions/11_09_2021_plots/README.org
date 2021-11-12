@@ -1,0 +1,3 @@
+#+OPTIONS: toc:nil
+* Solutions for the notebook "[[https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/adding_details_problems.ipynb][adding details to plots]]"
+  

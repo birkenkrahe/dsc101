@@ -480,7 +480,7 @@
 
 ** Homework: update R
 
-   #+attr_html: :width 500px
+   #+attr_html: :width 400px
    [[./img/update.jpg]]
 
    * Some packages won't work unless you upgrade base R
@@ -493,7 +493,7 @@
    * Send me a screenshot of your updated installation
    * The profile prompt should be your name. Like this:
 
-   #+attr_html: :width 500px
+   #+attr_html: :width 400px
    [[./img/update1.png]]
 
 

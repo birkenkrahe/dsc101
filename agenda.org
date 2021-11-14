@@ -496,7 +496,6 @@
    #+attr_html: :width 400px
    [[./img/update1.png]]
 
-
 * Week 14 - November 16
 ** Scots!
    
@@ -505,13 +504,15 @@
 
 ** Agenda
 
-   
+  #+attr_html: :width 400px
+  [[./img/gganimate.gif]] 
    
   | TODAY    | TOPIC                      | TIME |
   |----------+----------------------------+------|
   | Test     | Plotting with base R       | 15'  |
-  | Lecture  | Working with ~ggplot2~)    | 30'  |
+  | Lecture  | Working with ~ggplot2~     | 30'  |
   | Practice | Practicing with ~ggplot2~  | 30'  |
+  | Next     | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
   
 * Footnotes
 

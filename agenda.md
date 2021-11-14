@@ -1,30 +1,30 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org1b41351)
--   [Week 2 - August 26](#org017ede6)
--   [Week 3 - August 31](#org2b7e291)
--   [Week 3 - September 2](#org78a59f5)
--   [Week 4 - September 7](#org1e14d24)
--   [Week 4 - September 9](#org933c5bd)
--   [Week 5 - September 16](#org5791bfa)
--   [Week 6 - September 21](#orgd4ae5c5)
--   [Week 7 - September 28](#org1b8644f)
--   [Week 9 - October 12+14](#org67fde41)
--   [Week 10 - October 19](#orga700b02)
--   [Week 10 - October  21](#orgcccb916)
--   [Week 11 - October 26](#org22eacbf)
--   [Week 11 - October 28](#orgfd1fbd1)
--   [Week 12 - November 2](#org99aa89b)
--   [Week 12 - November 4](#org607db54)
--   [Week 13 - November 9](#org757d802)
--   [Week 13 - November 11](#orge5d3044)
--   [Week 14 - November 16](#org939f5a7)
--   [References](#org14d66bc)
+-   [Week 2 - August 24](#org76147da)
+-   [Week 2 - August 26](#org26c0e49)
+-   [Week 3 - August 31](#org8803f83)
+-   [Week 3 - September 2](#org1f222c0)
+-   [Week 4 - September 7](#org8ed6da8)
+-   [Week 4 - September 9](#org2f11091)
+-   [Week 5 - September 16](#org24f2241)
+-   [Week 6 - September 21](#orgcd63046)
+-   [Week 7 - September 28](#org31cb667)
+-   [Week 9 - October 12+14](#orgfab7546)
+-   [Week 10 - October 19](#orgbe8d3e4)
+-   [Week 10 - October  21](#org8b2e51e)
+-   [Week 11 - October 26](#orge2a1d0a)
+-   [Week 11 - October 28](#org43154aa)
+-   [Week 12 - November 2](#orgb591a04)
+-   [Week 12 - November 4](#org6d1bd9a)
+-   [Week 13 - November 9](#org9ff20ba)
+-   [Week 13 - November 11](#org03352af)
+-   [Week 14 - November 16](#orgc4bca6d)
+-   [References](#orgbd696d7)
 
 
 
-<a id="org1b41351"></a>
+<a id="org76147da"></a>
 
 # Week 2 - August 24
 
@@ -46,7 +46,7 @@
 -   Questions?
 
 
-<a id="org017ede6"></a>
+<a id="org26c0e49"></a>
 
 # Week 2 - August 26
 
@@ -128,7 +128,7 @@
 -   Onwards: data science problems
 
 
-<a id="org2b7e291"></a>
+<a id="org8803f83"></a>
 
 # Week 3 - August 31
 
@@ -141,7 +141,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org78a59f5"></a>
+<a id="org1f222c0"></a>
 
 # Week 3 - September 2
 
@@ -155,7 +155,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org1e14d24"></a>
+<a id="org8ed6da8"></a>
 
 # Week 4 - September 7
 
@@ -185,7 +185,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org933c5bd"></a>
+<a id="org2f11091"></a>
 
 # Week 4 - September 9
 
@@ -330,7 +330,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org5791bfa"></a>
+<a id="org24f2241"></a>
 
 # Week 5 - September 16
 
@@ -367,7 +367,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgd4ae5c5"></a>
+<a id="orgcd63046"></a>
 
 # Week 6 - September 21
 
@@ -379,7 +379,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org1b8644f"></a>
+<a id="org31cb667"></a>
 
 # Week 7 - September 28
 
@@ -392,7 +392,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org67fde41"></a>
+<a id="orgfab7546"></a>
 
 # Week 9 - October 12+14
 
@@ -407,7 +407,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="orga700b02"></a>
+<a id="orgbe8d3e4"></a>
 
 # Week 10 - October 19
 
@@ -421,7 +421,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orgcccb916"></a>
+<a id="org8b2e51e"></a>
 
 # Week 10 - October  21
 
@@ -475,7 +475,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org22eacbf"></a>
+<a id="orge2a1d0a"></a>
 
 # Week 11 - October 26
 
@@ -549,7 +549,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="orgfd1fbd1"></a>
+<a id="org43154aa"></a>
 
 # Week 11 - October 28
 
@@ -565,7 +565,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org99aa89b"></a>
+<a id="orgb591a04"></a>
 
 # Week 12 - November 2
 
@@ -574,7 +574,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org607db54"></a>
+<a id="org6d1bd9a"></a>
 
 # Week 12 - November 4
 
@@ -777,7 +777,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="org757d802"></a>
+<a id="org9ff20ba"></a>
 
 # Week 13 - November 9
 
@@ -840,7 +840,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="orge5d3044"></a>
+<a id="org03352af"></a>
 
 # Week 13 - November 11
 
@@ -962,9 +962,9 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   You can also do this right in the R GUI
 -   The current version is "Bird Hippie" (4.1.2 - Nov 1)
 
-    install.packages(installr)
-    library(installr)
-    updateR()
+> > install.packages(installr)
+> > library(installr)
+> > updateR()
 
 -   You have an option to use `RGui` or the `RTerm`
 -   Send me a screenshot of your updated installation
@@ -973,7 +973,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 ![img](./img/update1.png)
 
 
-<a id="org939f5a7"></a>
+<a id="orgc4bca6d"></a>
 
 # Week 14 - November 16
 
@@ -1027,7 +1027,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 </table>
 
 
-<a id="org14d66bc"></a>
+<a id="orgbd696d7"></a>
 
 # References
 

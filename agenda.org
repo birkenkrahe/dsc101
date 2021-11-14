@@ -497,22 +497,28 @@
    [[./img/update1.png]]
 
 * Week 14 - November 16
-** Scots!
-   
-  #+attr_html: :width 400px
-  [[./img/scots.png]]
 
-** Agenda
-
+  [[https://twitter.com/birkenkrahe/status/1459236874942390272?s=20][Lyon Scots win championship!!!]]
+  
   #+attr_html: :width 400px
-  [[./img/gganimate.gif]] 
+  [[./img/scots.gif]]
    
   | TODAY    | TOPIC                      | TIME |
   |----------+----------------------------+------|
   | Test     | Plotting with base R       | 15'  |
   | Lecture  | Working with ~ggplot2~     | 30'  |
   | Practice | Practicing with ~ggplot2~  | 30'  |
-  | Next     | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+  | Lecture  | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+
+* Week 14 - November 18
+
+  #+attr_html: :width 400px
+  [[./img/gganimate.gif]] 
+   
+  | TODAY       | TOPIC                      | TIME |
+  |-------------+----------------------------+------|
+  | Practice    | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+  | Information | Text exam on Nov 23        |      |
   
 * Footnotes
 

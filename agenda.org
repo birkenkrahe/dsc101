@@ -485,13 +485,8 @@
    * Some packages won't work unless you upgrade base R
    * You can also do this right in the R GUI
    * The current version is "Bird Hippie" (4.1.2 - Nov 1)
-     
-   #+begin_quote
-   > install.packages(installr)
-   > library(installr)
-   > updateR()
-   #+end_quote
 
+     [[./img/updateR.png]]
 
    * You have an option to use ~RGui~ or the ~RTerm~
    * Send me a screenshot of your updated installation

@@ -466,8 +466,9 @@
   | Lecture      | Working with ~ggplot2~ (1) | 30'  |
 
 ** Housekeeping
-   #+attr_html: :width 500px
-   [[./img/update.jpg]]
+
+   #+attr_html: :width 400px
+   [[./img/poppins.gif]]
 
    | Final project | [[https://github.com/birkenkrahe/org/blob/master/FAQ.md][FAQ Presentation]] / Q&A            | 15'    |
    | News          | [[https://towardsdatascience.com/empires-and-eda-4cbefc91a96a][How historians crunch data]]        |        |

@@ -255,18 +255,18 @@
 <tr>
 <td class="org-right">26</td>
 <td class="org-left">16-Nov</td>
-<td class="org-left">Grammar of graphics (<code>ggplot2</code>)</td>
+<td class="org-left">Grammar of graphics (<code>ggplot2</code>) 1</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: plot types</td>
+<td class="org-left">Test: import / plot types</td>
 </tr>
 
 
 <tr>
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
-<td class="org-left">Practicing with <code>ggplot2</code></td>
+<td class="org-left">Grammar of graphics (<code>ggplot2</code>) 2</td>
 <td class="org-left">(10) How much is too much</td>
-<td class="org-left">Test: ggplot2</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 
 
@@ -275,7 +275,7 @@
 <td class="org-left">23-Nov</td>
 <td class="org-left">Summary and test exam</td>
 <td class="org-left">(11) Advanced plot customization</td>
-<td class="org-left">Exit quiz</td>
+<td class="org-left">Test: ggplot2 / Exit quiz</td>
 </tr>
 
 
@@ -294,6 +294,15 @@
 <td class="org-left">Team presentations (online)</td>
 <td class="org-left">(12) Python for R users (Bonus)</td>
 <td class="org-left">4TH SPRINT REVIEW</td>
+</tr>
+
+
+<tr>
+<td class="org-right">31</td>
+<td class="org-left">TBC</td>
+<td class="org-left">Open Book Exam (Schoology)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>

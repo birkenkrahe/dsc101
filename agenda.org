@@ -463,7 +463,6 @@
   |--------------+----------------------------+------|
   | Housekeeping | News/Tests/Homework        | 15'  |
   | Practice     | Different plots part 2     | 30'  |
-  | Lecture      | Working with ~ggplot2~ (1) | 30'  |
 
 ** Housekeeping
 
@@ -503,13 +502,13 @@
   #+attr_html: :width 400px
   [[./img/scots.gif]]
    
-  | TODAY    | TOPIC                      | TIME |
-  |----------+----------------------------+------|
-  | Test     | Plotting with base R       | 15'  |
-  | Lecture  | Working with ~ggplot2~     | 30'  |
-  | Practice | Practicing with ~ggplot2~  | 30'  |
-  | Lecture  | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+  | TODAY   | TOPIC                    | TIME |
+  |---------+--------------------------+------|
+  | Test 8  | Plotting with base R     | 30'  |
+  | Lecture | Working with ~ggplot2~ 1 | 45'  |
 
+  Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
+  
 * Week 14 - November 18
 
   #+attr_html: :width 400px
@@ -517,8 +516,23 @@
    
   | TODAY       | TOPIC                      | TIME |
   |-------------+----------------------------+------|
-  | Practice    | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
-  | Information | Text exam on Nov 23        |      |
+  | Talk        | Beyond "Fake News"         | 60'  |
+  | Lecture     | Working with ~ggplot2~ 2   | 45'  |
+  | Video (?)   | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+  | Information | Test exam on Nov 23        |      |
+
+  Thu Nov 25: Thanksgiving break
+
+* Week 15 - November 23
+
+  | Summary   | 15' |
+  | Test exam | 45' |
+  | Q&A       | 15' |
+
+  
+* Week 16 - Nov 30/Dec 2
+
+  [[./img/noclass.gif]]
   
 * Footnotes
 

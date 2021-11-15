@@ -1,31 +1,33 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgfbf2fb1)
--   [Week 2 - August 26](#org876aa6f)
--   [Week 3 - August 31](#orgd9b63ed)
--   [Week 3 - September 2](#org0b8532f)
--   [Week 4 - September 7](#orga1964a1)
--   [Week 4 - September 9](#org4a39a64)
--   [Week 5 - September 16](#org48403ee)
--   [Week 6 - September 21](#orgf0fac85)
--   [Week 7 - September 28](#org3c34614)
--   [Week 9 - October 12+14](#orgf99bb9e)
--   [Week 10 - October 19](#org2cfc524)
--   [Week 10 - October  21](#orga971b77)
--   [Week 11 - October 26](#org1ee4ff7)
--   [Week 11 - October 28](#org0d88a2b)
--   [Week 12 - November 2](#orgaa94d25)
--   [Week 12 - November 4](#org55afdf6)
--   [Week 13 - November 9](#orgba9a3aa)
--   [Week 13 - November 11](#org26ee4b7)
--   [Week 14 - November 16](#org7b4ecb2)
--   [Week 14 - November 18](#org9f1715d)
--   [References](#orgc5758e9)
+-   [Week 2 - August 24](#orgc1f5a75)
+-   [Week 2 - August 26](#orgc9d2ec8)
+-   [Week 3 - August 31](#orge986692)
+-   [Week 3 - September 2](#org5695f5f)
+-   [Week 4 - September 7](#org29c0301)
+-   [Week 4 - September 9](#org6109554)
+-   [Week 5 - September 16](#orgb788973)
+-   [Week 6 - September 21](#orgb1f1f47)
+-   [Week 7 - September 28](#org0ba3ea3)
+-   [Week 9 - October 12+14](#org5db0520)
+-   [Week 10 - October 19](#orgb8b5157)
+-   [Week 10 - October  21](#orge4e1201)
+-   [Week 11 - October 26](#org059ce84)
+-   [Week 11 - October 28](#org12fcbf7)
+-   [Week 12 - November 2](#org6840abc)
+-   [Week 12 - November 4](#orge1bda5c)
+-   [Week 13 - November 9](#orge9c807e)
+-   [Week 13 - November 11](#orgadef617)
+-   [Week 14 - November 16](#orgdb97c48)
+-   [Week 14 - November 18](#orga527614)
+-   [Week 15 - November 23](#orge131dc8)
+-   [Week 16 - Nov 30/Dec 2](#orgf78bc97)
+-   [References](#orgd3b59f0)
 
 
 
-<a id="orgfbf2fb1"></a>
+<a id="orgc1f5a75"></a>
 
 # Week 2 - August 24
 
@@ -47,7 +49,7 @@
 -   Questions?
 
 
-<a id="org876aa6f"></a>
+<a id="orgc9d2ec8"></a>
 
 # Week 2 - August 26
 
@@ -129,7 +131,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgd9b63ed"></a>
+<a id="orge986692"></a>
 
 # Week 3 - August 31
 
@@ -142,7 +144,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org0b8532f"></a>
+<a id="org5695f5f"></a>
 
 # Week 3 - September 2
 
@@ -156,7 +158,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="orga1964a1"></a>
+<a id="org29c0301"></a>
 
 # Week 4 - September 7
 
@@ -186,7 +188,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org4a39a64"></a>
+<a id="org6109554"></a>
 
 # Week 4 - September 9
 
@@ -331,7 +333,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org48403ee"></a>
+<a id="orgb788973"></a>
 
 # Week 5 - September 16
 
@@ -368,7 +370,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgf0fac85"></a>
+<a id="orgb1f1f47"></a>
 
 # Week 6 - September 21
 
@@ -380,7 +382,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org3c34614"></a>
+<a id="org0ba3ea3"></a>
 
 # Week 7 - September 28
 
@@ -393,7 +395,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgf99bb9e"></a>
+<a id="org5db0520"></a>
 
 # Week 9 - October 12+14
 
@@ -408,7 +410,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org2cfc524"></a>
+<a id="orgb8b5157"></a>
 
 # Week 10 - October 19
 
@@ -422,7 +424,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orga971b77"></a>
+<a id="orge4e1201"></a>
 
 # Week 10 - October  21
 
@@ -476,7 +478,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org1ee4ff7"></a>
+<a id="org059ce84"></a>
 
 # Week 11 - October 26
 
@@ -550,7 +552,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org0d88a2b"></a>
+<a id="org12fcbf7"></a>
 
 # Week 11 - October 28
 
@@ -566,7 +568,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="orgaa94d25"></a>
+<a id="org6840abc"></a>
 
 # Week 12 - November 2
 
@@ -575,7 +577,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org55afdf6"></a>
+<a id="orge1bda5c"></a>
 
 # Week 12 - November 4
 
@@ -778,7 +780,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="orgba9a3aa"></a>
+<a id="orge9c807e"></a>
 
 # Week 13 - November 9
 
@@ -841,7 +843,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="org26ee4b7"></a>
+<a id="orgadef617"></a>
 
 # Week 13 - November 11
 
@@ -876,13 +878,6 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 <tr>
 <td class="org-left">Practice</td>
 <td class="org-left">Different plots part 2</td>
-<td class="org-left">30'</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Lecture</td>
-<td class="org-left">Working with <code>ggplot2</code> (1)</td>
 <td class="org-left">30'</td>
 </tr>
 </tbody>
@@ -972,7 +967,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 ![img](./img/update1.png)
 
 
-<a id="org7b4ecb2"></a>
+<a id="orgdb97c48"></a>
 
 # Week 14 - November 16
 
@@ -1000,36 +995,24 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <tbody>
 <tr>
-<td class="org-left">Test</td>
+<td class="org-left">Test 8</td>
 <td class="org-left">Plotting with base R</td>
-<td class="org-left">15'</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Lecture</td>
-<td class="org-left">Working with <code>ggplot2</code></td>
-<td class="org-left">30'</td>
-</tr>
-
-
-<tr>
-<td class="org-left">Practice</td>
-<td class="org-left">Practicing with <code>ggplot2</code></td>
 <td class="org-left">30'</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Lecture</td>
-<td class="org-left"><a href="https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/">Animating</a> with <code>gganimate</code></td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Working with <code>ggplot2</code> 1</td>
+<td class="org-left">45'</td>
 </tr>
 </tbody>
 </table>
 
+Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
 
-<a id="org9f1715d"></a>
+
+<a id="orga527614"></a>
 
 # Week 14 - November 18
 
@@ -1055,7 +1038,21 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <tbody>
 <tr>
-<td class="org-left">Practice</td>
+<td class="org-left">Talk</td>
+<td class="org-left">Beyond "Fake News"</td>
+<td class="org-left">60'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Lecture</td>
+<td class="org-left">Working with <code>ggplot2</code> 2</td>
+<td class="org-left">45'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Video (?)</td>
 <td class="org-left"><a href="https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/">Animating</a> with <code>gganimate</code></td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -1063,14 +1060,56 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <tr>
 <td class="org-left">Information</td>
-<td class="org-left">Text exam on Nov 23</td>
+<td class="org-left">Test exam on Nov 23</td>
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
 </table>
 
+Thu Nov 25: Thanksgiving break
 
-<a id="orgc5758e9"></a>
+
+<a id="orge131dc8"></a>
+
+# Week 15 - November 23
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Summary</td>
+<td class="org-left">15'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Test exam</td>
+<td class="org-left">45'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Q&amp;A</td>
+<td class="org-left">15'</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgf78bc97"></a>
+
+# Week 16 - Nov 30/Dec 2
+
+![img](./img/noclass.gif)
+
+
+<a id="orgd3b59f0"></a>
 
 # References
 

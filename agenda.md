@@ -1,33 +1,33 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#orgc1f5a75)
--   [Week 2 - August 26](#orgc9d2ec8)
--   [Week 3 - August 31](#orge986692)
--   [Week 3 - September 2](#org5695f5f)
--   [Week 4 - September 7](#org29c0301)
--   [Week 4 - September 9](#org6109554)
--   [Week 5 - September 16](#orgb788973)
--   [Week 6 - September 21](#orgb1f1f47)
--   [Week 7 - September 28](#org0ba3ea3)
--   [Week 9 - October 12+14](#org5db0520)
--   [Week 10 - October 19](#orgb8b5157)
--   [Week 10 - October  21](#orge4e1201)
--   [Week 11 - October 26](#org059ce84)
--   [Week 11 - October 28](#org12fcbf7)
--   [Week 12 - November 2](#org6840abc)
--   [Week 12 - November 4](#orge1bda5c)
--   [Week 13 - November 9](#orge9c807e)
--   [Week 13 - November 11](#orgadef617)
--   [Week 14 - November 16](#orgdb97c48)
--   [Week 14 - November 18](#orga527614)
--   [Week 15 - November 23](#orge131dc8)
--   [Week 16 - Nov 30/Dec 2](#orgf78bc97)
--   [References](#orgd3b59f0)
+-   [Week 2 - August 24](#orgda81aca)
+-   [Week 2 - August 26](#org38a966d)
+-   [Week 3 - August 31](#org86bc0ea)
+-   [Week 3 - September 2](#org5a5fa24)
+-   [Week 4 - September 7](#org9527e2f)
+-   [Week 4 - September 9](#org88a16e0)
+-   [Week 5 - September 16](#orgef8ac18)
+-   [Week 6 - September 21](#org1264b8d)
+-   [Week 7 - September 28](#org0a19fac)
+-   [Week 9 - October 12+14](#orge66deb4)
+-   [Week 10 - October 19](#orgc1a0227)
+-   [Week 10 - October  21](#orga7722e9)
+-   [Week 11 - October 26](#org4eaaa11)
+-   [Week 11 - October 28](#org6f49133)
+-   [Week 12 - November 2](#orgdb3fe48)
+-   [Week 12 - November 4](#orge5e8b27)
+-   [Week 13 - November 9](#orga5152c6)
+-   [Week 13 - November 11](#orgc3664f9)
+-   [Week 14 - November 16](#orgb19ee9b)
+-   [Week 14 - November 18](#orgc86e965)
+-   [Week 15 - November 23](#orgbae7048)
+-   [Week 16 - Nov 30/Dec 2](#org85f6d89)
+-   [References](#orge74eb1b)
 
 
 
-<a id="orgc1f5a75"></a>
+<a id="orgda81aca"></a>
 
 # Week 2 - August 24
 
@@ -49,7 +49,7 @@
 -   Questions?
 
 
-<a id="orgc9d2ec8"></a>
+<a id="org38a966d"></a>
 
 # Week 2 - August 26
 
@@ -131,7 +131,7 @@
 -   Onwards: data science problems
 
 
-<a id="orge986692"></a>
+<a id="org86bc0ea"></a>
 
 # Week 3 - August 31
 
@@ -144,7 +144,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org5695f5f"></a>
+<a id="org5a5fa24"></a>
 
 # Week 3 - September 2
 
@@ -158,7 +158,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org29c0301"></a>
+<a id="org9527e2f"></a>
 
 # Week 4 - September 7
 
@@ -188,7 +188,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org6109554"></a>
+<a id="org88a16e0"></a>
 
 # Week 4 - September 9
 
@@ -333,7 +333,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="orgb788973"></a>
+<a id="orgef8ac18"></a>
 
 # Week 5 - September 16
 
@@ -370,7 +370,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="orgb1f1f47"></a>
+<a id="org1264b8d"></a>
 
 # Week 6 - September 21
 
@@ -382,7 +382,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org0ba3ea3"></a>
+<a id="org0a19fac"></a>
 
 # Week 7 - September 28
 
@@ -395,7 +395,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="org5db0520"></a>
+<a id="orge66deb4"></a>
 
 # Week 9 - October 12+14
 
@@ -410,7 +410,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="orgb8b5157"></a>
+<a id="orgc1a0227"></a>
 
 # Week 10 - October 19
 
@@ -424,7 +424,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="orge4e1201"></a>
+<a id="orga7722e9"></a>
 
 # Week 10 - October  21
 
@@ -478,7 +478,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org059ce84"></a>
+<a id="org4eaaa11"></a>
 
 # Week 11 - October 26
 
@@ -552,7 +552,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="org12fcbf7"></a>
+<a id="org6f49133"></a>
 
 # Week 11 - October 28
 
@@ -568,7 +568,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="org6840abc"></a>
+<a id="orgdb3fe48"></a>
 
 # Week 12 - November 2
 
@@ -577,7 +577,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="orge1bda5c"></a>
+<a id="orge5e8b27"></a>
 
 # Week 12 - November 4
 
@@ -780,7 +780,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="orge9c807e"></a>
+<a id="orga5152c6"></a>
 
 # Week 13 - November 9
 
@@ -843,7 +843,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="orgadef617"></a>
+<a id="orgc3664f9"></a>
 
 # Week 13 - November 11
 
@@ -967,7 +967,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 ![img](./img/update1.png)
 
 
-<a id="orgdb97c48"></a>
+<a id="orgb19ee9b"></a>
 
 # Week 14 - November 16
 
@@ -1003,20 +1003,60 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 
 <tr>
 <td class="org-left">Lecture</td>
-<td class="org-left">Working with <code>ggplot2</code> 1</td>
+<td class="org-left"><a href="https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2">Working with <code>ggplot2</code></a> 1</td>
 <td class="org-left">45'</td>
+</tr>
+
+
+<tr>
+<td class="org-left">DataCamp</td>
+<td class="org-left"><a href="https://campus.datacamp.com/courses/data-visualization-in-r/how-much-is-too-much?ex=1">How much is too much?</a></td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="org-left">Talk</td>
+<td class="org-left">Beyond "Fake News"</td>
+<td class="org-left">60'</td>
 </tr>
 </tbody>
 </table>
 
-Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
+![img](./img/reminder.png)
 
 
-<a id="orga527614"></a>
+## Guest speaker, November 18, 11:45 Maxwell Room
+
+From Dr. Wesley Beal (Lyon):
+
+> I'm hosting a speaker for the HFP on Thursday, and if you or any of
+> your students would be interested in his talk you're more than
+> welcome to attend. Please consider spreading the word.
+> 
+> -   Michael Simeone, director of Data Science and Analytics at
+>     Arizona State University, will deliver a talk entitled “Beyond
+>     ‘Fake News’: A Study in How to Study Misinformation" on Thursday,
+>     Nov 18 from 11:45-12:50. We will meet in the Maxfield Room, and
+>     he will join us remotely; we're allowed to bring lunches
+>     downstairs from the cafeteria. Dr. Simeone will discuss current,
+>     data-driven research on misinformation. Dr. Simeone also co-hosts
+>     a podcast, Misinfo Weekly. I asked him which episodes he would
+>     recommend for students interested in getting a head start on his
+>     talk, and here's what he suggested:
+> -   S1E1 on Information literacy:  <https://play.acast.com/s/misinfo-weekly/episode-1>
+> -   S1E8 on Instagram and "COVID parties": <https://play.acast.com/s/misinfo-weekly/covid-parties>
+> -   S1E7 on the Wayfair furniture conspiracy: <https://play.acast.com/s/misinfo-weekly/the-wayfair-conspiracy-expensive-furniture-or-a-front-for-ch>
+> 
+> May or may not be the kind of content you're interested in, but I
+> thought I'd at least offer!
+
+
+<a id="orgc86e965"></a>
 
 # Week 14 - November 18
 
-![img](./img/gganimate.gif) 
+![img](./img/gganimate.gif)
 
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -1038,15 +1078,8 @@ Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
 
 <tbody>
 <tr>
-<td class="org-left">Talk</td>
-<td class="org-left">Beyond "Fake News"</td>
-<td class="org-left">60'</td>
-</tr>
-
-
-<tr>
 <td class="org-left">Lecture</td>
-<td class="org-left">Working with <code>ggplot2</code> 2</td>
+<td class="org-left"><a href="https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2">Working with <code>ggplot2</code></a> 2</td>
 <td class="org-left">45'</td>
 </tr>
 
@@ -1069,7 +1102,7 @@ Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
 Thu Nov 25: Thanksgiving break
 
 
-<a id="orge131dc8"></a>
+<a id="orgbae7048"></a>
 
 # Week 15 - November 23
 
@@ -1098,18 +1131,24 @@ Thu Nov 25: Thanksgiving break
 <td class="org-left">Q&amp;A</td>
 <td class="org-left">15'</td>
 </tr>
+
+
+<tr>
+<td class="org-left">DataCamp</td>
+<td class="org-left">&#xa0;</td>
+</tr>
 </tbody>
 </table>
 
 
-<a id="orgf78bc97"></a>
+<a id="org85f6d89"></a>
 
 # Week 16 - Nov 30/Dec 2
 
 ![img](./img/noclass.gif)
 
 
-<a id="orgd3b59f0"></a>
+<a id="orge74eb1b"></a>
 
 # References
 

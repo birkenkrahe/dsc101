@@ -498,26 +498,55 @@
 * Week 14 - November 16
 
   [[https://twitter.com/birkenkrahe/status/1459236874942390272?s=20][Lyon Scots win championship!!!]]
-  
+
   #+attr_html: :width 400px
   [[./img/scots.gif]]
-   
-  | TODAY   | TOPIC                    | TIME |
-  |---------+--------------------------+------|
-  | Test 8  | Plotting with base R     | 30'  |
-  | Lecture | Working with ~ggplot2~ 1 | 45'  |
 
-  Invitation: data science talk Thu 18 Nov 11.45-12.50 (Maxfield Room)
-  
+  | TODAY    | TOPIC                    | TIME |
+  |----------+--------------------------+------|
+  | Test 8   | Plotting with base R     | 30'  |
+  | Lecture  | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 1 | 45'  |
+  | DataCamp | [[https://campus.datacamp.com/courses/data-visualization-in-r/how-much-is-too-much?ex=1][How much is too much?]]    |      |
+  | Talk     | Beyond "Fake News"       | 60'  |
+
+  #+attr_html: :width 400px
+  [[./img/reminder.png]]
+
+** Data science guest speaker, November 18, 11:45 Maxwell Room
+
+   From Dr. Wesley Beal (Lyon):
+
+   #+begin_quote
+   I'm hosting a speaker for the HFP on Thursday, and if you or any of
+   your students would be interested in his talk you're more than
+   welcome to attend. Please consider spreading the word.
+
+   * Michael Simeone, director of Data Science and Analytics at
+     Arizona State University, will deliver a talk entitled “Beyond
+     ‘Fake News’: A Study in How to Study Misinformation" on Thursday,
+     Nov 18 from 11:45-12:50. We will meet in the Maxfield Room, and
+     he will join us remotely; we're allowed to bring lunches
+     downstairs from the cafeteria. Dr. Simeone will discuss current,
+     data-driven research on misinformation. Dr. Simeone also co-hosts
+     a podcast, Misinfo Weekly. I asked him which episodes he would
+     recommend for students interested in getting a head start on his
+     talk, and here's what he suggested:
+   * S1E1 on Information literacy:  https://play.acast.com/s/misinfo-weekly/episode-1
+   * S1E8 on Instagram and "COVID parties": https://play.acast.com/s/misinfo-weekly/covid-parties
+   * S1E7 on the Wayfair furniture conspiracy: https://play.acast.com/s/misinfo-weekly/the-wayfair-conspiracy-expensive-furniture-or-a-front-for-ch
+
+   May or may not be the kind of content you're interested in, but I
+   thought I'd at least offer!
+   #+end_quote
+
 * Week 14 - November 18
 
   #+attr_html: :width 400px
-  [[./img/gganimate.gif]] 
-   
+  [[./img/gganimate.gif]]
+
   | TODAY       | TOPIC                      | TIME |
   |-------------+----------------------------+------|
-  | Talk        | Beyond "Fake News"         | 60'  |
-  | Lecture     | Working with ~ggplot2~ 2   | 45'  |
+  | Lecture     | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   | 45'  |
   | Video (?)   | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
   | Information | Test exam on Nov 23        |      |
 
@@ -528,12 +557,13 @@
   | Summary   | 15' |
   | Test exam | 45' |
   | Q&A       | 15' |
+  | DataCamp  |     |
 
-  
+
 * Week 16 - Nov 30/Dec 2
 
   [[./img/noclass.gif]]
-  
+
 * Footnotes
 
 [fn:9]This is a "bonus" assignment for extra credit. The basic chapter

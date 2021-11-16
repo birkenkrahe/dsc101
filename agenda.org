@@ -559,7 +559,6 @@
   | Q&A       | 15' |
   | DataCamp  |     |
 
-
 * Week 16 - Nov 30/Dec 2
 
   [[./img/noclass.gif]]

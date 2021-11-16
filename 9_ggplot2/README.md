@@ -17,13 +17,13 @@ focused on doing stuff.
 </colgroup>
 <tbody>
 <tr>
-<td class="org-left"><code>ggplot2_.ipynb</code></td>
+<td class="org-left"><code>ggplot2_problem.ipynb</code></td>
 <td class="org-left">active practice notebook<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></td>
 </tr>
 
 
 <tr>
-<td class="org-left"><code>ggplot2_done.ipynb</code></td>
+<td class="org-left"><code>ggplot2_solution.ipynb</code></td>
 <td class="org-left">complete practice notebook</td>
 </tr>
 

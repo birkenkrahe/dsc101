@@ -257,23 +257,23 @@
 <td class="org-left">16-Nov</td>
 <td class="org-left">Grammar of graphics (<code>ggplot2</code>) 1</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">Test: import / plot types</td>
+<td class="org-left">Test: data import</td>
 </tr>
 
 
 <tr>
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
-<td class="org-left">Grammar of graphics (<code>ggplot2</code>) 2</td>
+<td class="org-left">CANCELLED</td>
 <td class="org-left">(10) How much is too much</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-left">Test: plotting in R</td>
 </tr>
 
 
 <tr>
 <td class="org-right">28</td>
 <td class="org-left">23-Nov</td>
-<td class="org-left">Summary and test exam</td>
+<td class="org-left">Grammar of graphics (<code>ggplot2</code>) 2</td>
 <td class="org-left">(11) Advanced plot customization</td>
 <td class="org-left">Test: ggplot2 / Exit quiz</td>
 </tr>
@@ -281,7 +281,7 @@
 
 <tr>
 <td class="org-right">29</td>
-<td class="org-left">30-Nov</td>
+<td class="org-left">3-Dec</td>
 <td class="org-left">Team presentations (online<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>)</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">4TH SPRINT REVIEW</td>
@@ -290,7 +290,7 @@
 
 <tr>
 <td class="org-right">30</td>
-<td class="org-left">2-Dec</td>
+<td class="org-left">3-Dec</td>
 <td class="org-left">Team presentations (online)</td>
 <td class="org-left">(12) Python for R users (Bonus)</td>
 <td class="org-left">4TH SPRINT REVIEW</td>

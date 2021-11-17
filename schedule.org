@@ -29,7 +29,7 @@
    | 24 | 9-Nov  | Practice adding details to plots  |                                  | Notebook: adding details    |
    | 25 | 11-Nov | Practicing with different plots 2 | (9) Adding details to plots      | Notebook: plot types 2      |
    | 26 | 16-Nov | Grammar of graphics (~ggplot2~) 1 |                                  | Test: data import           |
-   | 27 | 18-Nov | CANCELLED                         | (10) How much is too much        | Test: plotting in R         |
+   | 27 | 18-Nov | -- CANCELLED --                   | (10) How much is too much        | Test: plotting in R         |
    | 28 | 23-Nov | Grammar of graphics (~ggplot2~) 2 | (11) Advanced plot customization | Test: ggplot2 / Exit quiz   |
    | 29 | 3-Dec  | Team presentations (online[fn:4]) |                                  | 4TH SPRINT REVIEW           |
    | 30 | 3-Dec  | Team presentations (online)       | (12) Python for R users (Bonus)  | 4TH SPRINT REVIEW           |

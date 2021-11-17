@@ -264,7 +264,7 @@
 <tr>
 <td class="org-right">27</td>
 <td class="org-left">18-Nov</td>
-<td class="org-left">CANCELLED</td>
+<td class="org-left">&#x2013; CANCELLED --</td>
 <td class="org-left">(10) How much is too much</td>
 <td class="org-left">Test: plotting in R</td>
 </tr>

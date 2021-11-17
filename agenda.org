@@ -541,23 +541,26 @@
 
 * Week 14 - November 18
 
+  *TEST REVIEW SESSION*
+
+   * Complete the already available tests in Schoology
+   * Save and submit your attempt 
+   * Your results will help me create a fair final exam!
+
+  [[./img/noclass.gif]]
+
+* Week 15 - November 23
+
   #+attr_html: :width 400px
   [[./img/gganimate.gif]]
 
   | TODAY       | TOPIC                      | TIME |
   |-------------+----------------------------+------|
-  | Lecture     | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   | 45'  |
-  | Video (?)   | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
-  | Information | Test exam on Nov 23        |      |
+  | Lecture     | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   | 15'  |
+  | Video (?)   | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ | 30'  |
+  | Information | Submissions and final exam | 30'  |
 
   Thu Nov 25: Thanksgiving break
-
-* Week 15 - November 23
-
-  | Summary   | 15' |
-  | Test exam | 45' |
-  | Q&A       | 15' |
-  | DataCamp  |     |
 
 * Week 16 - Nov 30/Dec 2
 

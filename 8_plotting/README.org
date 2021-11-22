@@ -4,11 +4,11 @@
   This repo contains problem and solution notebooks for plotting with
   base R functions. 
 
-  | FILE            | DESCRIPTION                        |
-  |-----------------+------------------------------------|
-  | plotting        | Base R plotting with ~plot()~      |
-  | adding_details  | Adding details to an existing plot[fn:2] |
-  | different_plots | Different base R plot types[fn:1]        |
+  | FILE ~.ipynb~     | DESCRIPTION                              |
+  |-------------------+------------------------------------------|
+  | ~plotting~        | Base R plotting with ~plot()~            |
+  | ~adding_details~  | Adding details to an existing plot[fn:2] |
+  | ~different_plots~ | Different base R plot types[fn:1]        |
 
 * Footnotes
 

@@ -15,26 +15,26 @@ base R functions.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-left">FILE</th>
+<th scope="col" class="org-left">FILE <code>.ipynb</code></th>
 <th scope="col" class="org-left">DESCRIPTION</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td class="org-left">plotting</td>
+<td class="org-left"><code>plotting</code></td>
 <td class="org-left">Base R plotting with <code>plot()</code></td>
 </tr>
 
 
 <tr>
-<td class="org-left">adding<sub>details</sub></td>
+<td class="org-left"><code>adding_details</code></td>
 <td class="org-left">Adding details to an existing plot<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup></td>
 </tr>
 
 
 <tr>
-<td class="org-left">different<sub>plots</sub></td>
+<td class="org-left"><code>different_plots</code></td>
 <td class="org-left">Different base R plot types<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup></td>
 </tr>
 </tbody>

@@ -40,6 +40,23 @@ base R functions.
 </tbody>
 </table>
 
+You find a summary of functions with examples in the file
+`cheatsheet.pdf` (Gerard, 2017). Paradoxically, the author
+reproduced `ggplot2` plots using base R, which is the wrong way
+around, because `ggplot2` is a fairly recent addition to R
+(ca. 2016). But it is superbly successful for pretty plotting.
+
+In my view, solid knowledge of base R methods beats broad knowledge
+of arcane packages especially for interactive, exploratory EDA. When
+you're presenting, many other options exist - but exploration is key
+because it's content, not form.
+
+
+# References
+
+Gerard, D (August 8, 2017). Base R Graphics Cheat Sheet [repo]. [URL:
+dcgerard.github.io](https://dcgerard.github.io/stat234/base_r_cheatsheet.html).
+
 
 # Footnotes
 

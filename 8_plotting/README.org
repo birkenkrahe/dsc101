@@ -1,0 +1,18 @@
+#+OPTIONS: toc:nil
+* Base R Plotting
+
+  This repo contains problem and solution notebooks for plotting with
+  base R functions. 
+
+  | FILE            | DESCRIPTION                        |
+  |-----------------+------------------------------------|
+  | plotting        | Base R plotting with ~plot()~      |
+  | adding_details  | Adding details to an existing plot[fn:2] |
+  | different_plots | Different base R plot types[fn:1]        |
+
+* Footnotes
+
+[fn:2]Based on Davies' treatment in Book of R (2016).
+
+[fn:1]Compare with the DataCamp course "Data Visualization with R" by
+Ron Pearson (2017) for some details.

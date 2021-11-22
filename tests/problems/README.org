@@ -1,14 +1,15 @@
 #+options: toc:nil
 ** Problem notebooks
    
-| NAME                       | DESCRIPTION                                 | DATE   |
-|----------------------------+---------------------------------------------+--------|
-| Midterm-problems           | Midterm exam fall 2021                      | Oct 12 |
-| EDA-basics-problems        | Complete exploratory data analysis workflow | Oct 14 |
-| Data-import-problems       | Data input from flat files in R             | Oct 19 |
-| Plotting-problems          | Plotting problems                           | Oct 26 |
-| Different-plots-problems 1 | Different plots part 1                      | Oct 28 |
-| Different-plots-problems 2 | Different plots part 2                      | Nov 11 |
+| FILE ~.ipynb~                | DESCRIPTION                                 | DATE   |
+|------------------------------+---------------------------------------------+--------|
+| ~Midterm-problems~           | Midterm exam fall 2021                      | Oct 12 |
+| ~EDA-basics-problems~        | Complete exploratory data analysis workflow | Oct 14 |
+| ~Data-import-problems~       | Data input from flat files in R             | Oct 19 |
+| ~plotting-problem~           | Plotting problems                           | Oct 26 |
+| ~different_plots_problems_1~ | Different plots part 1                      | Oct 28 |
+| ~different_plots_problems_2~ | Different plots part 2                      | Nov 11 |
+| ~adding_details_problems~    | Adding details to an existing plot          | Nov 09 |
 
 [[../img/problem.gif]]
 

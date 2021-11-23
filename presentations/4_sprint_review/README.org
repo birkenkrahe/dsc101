@@ -16,16 +16,16 @@
      *"pledged"* next to your name in the column "Honor Pledge".
 
   2) Upload your *presentation documents* and the *scan of the
-     signed honor sheet* [[https://github.com/birkenkrahe/ai482/tree/main/presentations/4th_sprint_review][to this GitHub folder]] - please add your
+     signed honor sheet* [[https://github.com/birkenkrahe/dsc101/tree/main/presentations/4_sprint_review][to this GitHub folder]] - please add your
      name(s) to the title of the file. If you submit more than one
      file (e.g. notebook etc.) please create a folder!
 
-  3) Post the *link* to your video presentation [[https://github.com/birkenkrahe/ai482/discussions][to the discussion
+  3) Post the *link* to your video presentation [[https://github.com/birkenkrahe/dsc101/discussions][to the discussion
      forum]] in GitHub[fn:3]. Test the link before posting it!
 
   4) When you're done, *send me an email* (birkenkrahe@lyon.edu)
      confirming that you've done all of this, including which
-     course you're in.
+     course you're in (DSC 101).
 
   5) Await my formative (comments) and summative (grade) feedback
      (via email) based on [[https://github.com/birkenkrahe/org/blob/master/Presentation_Assessment_Form.pdf][this presentation assessment form]] (PDF).
@@ -37,11 +37,13 @@
   presentation. Take all the time that you need to answer your
   research question. Also, you submit as a team if you worked on the
   project as a team - I don't care who gives the presentation,
-  i.e. how you split the work up among yourselves.
+  i.e. how you split the work up among yourselves. Formally, you can
+  create a screencast, make a real video, record yourself in
+  powerpoint etc. - your choice of medium.
 
 * Footnotes
 
-[fn:1] This text is available as: Update in Schoology, Email to
+[fn:1] This text will be available here: Update in Schoology, Email to
 participants, FAQ in GitHub (AI).
 
 [fn:2]Please be advised that I'm traveling in Europe between November

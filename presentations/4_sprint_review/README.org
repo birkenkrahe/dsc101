@@ -3,11 +3,11 @@
 
   Dear course participants -
 
-  These are the instructions[fn:1] for handing in the final presentation
-  material. Please read them carefully, follow them to the letter
-  and contact me immediately if there are issues or
-  mistakes[fn:2]. Submit earlier, not in the last minute, to be on
-  the safe side!
+  These are the instructions[fn:1] for handing in the final
+  presentation of your data science term team project. Please read them
+  carefully, follow them to the letter and contact me immediately if
+  there are issues or mistakes[fn:2]. Submit earlier, not in the last
+  minute, to be on the safe side!
 
   The deadline for submitting the presentation is *December 5, 12AM
   CST* (Sunday midnight in Batesville).

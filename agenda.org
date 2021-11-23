@@ -552,7 +552,7 @@
 * Week 15 - November 23
 
   #+attr_html: :width 400px
-  [[./img/gganimate.gif]]
+  [[./img/end.gif]]
 
   | TODAY          | TOPIC                      | TIME |
   |----------------+----------------------------+------|
@@ -560,7 +560,15 @@
   | Evaluation     | Anonymous online form      | 20'  |
   | Lecture        | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   |      |
   | Instructions   | Presentation submissions   |      |
-  | Video/Notebook | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
+
+  #+attr_html: :width 400px
+  [[./img/gganimate.gif]]
+
+  | LATER          | WHAT                       | WHEN      |
+  |----------------+----------------------------+-----------|
+  | Test 9         | Plotting with base R       | this week |
+  | Test 10        | Plotting with ggplot2      | this week |
+  | Video/Notebook | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ | next week |
 
   *Thu Nov 25: Thanksgiving break*
 

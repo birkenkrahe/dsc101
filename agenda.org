@@ -554,20 +554,23 @@
   #+attr_html: :width 400px
   [[./img/gganimate.gif]]
 
-  | TODAY       | TOPIC                      | TIME |
-  |-------------+----------------------------+------|
-  | Lecture     | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   | 15'  |
-  | Video (?)   | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ | 30'  |
-  | Information | Submissions and final exam | 30'  |
+  | TODAY          | TOPIC                      | TIME |
+  |----------------+----------------------------+------|
+  | [[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp]]       | Deadline extended (Dec 3)  |      |
+  | Evaluation     | Anonymous online form      | 20'  |
+  | Lecture        | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2   |      |
+  | Instructions   | Presentation submissions   |      |
+  | Video/Notebook | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ |      |
 
-  Thu Nov 25: Thanksgiving break
+  *Thu Nov 25: Thanksgiving break*
 
 * Week 16 - Nov 30/Dec 2
 
   *Presentation submissions*
 
   [[./img/noclass.gif]]
-* Week 17 - Dec 7/Dec 9
+
+* Week 17 - Dec 7-Dec 9
 
   *Exam week*
 

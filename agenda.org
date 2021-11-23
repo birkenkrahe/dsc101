@@ -558,7 +558,7 @@
   |--------------+---------------------------+------|
   | [[https://app.datacamp.com/groups/data-science-methods-and-tools/assignments][DataCamp]]     | Deadline extended (Dec 3) | 5'   |
   | Evaluation   | Anonymous online form     | 20'  |
-  | Exit quiz    |                           | 20'  |
+  | Exit quiz    |                           | 15'  |
   | Lecture      | [[https://github.com/birkenkrahe/dsc101/tree/main/9_ggplot2][Working with ~ggplot2~]] 2  | 20'  |
   | Instructions | Presentation submissions  | 10'  |
   |              | Final exam                |      |

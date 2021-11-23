@@ -566,13 +566,15 @@
   #+attr_html: :width 400px
   [[./img/gganimate.gif]]
 
-  | LATER          | WHAT                       | WHEN       |
-  |----------------+----------------------------+------------|
-  | Test 9         | Plotting with base R       | ready now  |
-  | Test 10        | Plotting with ggplot2      | this week  |
-  | Video/Notebook | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~ | next week? |
+  | LATER          | WHAT                             | WHEN       |
+  |----------------+----------------------------------+------------|
+  | [[https://lyon.schoology.com/assignment/5459134498][Test 9]]         | Plotting with base R             | ready now  |
+  | Test 10        | Plotting with ggplot2            | this week  |
+  | Final exam     | Tue 7-Dec 1PM - Thu 9-Dec 2.15PM | in 2 weeks |
+  | Video/Notebook | [[https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/][Animating]] with ~gganimate~       | next week? |
 
-  *Thu Nov 25: Thanksgiving break*
+  | Thu Nov 25: Thanksgiving break              |
+  | All tests will be open until Tue 7 Dec 1 PM |
 
 * Week 16 - Nov 30/Dec 2
 

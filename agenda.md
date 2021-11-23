@@ -1,34 +1,34 @@
 
 # Table of Contents
 
--   [Week 2 - August 24](#org3bf99c8)
--   [Week 2 - August 26](#org48e7c68)
--   [Week 3 - August 31](#orgd9befc6)
--   [Week 3 - September 2](#org207f56f)
--   [Week 4 - September 7](#org704757b)
--   [Week 4 - September 9](#org753544b)
--   [Week 5 - September 16](#org6f65198)
--   [Week 6 - September 21](#org2850f16)
--   [Week 7 - September 28](#org1129721)
--   [Week 9 - October 12+14](#orgdfaafc0)
--   [Week 10 - October 19](#org8aa96c8)
--   [Week 10 - October  21](#org146f6ac)
--   [Week 11 - October 26](#org8e16378)
--   [Week 11 - October 28](#orgb7ac8e2)
--   [Week 12 - November 2](#orge191d98)
--   [Week 12 - November 4](#org94ebbe8)
--   [Week 13 - November 9](#org7d9b60f)
--   [Week 13 - November 11](#org3e0585d)
--   [Week 14 - November 16](#org5371ca9)
--   [Week 14 - November 18](#org2e8686f)
--   [Week 15 - November 23](#org019bea0)
--   [Week 16 - Nov 30/Dec 2](#orgfae5cf4)
--   [Week 17 - Dec 7-Dec 9](#org3617ab6)
--   [References](#org3c663ab)
+-   [Week 2 - August 24](#org6ede21d)
+-   [Week 2 - August 26](#orge184ff3)
+-   [Week 3 - August 31](#org0ac36a2)
+-   [Week 3 - September 2](#orgf6f0609)
+-   [Week 4 - September 7](#org70fc5fc)
+-   [Week 4 - September 9](#org369ddc2)
+-   [Week 5 - September 16](#orgb595613)
+-   [Week 6 - September 21](#orgddc5dc8)
+-   [Week 7 - September 28](#org87f34f9)
+-   [Week 9 - October 12+14](#org9b0ff90)
+-   [Week 10 - October 19](#orga8a1b43)
+-   [Week 10 - October  21](#org1d12887)
+-   [Week 11 - October 26](#org3985c96)
+-   [Week 11 - October 28](#orgbcc2b1b)
+-   [Week 12 - November 2](#org4c74376)
+-   [Week 12 - November 4](#org884b2b0)
+-   [Week 13 - November 9](#orga526192)
+-   [Week 13 - November 11](#org385b1b6)
+-   [Week 14 - November 16](#orgb352a3a)
+-   [Week 14 - November 18](#orgc94e12e)
+-   [Week 15 - November 23](#org66eb0bc)
+-   [Week 16 - Nov 30/Dec 2](#orgeaa4834)
+-   [Week 17 - Dec 7-Dec 9](#orga167ebf)
+-   [References](#org647159b)
 
 
 
-<a id="org3bf99c8"></a>
+<a id="org6ede21d"></a>
 
 # Week 2 - August 24
 
@@ -50,7 +50,7 @@
 -   Questions?
 
 
-<a id="org48e7c68"></a>
+<a id="orge184ff3"></a>
 
 # Week 2 - August 26
 
@@ -132,7 +132,7 @@
 -   Onwards: data science problems
 
 
-<a id="orgd9befc6"></a>
+<a id="org0ac36a2"></a>
 
 # Week 3 - August 31
 
@@ -145,7 +145,7 @@
 -   [Project examples](https://github.com/birkenkrahe/dsc101/blob/main/1_overview/1_overview.md#team-project--50) - new [Scrum FAQs](https://github.com/birkenkrahe/org/blob/master/FAQ.md#orge594cc2)
 
 
-<a id="org207f56f"></a>
+<a id="orgf6f0609"></a>
 
 # Week 3 - September 2
 
@@ -159,7 +159,7 @@
 -   [Video lectures @YouTube](https://youtube.com/playlist?list=PL6SfZh1-kWXkLa45V6JeEhNZEXvsmUR1f) (45')
 
 
-<a id="org704757b"></a>
+<a id="org70fc5fc"></a>
 
 # Week 4 - September 7
 
@@ -189,7 +189,7 @@ What do you remember from last time?
 [Videos available on YouTube (ca. 45 min)](https://youtube.com/playlist?list=PL6SfZh1-kWXnYzCUfVTHs842V3xmfbLp4)
 
 
-<a id="org753544b"></a>
+<a id="org369ddc2"></a>
 
 # Week 4 - September 9
 
@@ -334,7 +334,7 @@ What do you remember from last time?
 -   Payne: team? Citations / Literature / data
 
 
-<a id="org6f65198"></a>
+<a id="orgb595613"></a>
 
 # Week 5 - September 16
 
@@ -371,7 +371,7 @@ Vectors, factors, data frames and lists
 See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org)
 
 
-<a id="org2850f16"></a>
+<a id="orgddc5dc8"></a>
 
 # Week 6 - September 21
 
@@ -383,7 +383,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Class on Thursday September 23 cancelled!
 
 
-<a id="org1129721"></a>
+<a id="org87f34f9"></a>
 
 # Week 7 - September 28
 
@@ -396,7 +396,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   After break: tests in class
 
 
-<a id="orgdfaafc0"></a>
+<a id="org9b0ff90"></a>
 
 # Week 9 - October 12+14
 
@@ -411,7 +411,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
     Supplement. Addison-Wesley. [Online: Amazon](https://www.amazon.com/MMIX-Supplement-Computer-Programming-Volumes-dp-0133992314/dp/0133992314).*
 
 
-<a id="org8aa96c8"></a>
+<a id="orga8a1b43"></a>
 
 # Week 10 - October 19
 
@@ -425,7 +425,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Current: [Kaggle Data Science Survey](https://www.kaggle.com/c/kaggle-survey-2021) ([project](https://projects.datacamp.com/projects/74))<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 
 
-<a id="org146f6ac"></a>
+<a id="org1d12887"></a>
 
 # Week 10 - October  21
 
@@ -479,7 +479,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 </table>
 
 
-<a id="org8e16378"></a>
+<a id="org3985c96"></a>
 
 # Week 11 - October 26
 
@@ -553,7 +553,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   Video playlist (45 min)
 
 
-<a id="orgb7ac8e2"></a>
+<a id="orgbcc2b1b"></a>
 
 # Week 11 - October 28
 
@@ -569,7 +569,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 -   [GitHub practice problem notebook](https://github.com/birkenkrahe/dsc101/blob/main/tests/problems/different_plots_problems_1.ipynb) (active)
 
 
-<a id="orge191d98"></a>
+<a id="org4c74376"></a>
 
 # Week 12 - November 2
 
@@ -578,7 +578,7 @@ See full [Schedule](https://github.com/birkenkrahe/dsc101/blob/main/schedule.org
 ![img](./img/sprint3.gif)
 
 
-<a id="org94ebbe8"></a>
+<a id="org884b2b0"></a>
 
 # Week 12 - November 4
 
@@ -781,7 +781,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [This is how far we got last time](https://colab.research.google.com/drive/1I5SfM4CNC4UXNCcLHyO1Owv4iIUsuRva?usp=sharing) (active)
 
 
-<a id="org7d9b60f"></a>
+<a id="orga526192"></a>
 
 # Week 13 - November 9
 
@@ -844,7 +844,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 -   [GitHub notebook copy](https://github.com/birkenkrahe/dsc101/blob/main/8_plotting/8_plotting.org) (not active)
 
 
-<a id="org3e0585d"></a>
+<a id="org385b1b6"></a>
 
 # Week 13 - November 11
 
@@ -968,7 +968,7 @@ Lame statistician's joke (via [#RStats](https://twitter.com/data_question/status
 ![img](./img/update1.png)
 
 
-<a id="org5371ca9"></a>
+<a id="orgb352a3a"></a>
 
 # Week 14 - November 16
 
@@ -1053,7 +1053,7 @@ From Dr. Wesley Beal (Lyon):
 > thought I'd at least offer!
 
 
-<a id="org2e8686f"></a>
+<a id="orgc94e12e"></a>
 
 # Week 14 - November 18
 
@@ -1066,7 +1066,7 @@ From Dr. Wesley Beal (Lyon):
 ![img](./img/noclass.gif)
 
 
-<a id="org019bea0"></a>
+<a id="org66eb0bc"></a>
 
 # Week 15 - November 23
 
@@ -1156,7 +1156,7 @@ From Dr. Wesley Beal (Lyon):
 
 <tbody>
 <tr>
-<td class="org-left">Test 9</td>
+<td class="org-left"><a href="https://lyon.schoology.com/assignment/5459134498">Test 9</a></td>
 <td class="org-left">Plotting with base R</td>
 <td class="org-left">ready now</td>
 </tr>
@@ -1170,6 +1170,13 @@ From Dr. Wesley Beal (Lyon):
 
 
 <tr>
+<td class="org-left">Final exam</td>
+<td class="org-left">Tue 7-Dec 1PM - Thu 9-Dec 2.15PM</td>
+<td class="org-left">in 2 weeks</td>
+</tr>
+
+
+<tr>
 <td class="org-left">Video/Notebook</td>
 <td class="org-left"><a href="https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/">Animating</a> with <code>gganimate</code></td>
 <td class="org-left">next week?</td>
@@ -1177,10 +1184,26 @@ From Dr. Wesley Beal (Lyon):
 </tbody>
 </table>
 
-**Thu Nov 25: Thanksgiving break**
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
-<a id="orgfae5cf4"></a>
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Thu Nov 25: Thanksgiving break</td>
+</tr>
+
+
+<tr>
+<td class="org-left">All tests will be open until Tue 7 Dec 1 PM</td>
+</tr>
+</tbody>
+</table>
+
+
+<a id="orgeaa4834"></a>
 
 # Week 16 - Nov 30/Dec 2
 
@@ -1189,7 +1212,7 @@ From Dr. Wesley Beal (Lyon):
 ![img](./img/noclass.gif)
 
 
-<a id="org3617ab6"></a>
+<a id="orga167ebf"></a>
 
 # Week 17 - Dec 7-Dec 9
 
@@ -1198,7 +1221,7 @@ From Dr. Wesley Beal (Lyon):
 ![img](./img/noclass.gif)
 
 
-<a id="org3c663ab"></a>
+<a id="org647159b"></a>
 
 # References
 

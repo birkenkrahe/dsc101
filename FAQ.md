@@ -1,14 +1,15 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgdb7cca7)
-2.  [Which textbooks are we going to use?](#org2219d53)
-3.  [Are we going to use RStudio?](#orgf51be57)
-4.  [Which editor and IDE do you use?](#orgbc9a932)
+1.  [What is this?](#org7b470fa)
+2.  [Which textbooks are we going to use?](#org66ea7ff)
+3.  [Are we going to use RStudio?](#org4bca08c)
+4.  [Which editor and IDE do you use?](#org5448367)
+5.  [What are the instructions for the final presentation?](#orgcf497f9)
 
 
 
-<a id="orgdb7cca7"></a>
+<a id="org7b470fa"></a>
 
 # What is this?
 
@@ -17,7 +18,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
 1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
 
 
-<a id="org2219d53"></a>
+<a id="org66ea7ff"></a>
 
 # Which textbooks are we going to use?
 
@@ -49,7 +50,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
     please share the information with us!
 
 
-<a id="orgf51be57"></a>
+<a id="org4bca08c"></a>
 
 # Are we going to use RStudio?
 
@@ -78,7 +79,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="orgbc9a932"></a>
+<a id="org5448367"></a>
 
 # Which editor and IDE do you use?
 
@@ -101,10 +102,53 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [20](#org496f5b2) shows four (out of an arbitrary number of)
+Thee figure [20](#org071748e) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
+
+
+<a id="orgcf497f9"></a>
+
+# What are the instructions for the final presentation?
+
+These are the instructions<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup> for handing in the final
+presentation of your data science term team project. Please read them
+carefully, follow them to the letter and contact me immediately if
+there are issues or mistakes<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>. Submit earlier, not in the last
+minute, to be on the safe side!
+
+The deadline for submitting the presentation is **December 5, 12AM
+CST** (Sunday midnight in Batesville).
+
+1.  **Fill in and sign** [this honor sheet (PDF)](https://github.com/birkenkrahe/org/blob/master/Honor_pledge.pdf) and write
+    **"pledged"** next to your name in the column "Honor Pledge".
+
+2.  Upload your **presentation documents** and the **scan of the
+    signed honor sheet** [to this GitHub folder](https://github.com/birkenkrahe/dsc101/tree/main/presentations/4_sprint_review) - please add your
+    name(s) to the title of the file. If you submit more than one
+    file (e.g. notebook etc.) please create a folder!
+
+3.  Post the **link** to your video presentation [to the discussion
+    forum](https://github.com/birkenkrahe/dsc101/discussions) in GitHub<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>. Test the link before posting it!
+
+4.  When you're done, **send me an email** (birkenkrahe@lyon.edu)
+    confirming that you've done all of this, including which
+    course you're in (DSC 101).
+
+5.  Await my formative (comments) and summative (grade) feedback
+    (via email) based on [this presentation assessment form](https://github.com/birkenkrahe/org/blob/master/Presentation_Assessment_Form.pdf) (PDF).
+    
+    Cheers, and have a good Thanksgiving break & a successful exam
+    period!  Marcus Birkenkrahe
+
+PS. There is no strict upper or lower time limit for your
+presentation. Take all the time that you need to answer your
+research question. Also, you submit as a team if you worked on the
+project as a team - I don't care who gives the presentation,
+i.e. how you split the work up among yourselves. Formally, you can
+create a screencast, make a real video, record yourself in
+powerpoint etc. - your choice of medium.
 
 
 # Footnotes
@@ -122,3 +166,15 @@ recommend it for beginners.
 which is one of its greatest advantages (it's a totally extensible
 editor - unlike all the other IDEs and GUI-tools that you use). [Elisp
 is easy to learn](https://www.emacswiki.org/emacs/LearnEmacsLisp).
+
+<sup><a id="fn.3" href="#fnr.3">3</a></sup> This text will be available here: Update in Schoology, Email to
+participants, FAQ in GitHub (AI).
+
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> Please be advised that I'm traveling in Europe between November
+29 and December 15 (communication of final grades), and will not be
+easily reachable.
+
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> Start a `New discussion` and make sure that your name(s) appear
+in the subject line of the post. Do **not post the video itself** since
+GitHub has limited space available. Use GDrive, Vimeo or YouTube
+(unlisted) instead.

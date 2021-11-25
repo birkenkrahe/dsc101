@@ -1,14 +1,14 @@
 
 # Table of Contents
 
-1.  [What is this?](#org65190c3)
-2.  [Which textbooks are we going to use?](#orgde94538)
-3.  [Are we going to use RStudio?](#org0494237)
-4.  [Which editor and IDE do you use?](#org49735c5)
+1.  [What is this?](#orgdb7cca7)
+2.  [Which textbooks are we going to use?](#org2219d53)
+3.  [Are we going to use RStudio?](#orgf51be57)
+4.  [Which editor and IDE do you use?](#orgbc9a932)
 
 
 
-<a id="org65190c3"></a>
+<a id="orgdb7cca7"></a>
 
 # What is this?
 
@@ -17,7 +17,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
 1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
 
 
-<a id="orgde94538"></a>
+<a id="org2219d53"></a>
 
 # Which textbooks are we going to use?
 
@@ -49,7 +49,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
     please share the information with us!
 
 
-<a id="org0494237"></a>
+<a id="orgf51be57"></a>
 
 # Are we going to use RStudio?
 
@@ -78,7 +78,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org49735c5"></a>
+<a id="orgbc9a932"></a>
 
 # Which editor and IDE do you use?
 
@@ -101,7 +101,7 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [20](#org2c5e483) shows four (out of an arbitrary number of)
+Thee figure [20](#org496f5b2) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)

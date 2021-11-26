@@ -45,4 +45,5 @@ focused on doing stuff.
 # Footnotes
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> This means that you can open it in Google Colaboratory, save
-your own copy, and work it out for yourself.
+your own copy, and work it out for yourself before looking at the
+solution notebook!

@@ -452,6 +452,11 @@
    especially data visualization and rudimentary analysis, in other
    courses. Some examples:
 
+   * When you come across a spreadsheet (CSV format), fire up R, turn
+     it into a data frame and analyse and visualize the data
+   * Look at public graphs and evaluate the quality of the
+     visualization and the validity of the underlying data
+   * 
    
      
      

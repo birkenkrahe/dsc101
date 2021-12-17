@@ -327,7 +327,7 @@
    compare the project featured above where temperature measurements
    are turned into sound ([[wilke][Wilke 2021]]).
 
-* Good-bye (12-16-2021)
+* IN PROGRESS Good-bye (12-16-2021)
 
   I've just recorded a [[https://youtu.be/IxyqEW9-12s][short good-bye video]]. Here are few parting
   notes for this course.
@@ -335,9 +335,9 @@
 ** What does it all mean?
 
    In a recent critique of the proposed California Mathematics
-   Framework, Norman Matloff (known to you as a preeminent author of
-   books on stats and R, and of the "TidyverseSceptic" essay), writes
-   (Matloff, 2021):
+   Framework (CMF), Norman Matloff (known to you as a preeminent
+   author of books on stats and R, and of the "TidyverseSceptic"
+   essay), writes (Matloff, 2021):
 
    #+begin_quote
    Open-ended data science fits right in to the CMF desire to teach

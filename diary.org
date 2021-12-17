@@ -452,13 +452,33 @@
    especially data visualization and rudimentary analysis, in other
    courses. Some examples:
 
-   * When you come across a spreadsheet (CSV format), fire up R, turn
-     it into a data frame and analyse and visualize the data
+   * When you come across a spreadsheet (CSV format) or another public
+     dataset, fire up R, turn it into a data frame (~read.csv()~) and
+     analyse and visualize the data using ~plot()~, or some of the
+     other simple functions
    * Look at public graphs and evaluate the quality of the
      visualization and the validity of the underlying data
-   * 
-   
-     
+   * When you code yourself, consider using an interactive notebook -
+     jupyter notebooks don't just exist for Python and R, but for
+     other languages as well.
+   * Even if you don't go all the way to "interactive", keep the
+     lessons of literate programming in mind and make your code
+     readable.
+
+   All data science courses at Lyon are relevant extensions of this
+   course, in particular the advanced intro and databases (SQL) in
+   the [[https://github.com/birkenkrahe/org/blob/master/spring22.md#org2e649ce][spring 2022]] term.
+
+   In the fall 2022, I'll teach "Data Visualization" (DSC 302). This
+   course will go beyond R and include some other popular frameworks
+   like D3 or Processing (with JavaScript), perhaps even some Python.
+
+   In the spring 2023, data science will enter the "Digital
+   Humanities" (CSC 105) class. In "Machine Learning" (DSC 305), I
+   will focus on predictive algorithms - we'll touch upon them already
+   in DSC 205.
+
+   So far, so good, so long!
      
 ** Final words.
 

@@ -327,17 +327,20 @@
    compare the project featured above where temperature measurements
    are turned into sound ([[wilke][Wilke 2021]]).
 
-* IN PROGRESS Good-bye (12-16-2021)
+* Good-bye (12-16-2021)
 
   I've just recorded a [[https://youtu.be/IxyqEW9-12s][short good-bye video]]. Here are few parting
   notes for this course.
+
+  #+attr_html: :width 500px
+  [[./img/awesome.png]]
 
 ** What does it all mean?
 
    In a recent critique of the proposed California Mathematics
    Framework (CMF), Norman Matloff (known to you as a preeminent
    author of books on stats and R, and of the "TidyverseSceptic"
-   essay), writes (Matloff, 2021):
+   essay), writes ([[cmf][Matloff, 2021]]):
 
    #+begin_quote
    Open-ended data science fits right in to the CMF desire to teach
@@ -351,7 +354,28 @@
    the data because there are no right answers."
    #+end_quote
 
+   Contrary to this criticism, the point of our course was that there
+   are "right answers", and though we may have to work hard to get
+   them, or never succeed, we need to try.
 
+   The purpose of the introductory courses on data science is to give
+   you some of the insights and tools to tackle data to get right
+   answers and, ideally, solve relevant problems in a scientific
+   (i.e. systematic, objective, transparent) way.
+
+   We've only begun to do this in the first course, and we'll continue
+   in the "Introduction to Advanced Data Science" (more about that
+   later).
+
+   The course also included a close encounter with agile data science
+   project management, with the language R, and with the DataCamp
+   training platform. I'd like to say a little about each of these.
+
+*** Scrum
+
+*** R
+
+*** DataCamp
 
 ** What about the course?
 
@@ -396,6 +420,10 @@
 
   <<matloff21>> Matloff N (9 Sept 2021). At Crossroads in California
   K-12 Math Education [Blog]. [[https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/][Online: normsaysno.wordpress.com.]]
+
+  <<cmf>> Matloff N (2021). The (Academically) Rich Get Richer, the
+  Poor Get Poorer Tragic Impact on Minority Students of the Proposed
+  California Math Reform [Blog]. [[https://heather.cs.ucdavis.edu/CalMathFrame.html][URL: heather.cs.ucdavis.edu]]
 
   <<jens>> Rauenbusch J (2021). Design in MBA Education in the
   U.S. Towards a Design-Integrated Curriculum to Prepare Future

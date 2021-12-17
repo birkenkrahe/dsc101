@@ -268,7 +268,7 @@
   nothing to worry about but still debilitating). This hasn't stopped
   me from hunting and gathering R examples. Here are a few recent
   captures.
-  
+
 ** Webscraping example
 
    #+attr_html: :width 400px
@@ -281,7 +281,7 @@
    From a recent Master thesis. The author had to gather data from
    many different online curricula and collect them as a table for
    further analysis.
-   
+
    Source: [[jens][Rauenbusch J (2021)]].
 
 ** New CRAN packages
@@ -309,7 +309,7 @@
    Comment by [[matloff][Norman Matloff]] on Twitter about this tweet:
 
    [[./img/tidyverse.png]]
-   
+
    The ~data.table~ package, which contains the ~fread()~ function, is
    fantastically fast and overall wonderful. ~fread()~ is featured in
    the introductory data import with R course from DataCamp. You
@@ -326,7 +326,49 @@
    In fact, many projects require knowledge of both R and Python -
    compare the project featured above where temperature measurements
    are turned into sound ([[wilke][Wilke 2021]]).
-   
+
+* Good-bye (12-16-2021)
+
+  I've just recorded a [[https://youtu.be/IxyqEW9-12s][short good-bye video]]. Here are few parting
+  notes for this course.
+
+** What does it all mean?
+
+   In a recent critique of the proposed California Mathematics
+   Framework, Norman Matloff (known to you as a preeminent author of
+   books on stats and R, and of the "TidyverseSceptic" essay), writes
+   (Matloff, 2021):
+
+   #+begin_quote
+   Open-ended data science fits right in to the CMF desire to teach
+   kids that "There is no right answer." There is a grain of truth to
+   that, but kids must learn how to get the right answer when there is
+   one. As one critic rather sarcastically but in my view aptly put
+   it, "...if you throw a bunch of data at students, they can group
+   it, type it into a spreadsheet, plot graphs and so on. It's pretty
+   easy to convince yourself they are doing something called 'Data
+   Science'. They don't have to do anything particularly useful with
+   the data because there are no right answers."
+   #+end_quote
+
+
+
+** What about the course?
+
+
+** What next? Follow-up courses.
+
+
+
+** Final words.
+
+   Thank you from the bottom of my heart for welcoming me to Lyon by
+   working with me during this last term. I wish you a Merry
+   Christmas, a restful break, and I'm looking forward to seeing some
+   of you again next term!
+
+   [[./img/finals.gif]]
+
 * References
 
   Really? References in a diary? I know that you know that I am not
@@ -369,7 +411,7 @@
 
   <<willems>> Willems K (July 14th, 2021). The data.table R Package
   Cheat Sheet. URL: [[https://www.datacamp.com/community/tutorials/data-table-cheat-sheet][datacamp.com]].
-  
+
 * Footnotes
 
 [fn:2]How will I know? Because it is clear from the discussion and the

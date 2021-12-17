@@ -582,12 +582,20 @@
 
   [[./img/noclass.gif]]
 
-* Week 17 - Dec 7-Dec 9
+* Week 17 - Final exams
 
-  *Exam week*
+  [[./img/finals.gif]]
 
-  [[./img/noclass.gif]]
+* Week 18 - Goodbye video
 
+  [[./img/goodbye.gif]]
+
+  [[https://youtu.be/IxyqEW9-12s][See good-bye video.]]
+
+  * What does it all mean?
+  * What about the course?
+  * What next? Follow-up courses.
+  * Final words.
 
 * Footnotes
 

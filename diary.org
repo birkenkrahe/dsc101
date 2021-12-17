@@ -327,7 +327,7 @@
    compare the project featured above where temperature measurements
    are turned into sound ([[wilke][Wilke 2021]]).
 
-* Good-bye (12-16-2021)
+* Good-bye (12-17-2021)
 
   I've just recorded a [[https://youtu.be/IxyqEW9-12s][short good-bye video]]. Here are few parting
   notes for this course.

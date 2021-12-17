@@ -592,6 +592,7 @@
 
   [[https://youtu.be/IxyqEW9-12s][See good-bye video.]]
 
+  [[https://github.com/birkenkrahe/dsc101/blob/main/diary.md#good-bye-12-17-2021][See last diary entry]]:
   * What does it all mean?
   * What about the course?
   * What next? Follow-up courses.

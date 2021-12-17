@@ -371,35 +371,89 @@
    project management, with the language R, and with the DataCamp
    training platform.
 
-   With Scrum, you've worked with with one of the most innovative,
-   fastest growing project management methods around. Even with
-   yourself as "project owner", Scrum style might help you complete
-   more of your personal projects successfully on time.
+   With *Scrum*, the best known agile method, you've worked with with
+   one of the most innovative, fastest growing project management
+   methods around. Even with yourself as "project owner", Scrum style
+   might help you complete more of your personal projects successfully
+   on time.
 
-   With R, you've had a taste of one of the best data-focused
+   With *R*, you've had a taste of one of the best data-focused
    programming languages, well suited for beginners, powerful from the
-   first command onwards. There's a lot more music in R, of
-   course, and no known limitation. Especially, if you're more in love
-   with data than with coding, you've likely made a friend for life!
+   first command onwards. There's a lot more music in R, of course,
+   and no known limitation. Especially, if you're more in love with
+   data than with coding, you've likely made a friend for life!
 
-   DataCamp was praised by some in the evaluations - I still enjoy
-   working with the platform myself, and I will continue to use it in
-   future courses. Programmed tutorials like these can, of course,
-   only cover one aspect of learning, and DataCamp does not replace
-   spending many hours working independently and on your own.
+   The *DataCamp* platform was praised by some in the evaluations - I
+   still enjoy working with the platform myself, and I will continue
+   to use it in future courses. Programmed tutorials like these can,
+   of course, only cover one aspect of learning, and DataCamp does not
+   replace spending many hours working independently and on your own.
 
    Put all three on your resume right now! What're you waiting for?
     
-** What about the course?
+** What about the class? Choices and changes.
 
+   In the course of the term, you had to endure quite a few changes of
+   pace and material - it took me a while to adjust to the level and
+   specific knowledge of the participants.
+
+   The good news: you managed - according to your evaluations (thank
+   you! Almost 60% responded - not quite as much as I had hoped, but
+   good enough), you learnt something and you thought I was up to the
+   job!
+
+   There are, of course, a million different ways to design such an
+   introductory class. I made a few choices, including:
+
+   1) Base R (stick shift) instead of "TidyVerse" (automatic)
+   2) Use of interactive notebooks (literate programming!)
+   3) Use GitHub as a code and materials repository
+   4) Create lots of (ungraded) tests
+   5) Use of DataCamp assignments
+   6) Avoid mathematics as much as possible
+   7) Reuse tests for the final exam
+   8) Let students pick their own projects
+   
+   In the next basic data science course (this course will run once a
+   year, so this will be Fall 2022), I would stick to all of these
+   choices, except perhaps (6). It would be useful to repeat or
+   introduce some basic statistics concepts more formally.
+
+   I will also make more use of the Schoology gradebook (though the
+   college might switch to another LMS), and offer more graded
+   assignments in class.
+
+   I will change the DataCamp assignments and let students complete
+   the "Data Science for Everyone" and "Data Visualization for
+   Everyone" courses, instead of the more specialized technical
+   courses. We can learn R and graphic techniques in class.
+
+   I did enjoy seeing what you came up with for the final projects. At
+   the same time (though nobody complained in the evaluation), I think
+   I overdid it when I asked you to pick your own topic. Instead, I
+   may eliminate projects from this class, and only do projects in the
+   followup course when most of the basics are out of the way.
 
 ** What next? Follow-up courses.
 
+   Here are a few practical suggestions:
+   
    * Use Scrum (= incremental, prototype-oriented, dialog-rich) in
      your projects at school and outside of school
    * Use R regularly for your computational needs
    * Complete the DataCamp courses that you started in this class
    * Get the mobile DataCamp app and do your (daily) drills
+
+   Most importantly, don't let existing skills go to waste. If you are
+   in the followup class, you're okay for another term, but if not,
+   you may have to make time yourself to keep your skills fresh.
+
+   The best if not easiest way to do this is to use these skills,
+   especially data visualization and rudimentary analysis, in other
+   courses. Some examples:
+
+   
+     
      
 ** Final words.
 

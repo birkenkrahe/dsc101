@@ -369,21 +369,38 @@
 
    The course also included a close encounter with agile data science
    project management, with the language R, and with the DataCamp
-   training platform. I'd like to say a little about each of these.
+   training platform.
 
-*** Scrum
+   With Scrum, you've worked with with one of the most innovative,
+   fastest growing project management methods around. Even with
+   yourself as "project owner", Scrum style might help you complete
+   more of your personal projects successfully on time.
 
-*** R
+   With R, you've had a taste of one of the best data-focused
+   programming languages, well suited for beginners, powerful from the
+   first command onwards. There's a lot more music in R, of
+   course, and no known limitation. Especially, if you're more in love
+   with data than with coding, you've likely made a friend for life!
 
-*** DataCamp
+   DataCamp was praised by some in the evaluations - I still enjoy
+   working with the platform myself, and I will continue to use it in
+   future courses. Programmed tutorials like these can, of course,
+   only cover one aspect of learning, and DataCamp does not replace
+   spending many hours working independently and on your own.
 
+   Put all three on your resume right now! What're you waiting for?
+    
 ** What about the course?
 
 
 ** What next? Follow-up courses.
 
-
-
+   * Use Scrum (= incremental, prototype-oriented, dialog-rich) in
+     your projects at school and outside of school
+   * Use R regularly for your computational needs
+   * Complete the DataCamp courses that you started in this class
+   * Get the mobile DataCamp app and do your (daily) drills
+     
 ** Final words.
 
    Thank you from the bottom of my heart for welcoming me to Lyon by

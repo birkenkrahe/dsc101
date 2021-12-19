@@ -1,18 +1,18 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgd324ddc)
-2.  [Redrawing Google trend chart (07-13-2021)](#org09af2ae)
-3.  [Data science process (07-15-2021)](#orgb7a8b74)
-4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#org26e9c3a)
-5.  [Data or graph checking projects (10-07-2021)](#org3dab30f)
-6.  [From the sickbed (11-02-2021)](#org4e63611)
-7.  [Good-bye (12-17-2021)](#org9b75bf6)
-8.  [References](#org40734e0)
+1.  [What is this?](#org39b53f7)
+2.  [Redrawing Google trend chart (07-13-2021)](#orgf7d0a43)
+3.  [Data science process (07-15-2021)](#org0db029c)
+4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#orgaadca2e)
+5.  [Data or graph checking projects (10-07-2021)](#orgbb5b5a0)
+6.  [From the sickbed (11-02-2021)](#org47064c9)
+7.  [Good-bye (12-17-2021)](#org437faaa)
+8.  [References](#orgab84b58)
 
 
 
-<a id="orgd324ddc"></a>
+<a id="org39b53f7"></a>
 
 # What is this?
 
@@ -21,7 +21,7 @@ the DSC 101 course, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="org09af2ae"></a>
+<a id="orgf7d0a43"></a>
 
 # Redrawing Google trend chart (07-13-2021)
 
@@ -73,43 +73,99 @@ found out about this via [stack.overflow](https://stackoverflow.com/questions/44
 Here is a [short tutorial](https://www.statology.org/how-to-plot-multiple-lines-data-series-in-one-chart-in-r/) on how to do this using the functions
 `points()`, `lines()` and `plot()`. The code is below.
 
-    ## read data from CSV file
-    trends <- read.table(
-        file="./data/multiTimeline.csv",
-        header=TRUE,
-        sep=",")
+1.  Read data from CSV file
+
+    You can download this file from the `trends.google.com`
+    website. You should look at it first - the format can be
+    different from what I'm assuming here: there should be three
+    columns, two numeric (relative interest over time for "data
+    science", and for "machine learning"), and one character (the
+    date). In my downloaded file, there was an extra line
+    (`"Category: All categories"`), which I deleted manually.
     
-    ## convert Month column to Date format
-    library(anytime)
-    Month <- anydate(trends$Month)
-    trends <- cbind(trends[,-1],Month)
+        ## read data from CSV file
+        trends <- read.table(
+            file="data/multiTimeline.csv",
+            header=TRUE,
+            sep=",")
+        str(trends)
     
-    month <- trends$Month
-    ds <- trends$Data.science
-    ml <- trends$Machine.learning
+        
+        'data.frame':	216 obs. of  3 variables:
+         $ Month                        : chr  "2004-01" "2004-02" "2004-03" "2004-04" ...
+         $ data.science...Worldwide.    : int  9 9 7 1 7 6 6 7 5 5 ...
+         $ machine.learning...Worldwide.: int  13 22 16 17 22 16 28 12 22 18 ...
+
+2.  Rename column vectors
+
+    I want the column vectors to have simple names.
     
-    ## plot Data science search values
-    plot(x=month,
-         y=ds,
-         xlab="years",
-         ylab="Interest",
-         ylim=c(0,max(c(ds,ml))),
-         type="l",
-         lty=1,
-         col="blue")
+        colnames(trends) <- c("month","ds","ml")
+        str(trends)
     
-    ## plot Machine learning search values
-    lines(x=month,
-          y=ml,
-          lty=2,
-          col="red")
+        
+        'data.frame':	216 obs. of  3 variables:
+         $ month: chr  "2004-01" "2004-02" "2004-03" "2004-04" ...
+         $ ds   : int  9 9 7 1 7 6 6 7 5 5 ...
+         $ ml   : int  13 22 16 17 22 16 28 12 22 18 ...
+
+3.  Convert month column to `Date` format
+
+    The `anydate()` function in the `anytime` package parses dates
+    and returns a vector of `Date` objects. You have to install
+    `anytime`.
     
-    ## add a legend
-    legend(x=month[1],
-           y=85,
-           legend=c("Data science","Machine learning"),
-           lty=c(1,2),
-           col=c("blue","red"))
+        library(anytime)
+        month <- anydate(trends$month)
+        str(month)
+    
+        
+        Date[1:216], format: "2004-01-01" "2004-02-01" "2004-03-01" "2004-04-01" "2004-05-01" ...
+    
+    Now we substitute `trends$month` by the `Date`-formatted vector
+    `month`.
+    
+        trends <- cbind(trends[,-1], month)
+        str(trends)
+    
+        
+        'data.frame':	216 obs. of  3 variables:
+         $ ds   : int  9 9 7 1 7 6 6 7 5 5 ...
+         $ ml   : int  13 22 16 17 22 16 28 12 22 18 ...
+         $ month: Date, format: "2004-01-01" "2004-02-01" ...
+
+4.  Plotting
+
+    First, we plot the values for the "data science" search. The
+    plotting window is limited by the maximum search values.
+    
+    Then we plot the values for the "machine learning" search over
+    the existing plot using `lines()`.
+    
+    Finally, we add a legend in the upper left corner.
+    
+        plot(x=trends$month,
+             y=trends$ds,
+             xlab="years",
+             ylab="Interest",
+             ylim=c(0,max(c(trends$ds,trends$ml))),
+             type="l",
+             lty=1,
+             col="blue",
+             main="trends.google.com search history")
+        
+        lines(x=trends$month,
+              y=trends$ml,
+              lty=2,
+              col="red")
+        
+        legend(x=month[1],
+               y=85,
+               legend=c("data science","machine learning"),
+               lty=c(1,2),
+               col=c("blue","red"))
+    
+    ![img](./img/trends.png)
 
 
 ### Code summary
@@ -205,14 +261,14 @@ For some simple examples, see this [short tutorial](http://www.sthda.com/english
     	col=c("blue","red"))
 
 
-<a id="orgb7a8b74"></a>
+<a id="org0db029c"></a>
 
 # Data science process (07-15-2021)
 
 I was digging around my notes made for an online test lecture on May
 19, on "Exploring data with R" (see [presentation](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf) & [notes](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_notes.pdf)), for an
 update on a [data science overview lecture](https://github.com/birkenkrahe/dsc101/tree/main/2_datascience). For this talk, I had
-developed the model shown in figure [11](#org2fd9334): there are two pathways
+developed the model shown in figure [19](#org96e2f4e): there are two pathways
 towards machine learning. One pathway relied more on coding and
 algorithms (traditionally taught in CS programs), the other one
 relied more on modeling and heuristics (traditionally taught in
@@ -229,13 +285,13 @@ experience of a CS professor that some CS students with more than
 average interest in mathematics wanted to specialize on data
 science. The other one related to my experience with exploratory
 data analysis as a way of solving hard, data rich problems for real
-clients (see figure [14](#org3af405f)).
+clients (see figure [22](#org30aabd1)).
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png)
 
 I added this to the other two data science workflow images that I
 already had in the lecture. And I added yet another one (see figure
-[16](#orga3b0eb8)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
+[24](#org9e87aa7)), from a recent book on data analytics<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>. I really like
 how everything comes back and returns to the "real world" here, and
 the feedback loop provided by the data analysis "pipeline".
 
@@ -267,18 +323,18 @@ them to the lecture - will see in August if this makes any
 difference or not<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>.
 
 
-<a id="org26e9c3a"></a>
+<a id="orgaadca2e"></a>
 
 # "Teaching the tidyverse in 2021" (09-07-2021)
 
 I've mentioned the "tidyverse" before. This morning, I read an
 article (posted in RWeekly, the weekly aggregator of R news that you
 should subscribe to) "Teaching the tidyverse in 2021"
-([Cetinkaya-Rundel, 2021](#org261ecb5)), which upset me. I will briefly explain
+([Cetinkaya-Rundel, 2021](#orgca00d38)), which upset me. I will briefly explain
 why. The article mentions the 2020 series of the same title, which
 begins with the claim that "updates to tidyverse packages are
 specifically designed to make it easier for new learners to get
-started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org9284a12)).
+started with doing data science in R." ([Cetinkaya-Rundel, 2020](#orgdb43ba6)).
 
 Instead of a long rant (see Matloff's "TidyverseSceptic" for a
 complete picture of the criticism), just look at the first figure,
@@ -299,7 +355,7 @@ base R, no matter how many times the creators and contributors of
 this package bundle may say so.
 
 
-<a id="org3dab30f"></a>
+<a id="orgbb5b5a0"></a>
 
 # Data or graph checking projects (10-07-2021)
 
@@ -313,11 +369,11 @@ a student project from last term. This team of Master students
 focused on a graph published in The Economist. I have uploaded their
 final report "Improve Visualization of Popular Support for Executive
 Actions in the U.S." and the data ([Cai, Otlu and Rauenbusch,
-2021](#org3a0860a)). It's a very good piece of work, created with a lot of effort
+2021](#orgbb47c3d)). It's a very good piece of work, created with a lot of effort
 over a period of three months. Less would easily do for our course.
 
 Here is a more recent data checking example that you might find
-interesting, by [Matloff (2021)](#org5c90ac3). This highly opinionated data
+interesting, by [Matloff (2021)](#org979b63a). This highly opinionated data
 checking post uses statistical arguments to check policy
 decisions. From the conclusions:
 
@@ -333,7 +389,7 @@ And here's a 2020 list of useful sites for [finding free, public
 datasets](https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d) for EDA tasks.
 
 
-<a id="org4e63611"></a>
+<a id="org47064c9"></a>
 
 # From the sickbed (11-02-2021)
 
@@ -353,7 +409,7 @@ From a recent Master thesis. The author had to gather data from
 many different online curricula and collect them as a table for
 further analysis.
 
-Source: [Rauenbusch J (2021)](#org55c3848).
+Source: [Rauenbusch J (2021)](#orgc9a1bc0).
 
 
 ## New CRAN packages
@@ -376,7 +432,7 @@ Source: [Rauenbusch J (2021)](#org55c3848).
 
 > "Evangelist instructors write evangelistic exams."
 
-Comment by [Norman Matloff](#org29a3fc3) on Twitter about this tweet:
+Comment by [Norman Matloff](#org2cb2f50) on Twitter about this tweet:
 
 ![img](./img/tidyverse.png)
 
@@ -384,22 +440,22 @@ The `data.table` package, which contains the `fread()` function, is
 fantastically fast and overall wonderful. `fread()` is featured in
 the introductory data import with R course from DataCamp. You
 should also take a look at the full `data.table` course - see this
-[introductory blog post](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet) for starters ([Willems, 2021](#org570731e)).
+[introductory blog post](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet) for starters ([Willems, 2021](#org399278c)).
 
 
 ## The battle between Python and R has been concluded
 
 I thought this article with the title from the headline ([Valdeleon,
-2021](#orgf22d383)) is spot on - there's no need to pitch one of these languages
+2021](#orgfc85274)) is spot on - there's no need to pitch one of these languages
 against the other. Each of them has its pros and cons, and it
 depends on the job which one you should learn and use.
 
 In fact, many projects require knowledge of both R and Python -
 compare the project featured above where temperature measurements
-are turned into sound ([Wilke 2021](#orgaf79acc)).
+are turned into sound ([Wilke 2021](#org756b130)).
 
 
-<a id="org9b75bf6"></a>
+<a id="org437faaa"></a>
 
 # Good-bye (12-17-2021)
 
@@ -414,7 +470,7 @@ notes for this course.
 In a recent critique of the proposed California Mathematics
 Framework (CMF), Norman Matloff (known to you as a preeminent
 author of books on stats and R, and of the "TidyverseSceptic"
-essay), writes ([Matloff, 2021](#orge9cc525)):
+essay), writes ([Matloff, 2021](#org27d837d)):
 
 > Open-ended data science fits right in to the CMF desire to teach
 > kids that "There is no right answer." There is a grain of truth to
@@ -565,7 +621,7 @@ of you again next term!
 ![img](./img/finals.gif)
 
 
-<a id="org40734e0"></a>
+<a id="orgab84b58"></a>
 
 # References
 
@@ -577,41 +633,41 @@ at all, because referencing is about (a) intellectual property
 rights (you should care about rights!), and (b) the truth (which
 must be spoken!).
 
-<a id="org3a0860a"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
+<a id="orgbb47c3d"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
 Visualization of Popular Support for Executive Actions in the
 U.S. [Report]. Berlin School of Economics and Law. [Online: GitHub.](https://github.com/birkenkrahe/dsc101/tree/main/projects/examples/cai_et_al_2021)
 
-<a id="org9284a12"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
+<a id="orgdb43ba6"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
 in 2020 - Part 1: Getting started [Blog]. [Online:
 education.rstudio.com.](https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/)
 
-<a id="org261ecb5"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
+<a id="orgca00d38"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
 in 2021 [Blog]. [Online: tidyverse.org.](https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/)
 
-<a id="org29a3fc3"></a> Matloff N (2020). TidyverseSceptic - An alternate view
+<a id="org2cb2f50"></a> Matloff N (2020). TidyverseSceptic - An alternate view
 of the Tidyverse "dialect" of the R language, and its promotion by
 RStudio. [Online: github.com](https://github.com/matloff/TidyverseSkeptic).
 
-<a id="org5c90ac3"></a> Matloff N (9 Sept 2021). At Crossroads in California
+<a id="org979b63a"></a> Matloff N (9 Sept 2021). At Crossroads in California
 K-12 Math Education [Blog]. [Online: normsaysno.wordpress.com.](https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/)
 
-<a id="orge9cc525"></a> Matloff N (2021). The (Academically) Rich Get Richer, the
+<a id="org27d837d"></a> Matloff N (2021). The (Academically) Rich Get Richer, the
 Poor Get Poorer Tragic Impact on Minority Students of the Proposed
 California Math Reform [Blog]. [URL: heather.cs.ucdavis.edu](https://heather.cs.ucdavis.edu/CalMathFrame.html)
 
-<a id="org55c3848"></a> Rauenbusch J (2021). Design in MBA Education in the
+<a id="orgc9a1bc0"></a> Rauenbusch J (2021). Design in MBA Education in the
 U.S. Towards a Design-Integrated Curriculum to Prepare Future
 Leaders for a Volatile, Uncertain, Complex, and Ambiguous (VUCA)
 World. MA thesis, Berlin School of Economics and Law.
 
-<a id="orgf22d383"></a> Valdeleon J (29 Aug 2021). The battle between Python & R
+<a id="orgfc85274"></a> Valdeleon J (29 Aug 2021). The battle between Python & R
 has been concluded [blog]. URL: [medium.com](https://medium.com/codex/the-battle-between-python-r-has-been-concluded-b6ffda4ef87).
 
-<a id="orgaf79acc"></a> Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing
+<a id="org756b130"></a> Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing
 Temperature Measurements into Sound [Blog]. URL:
 [rssblogg.netlify.app](https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/).
 
-<a id="org570731e"></a> Willems K (July 14th, 2021). The data.table R Package
+<a id="org399278c"></a> Willems K (July 14th, 2021). The data.table R Package
 Cheat Sheet. URL: [datacamp.com](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet).
 
 

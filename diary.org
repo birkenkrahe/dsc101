@@ -58,46 +58,115 @@
     Here is a [[https://www.statology.org/how-to-plot-multiple-lines-data-series-in-one-chart-in-r/][short tutorial]] on how to do this using the functions
     ~points()~, ~lines()~ and ~plot()~. The code is below.
 
-    #+begin_src R :session :results file graphics :file ./img/trends.png
-      ## read data from CSV file
-      trends <- read.table(
-          file="./data/multiTimeline.csv",
-          header=TRUE,
-          sep=",")
+**** Read data from CSV file
 
-      ## convert Month column to Date format
-      library(anytime)
-      Month <- anydate(trends$Month)
-      trends <- cbind(trends[,-1],Month)
+     You can download this file from the ~trends.google.com~
+     website. You should look at it first - the format can be
+     different from what I'm assuming here: there should be three
+     columns, two numeric (relative interest over time for "data
+     science", and for "machine learning"), and one character (the
+     date). In my downloaded file, there was an extra line
+     (~"Category: All categories"~), which I deleted manually.
 
-      month <- trends$Month
-      ds <- trends$Data.science
-      ml <- trends$Machine.learning
+     #+begin_src R :session :exports both :results output
+       ## read data from CSV file
+       trends <- read.table(
+           file="data/multiTimeline.csv",
+           header=TRUE,
+           sep=",")
+       str(trends)
+     #+end_src
 
-      ## plot Data science search values
-      plot(x=month,
-           y=ds,
-           xlab="years",
-           ylab="Interest",
-           ylim=c(0,max(c(ds,ml))),
-           type="l",
-           lty=1,
-           col="blue")
+     #+RESULTS:
+     :
+     : 'data.frame':    216 obs. of  3 variables:
+     :  $ Month                        : chr  "2004-01" "2004-02" "2004-03" "2004-04" ...
+     :  $ data.science...Worldwide.    : int  9 9 7 1 7 6 6 7 5 5 ...
+     :  $ machine.learning...Worldwide.: int  13 22 16 17 22 16 28 12 22 18 ...
 
-      ## plot Machine learning search values
-      lines(x=month,
-            y=ml,
-            lty=2,
-            col="red")
+**** Rename column vectors
 
-      ## add a legend
-      legend(x=month[1],
-             y=85,
-             legend=c("Data science","Machine learning"),
-             lty=c(1,2),
-             col=c("blue","red"))
+     I want the column vectors to have simple names.
 
-    #+end_src
+     #+begin_src R :exports both :session :results output
+       colnames(trends) <- c("month","ds","ml")
+       str(trends)
+     #+end_src
+
+     #+RESULTS:
+     :
+     : 'data.frame':    216 obs. of  3 variables:
+     :  $ month: chr  "2004-01" "2004-02" "2004-03" "2004-04" ...
+     :  $ ds   : int  9 9 7 1 7 6 6 7 5 5 ...
+     :  $ ml   : int  13 22 16 17 22 16 28 12 22 18 ...
+
+**** Convert month column to ~Date~ format
+
+     The ~anydate()~ function in the ~anytime~ package parses dates
+     and returns a vector of ~Date~ objects. You have to install
+     ~anytime~.
+
+     #+begin_src R :exports both :session :results output
+       library(anytime)
+       month <- anydate(trends$month)
+       str(month)
+     #+end_src
+
+     #+RESULTS:
+     :
+     :  Date[1:216], format: "2004-01-01" "2004-02-01" "2004-03-01" "2004-04-01" "2004-05-01" ...
+
+     Now we substitute ~trends$month~ by the ~Date~-formatted vector
+     ~month~.
+
+     #+begin_src R :exports both :session :results output
+       trends <- cbind(trends[,-1], month)
+       str(trends)
+     #+end_src
+
+     #+RESULTS:
+     :
+     : 'data.frame':    216 obs. of  3 variables:
+     :  $ ds   : int  9 9 7 1 7 6 6 7 5 5 ...
+     :  $ ml   : int  13 22 16 17 22 16 28 12 22 18 ...
+     :  $ month: Date, format: "2004-01-01" "2004-02-01" ...
+
+**** Plotting
+
+     First, we plot the values for the "data science" search. The
+     plotting window is limited by the maximum search values.
+
+     Then we plot the values for the "machine learning" search over
+     the existing plot using ~lines()~.
+
+     Finally, we add a legend in the upper left corner.
+
+     #+begin_src R :exports both :session :results output file graphics :file ./img/trends.png
+       plot(x=trends$month,
+            y=trends$ds,
+            xlab="years",
+            ylab="Interest",
+            ylim=c(0,max(c(trends$ds,trends$ml))),
+            type="l",
+            lty=1,
+            col="blue",
+            main="trends.google.com search history")
+
+       lines(x=trends$month,
+             y=trends$ml,
+             lty=2,
+             col="red")
+
+       legend(x=month[1],
+              y=85,
+              legend=c("data science","machine learning"),
+              lty=c(1,2),
+              col=c("blue","red"))
+     #+end_src
+
+     #+RESULTS:
+     [[file:./img/trends.png]]
+
 
 *** Code summary
 
@@ -390,7 +459,7 @@
    replace spending many hours working independently and on your own.
 
    Put all three on your resume right now! What're you waiting for?
-    
+
 ** What about the class? Choices and changes.
 
    In the course of the term, you had to endure quite a few changes of
@@ -413,7 +482,7 @@
    6) Avoid mathematics as much as possible
    7) Reuse tests for the final exam
    8) Let students pick their own projects
-   
+
    In the next basic data science course (this course will run once a
    year, so this will be Fall 2022), I would stick to all of these
    choices, except perhaps (6). It would be useful to repeat or
@@ -437,7 +506,7 @@
 ** What next? Follow-up courses.
 
    Here are a few practical suggestions:
-   
+
    * Use Scrum (= incremental, prototype-oriented, dialog-rich) in
      your projects at school and outside of school
    * Use R regularly for your computational needs
@@ -479,7 +548,7 @@
    in DSC 205.
 
    So far, so good, so long!
-     
+
 ** Final words.
 
    Thank you from the bottom of my heart for welcoming me to Lyon by

@@ -3,6 +3,8 @@
 #+SUBTITLE: DSC101 Diary
 #+STARTUP: hideblocks
 #+options: ^:nil toc:1
+# texinfo pretty printing (C-c C-e h o)
+#+INFOJS_OPT: :view:info
 * What is this?
 
   A place for irregular articles of possible interest to students of
@@ -247,6 +249,8 @@
   #+name: fig:da
   [[https://github.com/birkenkrahe/dsc101/blob/main/img/ds_workflow.jpg]]
 
+[[./img/ds_workflow.jpg]]
+  
   This is interesting, because it emphasizes the origin of most data
   from (digital) devices and sees EDA as a way of making decisions
   using various techniques (discussed in the book). I don't like the

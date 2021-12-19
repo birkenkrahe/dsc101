@@ -22,7 +22,7 @@
 ** The original from ~trends.google.com~
 
    #+attr_html: :width 600px
-   [[https://github.com/birkenkrahe/dsc101/blob/main/img/trends_google.png]]
+   [[./img/trends_google.png]]
 
 ** Recreated trends from raw data
 
@@ -40,12 +40,12 @@
 *** Scatterplot
 
     #+attr_html: :width 600px
-    [[https://github.com/birkenkrahe/dsc101/blob/main/img/trends.png]]
+    [[./img/trends.png]]
 
 *** Barplot
 
     #+attr_html: :width 600px
-    [[https://github.com/birkenkrahe/dsc101/blob/main/img/avg.png]]
+    [[./img/avg.png]]
 
 ** Scatterplot code
 
@@ -224,7 +224,7 @@
   maths and statistics programs).
 
   #+name: fig:ds
-  [[https://github.com/birkenkrahe/dsc101/blob/main/img/data_science.png]]
+  [[./img/data_science.png]]
 
   The model suppresses a lot of detail, of course, in order to
   emphasize the contrast between coding and modeling, e.g. many
@@ -238,7 +238,7 @@
   clients (see figure [[fig:eda]]).
 
   #+name: fig:eda
-  [[https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png]]
+  [[./img/righteda.png]]
 
   I added this to the other two data science workflow images that I
   already had in the lecture. And I added yet another one (see figure
@@ -247,10 +247,8 @@
   the feedback loop provided by the data analysis "pipeline".
 
   #+name: fig:da
-  [[https://github.com/birkenkrahe/dsc101/blob/main/img/ds_workflow.jpg]]
+  [[./img/ds_workflow.jpg]]
 
-[[./img/ds_workflow.jpg]]
-  
   This is interesting, because it emphasizes the origin of most data
   from (digital) devices and sees EDA as a way of making decisions
   using various techniques (discussed in the book). I don't like the

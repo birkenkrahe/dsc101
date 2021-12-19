@@ -1,36 +1,36 @@
 
 # Table of Contents
 
-1.  [What is this?](#org8ba2dbe)
-2.  [Redrawing Google trend chart (07-13-2021)](#orgdc70f51)
-    1.  [The original from `trends.google.com`](#orgeb5fc19)
-    2.  [Recreated trends from raw data](#orgdcb5b89)
-        1.  [Scatterplot](#org1cf8b58)
-        2.  [Barplot](#org330d055)
-    3.  [Scatterplot code](#org1763410)
-        1.  [Download dataset as `csv` file](#orgbe78f6b)
-        2.  [Upload as data frame using `read.table`](#org1458ef2)
-        3.  [Create line plot](#org2df0edb)
-    4.  [Barplot   code](#org602823c)
-    5.  [Code summary](#org8e96134)
-3.  [Data science process (07-15-2021)](#org894833a)
-4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#org7b87a11)
-5.  [Data or graph checking projects (10-07-2021)](#org29a3619)
-6.  [From the sickbed (11-02-2021)](#org85247f4)
-    1.  [Webscraping example](#org54a90cf)
-    2.  [New CRAN packages](#org6d8ce74)
-    3.  ["Tidyverse" twitter tidbit](#orgd01d31d)
-    4.  [The battle between Python and R has been concluded](#org0341586)
-7.  [Good-bye (12-17-2021)](#org8b57ad3)
-    1.  [What does it all mean?](#orge29f7fb)
-    2.  [What about the class? Choices and changes.](#org482256c)
-    3.  [What next? Follow-up courses.](#org036c3c9)
-    4.  [Final words.](#org8ce577f)
-8.  [References](#org320ea87)
+1.  [What is this?](#org5f775f9)
+2.  [Redrawing Google trend chart (07-13-2021)](#org3b027ae)
+    1.  [The original from `trends.google.com`](#org07982e1)
+    2.  [Recreated trends from raw data](#orga74e8af)
+        1.  [Scatterplot](#org53d3e3b)
+        2.  [Barplot](#orga89e0dc)
+    3.  [Scatterplot code](#org724b6f9)
+        1.  [Download dataset as `csv` file](#orgb86f890)
+        2.  [Upload as data frame using `read.table`](#orgcc5dbba)
+        3.  [Create line plot](#orgf8f1cda)
+    4.  [Barplot   code](#org8fa686b)
+    5.  [Code summary](#org71a1fbe)
+3.  [Data science process (07-15-2021)](#orgf099065)
+4.  ["Teaching the tidyverse in 2021" (09-07-2021)](#org67058a3)
+5.  [Data or graph checking projects (10-07-2021)](#orgc5e571d)
+6.  [From the sickbed (11-02-2021)](#orgbdfd5b5)
+    1.  [Webscraping example](#org56fd15f)
+    2.  [New CRAN packages](#org4ef107e)
+    3.  ["Tidyverse" twitter tidbit](#org2632cb8)
+    4.  [The battle between Python and R has been concluded](#org3664dac)
+7.  [Good-bye (12-17-2021)](#orga721d74)
+    1.  [What does it all mean?](#orgb40bc03)
+    2.  [What about the class? Choices and changes.](#orgaa61cfb)
+    3.  [What next? Follow-up courses.](#org264652b)
+    4.  [Final words.](#orga6a120b)
+8.  [References](#org0a1df24)
 
 
 
-<a id="org8ba2dbe"></a>
+<a id="org5f775f9"></a>
 
 # What is this?
 
@@ -39,7 +39,7 @@ the DSC 101 course, mostly to avoid lengthy emails and to park
 content that I may want to develop later on time permitting.
 
 
-<a id="orgdc70f51"></a>
+<a id="org3b027ae"></a>
 
 # Redrawing Google trend chart (07-13-2021)
 
@@ -50,14 +50,14 @@ graph generator. I wanted to reproduce it using R, which took a
 couple of hours because I was quite out of shape.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
 
 
-<a id="orgeb5fc19"></a>
+<a id="org07982e1"></a>
 
 ## The original from `trends.google.com`
 
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/trends_google.png)
+![img](./img/trends_google.png)
 
 
-<a id="orgdcb5b89"></a>
+<a id="orga74e8af"></a>
 
 ## Recreated trends from raw data
 
@@ -73,26 +73,26 @@ date). In my downloaded file, there was an extra line
 (`"Category: All categories"`), which I deleted manually.
 
 
-<a id="org1cf8b58"></a>
+<a id="org53d3e3b"></a>
 
 ### Scatterplot
 
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/trends.png)
+![img](./img/trends.png)
 
 
-<a id="org330d055"></a>
+<a id="orga89e0dc"></a>
 
 ### Barplot
 
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/avg.png)
+![img](./img/avg.png)
 
 
-<a id="org1763410"></a>
+<a id="org724b6f9"></a>
 
 ## Scatterplot code
 
 
-<a id="orgbe78f6b"></a>
+<a id="orgb86f890"></a>
 
 ### Download dataset as `csv` file
 
@@ -110,7 +110,7 @@ table:
     2004-05,9,22
 
 
-<a id="org1458ef2"></a>
+<a id="orgcc5dbba"></a>
 
 ### Upload as data frame using `read.table`
 
@@ -120,7 +120,7 @@ with the `anytime` package which must be installed and loaded. I
 found out about this via [stack.overflow](https://stackoverflow.com/questions/44488439/format-year-month-to-posixct).
 
 
-<a id="org2df0edb"></a>
+<a id="orgf8f1cda"></a>
 
 ### Create line plot
 
@@ -214,7 +214,7 @@ Here is a [short tutorial](https://www.statology.org/how-to-plot-multiple-lines-
     ![img](./img/trends.png)
 
 
-<a id="org602823c"></a>
+<a id="org8fa686b"></a>
 
 ## Barplot   code
 
@@ -234,7 +234,7 @@ barplots.
 ![img](./img/avg.png)
 
 
-<a id="org8e96134"></a>
+<a id="org71a1fbe"></a>
 
 ## Code summary
 
@@ -303,20 +303,20 @@ barplots.
 </table>
 
 
-<a id="org894833a"></a>
+<a id="orgf099065"></a>
 
 # Data science process (07-15-2021)
 
 I was digging around my notes made for an online test lecture on May
 19, on "Exploring data with R" (see [presentation](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_presentation.pdf) & [notes](https://github.com/birkenkrahe/dsc101/blob/main/wiki/talk_notes.pdf)), for an
 update on a [data science overview lecture](https://github.com/birkenkrahe/dsc101/tree/main/2_datascience). For this talk, I had
-developed the model shown in figure [22](#orgab05108): there are two pathways
+developed the model shown in figure [22](#orgfb2ee54): there are two pathways
 towards machine learning. One pathway relied more on coding and
 algorithms (traditionally taught in CS programs), the other one
 relied more on modeling and heuristics (traditionally taught in
 maths and statistics programs).
 
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/data_science.png)
+![img](./img/data_science.png)
 
 The model suppresses a lot of detail, of course, in order to
 emphasize the contrast between coding and modeling, e.g. many
@@ -327,17 +327,15 @@ experience of a CS professor that some CS students with more than
 average interest in mathematics wanted to specialize on data
 science. The other one related to my experience with exploratory
 data analysis as a way of solving hard, data rich problems for real
-clients (see figure [25](#orgd3a155e)).
+clients (see figure [25](#org0b7d570)).
 
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/righteda.png)
+![img](./img/righteda.png)
 
 I added this to the other two data science workflow images that I
 already had in the lecture. And I added yet another one (see figure
-[27](#org5864e7a)), from a recent book on data analytics<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>. I really like
+[27](#orgfab71dc)), from a recent book on data analytics<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>. I really like
 how everything comes back and returns to the "real world" here, and
 the feedback loop provided by the data analysis "pipeline".
-
-![img](https://github.com/birkenkrahe/dsc101/blob/main/img/ds_workflow.jpg)
 
 ![img](./img/ds_workflow.jpg)
 
@@ -367,18 +365,18 @@ them to the lecture - will see in August if this makes any
 difference or not<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>.
 
 
-<a id="org7b87a11"></a>
+<a id="org67058a3"></a>
 
 # "Teaching the tidyverse in 2021" (09-07-2021)
 
 I've mentioned the "tidyverse" before. This morning, I read an
 article (posted in RWeekly, the weekly aggregator of R news that you
 should subscribe to) "Teaching the tidyverse in 2021"
-([Cetinkaya-Rundel, 2021](#orge19e14e)), which upset me. I will briefly explain
+([Cetinkaya-Rundel, 2021](#org9d131cd)), which upset me. I will briefly explain
 why. The article mentions the 2020 series of the same title, which
 begins with the claim that "updates to tidyverse packages are
 specifically designed to make it easier for new learners to get
-started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org32149ac)).
+started with doing data science in R." ([Cetinkaya-Rundel, 2020](#org0a02c57)).
 
 Instead of a long rant (see Matloff's "TidyverseSceptic" for a
 complete picture of the criticism), just look at the first figure,
@@ -399,7 +397,7 @@ base R, no matter how many times the creators and contributors of
 this package bundle may say so.
 
 
-<a id="org29a3619"></a>
+<a id="orgc5e571d"></a>
 
 # Data or graph checking projects (10-07-2021)
 
@@ -413,11 +411,11 @@ a student project from last term. This team of Master students
 focused on a graph published in The Economist. I have uploaded their
 final report "Improve Visualization of Popular Support for Executive
 Actions in the U.S." and the data ([Cai, Otlu and Rauenbusch,
-2021](#orga59e3e2)). It's a very good piece of work, created with a lot of effort
+2021](#org5312fb9)). It's a very good piece of work, created with a lot of effort
 over a period of three months. Less would easily do for our course.
 
 Here is a more recent data checking example that you might find
-interesting, by [Matloff (2021)](#orgc5d56b8). This highly opinionated data
+interesting, by [Matloff (2021)](#org954c3a7). This highly opinionated data
 checking post uses statistical arguments to check policy
 decisions. From the conclusions:
 
@@ -433,7 +431,7 @@ And here's a 2020 list of useful sites for [finding free, public
 datasets](https://towardsdatascience.com/useful-sites-for-finding-datasets-for-data-analysis-tasks-1edb8f26c34d) for EDA tasks.
 
 
-<a id="org85247f4"></a>
+<a id="orgbdfd5b5"></a>
 
 # From the sickbed (11-02-2021)
 
@@ -443,7 +441,7 @@ me from hunting and gathering R examples. Here are a few recent
 captures.
 
 
-<a id="org54a90cf"></a>
+<a id="org56fd15f"></a>
 
 ## Webscraping example
 
@@ -455,10 +453,10 @@ From a recent Master thesis. The author had to gather data from
 many different online curricula and collect them as a table for
 further analysis.
 
-Source: [Rauenbusch J (2021)](#org5e44238).
+Source: [Rauenbusch J (2021)](#org729cfa2).
 
 
-<a id="org6d8ce74"></a>
+<a id="org4ef107e"></a>
 
 ## New CRAN packages
 
@@ -476,13 +474,13 @@ Source: [Rauenbusch J (2021)](#org5e44238).
     measurements into sound in real time ([R notebook](https://gitlab.com/urswilke/chaos_machine_code/-/tree/master/R/preliminary_study/preliminary_study.md)) (lvl=3)
 
 
-<a id="orgd01d31d"></a>
+<a id="org2632cb8"></a>
 
 ## "Tidyverse" twitter tidbit
 
 > "Evangelist instructors write evangelistic exams."
 
-Comment by [Norman Matloff](#org6efbc77) on Twitter about this tweet:
+Comment by [Norman Matloff](#org0c37ab3) on Twitter about this tweet:
 
 ![img](./img/tidyverse.png)
 
@@ -490,24 +488,24 @@ The `data.table` package, which contains the `fread()` function, is
 fantastically fast and overall wonderful. `fread()` is featured in
 the introductory data import with R course from DataCamp. You
 should also take a look at the full `data.table` course - see this
-[introductory blog post](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet) for starters ([Willems, 2021](#org0205a1c)).
+[introductory blog post](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet) for starters ([Willems, 2021](#org52c8af2)).
 
 
-<a id="org0341586"></a>
+<a id="org3664dac"></a>
 
 ## The battle between Python and R has been concluded
 
 I thought this article with the title from the headline ([Valdeleon,
-2021](#orgb1d8946)) is spot on - there's no need to pitch one of these languages
+2021](#orgde367f4)) is spot on - there's no need to pitch one of these languages
 against the other. Each of them has its pros and cons, and it
 depends on the job which one you should learn and use.
 
 In fact, many projects require knowledge of both R and Python -
 compare the project featured above where temperature measurements
-are turned into sound ([Wilke 2021](#org42f021f)).
+are turned into sound ([Wilke 2021](#org369cdd8)).
 
 
-<a id="org8b57ad3"></a>
+<a id="orga721d74"></a>
 
 # Good-bye (12-17-2021)
 
@@ -517,14 +515,14 @@ notes for this course.
 ![img](./img/awesome.png)
 
 
-<a id="orge29f7fb"></a>
+<a id="orgb40bc03"></a>
 
 ## What does it all mean?
 
 In a recent critique of the proposed California Mathematics
 Framework (CMF), Norman Matloff (known to you as a preeminent
 author of books on stats and R, and of the "TidyverseSceptic"
-essay), writes ([Matloff, 2021](#orgb17c5b8)):
+essay), writes ([Matloff, 2021](#orgc27c6dd)):
 
 > Open-ended data science fits right in to the CMF desire to teach
 > kids that "There is no right answer." There is a grain of truth to
@@ -574,7 +572,7 @@ replace spending many hours working independently and on your own.
 Put all three on your resume right now! What're you waiting for?
 
 
-<a id="org482256c"></a>
+<a id="orgaa61cfb"></a>
 
 ## What about the class? Choices and changes.
 
@@ -620,7 +618,7 @@ may eliminate projects from this class, and only do projects in the
 followup course when most of the basics are out of the way.
 
 
-<a id="org036c3c9"></a>
+<a id="org264652b"></a>
 
 ## What next? Follow-up courses.
 
@@ -669,7 +667,7 @@ in DSC 205.
 So far, so good, so long!
 
 
-<a id="org8ce577f"></a>
+<a id="orga6a120b"></a>
 
 ## Final words.
 
@@ -681,7 +679,7 @@ of you again next term!
 ![img](./img/finals.gif)
 
 
-<a id="org320ea87"></a>
+<a id="org0a1df24"></a>
 
 # References
 
@@ -693,41 +691,41 @@ at all, because referencing is about (a) intellectual property
 rights (you should care about rights!), and (b) the truth (which
 must be spoken!).
 
-<a id="orga59e3e2"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
+<a id="org5312fb9"></a> Cai Y, Otlu C, Rauenbusch J (28 June 2021). Improve
 Visualization of Popular Support for Executive Actions in the
 U.S. [Report]. Berlin School of Economics and Law. [Online: GitHub.](https://github.com/birkenkrahe/dsc101/tree/main/projects/examples/cai_et_al_2021)
 
-<a id="org32149ac"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
+<a id="org0a02c57"></a> Cetinkaya-Rundel M (13 Jul 2020). Teaching the Tidyverse
 in 2020 - Part 1: Getting started [Blog]. [Online:
 education.rstudio.com.](https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/)
 
-<a id="orge19e14e"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
+<a id="org9d131cd"></a> Cetinkaya-Rundel M (31 Aug 2021). Teaching the Tidyverse
 in 2021 [Blog]. [Online: tidyverse.org.](https://www.tidyverse.org/blog/2021/08/teach-tidyverse-2021/)
 
-<a id="org6efbc77"></a> Matloff N (2020). TidyverseSceptic - An alternate view
+<a id="org0c37ab3"></a> Matloff N (2020). TidyverseSceptic - An alternate view
 of the Tidyverse "dialect" of the R language, and its promotion by
 RStudio. [Online: github.com](https://github.com/matloff/TidyverseSkeptic).
 
-<a id="orgc5d56b8"></a> Matloff N (9 Sept 2021). At Crossroads in California
+<a id="org954c3a7"></a> Matloff N (9 Sept 2021). At Crossroads in California
 K-12 Math Education [Blog]. [Online: normsaysno.wordpress.com.](https://normsaysno.wordpress.com/2021/09/09/a-crossroads-in-california-k-12-math-education/)
 
-<a id="orgb17c5b8"></a> Matloff N (2021). The (Academically) Rich Get Richer, the
+<a id="orgc27c6dd"></a> Matloff N (2021). The (Academically) Rich Get Richer, the
 Poor Get Poorer Tragic Impact on Minority Students of the Proposed
 California Math Reform [Blog]. [URL: heather.cs.ucdavis.edu](https://heather.cs.ucdavis.edu/CalMathFrame.html)
 
-<a id="org5e44238"></a> Rauenbusch J (2021). Design in MBA Education in the
+<a id="org729cfa2"></a> Rauenbusch J (2021). Design in MBA Education in the
 U.S. Towards a Design-Integrated Curriculum to Prepare Future
 Leaders for a Volatile, Uncertain, Complex, and Ambiguous (VUCA)
 World. MA thesis, Berlin School of Economics and Law.
 
-<a id="orgb1d8946"></a> Valdeleon J (29 Aug 2021). The battle between Python & R
+<a id="orgde367f4"></a> Valdeleon J (29 Aug 2021). The battle between Python & R
 has been concluded [blog]. URL: [medium.com](https://medium.com/codex/the-battle-between-python-r-has-been-concluded-b6ffda4ef87).
 
-<a id="org42f021f"></a> Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing
+<a id="org369cdd8"></a> Wilke U (29 Oct 2021). The Chaos Machine - Synthesizing
 Temperature Measurements into Sound [Blog]. URL:
 [rssblogg.netlify.app](https://urssblogg.netlify.app/post/2020-11-19-synthesizing-temperature-measurements-into-sound/).
 
-<a id="org0205a1c"></a> Willems K (July 14th, 2021). The data.table R Package
+<a id="org52c8af2"></a> Willems K (July 14th, 2021). The data.table R Package
 Cheat Sheet. URL: [datacamp.com](https://www.datacamp.com/community/tutorials/data-table-cheat-sheet).
 
 

@@ -1,16 +1,16 @@
 
 # Table of Contents
 
-1.  [What is this?](#orgcad928d)
-2.  [Which textbooks are we going to use?](#orga7e6b46)
-3.  [Are we going to use RStudio?](#orgad4c2d5)
-4.  [Which editor and IDE do you use?](#org24e0a72)
-5.  [What are the instructions for the final presentation?](#org7b8f50b)
-6.  [How can I update R?](#org1267393)
+1.  [What is this?](#org84e19ad)
+2.  [Which textbooks are we going to use?](#org7df3723)
+3.  [Are we going to use RStudio?](#org1fbe81b)
+4.  [Which editor and IDE do you use?](#orgc6bd77b)
+5.  [What are the instructions for the final presentation?](#orge042ea3)
+6.  [How can I update R?](#orgf40845e)
 
 
 
-<a id="orgcad928d"></a>
+<a id="org84e19ad"></a>
 
 # What is this?
 
@@ -19,7 +19,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
 1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
 
 
-<a id="orga7e6b46"></a>
+<a id="org7df3723"></a>
 
 # Which textbooks are we going to use?
 
@@ -51,7 +51,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
     please share the information with us!
 
 
-<a id="orgad4c2d5"></a>
+<a id="org1fbe81b"></a>
 
 # Are we going to use RStudio?
 
@@ -80,7 +80,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org24e0a72"></a>
+<a id="orgc6bd77b"></a>
 
 # Which editor and IDE do you use?
 
@@ -103,13 +103,13 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [20](#orgc392285) shows four (out of an arbitrary number of)
+Thee figure [20](#orge8034cf) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="org7b8f50b"></a>
+<a id="orge042ea3"></a>
 
 # What are the instructions for the final presentation?
 
@@ -152,18 +152,23 @@ create a screencast, make a real video, record yourself in
 powerpoint etc. - your choice of medium.
 
 
-<a id="org1267393"></a>
+<a id="orgf40845e"></a>
 
 # How can I update R?
 
-![img](./img/update.jpg)
-
--   Some packages won't work unless you upgrade base R
--   You can also do this right in the R GUI (see image above)
--   The current version is "Bird Hippie" (4.1.2 - Nov 1)
--   You have an option to use `RGui` or the `RTerm` (see image below)
+-   Why update? Because some packages won't work unless you upgrade
+    base R, and also because the language changes and gets better.
+-   The current version is "Bird Hippie" (4.1.2 - Nov 1) - check this
+    by opening the R console, or by typing `R --version` in the
+    terminal (command line).
+-   You can update in the R GUI:
     
-    ![img](./img/updateR.png)
+    ![img](./img/update.jpg)
+    
+    -   Or you can update in the R console itself (after starting R)
+        either with `RGui` or `RTerm`:
+        
+        ![img](./img/updateR.png)
 
 
 # Footnotes

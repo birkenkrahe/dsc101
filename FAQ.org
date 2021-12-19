@@ -30,7 +30,7 @@
      available e.g. at [[https://bookdown.org/][bookdown.org]]. These books often focus on the
      "Tidyverse" packages for R, which I think is not suitable for
      beginners ([[https://github.com/matloff/TidyverseSkeptic][see here]] for an explanation why).
-     
+
      If you find a text or a book, or a tutorial that you really like,
      please share the information with us!
 
@@ -126,17 +126,21 @@
   powerpoint etc. - your choice of medium.
 
 * How can I update R?
-  
-   #+attr_html: :width 400px
-   [[./img/update.jpg]]
 
-   * Some packages won't work unless you upgrade base R
-   * You can also do this right in the R GUI (see image above)
-   * The current version is "Bird Hippie" (4.1.2 - Nov 1)
-   * You have an option to use ~RGui~ or the ~RTerm~ (see image below)
+  * Why update? Because some packages won't work unless you upgrade
+    base R, and also because the language changes and gets better.
+  * The current version is "Bird Hippie" (4.1.2 - Nov 1) - check this
+    by opening the R console, or by typing ~R --version~ in the
+    terminal (command line).
+  * You can update in the R GUI:
 
-     [[./img/updateR.png]]
+    #+attr_html: :width 400px
+    [[./img/update.jpg]]
 
+    * Or you can update in the R console itself (after starting R)
+      either with ~RGui~ or ~RTerm~:
+
+      [[./img/updateR.png]]
 
 * Footnotes
 [fn:3] This text will be available here: Update in Schoology, Email to
@@ -150,7 +154,7 @@ easily reachable.
 in the subject line of the post. Do *not post the video itself* since
 GitHub has limited space available. Use GDrive, Vimeo or YouTube
 (unlisted) instead.
-  
+
 [fn:2]Actually, Emacs is written in a dialect of Lisp, EmacsLisp
 (Elisp), and it is also the language in which Emacs can be customized,
 which is one of its greatest advantages (it's a totally extensible

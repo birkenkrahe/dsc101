@@ -10,24 +10,42 @@
   content that I may want to develop later on time permitting.
 
 * Redrawing Google trend chart (07-13-2021)
+
   Spent an afternoon rekindling some skills. Mean to show this during
   the introduction to datascience lecture but I probably won't get
   to. All of this started with this [[https://trends.google.com/trends/explore?date=all&q=data%20science,machine%20learning][infographic]] from Google's trend
   graph generator. I wanted to reproduce it using R, which took a
-  couple of hours because I was quite out of shape.
+  couple of hours because I was quite out of shape.[fn:3]
 
 ** The original from ~trends.google.com~
 
    #+attr_html: :width 600px
    [[https://github.com/birkenkrahe/dsc101/blob/main/img/trends_google.png]]
 
-** Trends from raw data
+** Recreated trends from raw data
 
-   #+attr_html: :width 600px
-   [[https://github.com/birkenkrahe/dsc101/blob/main/img/trends.png]]
+   Here are the results of recreating the graphs using ~plot()~ from
+   raw data. The code for each is below.
 
-   #+attr_html: :width 600px
-   [[https://github.com/birkenkrahe/dsc101/blob/main/img/avg.png]]
+   You can download the raw data from the ~trends.google.com~
+   website. You should look at it first - the format can be
+   different from what I'm assuming here: there should be three
+   columns, two numeric (relative interest over time for "data
+   science", and for "machine learning"), and one character (the
+   date). In my downloaded file, there was an extra line
+   (~"Category: All categories"~), which I deleted manually.
+
+*** Scatterplot
+
+    #+attr_html: :width 600px
+    [[https://github.com/birkenkrahe/dsc101/blob/main/img/trends.png]]
+
+*** Barplot
+
+    #+attr_html: :width 600px
+    [[https://github.com/birkenkrahe/dsc101/blob/main/img/avg.png]]
+
+** Scatterplot code
 
 *** Download dataset as ~csv~ file
 
@@ -59,14 +77,6 @@
     ~points()~, ~lines()~ and ~plot()~. The code is below.
 
 **** Read data from CSV file
-
-     You can download this file from the ~trends.google.com~
-     website. You should look at it first - the format can be
-     different from what I'm assuming here: there should be three
-     columns, two numeric (relative interest over time for "data
-     science", and for "machine learning"), and one character (the
-     date). In my downloaded file, there was an extra line
-     (~"Category: All categories"~), which I deleted manually.
 
      #+begin_src R :session :exports both :results output
        ## read data from CSV file
@@ -168,44 +178,37 @@
      [[file:./img/trends.png]]
 
 
-*** Code summary
-
-    | ~read.table~         | upload data as ~data.frame~         |
-    | ~library()~          | load R package                      |
-    | ~anytime::anydate()~ | convert vector to ~Date~ format     |
-    | ~cbind()~            | attach column to ~data.frame~       |
-    | ~$~                  | extract vector from ~data.frame~    |
-    | ~<-~                 | assign right hand to left hand side |
-    | ~plot()~             | draw scatter plot                   |
-    | ~lines()~            | draw line graph                     |
-    | ~barplot()~          | draw barplot                        |
-
 ** Barplot   code
 
    For some simple examples, see this [[http://www.sthda.com/english/wiki/bar-plots-r-base-graphs#basic-bar-plots][short tutorial]].
 
-   #+begin_src R :session :results file graphics :file ./img/avg.png
-     ## read data from CSV file
-     trends <- read.table(
-         file="./data/multiTimeline.csv",
-         header=TRUE,
-         sep=",")
+   We assume that the code above has already run, and that the data
+   frame ~trends~ contains the required values to recreated the Google
+   barplots.
 
-     ## convert Month column to Date format
-     library(anytime)
-     Month <- anydate(trends$Month)
-     trends <- cbind(trends[,-1],Month)
-
-     month <- trends$Month
-     ds <- trends$Data.science
-     ml <- trends$Machine.learning
-
-     ## create the barplot from averages
-     barplot(height=c(mean(ds),mean(ml)),
+   #+begin_src R :exports both :session :results file graphics :file ./img/avg.png
+     barplot(height=c(mean(trends$ds),
+                      mean(trends$ml)),
              names.arg=c("Data science","Machine learning"),
              ylab="Average interest (2004-2021)",
-             col=c("blue","red"))
+             col=c("blue","red"),
+             main="trends.google.com search history")
    #+end_src
+
+   #+RESULTS:
+   [[file:./img/avg.png]]
+
+** Code summary
+
+   | ~read.table~         | upload data as ~data.frame~         |
+   | ~library()~          | load R package                      |
+   | ~anytime::anydate()~ | convert vector to ~Date~ format     |
+   | ~cbind()~            | attach column to ~data.frame~       |
+   | ~$~                  | extract vector from ~data.frame~    |
+   | ~<-~                 | assign right hand to left hand side |
+   | ~plot()~             | draw scatter plot                   |
+   | ~lines()~            | draw line graph                     |
+   | ~barplot()~          | draw barplot                        |
 
 * Data science process (07-15-2021)
 
@@ -606,6 +609,10 @@
   Cheat Sheet. URL: [[https://www.datacamp.com/community/tutorials/data-table-cheat-sheet][datacamp.com]].
 
 * Footnotes
+
+[fn:3]Code updated on December 18, 2021. Interestingly, in this time
+the dataset format of the Google CSV file had changed, which broke the
+original code (from July).
 
 [fn:2]How will I know? Because it is clear from the discussion and the
 students' response if I presented a figure or an argument that

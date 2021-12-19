@@ -125,6 +125,19 @@
   create a screencast, make a real video, record yourself in
   powerpoint etc. - your choice of medium.
 
+* How can I update R?
+  
+   #+attr_html: :width 400px
+   [[./img/update.jpg]]
+
+   * Some packages won't work unless you upgrade base R
+   * You can also do this right in the R GUI (see image above)
+   * The current version is "Bird Hippie" (4.1.2 - Nov 1)
+   * You have an option to use ~RGui~ or the ~RTerm~ (see image below)
+
+     [[./img/updateR.png]]
+
+
 * Footnotes
 [fn:3] This text will be available here: Update in Schoology, Email to
 participants, FAQ in GitHub (AI).

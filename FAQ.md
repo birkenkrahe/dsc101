@@ -1,15 +1,16 @@
 
 # Table of Contents
 
-1.  [What is this?](#org7b470fa)
-2.  [Which textbooks are we going to use?](#org66ea7ff)
-3.  [Are we going to use RStudio?](#org4bca08c)
-4.  [Which editor and IDE do you use?](#org5448367)
-5.  [What are the instructions for the final presentation?](#orgcf497f9)
+1.  [What is this?](#orgcad928d)
+2.  [Which textbooks are we going to use?](#orga7e6b46)
+3.  [Are we going to use RStudio?](#orgad4c2d5)
+4.  [Which editor and IDE do you use?](#org24e0a72)
+5.  [What are the instructions for the final presentation?](#org7b8f50b)
+6.  [How can I update R?](#org1267393)
 
 
 
-<a id="org7b470fa"></a>
+<a id="orgcad928d"></a>
 
 # What is this?
 
@@ -18,7 +19,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
 1.  For the FAQs across courses, see the [org repo](https://github.com/birkenkrahe/org).
 
 
-<a id="org66ea7ff"></a>
+<a id="orga7e6b46"></a>
 
 # Which textbooks are we going to use?
 
@@ -50,7 +51,7 @@ This is a Frequently Asked Questions (FAQ) file for the course DSC
     please share the information with us!
 
 
-<a id="org4bca08c"></a>
+<a id="orgad4c2d5"></a>
 
 # Are we going to use RStudio?
 
@@ -79,7 +80,7 @@ If you want to install RStudio on your computer, here is an
 excellent [beginner's tutorial](https://techvidvan.com/tutorials/install-r/).
 
 
-<a id="org5448367"></a>
+<a id="org24e0a72"></a>
 
 # Which editor and IDE do you use?
 
@@ -102,13 +103,13 @@ Emacs easily](https://opensource.com/article/20/3/getting-started-emacs) (Kenlon
 Here is a 2021 "[Introduction to Emacs Speaks Statistics](https://ess-intro.github.io/)" site with
 lots of additional information.
 
-Thee figure [20](#org071748e) shows four (out of an arbitrary number of)
+Thee figure [20](#orgc392285) shows four (out of an arbitrary number of)
 panels inside the editor
 
 ![img](https://github.com/birkenkrahe/dsc101/blob/main/img/emacs.png)
 
 
-<a id="orgcf497f9"></a>
+<a id="org7b8f50b"></a>
 
 # What are the instructions for the final presentation?
 
@@ -149,6 +150,20 @@ project as a team - I don't care who gives the presentation,
 i.e. how you split the work up among yourselves. Formally, you can
 create a screencast, make a real video, record yourself in
 powerpoint etc. - your choice of medium.
+
+
+<a id="org1267393"></a>
+
+# How can I update R?
+
+![img](./img/update.jpg)
+
+-   Some packages won't work unless you upgrade base R
+-   You can also do this right in the R GUI (see image above)
+-   The current version is "Bird Hippie" (4.1.2 - Nov 1)
+-   You have an option to use `RGui` or the `RTerm` (see image below)
+    
+    ![img](./img/updateR.png)
 
 
 # Footnotes

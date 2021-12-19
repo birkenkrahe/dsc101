@@ -5,7 +5,7 @@
 #+options: ^:nil toc:1
 # texinfo pretty printing (C-c C-e h o)
 #+INFOJS_OPT: view:info path:http://orgmode.org/org-info.js
-##+INFOJS_OPT: view:info toc:nil
+#+INFOJS_OPT: view:info toc:nil
 * What is this?
 
   A place for irregular articles of possible interest to students of

@@ -6,10 +6,11 @@
 #+reveal_theme: black
 #+reveal_init_options: transition:'cube'
 *   [[./img/overview.gif]]
-  * Why are we using R?
-  * Getting in/out of R
-  * Installing R on Windows and Mac
-  * R Packages and libraries
+
+  - Why are we using R?
+  - Getting in/out of R
+  - Installing R on Windows and Mac
+  - R Packages and libraries
 
   #+begin_notes
   Inspiration and ideas especially from [[davies][Davies(2016)]] and other places

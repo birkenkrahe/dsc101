@@ -330,7 +330,7 @@
    | 2-Sep  | Data frames            | Matrices                |                   |
    | 7-Sep  | Factor vectors         |                         |                   |
    | 9-Sep  | Lists in R             | Factors                 | 1st sprint review |
-   | 14-Sep | ~Nile~ exploration     |                         |                   |
+   | 14-Sep | ~Nile~ exploration       |                         |                   |
    | 16-Sep | Visualization          | Data frames             |                   |
    | 21-Sep | Base R graphics        |                         |                   |
    | 23-Sep | Literate Programming   | Lists                   |                   |

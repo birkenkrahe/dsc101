@@ -114,7 +114,7 @@
    #+attr_html: :width 500px
    [[./img/schedule.png]]
 
-* How will we do it?
+n* How will we do it?
   #+attr_html: :height 500px
   [[./img/deer.gif]]
 ** Classroom sessions

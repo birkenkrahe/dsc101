@@ -170,10 +170,10 @@
    #+attr_html: :width 300px
    [[./img/corner.gif]]
 
-   * Data checking projects ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][diary]])
-   * Project idea: [[https://lucidmanager.org/data-science/text-adventure//][adventure games]][fn:1]
-   * Project idea: [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]][fn:2]
-   * Project idea! [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]][fn:3]
+   - Data checking projects ([[https://github.com/birkenkrahe/dsc101/blob/main/diary.org#data-or-graph-checking-projects][diary]])
+   - Project idea: [[https://lucidmanager.org/data-science/text-adventure//][adventure games]][fn:1]
+   - Project idea: [[https://blog.ephorie.de/the-polya-urn-model-a-simple-simulation-of-the-rich-get-richer][Polya urn model]][fn:2]
+   - Project idea! [[https://blog.rstudio.com/2021/09/07/my-excel-and-r-journey-in-financial-services/][Excel vs R in Finance]][fn:3]
 
 ** R Data structures
 
